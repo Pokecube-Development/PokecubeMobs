@@ -5,7 +5,7 @@
   <metadata head="body" headCap="-60,60" headCap1="-60,60"/>
   <customTex default="solrock">
    <part name="Eye" tex="solrock_eye"/>
-   <animation diffs="0,0.5" part="Eye" trigger="random:0.005:5"/>
+   <animation diffs="0.5,0" part="Eye" trigger="random:0.005:5"/>
   </customTex>
   <phase type="idle">
     <part name="body">

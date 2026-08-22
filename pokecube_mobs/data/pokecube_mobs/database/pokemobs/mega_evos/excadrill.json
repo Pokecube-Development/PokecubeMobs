@@ -1,0 +1,10 @@
+{
+  "user": "excadrill",
+  "name": "excadrill-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:excadrillite"
+    }
+  }
+}

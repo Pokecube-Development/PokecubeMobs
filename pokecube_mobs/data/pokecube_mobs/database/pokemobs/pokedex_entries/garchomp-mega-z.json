@@ -1,0 +1,155 @@
+{
+  "name": "garchomp-mega-z",
+  "id": 445,
+  "stock": true,
+  "is_extra_form": true,
+  "base_experience": 270,
+  "size": {
+    "height": 1.9,
+    "width": 0.9
+  },
+  "mass": 99.0,
+  "is_default": false,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "growth_rate": "slow",
+  "gender_rate": 127,
+  "stats": {
+    "hp": 108,
+    "attack": 130,
+    "defense": 85,
+    "special_attack": 141,
+    "special_defense": 85,
+    "speed": 151
+  },
+  "evs": {
+    "attack": 3
+  },
+  "types": [
+    "dragon"
+  ],
+  "abilities": {
+    "normal": [
+      "cacophony"
+    ],
+    "hidden": []
+  },
+  "moves": {
+    "level_up": [
+      {
+        "L": 0,
+        "moves": [
+          "crunch"
+        ]
+      },
+      {
+        "L": 1,
+        "moves": [
+          "sand-tomb",
+          "tackle",
+          "sand-attack",
+          "dragon-breath"
+        ]
+      },
+      {
+        "L": 18,
+        "moves": [
+          "bulldoze"
+        ]
+      },
+      {
+        "L": 27,
+        "moves": [
+          "bite"
+        ]
+      },
+      {
+        "L": 34,
+        "moves": [
+          "slash"
+        ]
+      },
+      {
+        "L": 42,
+        "moves": [
+          "dragon-claw"
+        ]
+      },
+      {
+        "L": 52,
+        "moves": [
+          "dig"
+        ]
+      },
+      {
+        "L": 62,
+        "moves": [
+          "sandstorm"
+        ]
+      },
+      {
+        "L": 72,
+        "moves": [
+          "take-down"
+        ]
+      },
+      {
+        "L": 82,
+        "moves": [
+          "dragon-rush"
+        ]
+      }
+    ],
+    "misc": [
+      "take-down",
+      "scary-face",
+      "protect",
+      "fire-fang",
+      "thunder-fang",
+      "facade",
+      "aerial-ace",
+      "bulldoze",
+      "metal-claw",
+      "swift",
+      "mud-shot",
+      "rock-tomb",
+      "fling",
+      "dragon-tail",
+      "endure",
+      "sunny-day",
+      "rain-dance",
+      "sandstorm",
+      "dig",
+      "false-swipe",
+      "brick-break",
+      "shadow-claw",
+      "body-slam",
+      "sleep-talk",
+      "dragon-claw",
+      "poison-jab",
+      "stomping-tantrum",
+      "rest",
+      "rock-slide",
+      "crunch",
+      "iron-head",
+      "stone-edge",
+      "substitute",
+      "dragon-pulse",
+      "earth-power",
+      "giga-impact",
+      "outrage",
+      "hyper-beam",
+      "earthquake",
+      "tera-blast",
+      "spite",
+      "stealth-rock",
+      "lash-out",
+      "scale-shot",
+      "breaking-swipe",
+      "swords-dance"
+    ]
+  },
+  "sound": "garchomp-mega",
+  "old_name": "garchomp_mega",
+  "loot_table": "pokecube:entities/generic_legend"
+}

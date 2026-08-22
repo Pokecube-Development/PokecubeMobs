@@ -1,0 +1,10 @@
+{
+  "user": "heatran",
+  "name": "heatran-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:heatranite"
+    }
+  }
+}

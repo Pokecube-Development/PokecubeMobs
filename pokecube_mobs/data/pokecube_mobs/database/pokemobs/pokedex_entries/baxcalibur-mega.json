@@ -1,0 +1,166 @@
+{
+  "name": "baxcalibur-mega",
+  "id": 998,
+  "stock": true,
+  "is_extra_form": true,
+  "base_experience": 300,
+  "size": {
+    "height": 2.1
+  },
+  "mass": 315.0,
+  "is_default": false,
+  "capture_rate": 10,
+  "base_happiness": 50,
+  "growth_rate": "slow",
+  "gender_rate": 127,
+  "stats": {
+    "hp": 115,
+    "attack": 175,
+    "defense": 117,
+    "special_attack": 105,
+    "special_defense": 101,
+    "speed": 87
+  },
+  "evs": {
+    "attack": 3
+  },
+  "types": [
+    "dragon",
+    "ice"
+  ],
+  "abilities": {
+    "normal": [
+      "cacophony"
+    ],
+    "hidden": []
+  },
+  "moves": {
+    "level_up": [
+      {
+        "L": 1,
+        "moves": [
+          "tackle",
+          "leer",
+          "ice-shard",
+          "dragon-tail",
+          "breaking-swipe",
+          "snowscape"
+        ]
+      },
+      {
+        "L": 42,
+        "moves": [
+          "take-down"
+        ]
+      },
+      {
+        "L": 24,
+        "moves": [
+          "bite"
+        ]
+      },
+      {
+        "L": 48,
+        "moves": [
+          "ice-beam"
+        ]
+      },
+      {
+        "L": 18,
+        "moves": [
+          "focus-energy"
+        ]
+      },
+      {
+        "L": 6,
+        "moves": [
+          "icy-wind"
+        ]
+      },
+      {
+        "L": 12,
+        "moves": [
+          "dragon-breath"
+        ]
+      },
+      {
+        "L": 55,
+        "moves": [
+          "crunch"
+        ]
+      },
+      {
+        "L": 35,
+        "moves": [
+          "dragon-claw"
+        ]
+      },
+      {
+        "L": 29,
+        "moves": [
+          "ice-fang"
+        ]
+      },
+      {
+        "L": 62,
+        "moves": [
+          "icicle-crash"
+        ]
+      },
+      {
+        "L": 0,
+        "moves": [
+          "glaive-rush"
+        ]
+      }
+    ],
+    "misc": [
+      "swords-dance",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "earthquake",
+      "dig",
+      "rest",
+      "substitute",
+      "protect",
+      "scary-face",
+      "icy-wind",
+      "outrage",
+      "endure",
+      "false-swipe",
+      "sleep-talk",
+      "rain-dance",
+      "crunch",
+      "facade",
+      "helping-hand",
+      "brick-break",
+      "aerial-ace",
+      "icicle-spear",
+      "dragon-claw",
+      "dragon-dance",
+      "dragon-pulse",
+      "giga-impact",
+      "avalanche",
+      "thunder-fang",
+      "ice-fang",
+      "zen-headbutt",
+      "draco-meteor",
+      "iron-head",
+      "bulldoze",
+      "dragon-tail",
+      "high-horsepower",
+      "stomping-tantrum",
+      "body-press",
+      "breaking-swipe",
+      "scale-shot",
+      "tera-blast",
+      "snowscape",
+      "dragon-cheer"
+    ]
+  },
+  "loot_table": "pokecube:entities/generic_legend"
+}

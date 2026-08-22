@@ -1,0 +1,10 @@
+{
+  "user": "eelektross",
+  "name": "eelektross-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:eelektrossite"
+    }
+  }
+}

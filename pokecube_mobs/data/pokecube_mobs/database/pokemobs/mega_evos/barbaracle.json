@@ -1,0 +1,10 @@
+{
+  "user": "barbaracle",
+  "name": "barbaracle-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:barbaracite"
+    }
+  }
+}

@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModelAnimator>
  <model>
-  <phase name="global" scale="1"/>
-  <metadata head="Head" headCap="-20,20" headCap1="-20,10"/>
+  <phase name="global" scale="0.6"/>
+  <metadata head="head" headCap="-20,20" headCap1="-20,10"/>
+  <customTex default="orthworm">
+   <part name="Eye" tex="orthworm_eye"/>
+   <animation diffs="0.5,0" part="Eye" trigger="random:0.005:4"/>
+  </customTex>
+  <phase axis="0" length="80" name="snakeWalk" parts="tail:tail1:tail2:tail3:tail4"/>
   <worn id="__ANKLE_left__" parent="back_left_leg" offset="0,-0.03,-0.06" angles="90,0,0" scale="0.53"/>
   <worn id="__ANKLE_right__" parent="back_right_leg" offset="0,-0.03,-0.06" angles="90,0,0" scale="0.53"/>
   <worn id="__BACK__" parent="body" offset="0,0.23,0.07" angles="180,0,180" scale="0.74"/>
@@ -13,5 +18,198 @@
   <worn id="__NECK__" parent="head" offset="0,0.2,0.08" angles="0,0,0" scale="1.21"/>
   <worn id="__WRIST_left__" parent="front_left_leg" offset="0,-0.03,-0.06" angles="90,0,0" scale="0.52"/>
   <worn id="__WRIST_right__" parent="front_right_leg" offset="0,-0.03,-0.06" angles="90,0,0" scale="0.52"/>
+  <phase type="idle-1">
+   <part name="body">
+    <component length="1" name="1" rotOffset="-20,0,0" startKey="0"/>
+   </part>
+   <part name="body1">
+    <component length="10" name="1" rotChange="-0.3,0,0" rotOffset="-20,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="0.3,0,0" startKey="10"/>
+   </part>
+   <part name="body2">
+    <component length="10" name="1" rotChange="0.3,0,0" rotOffset="-20,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="-0.3,0,0" startKey="10"/>
+   </part>
+   <part name="body3">
+    <component length="10" name="1" rotChange="-0.3,0,0" rotOffset="-20,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="0.3,0,0" startKey="10"/>
+   </part>
+   <part name="arm1:arm2:arm3:arm4:arm5:arm6">
+    <component length="1" name="1" hidden="true" startKey="0"/>
+   </part>
+   <part name="head">
+    <component length="1" name="1" rotOffset="80,0,0" startKey="0"/>
+   </part>
+   <part name="mouth">
+    <component length="10" name="1" rotChange="6,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="-6,0,0" startKey="10"/>
+   </part>
+   <part name="tail">
+    <component length="10" name="1" rotChange="-4,0,0" rotOffset="30,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="4,0,0" startKey="10"/>
+   </part>
+   <part name="tail1">
+    <component length="1" name="1" rotOffset="-5,0,0" startKey="0"/>
+   </part>
+   <part name="tail2">
+    <component length="1" name="1" rotOffset="-20,0,0" startKey="0"/>
+   </part>
+   <part name="tail3">
+    <component length="1" name="1" rotOffset="30,0,0" startKey="0"/>
+   </part>
+   <part name="tail4">
+    <component length="1" name="1" rotOffset="20,0,0" startKey="0"/>
+   </part>
+  </phase>
+  <phase type="idle-2">
+   <part name="body">
+    <component length="1" name="1" posOffset="0,-20,0" rotOffset="-20,0,0" startKey="0"/>
+   </part>
+   <part name="body1">
+    <component length="10" name="1" rotChange="-0.3,0,0" rotOffset="-40,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="0.3,0,0" startKey="10"/>
+   </part>
+   <part name="body2">
+    <component length="10" name="1" rotChange="0.3,0,0" rotOffset="10,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="-0.3,0,0" startKey="10"/>
+   </part>
+   <part name="body3">
+    <component length="10" name="1" rotChange="-0.3,0,0" rotOffset="-20,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="0.3,0,0" startKey="10"/>
+   </part>
+   <part name="arm1:arm1_1">
+    <component length="10" name="1" rotChange="0,0,-4" rotOffset="0,5,-20" startKey="0"/>
+    <component length="10" name="2" rotChange="0,0,4" startKey="10"/>
+   </part>
+   <part name="arm2:arm2_1">
+    <component length="10" name="1" rotChange="0,0,4" rotOffset="0,5,-30" startKey="0"/>
+    <component length="10" name="2" rotChange="0,0,-4" startKey="10"/>
+   </part>
+   <part name="arm3:arm3_1">
+    <component length="10" name="1" rotChange="0,0,-4" rotOffset="0,15,10" startKey="0"/>
+    <component length="10" name="2" rotChange="0,0,4" startKey="10"/>
+   </part>
+   <part name="arm4:arm4_1">
+    <component length="10" name="1" rotChange="0,0,4" rotOffset="0,-5,20" startKey="0"/>
+    <component length="10" name="2" rotChange="0,0,-4" startKey="10"/>
+   </part>
+   <part name="arm5:arm5_1">
+    <component length="10" name="1" rotChange="0,0,-4" rotOffset="0,-5,30" startKey="0"/>
+    <component length="10" name="2" rotChange="0,0,4" startKey="10"/>
+   </part>
+   <part name="arm6:arm6_1">
+    <component length="10" name="1" rotChange="0,0,4" rotOffset="0,-15,-10" startKey="0"/>
+    <component length="10" name="2" rotChange="0,0,-4" startKey="10"/>
+   </part>
+   <part name="head">
+    <component length="1" name="1" rotOffset="80,0,0" startKey="0"/>
+   </part>
+   <part name="mouth">
+    <component length="10" name="1" rotChange="6,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="-6,0,0" startKey="10"/>
+   </part>
+   <part name="tail">
+    <component length="10" name="1" rotChange="-1,0,0" rotOffset="-30,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="1,0,0" startKey="10"/>
+   </part>
+   <part name="tail1">
+    <component length="1" name="1" rotOffset="20,0,0" startKey="0"/>
+   </part>
+   <part name="tail2">
+    <component length="1" name="1" rotOffset="30,0,0" startKey="0"/>
+   </part>
+   <part name="tail3">
+    <component length="1" name="1" rotOffset="10,0,0" startKey="0"/>
+   </part>
+   <part name="tail4">
+    <component length="1" name="1" rotOffset="20,0,0" startKey="0"/>
+   </part>
+  </phase>
+  <phase type="walking">
+   <part name="mouth">
+    <component length="10" name="1" rotChange="8,0,0" rotOffset="12,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="-8,0,0" startKey="10"/>
+   </part>
+   <part name="arm1:arm2:arm3:arm4:arm5:arm6">
+    <component length="1" name="1" hidden="true" startKey="0"/>
+   </part>
+   <part name="body1">
+    <component length="10" name="1" rotChange="-2,0,0" rotOffset="-2,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="2,0,0" startKey="10"/>
+   </part>
+   <part name="body3">
+    <component length="10" name="1" rotChange="-1,0,0" rotOffset="-3,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="1,0,0" startKey="10"/>
+   </part>
+   <part name="head">
+    <component length="1" name="1" rotOffset="10,0,0" startKey="0"/>
+   </part>
+  </phase>
+  <phase type="sitting">
+   <part name="body">
+    <component length="1" name="1" rotOffset="0,0,0" startKey="0"/>
+   </part>
+   <part name="body1">
+    <component length="10" name="1" rotChange="-0.3,0,0" rotOffset="-15,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="0.3,0,0" startKey="10"/>
+   </part>
+   <part name="body2">
+    <component length="1" name="1" rotOffset="-20,0,0" startKey="0"/>
+   </part>
+   <part name="body3">
+    <component length="1" name="1" rotOffset="-30,0,0" startKey="0"/>
+   </part>
+   <part name="body4">
+    <component length="1" name="1" rotOffset="40,0,0" startKey="0"/>
+   </part>
+   <part name="head">
+    <component length="1" name="1" rotOffset="60,0,0" startKey="0"/>
+   </part>
+   <part name="mouth">
+    <component length="10" name="1" rotChange="6,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="-6,0,0" startKey="10"/>
+   </part>
+   <part name="arm1:arm1_1">
+    <component length="10" name="1" rotChange="0,0,-4" rotOffset="0,5,-20" startKey="0"/>
+    <component length="10" name="2" rotChange="0,0,4" startKey="10"/>
+   </part>
+   <part name="arm2:arm2_1">
+    <component length="10" name="1" rotChange="0,0,4" rotOffset="0,5,-30" startKey="0"/>
+    <component length="10" name="2" rotChange="0,0,-4" startKey="10"/>
+   </part>
+   <part name="arm3:arm3_1">
+    <component length="10" name="1" rotChange="0,0,-4" rotOffset="0,15,10" startKey="0"/>
+    <component length="10" name="2" rotChange="0,0,4" startKey="10"/>
+   </part>
+   <part name="arm4:arm4_1">
+    <component length="10" name="1" rotChange="0,0,4" rotOffset="0,-5,20" startKey="0"/>
+    <component length="10" name="2" rotChange="0,0,-4" startKey="10"/>
+   </part>
+   <part name="arm5:arm5_1">
+    <component length="10" name="1" rotChange="0,0,-4" rotOffset="0,-5,30" startKey="0"/>
+    <component length="10" name="2" rotChange="0,0,4" startKey="10"/>
+   </part>
+   <part name="arm6:arm6_1">
+    <component length="10" name="1" rotChange="0,0,4" rotOffset="0,-15,-10" startKey="0"/>
+    <component length="10" name="2" rotChange="0,0,-4" startKey="10"/>
+   </part>
+   <part name="tail">
+    <component length="1" name="1" rotOffset="0,20,0" startKey="0"/>
+   </part>
+   <part name="tail1">
+    <component length="1" name="1" rotOffset="0,20,0" startKey="0"/>
+   </part>
+   <part name="tail2">
+    <component length="1" name="1" rotOffset="0,20,0" startKey="0"/>
+   </part>
+   <part name="tail3">
+    <component length="1" name="1" rotOffset="0,20,0" startKey="0"/>
+   </part>
+   <part name="tail4">
+    <component length="1" name="1" rotOffset="0,20,0" startKey="0"/>
+   </part>
+  </phase>
+  <subanim name="idle-1" base="idle"/>
+  <subanim name="idle-2" base="idle"/>
  </model>
 </ModelAnimator>

@@ -1,0 +1,10 @@
+{
+  "user": "victreebel",
+  "name": "victreebel-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:victreebelite"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "user": "clefable",
+  "name": "clefable-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:clefablite"
+    }
+  }
+}

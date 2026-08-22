@@ -6,7 +6,7 @@
   <phase duration="10" leftArm="" leftLeg="leg1" legAngle="25" name="biWalk" rightArm="" rightLeg="leg2"/>
   <customTex default="swellow">
    <part name="Head" tex="swellow_eye"/>
-   <animation diffs="0,0.5" part="Head" trigger="random:0.005:2"/>
+   <animation diffs="0,0.1" part="Head" trigger="random:0.005:2"/>
   </customTex>
   <phase type="idle">
    <part name="hair">

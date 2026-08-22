@@ -1,0 +1,10 @@
+{
+  "user": "crabominable",
+  "name": "crabominable-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:crabominablite"
+    }
+  }
+}

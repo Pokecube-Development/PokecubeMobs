@@ -2,7 +2,7 @@
 <ModelAnimator version="0.1">
  <model name="">
   <phase name="global" scale="0.2"/>
-  <metadata head="head" headCap="-40,40" headCap1="-40,40"/>
+  <metadata head="head"  headCap="-40,40" headCap1="-40,40"  "/>
   <phase duration="10" leftArm="" leftLeg="leg1" legAngle="15" name="biWalk" rightArm="" rightLeg="leg2"/>
   <customTex default="vivillon_end">
    <part name="Eye" tex="vivillon_eye"/>
@@ -12,7 +12,7 @@
    <part name="Space" tex="vivillon_end_effect"/>
    <animation diffs="0,0, 0,0, 0.125,0, 0.125,0, 0.25,0, 0.25,0, 0.375,0, 0.375,0" part="Space" trigger="sequence"/>
   </customTex>
-  <material name="Space" light="1" transluscent="false" shader="swirl_shader"/>
+  <material name="Space" light="1" transluscent="false" shader="eye_shader"/>
   <phase type="idle">
    <part name="body">
     <component length="1" name="1" posOffset="0,25,0," rotOffset="20,0,0," startKey="0"/>

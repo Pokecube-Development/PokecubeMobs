@@ -1,0 +1,197 @@
+{
+  "name": "dragonite-mega",
+  "id": 149,
+  "stock": true,
+  "is_extra_form": true,
+  "base_experience": 270,
+  "size": {
+    "height": 2.2,
+    "width": 1.5
+  },
+  "mass": 290.0,
+  "is_default": false,
+  "capture_rate": 45,
+  "base_happiness": 35,
+  "growth_rate": "slow",
+  "gender_rate": 127,
+  "stats": {
+    "hp": 91,
+    "attack": 124,
+    "defense": 115,
+    "special_attack": 145,
+    "special_defense": 125,
+    "speed": 100
+  },
+  "evs": {
+    "attack": 3
+  },
+  "types": [
+    "dragon",
+    "flying"
+  ],
+  "abilities": {
+    "normal": [
+      "cacophony"
+    ],
+    "hidden": []
+  },
+  "moves": {
+    "level_up": [
+      {
+        "L": 1,
+        "moves": [
+          "wing-attack",
+          "extreme-speed",
+          "roost",
+          "fire-punch",
+          "thunder-punch",
+          "wrap",
+          "leer",
+          "twister",
+          "thunder-wave"
+        ]
+      },
+      {
+        "L": 0,
+        "moves": [
+          "hurricane"
+        ]
+      },
+      {
+        "L": 15,
+        "moves": [
+          "dragon-tail"
+        ]
+      },
+      {
+        "L": 20,
+        "moves": [
+          "agility"
+        ]
+      },
+      {
+        "L": 25,
+        "moves": [
+          "slam"
+        ]
+      },
+      {
+        "L": 33,
+        "moves": [
+          "aqua-tail"
+        ]
+      },
+      {
+        "L": 39,
+        "moves": [
+          "dragon-rush"
+        ]
+      },
+      {
+        "L": 41,
+        "moves": [
+          "outrage"
+        ]
+      },
+      {
+        "L": 46,
+        "moves": [
+          "safeguard"
+        ]
+      },
+      {
+        "L": 53,
+        "moves": [
+          "rain-dance"
+        ]
+      },
+      {
+        "L": 62,
+        "moves": [
+          "dragon-dance"
+        ]
+      },
+      {
+        "L": 80,
+        "moves": [
+          "hyper-beam"
+        ]
+      }
+    ],
+    "misc": [
+      "take-down",
+      "agility",
+      "scary-face",
+      "protect",
+      "water-pulse",
+      "low-kick",
+      "chilling-water",
+      "fire-spin",
+      "facade",
+      "aerial-ace",
+      "bulldoze",
+      "swift",
+      "icy-wind",
+      "rock-tomb",
+      "air-cutter",
+      "fling",
+      "dragon-tail",
+      "endure",
+      "sunny-day",
+      "rain-dance",
+      "sandstorm",
+      "snowscape",
+      "brick-break",
+      "air-slash",
+      "body-slam",
+      "fire-punch",
+      "thunder-punch",
+      "ice-punch",
+      "sleep-talk",
+      "light-screen",
+      "waterfall",
+      "dragon-claw",
+      "metronome",
+      "thunder-wave",
+      "stomping-tantrum",
+      "rest",
+      "rock-slide",
+      "body-press",
+      "fly",
+      "iron-head",
+      "dragon-dance",
+      "substitute",
+      "tailwind",
+      "dragon-pulse",
+      "heat-wave",
+      "encore",
+      "surf",
+      "ice-spinner",
+      "flamethrower",
+      "thunderbolt",
+      "helping-hand",
+      "ice-beam",
+      "fire-blast",
+      "hydro-pump",
+      "blizzard",
+      "earthquake",
+      "stone-edge",
+      "giga-impact",
+      "outrage",
+      "focus-blast",
+      "hurricane",
+      "hyper-beam",
+      "thunder",
+      "draco-meteor",
+      "tera-blast",
+      "roar",
+      "haze",
+      "focus-punch",
+      "weather-ball",
+      "scale-shot",
+      "breaking-swipe",
+      "dragon-cheer"
+    ]
+  },
+  "loot_table": "pokecube:entities/fish_1"
+}

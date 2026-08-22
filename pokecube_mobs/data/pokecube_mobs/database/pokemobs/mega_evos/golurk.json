@@ -1,0 +1,10 @@
+{
+  "user": "golurk",
+  "name": "golurk-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:golurkite"
+    }
+  }
+}

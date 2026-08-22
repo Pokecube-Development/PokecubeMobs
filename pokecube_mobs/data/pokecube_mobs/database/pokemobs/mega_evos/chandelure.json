@@ -1,0 +1,10 @@
+{
+  "user": "chandelure",
+  "name": "chandelure-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:chandelurite"
+    }
+  }
+}

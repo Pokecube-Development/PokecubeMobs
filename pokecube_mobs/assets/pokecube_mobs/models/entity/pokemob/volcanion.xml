@@ -3,6 +3,7 @@
  <model>
   <phase name="global" scale="0.35"/>
   <metadata head="head" headCap="-15,15" headCap1="-5,5"/>
+  <phase duration="10" leftFront="leg4:foot4" leftHind="leg2:foot2" name="quadWalk" rightFront="leg3:foot3" rightHind="leg1:foot1"/>
   <customTex default="volcanion">
    <part name="Head" tex="volcanion_eye"/>
    <animation diffs="0.5,0" part="Head" trigger="random:0.005:1"/>
@@ -65,42 +66,6 @@
    <part name="body1">
     <component length="10" name="1" rotChange="5,0,0" rotOffset="-4,0,0" startKey="0"/>
     <component length="10" name="2" rotChange="-5,0,0" startKey="10"/>
-   </part>
-   <part name="leg1">
-    <component length="10" name="1" rotChange="0,0,10,"  startKey="0"/>
-    <component length="10" name="2" rotChange="0,0,-10," startKey="10"/>
-   </part>
-   <part name="foot1">
-    <component length="10" name="1" rotChange="10,0,0,"  startKey="0"/>
-	<component length="10" name="2" rotChange="-20,0,0," startKey="5"/>
-    <component length="10" name="3" rotChange="10,0,0," startKey="10"/>
-   </part>
-   <part name="leg2">
-    <component length="10" name="1" rotChange="0,0,-10,"  startKey="0"/>
-    <component length="10" name="2" rotChange="0,0,10," startKey="10"/>
-   </part>
-   <part name="foot2">
-    <component length="10" name="1" rotChange="-10,0,0,"  startKey="0"/>
-	<component length="10" name="2" rotChange="20,0,0," startKey="5"/>
-    <component length="10" name="3" rotChange="-10,0,0," startKey="10"/>
-   </part>
-   <part name="leg3">
-    <component length="10" name="1" rotChange="0,0,-10,"  startKey="0"/>
-    <component length="10" name="2" rotChange="0,0,10," startKey="10"/>
-   </part>
-   <part name="foot3">
-    <component length="10" name="1" rotChange="10,0,0,"  startKey="0"/>
-	<component length="10" name="2" rotChange="-20,0,0," startKey="5"/>
-    <component length="10" name="3" rotChange="10,0,0," startKey="10"/>
-   </part>
-   <part name="leg4">
-    <component length="10" name="1" rotChange="0,0,10,"  startKey="0"/>
-    <component length="10" name="2" rotChange="0,0,-10," startKey="10"/>
-   </part>
-   <part name="foot4">
-    <component length="10" name="1" rotChange="-10,0,0,"  startKey="0"/>
-	<component length="10" name="2" rotChange="20,0,0," startKey="5"/>
-    <component length="10" name="3" rotChange="-10,0,0," startKey="10"/>
    </part>
    <part name="tail">
     <component length="9" name="1" rotChange="7,0,0," rotOffset="5,0,0," startKey="0"/>

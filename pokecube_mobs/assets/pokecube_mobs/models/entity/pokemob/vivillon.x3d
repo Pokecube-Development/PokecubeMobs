@@ -3,7 +3,7 @@
 <X3D version="3.0" profile="Immersive" xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:noNamespaceSchemaLocation="http://www.web3d.org/specifications/x3d-3.0.xsd">
 	<head>
 		<meta name="filename" content="vivillon.x3d" />
-		<meta name="generator" content="Blender 2.93.9" />
+		<meta name="generator" content="Blender 2.93.18" />
 	</head>
 	<Scene>
 		<NavigationInfo headlight="true"
@@ -533,7 +533,14 @@
 					<Group DEF="group_ME_wing1">
 						<Shape>
 							<Appearance>
-								<Material USE="MA_Body" />
+								<Material DEF="MA_Glow"
+								          diffuseColor="0.800 0.800 0.800"
+								          specularColor="0.401 0.401 0.401"
+								          emissiveColor="0.000 0.000 0.000"
+								          ambientIntensity="0.000"
+								          shininess="0.500"
+								          transparency="0.0"
+								          />
 							</Appearance>
 							<IndexedTriangleSet solid="false"
 							                    normalPerVertex="true"
@@ -587,7 +594,7 @@
 					<Group DEF="group_ME_wing2">
 						<Shape>
 							<Appearance>
-								<Material USE="MA_Body" />
+								<Material USE="MA_Glow" />
 							</Appearance>
 							<IndexedTriangleSet solid="false"
 							                    normalPerVertex="true"

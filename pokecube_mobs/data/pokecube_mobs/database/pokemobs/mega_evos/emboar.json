@@ -1,0 +1,10 @@
+{
+  "user": "emboar",
+  "name": "emboar-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:emboarite"
+    }
+  }
+}

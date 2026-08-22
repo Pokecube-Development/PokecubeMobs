@@ -1,11 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModelAnimator>
  <model>
-  <phase name="global" scale="0.2"/>
+  <phase name="global" scale="0.1"/>
+  <metadata head="head" headCap="-15,15" headCap1="-15,15"/>
+  <customTex default="pyukumuku">
+   <part name="Head" tex="pyukumuku_eye"/>
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:7"/>
+  </customTex>
+  <phase type="idle">
+   <part name="arm">
+    <component length="1" name="1" hidden="true" startKey="0"/>
+   </part>
+   <part name="tail">
+    <component length="10" name="1" rotChange="-4,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="4,0,0" startKey="10"/>
+   </part>
+   <part name="body">
+    <component length="10" name="1" posChange="0,-1,0" startKey="0"/>
+    <component length="10" name="2" posChange="0,1,0" startKey="10"/>
+   </part>
+  </phase>
+  <phase type="walking">
+   <part name="arm">
+    <component length="10" name="1" hidden="true" startKey="0"/>
+   </part>
+   <part name="tail">
+    <component length="10" name="1" rotChange="-8,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="8,0,0" startKey="10"/>
+   </part>
+   <part name="body">
+    <component length="10" name="1" posChange="0,0,-3" startKey="0"/>
+    <component length="10" name="2" posChange="0,0,3" startKey="10"/>
+   </part>
+  </phase>
+  <phase type="running">
+   <part name="arm">
+    <component length="10" name="1" rotChange="-4,0,0" rotOffset="5,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="4,0,0" startKey="10"/>
+   </part>
+   <part name="arm1:arm2:arm3:arm4">
+    <component length="10" name="1" rotOffset="-25,0,0" startKey="0"/>
+   </part>
+   <part name="hand">
+    <component length="6" name="1" rotChange="0,-7,0" startKey="0"/>
+    <component length="6" name="2" rotChange="0,7,0" startKey="10"/>
+   </part>
+   <part name="tail">
+    <component length="10" name="1" rotChange="-8,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="8,0,0" startKey="10"/>
+   </part>
+   <part name="body">
+    <component length="10" name="1" posChange="0,-2,-2" startKey="0"/>
+    <component length="10" name="2" posChange="0,2,2" startKey="10"/>
+   </part>
+  </phase>
  </model>
- <details>
-  <RIDDENOFFSET>
-   0.55
-  </RIDDENOFFSET>
- </details>
 </ModelAnimator>

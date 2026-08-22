@@ -1,0 +1,22 @@
+[
+  {
+    "user": "raichu",
+    "name": "raichu-mega-x",
+    "rule": {
+      "key": "item",
+      "item": {
+        "item": "pokecube:raichu_x_mega_stone"
+      }
+    }
+  },
+  {
+    "user": "raichu",
+    "name": "raichu-mega-y",
+    "rule": {
+      "key": "item",
+      "item": {
+        "item": "pokecube:raichu_y_mega_stone"
+      }
+    }
+  }
+]

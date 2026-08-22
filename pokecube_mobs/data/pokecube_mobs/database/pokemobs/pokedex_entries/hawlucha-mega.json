@@ -1,0 +1,183 @@
+{
+  "name": "hawlucha-mega",
+  "id": 701,
+  "stock": true,
+  "is_extra_form": true,
+  "base_experience": 175,
+  "size": {
+    "height": 1.0
+  },
+  "mass": 25.0,
+  "is_default": false,
+  "capture_rate": 100,
+  "base_happiness": 70,
+  "growth_rate": "medium-fast",
+  "gender_rate": 127,
+  "stats": {
+    "hp": 78,
+    "attack": 137,
+    "defense": 100,
+    "special_attack": 74,
+    "special_defense": 93,
+    "speed": 118
+  },
+  "evs": {
+    "attack": 2
+  },
+  "types": [
+    "fighting",
+    "flying"
+  ],
+  "abilities": {
+    "normal": [
+      "cacophony"
+    ],
+    "hidden": []
+  },
+  "moves": {
+    "level_up": [
+      {
+        "L": 1,
+        "moves": [
+          "tackle",
+          "hone-claws"
+        ]
+      },
+      {
+        "L": 4,
+        "moves": [
+          "wing-attack"
+        ]
+      },
+      {
+        "L": 8,
+        "moves": [
+          "detect"
+        ]
+      },
+      {
+        "L": 12,
+        "moves": [
+          "aerial-ace"
+        ]
+      },
+      {
+        "L": 16,
+        "moves": [
+          "encore"
+        ]
+      },
+      {
+        "L": 20,
+        "moves": [
+          "feather-dance"
+        ]
+      },
+      {
+        "L": 24,
+        "moves": [
+          "brick-break"
+        ]
+      },
+      {
+        "L": 28,
+        "moves": [
+          "bounce"
+        ]
+      },
+      {
+        "L": 32,
+        "moves": [
+          "taunt"
+        ]
+      },
+      {
+        "L": 36,
+        "moves": [
+          "roost"
+        ]
+      },
+      {
+        "L": 40,
+        "moves": [
+          "swords-dance"
+        ]
+      },
+      {
+        "L": 44,
+        "moves": [
+          "flying-press"
+        ]
+      },
+      {
+        "L": 48,
+        "moves": [
+          "high-jump-kick"
+        ]
+      },
+      {
+        "L": 52,
+        "moves": [
+          "endeavor"
+        ]
+      },
+      {
+        "L": 56,
+        "moves": [
+          "sky-attack"
+        ]
+      }
+    ],
+    "misc": [
+      "take-down",
+      "agility",
+      "protect",
+      "low-kick",
+      "acrobatics",
+      "thief",
+      "trailblaze",
+      "facade",
+      "aerial-ace",
+      "swift",
+      "rock-tomb",
+      "low-sweep",
+      "fling",
+      "endure",
+      "sunny-day",
+      "rain-dance",
+      "dig",
+      "false-swipe",
+      "brick-break",
+      "zen-headbutt",
+      "u-turn",
+      "bulk-up",
+      "body-slam",
+      "fire-punch",
+      "thunder-punch",
+      "sleep-talk",
+      "drain-punch",
+      "grass-knot",
+      "poison-jab",
+      "rest",
+      "rock-slide",
+      "taunt",
+      "swords-dance",
+      "body-press",
+      "substitute",
+      "fly",
+      "giga-impact",
+      "hyper-beam",
+      "tera-blast",
+      "x-scissor",
+      "focus-blast",
+      "brave-bird",
+      "sky-attack",
+      "steel-wing",
+      "stone-edge",
+      "bounce",
+      "roost",
+      "close-combat"
+    ]
+  },
+  "loot_table": "pokecube:entities/chicken_1"
+}

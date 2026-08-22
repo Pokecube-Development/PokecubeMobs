@@ -3,13 +3,14 @@
  <model name="">
   <phase name="global" scale="0.28"/>
   <metadata head="head" headCap="-60,60" headCap1="-50,50"/>
+  <phase angle="20" duration="10" leftFront="leg1:leg1_1" leftHind="leg2:leg2_1" name="quadWalk" rightFront="leg3:leg3_1" rightHind="leg4:leg4_1"/>
   <phase axis="0" name="snakeIdle" parts="tail:tail1:tail2:tail3:tail4:tail5:tail5_1:tail5_2:tail6_1:tail6_2"/>
   <phase axis="1" name="snakeWalk" parts="tail:tail1:tail2:tail3:tail4:tail5"/>
+  <material name="Glow" light="1" transluscent="false" shader="alpha_shader"/>
   <customTex default="espeon">
    <part name="Head" tex="espeoneye"/>
    <animation diffs="0,0.5" part="Head" trigger="random:0.005:1"/>
   </customTex>
-  <phase angle="20" duration="10" leftFront="leg1:leg1_1" leftHind="leg2:leg2_1" name="quadWalk" rightFront="leg3:leg3_1" rightHind="leg4:leg4_1"/>
   <phase type="sitting">
    <part name="body">
     <component length="1" name="1" posOffset="0,22,0" rotOffset="-40,0,0" startKey="0"/>

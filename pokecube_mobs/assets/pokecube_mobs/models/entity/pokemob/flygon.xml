@@ -10,7 +10,7 @@
    <part name="Mouth" tex="flygon_mouth"/>
    <animation diffs="0,0.5" part="Mouth" trigger="random:0.005:25"/>
   </customTex>
-  <material name="Glow" alpha="0.99" smooth="true" light="1" transluscent="false" shader="swirl_shader"/>
+  <material name="Glow" alpha="0.99" smooth="true" light="1" transluscent="false" shader="eye_shader"/>
   <phase axis="0" angle="20" length="140" name="snakeIdle" parts="tail:tail1:tail2:tail3:tail4:tail5:tail6:tail7:tail8"/>
   <phase axis="0" angle="20" length="140" name="snakeWalk" parts="tail:tail1:tail2:tail3:tail4:tail5:tail6:tail7:tail8"/>
   <phase axis="1" angle="20" length="140" name="snakeFly" parts="tail1:tail2:tail3:tail4:tail5:tail6:tail7:tail8"/>

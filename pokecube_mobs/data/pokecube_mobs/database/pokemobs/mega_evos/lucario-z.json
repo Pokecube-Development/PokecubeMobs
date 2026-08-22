@@ -1,0 +1,10 @@
+{
+  "user": "lucario",
+  "name": "lucario-mega-z",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:lucario_z_mega_stone"
+    }
+  }
+}

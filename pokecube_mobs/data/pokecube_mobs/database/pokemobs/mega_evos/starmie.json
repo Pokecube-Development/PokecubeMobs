@@ -1,0 +1,10 @@
+{
+  "user": "starmie",
+  "name": "starmie-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:starmieite"
+    }
+  }
+}

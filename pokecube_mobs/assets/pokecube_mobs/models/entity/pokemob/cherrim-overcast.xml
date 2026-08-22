@@ -1,17 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModelAnimator version="0.1">
  <model name="">
-  <phase name="global" scale="0.2"/>
-  <phase type="walking">
-   <part name="Cube_1">
-    <component length="3" name="1" rotChange="-10,0,0" startKey="0"/>
-    <component length="6" name="2" rotChange="20,0,0" startKey="3"/>
-    <component length="3" name="3" rotChange="-10,0,0" startKey="9"/>
+  <phase name="global" scale="0.14"/>
+  <phase duration="6" leftArm="" leftLeg="foot1" legAngle="25" name="biWalk" rightArm="" rightLeg="foot2"/>
+  <phase type="idle">
+   <part name="top">
+    <component length="10" name="1" rotChange="-10,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="10,0,0" startKey="10"/>
    </part>
-   <part name="Cube_2">
-    <component length="3" name="1" rotChange="10,0,0" startKey="0"/>
-    <component length="6" name="2" rotChange="-20,0,0" startKey="3"/>
-    <component length="3" name="3" rotChange="10,0,0" startKey="9"/>
+   <part name="leaf">
+    <component length="10" name="1" rotChange="1,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="-1,0,0" startKey="10"/>
+   </part>
+   <part name="p1">
+    <component length="10" name="1" rotChange="0,0,-2" startKey="0"/>
+    <component length="10" name="2" rotChange="0,0,2" startKey="10"/>
+   </part>
+   <part name="p2">
+    <component length="10" name="1" rotChange="0,0,2" startKey="0"/>
+    <component length="10" name="2" rotChange="0,0,-2" startKey="10"/>
+   </part>
+  </phase>
+  <phase type="walking">
+   <part name="body">
+    <component length="10" name="1" posChange="0,-1,0" startKey="0"/>
+    <component length="10" name="2" posChange="0,1,0" startKey="10"/>
+   </part>
+   <part name="top">
+    <component length="10" name="1" rotChange="-10,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="10,0,0" startKey="10"/>
+   </part>
+   <part name="leaf">
+    <component length="10" name="1" rotChange="1,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="-1,0,0" startKey="10"/>
+   </part>
+   <part name="p1">
+    <component length="10" name="1" rotChange="0,0,-6" startKey="0"/>
+    <component length="10" name="2" rotChange="0,0,6" startKey="10"/>
+   </part>
+   <part name="p2">
+    <component length="10" name="1" rotChange="0,0,3" startKey="0"/>
+    <component length="10" name="2" rotChange="0,0,-3" startKey="10"/>
    </part>
   </phase>
  </model>

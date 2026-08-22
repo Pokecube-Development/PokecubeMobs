@@ -1,0 +1,10 @@
+{
+  "user": "malamar",
+  "name": "malamar-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:malamarite"
+    }
+  }
+}

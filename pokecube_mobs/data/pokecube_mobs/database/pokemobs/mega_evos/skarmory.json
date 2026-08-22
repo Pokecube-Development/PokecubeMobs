@@ -1,0 +1,10 @@
+{
+  "user": "skarmory",
+  "name": "skarmory-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:skarmoryite"
+    }
+  }
+}

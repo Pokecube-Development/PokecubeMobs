@@ -1,0 +1,10 @@
+{
+  "user": "zeraora",
+  "name": "zeraora-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:zeraorite"
+    }
+  }
+}

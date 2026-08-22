@@ -3,7 +3,7 @@
 <X3D version="3.0" profile="Immersive" xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:noNamespaceSchemaLocation="http://www.web3d.org/specifications/x3d-3.0.xsd">
 	<head>
 		<meta name="filename" content="ho-oh.x3d" />
-		<meta name="generator" content="Blender 2.93.9" />
+		<meta name="generator" content="Blender 2.93.18" />
 	</head>
 	<Scene>
 		<NavigationInfo headlight="true"
@@ -1253,7 +1253,14 @@
 							<Group DEF="group_ME_Cube_027">
 								<Shape>
 									<Appearance>
-										<Material USE="MA_Body" />
+										<Material DEF="MA_Glow"
+										          diffuseColor="0.800 0.800 0.800"
+										          specularColor="0.401 0.401 0.401"
+										          emissiveColor="0.000 0.000 0.000"
+										          ambientIntensity="0.000"
+										          shininess="0.500"
+										          transparency="0.0"
+										          />
 									</Appearance>
 									<IndexedTriangleSet solid="false"
 									                    normalPerVertex="true"
@@ -1279,7 +1286,7 @@
 								<Group DEF="group_ME_Cube_028">
 									<Shape>
 										<Appearance>
-											<Material USE="MA_Body" />
+											<Material USE="MA_Glow" />
 										</Appearance>
 										<IndexedTriangleSet solid="false"
 										                    normalPerVertex="true"
@@ -1305,7 +1312,7 @@
 									<Group DEF="group_ME_Cube_029">
 										<Shape>
 											<Appearance>
-												<Material USE="MA_Body" />
+												<Material USE="MA_Glow" />
 											</Appearance>
 											<IndexedTriangleSet solid="false"
 											                    normalPerVertex="true"
@@ -1331,7 +1338,7 @@
 										<Group DEF="group_ME_Cube_030">
 											<Shape>
 												<Appearance>
-													<Material USE="MA_Body" />
+													<Material USE="MA_Glow" />
 												</Appearance>
 												<IndexedTriangleSet solid="false"
 												                    normalPerVertex="true"
@@ -1357,7 +1364,7 @@
 											<Group DEF="group_ME_Cube_031">
 												<Shape>
 													<Appearance>
-														<Material USE="MA_Body" />
+														<Material USE="MA_Glow" />
 													</Appearance>
 													<IndexedTriangleSet solid="false"
 													                    normalPerVertex="true"
@@ -1551,7 +1558,7 @@
 						<Group DEF="group_ME_Cube_021">
 							<Shape>
 								<Appearance>
-									<Material USE="MA_Body" />
+									<Material USE="MA_Glow" />
 								</Appearance>
 								<IndexedTriangleSet solid="false"
 								                    normalPerVertex="true"
@@ -1577,7 +1584,7 @@
 							<Group DEF="group_ME_Cube_022">
 								<Shape>
 									<Appearance>
-										<Material USE="MA_Body" />
+										<Material USE="MA_Glow" />
 									</Appearance>
 									<IndexedTriangleSet solid="false"
 									                    normalPerVertex="true"
@@ -1603,7 +1610,7 @@
 								<Group DEF="group_ME_Cube_023">
 									<Shape>
 										<Appearance>
-											<Material USE="MA_Body" />
+											<Material USE="MA_Glow" />
 										</Appearance>
 										<IndexedTriangleSet solid="false"
 										                    normalPerVertex="true"
@@ -1629,7 +1636,7 @@
 									<Group DEF="group_ME_Cube_024">
 										<Shape>
 											<Appearance>
-												<Material USE="MA_Body" />
+												<Material USE="MA_Glow" />
 											</Appearance>
 											<IndexedTriangleSet solid="false"
 											                    normalPerVertex="true"
@@ -1655,7 +1662,7 @@
 										<Group DEF="group_ME_Cube_025">
 											<Shape>
 												<Appearance>
-													<Material USE="MA_Body" />
+													<Material USE="MA_Glow" />
 												</Appearance>
 												<IndexedTriangleSet solid="false"
 												                    normalPerVertex="true"
@@ -1681,7 +1688,7 @@
 											<Group DEF="group_ME_Cube_026">
 												<Shape>
 													<Appearance>
-														<Material USE="MA_Body" />
+														<Material USE="MA_Glow" />
 													</Appearance>
 													<IndexedTriangleSet solid="false"
 													                    normalPerVertex="true"
@@ -1740,7 +1747,7 @@
 						<Group DEF="group_ME_Plane">
 							<Shape>
 								<Appearance>
-									<Material USE="MA_Body" />
+									<Material USE="MA_Glow" />
 								</Appearance>
 								<IndexedTriangleSet solid="false"
 								                    normalPerVertex="true"
@@ -1767,7 +1774,7 @@
 						<Group DEF="group_ME_Plane_001">
 							<Shape>
 								<Appearance>
-									<Material USE="MA_Body" />
+									<Material USE="MA_Glow" />
 								</Appearance>
 								<IndexedTriangleSet solid="false"
 								                    normalPerVertex="true"
@@ -1794,7 +1801,7 @@
 						<Group DEF="group_ME_Plane_002">
 							<Shape>
 								<Appearance>
-									<Material USE="MA_Body" />
+									<Material USE="MA_Glow" />
 								</Appearance>
 								<IndexedTriangleSet solid="false"
 								                    normalPerVertex="true"
@@ -1821,7 +1828,7 @@
 						<Group DEF="group_ME_Plane_003">
 							<Shape>
 								<Appearance>
-									<Material USE="MA_Body" />
+									<Material USE="MA_Glow" />
 								</Appearance>
 								<IndexedTriangleSet solid="false"
 								                    normalPerVertex="true"
@@ -1848,7 +1855,7 @@
 						<Group DEF="group_ME_Plane_004">
 							<Shape>
 								<Appearance>
-									<Material USE="MA_Body" />
+									<Material USE="MA_Glow" />
 								</Appearance>
 								<IndexedTriangleSet solid="false"
 								                    normalPerVertex="true"
@@ -1875,7 +1882,7 @@
 						<Group DEF="group_ME_Plane_005">
 							<Shape>
 								<Appearance>
-									<Material USE="MA_Body" />
+									<Material USE="MA_Glow" />
 								</Appearance>
 								<IndexedTriangleSet solid="false"
 								                    normalPerVertex="true"
@@ -1902,7 +1909,7 @@
 						<Group DEF="group_ME_Plane_006">
 							<Shape>
 								<Appearance>
-									<Material USE="MA_Body" />
+									<Material USE="MA_Glow" />
 								</Appearance>
 								<IndexedTriangleSet solid="false"
 								                    normalPerVertex="true"
@@ -1929,7 +1936,7 @@
 						<Group DEF="group_ME_Plane_007">
 							<Shape>
 								<Appearance>
-									<Material USE="MA_Body" />
+									<Material USE="MA_Glow" />
 								</Appearance>
 								<IndexedTriangleSet solid="false"
 								                    normalPerVertex="true"
@@ -1956,7 +1963,7 @@
 						<Group DEF="group_ME_Plane_008">
 							<Shape>
 								<Appearance>
-									<Material USE="MA_Body" />
+									<Material USE="MA_Glow" />
 								</Appearance>
 								<IndexedTriangleSet solid="false"
 								                    normalPerVertex="true"
@@ -1983,7 +1990,7 @@
 						<Group DEF="group_ME_Plane_009">
 							<Shape>
 								<Appearance>
-									<Material USE="MA_Body" />
+									<Material USE="MA_Glow" />
 								</Appearance>
 								<IndexedTriangleSet solid="false"
 								                    normalPerVertex="true"
@@ -2010,7 +2017,7 @@
 						<Group DEF="group_ME_Plane_010">
 							<Shape>
 								<Appearance>
-									<Material USE="MA_Body" />
+									<Material USE="MA_Glow" />
 								</Appearance>
 								<IndexedTriangleSet solid="false"
 								                    normalPerVertex="true"
@@ -2037,7 +2044,7 @@
 						<Group DEF="group_ME_Plane_011">
 							<Shape>
 								<Appearance>
-									<Material USE="MA_Body" />
+									<Material USE="MA_Glow" />
 								</Appearance>
 								<IndexedTriangleSet solid="false"
 								                    normalPerVertex="true"
@@ -2064,7 +2071,7 @@
 						<Group DEF="group_ME_Plane_013">
 							<Shape>
 								<Appearance>
-									<Material USE="MA_Body" />
+									<Material USE="MA_Glow" />
 								</Appearance>
 								<IndexedTriangleSet solid="false"
 								                    normalPerVertex="true"
@@ -2091,7 +2098,7 @@
 						<Group DEF="group_ME_Plane_014">
 							<Shape>
 								<Appearance>
-									<Material USE="MA_Body" />
+									<Material USE="MA_Glow" />
 								</Appearance>
 								<IndexedTriangleSet solid="false"
 								                    normalPerVertex="true"
@@ -2118,7 +2125,7 @@
 						<Group DEF="group_ME_Plane_015">
 							<Shape>
 								<Appearance>
-									<Material USE="MA_Body" />
+									<Material USE="MA_Glow" />
 								</Appearance>
 								<IndexedTriangleSet solid="false"
 								                    normalPerVertex="true"
@@ -2145,7 +2152,7 @@
 						<Group DEF="group_ME_Plane_016">
 							<Shape>
 								<Appearance>
-									<Material USE="MA_Body" />
+									<Material USE="MA_Glow" />
 								</Appearance>
 								<IndexedTriangleSet solid="false"
 								                    normalPerVertex="true"
@@ -2199,7 +2206,7 @@
 						<Group DEF="group_ME_Plane_018">
 							<Shape>
 								<Appearance>
-									<Material USE="MA_Body" />
+									<Material USE="MA_Glow" />
 								</Appearance>
 								<IndexedTriangleSet solid="false"
 								                    normalPerVertex="true"
@@ -2226,7 +2233,7 @@
 						<Group DEF="group_ME_Plane_019">
 							<Shape>
 								<Appearance>
-									<Material USE="MA_Body" />
+									<Material USE="MA_Glow" />
 								</Appearance>
 								<IndexedTriangleSet solid="false"
 								                    normalPerVertex="true"
@@ -2253,7 +2260,7 @@
 						<Group DEF="group_ME_Plane_020">
 							<Shape>
 								<Appearance>
-									<Material USE="MA_Body" />
+									<Material USE="MA_Glow" />
 								</Appearance>
 								<IndexedTriangleSet solid="false"
 								                    normalPerVertex="true"
@@ -2280,7 +2287,7 @@
 						<Group DEF="group_ME_Plane_021">
 							<Shape>
 								<Appearance>
-									<Material USE="MA_Body" />
+									<Material USE="MA_Glow" />
 								</Appearance>
 								<IndexedTriangleSet solid="false"
 								                    normalPerVertex="true"
@@ -2307,7 +2314,7 @@
 						<Group DEF="group_ME_Plane_022">
 							<Shape>
 								<Appearance>
-									<Material USE="MA_Body" />
+									<Material USE="MA_Glow" />
 								</Appearance>
 								<IndexedTriangleSet solid="false"
 								                    normalPerVertex="true"
@@ -2334,7 +2341,7 @@
 						<Group DEF="group_ME_Plane_023">
 							<Shape>
 								<Appearance>
-									<Material USE="MA_Body" />
+									<Material USE="MA_Glow" />
 								</Appearance>
 								<IndexedTriangleSet solid="false"
 								                    normalPerVertex="true"
@@ -2361,7 +2368,7 @@
 						<Group DEF="group_ME_Plane_025">
 							<Shape>
 								<Appearance>
-									<Material USE="MA_Body" />
+									<Material USE="MA_Glow" />
 								</Appearance>
 								<IndexedTriangleSet solid="false"
 								                    normalPerVertex="true"
@@ -2441,7 +2448,7 @@
 							<Group DEF="group_ME_Cube_012">
 								<Shape>
 									<Appearance>
-										<Material USE="MA_Body" />
+										<Material USE="MA_Glow" />
 									</Appearance>
 									<IndexedTriangleSet solid="false"
 									                    normalPerVertex="true"
@@ -2467,7 +2474,7 @@
 								<Group DEF="group_ME_Cube_032">
 									<Shape>
 										<Appearance>
-											<Material USE="MA_Body" />
+											<Material USE="MA_Glow" />
 										</Appearance>
 										<IndexedTriangleSet solid="false"
 										                    normalPerVertex="true"
@@ -2494,7 +2501,7 @@
 								<Group DEF="group_ME_Cube_036">
 									<Shape>
 										<Appearance>
-											<Material USE="MA_Body" />
+											<Material USE="MA_Glow" />
 										</Appearance>
 										<IndexedTriangleSet solid="false"
 										                    normalPerVertex="true"
@@ -3062,7 +3069,7 @@
 							<Group DEF="group_ME_Cube_077">
 								<Shape>
 									<Appearance>
-										<Material USE="MA_Body" />
+										<Material USE="MA_Glow" />
 									</Appearance>
 									<IndexedTriangleSet solid="false"
 									                    normalPerVertex="true"
@@ -3088,7 +3095,7 @@
 								<Group DEF="group_ME_Cube_078">
 									<Shape>
 										<Appearance>
-											<Material USE="MA_Body" />
+											<Material USE="MA_Glow" />
 										</Appearance>
 										<IndexedTriangleSet solid="false"
 										                    normalPerVertex="true"
@@ -3114,7 +3121,7 @@
 									<Group DEF="group_ME_Cube_079">
 										<Shape>
 											<Appearance>
-												<Material USE="MA_Body" />
+												<Material USE="MA_Glow" />
 											</Appearance>
 											<IndexedTriangleSet solid="false"
 											                    normalPerVertex="true"
@@ -3140,7 +3147,7 @@
 										<Group DEF="group_ME_Cube_080">
 											<Shape>
 												<Appearance>
-													<Material USE="MA_Body" />
+													<Material USE="MA_Glow" />
 												</Appearance>
 												<IndexedTriangleSet solid="false"
 												                    normalPerVertex="true"
@@ -3166,7 +3173,7 @@
 											<Group DEF="group_ME_Cube_081">
 												<Shape>
 													<Appearance>
-														<Material USE="MA_Body" />
+														<Material USE="MA_Glow" />
 													</Appearance>
 													<IndexedTriangleSet solid="false"
 													                    normalPerVertex="true"
@@ -3360,7 +3367,7 @@
 						<Group DEF="group_ME_Cube_071">
 							<Shape>
 								<Appearance>
-									<Material USE="MA_Body" />
+									<Material USE="MA_Glow" />
 								</Appearance>
 								<IndexedTriangleSet solid="false"
 								                    normalPerVertex="true"
@@ -3386,7 +3393,7 @@
 							<Group DEF="group_ME_Cube_072">
 								<Shape>
 									<Appearance>
-										<Material USE="MA_Body" />
+										<Material USE="MA_Glow" />
 									</Appearance>
 									<IndexedTriangleSet solid="false"
 									                    normalPerVertex="true"
@@ -3412,7 +3419,7 @@
 								<Group DEF="group_ME_Cube_073">
 									<Shape>
 										<Appearance>
-											<Material USE="MA_Body" />
+											<Material USE="MA_Glow" />
 										</Appearance>
 										<IndexedTriangleSet solid="false"
 										                    normalPerVertex="true"
@@ -3438,7 +3445,7 @@
 									<Group DEF="group_ME_Cube_074">
 										<Shape>
 											<Appearance>
-												<Material USE="MA_Body" />
+												<Material USE="MA_Glow" />
 											</Appearance>
 											<IndexedTriangleSet solid="false"
 											                    normalPerVertex="true"
@@ -3464,7 +3471,7 @@
 										<Group DEF="group_ME_Cube_075">
 											<Shape>
 												<Appearance>
-													<Material USE="MA_Body" />
+													<Material USE="MA_Glow" />
 												</Appearance>
 												<IndexedTriangleSet solid="false"
 												                    normalPerVertex="true"
@@ -3490,7 +3497,7 @@
 											<Group DEF="group_ME_Cube_076">
 												<Shape>
 													<Appearance>
-														<Material USE="MA_Body" />
+														<Material USE="MA_Glow" />
 													</Appearance>
 													<IndexedTriangleSet solid="false"
 													                    normalPerVertex="true"
@@ -3575,7 +3582,7 @@
 							<Group DEF="group_ME_Cube_083">
 								<Shape>
 									<Appearance>
-										<Material USE="MA_Body" />
+										<Material USE="MA_Glow" />
 									</Appearance>
 									<IndexedTriangleSet solid="false"
 									                    normalPerVertex="true"
@@ -3601,7 +3608,7 @@
 								<Group DEF="group_ME_Cube_091">
 									<Shape>
 										<Appearance>
-											<Material USE="MA_Body" />
+											<Material USE="MA_Glow" />
 										</Appearance>
 										<IndexedTriangleSet solid="false"
 										                    normalPerVertex="true"
@@ -3628,7 +3635,7 @@
 								<Group DEF="group_ME_Cube_092">
 									<Shape>
 										<Appearance>
-											<Material USE="MA_Body" />
+											<Material USE="MA_Glow" />
 										</Appearance>
 										<IndexedTriangleSet solid="false"
 										                    normalPerVertex="true"

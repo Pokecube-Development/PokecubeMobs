@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModelAnimator>
  <model>
-  <phase name="global" offset="0,0,0" rotation="1,0,0,0" scale="0.2"/>
+  <phase name="global" scale="0.12"/>
   <customTex default="litwick">
-   <part name="Head" tex="litwickeye"/>
-   <animation diffs="0,0.5" part="Head" trigger="random:0.005:5"/>
+   <part name="Mouth" tex="litwick_face"/>
+   <animation diffs="0,0.5" part="Mouth" trigger="random:0.005:5"/>
+   <part name="Eye" tex="litwick_face"/>
+   <animation diffs="0,0.5" part="Eye" trigger="random:0.005:5"/>
+   <part name="Fire" tex="litwick_flame"/>
+   <animation diffs="0,0, 0,0, 0,0.5, 0,0.5, 0,0.125, 0,0.125, 0,0.25, 0,0.25" part="Fire" trigger="sequence"/>
   </customTex>
   <material name="Fire" light="1" transluscent="false" shader="alpha_shader"/>
+  <material name="Eye" light="1" transluscent="false" shader="alpha_shader"/>
   <phase type="idle">
+   <part name="body">
+    <component length="10" name="1" rotChange="-1,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="1,0,0" startKey="10"/>
+   </part>
    <part name="arm1">
     <component length="10" name="1" rotChange="0,0,-3" rotOffset="0,0,-30" startKey="0"/>
     <component length="10" name="2" rotChange="0,0,3" startKey="10"/>
@@ -16,53 +25,49 @@
     <component length="10" name="1" rotChange="0,0,3" rotOffset="0,0,30" startKey="0"/>
     <component length="10" name="2" rotChange="0,0,-3" startKey="10"/>
    </part>
-   <part name="flame">
+   <part name="fire">
     <component length="40" name="1" rotChange="0,360,0," startKey="1"/>
    </part>
   </phase>
   <phase type="walking">
+   <part name="body">
+    <component length="10" name="1" rotChange="-4,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="4,0,0" startKey="10"/>
+   </part>
    <part name="arm1">
-    <component length="10" name="1" rotChange="0,0,-3" rotOffset="0,0,-30" startKey="0"/>
-    <component length="10" name="2" rotChange="0,0,3" startKey="10"/>
+    <component length="10" name="1" rotChange="0,20,0" startKey="0"/>
+    <component length="10" name="2" rotChange="0,-40,0" startKey="5"/>
+	<component length="10" name="3" rotChange="0,20,0" startKey="10"/>
    </part>
    <part name="arm2">
-    <component length="10" name="1" rotChange="0,0,3" rotOffset="0,0,30" startKey="0"/>
-    <component length="10" name="2" rotChange="0,0,-3" startKey="10"/>
+    <component length="10" name="1" rotChange="0,20,0" startKey="0"/>
+    <component length="10" name="2" rotChange="0,-40,0" startKey="5"/>
+	<component length="10" name="3" rotChange="0,20,0" startKey="10"/>
    </part>
-   <part name="l1">
-    <component length="10" name="1" rotChange="0,4,0" rotOffset="0,0,0" startKey="0"/>
-    <component length="10" name="2" rotChange="0,-4,0" startKey="10"/>
-   </part>
-   <part name="l2">
-    <component length="10" name="1" rotChange="0,-4,0" rotOffset="0,0,0" startKey="0"/>
-    <component length="10" name="2" rotChange="0,4,0" startKey="10"/>
-   </part>
-   <part name="flame">
+   <part name="fire">
     <component length="40" name="1" rotChange="0,360,0," startKey="1"/>
    </part>
   </phase>
   <phase type="flying">
    <part name="arm1">
-    <component length="10" name="1" rotChange="0,0,-3" rotOffset="0,0,-30" startKey="0"/>
-    <component length="10" name="2" rotChange="0,0,3" startKey="10"/>
-   </part>
-   <part name="body">
-    <component length="10" name="1" rotOffset="20,0,0" startKey="0"/>
+    <component length="10" name="1" rotChange="0,20,0" rotOffset="0,20,-20" startKey="0"/>
+    <component length="10" name="2" rotChange="0,-40,0" startKey="5"/>
+	<component length="10" name="3" rotChange="0,20,0" startKey="10"/>
    </part>
    <part name="arm2">
-    <component length="10" name="1" rotChange="0,0,3" rotOffset="0,0,30" startKey="0"/>
-    <component length="10" name="2" rotChange="0,0,-3" startKey="10"/>
+    <component length="10" name="1" rotChange="0,20,0" rotOffset="0,-20,20" startKey="0"/>
+    <component length="10" name="2" rotChange="0,-40,0" startKey="5"/>
+	<component length="10" name="3" rotChange="0,20,0" startKey="10"/>
    </part>
-   <part name="l1">
-    <component length="10" name="1" rotChange="0,4,0" rotOffset="0,0,0" startKey="0"/>
-    <component length="10" name="2" rotChange="0,-4,0" startKey="10"/>
+   <part name="base">
+    <component length="10" name="1" rotOffset="20,0,0" startKey="0"/>
    </part>
-   <part name="l2">
-    <component length="10" name="1" rotChange="0,-4,0" rotOffset="0,0,0" startKey="0"/>
-    <component length="10" name="2" rotChange="0,4,0" startKey="10"/>
+   <part name="body">
+    <component length="10" name="1" rotChange="-1,0,0" rotOffset="-5,0,0" startKey="0"/>
+    <component length="10" name="2" rotChange="1,0,0" startKey="10"/>
    </part>
-   <part name="flame">
-    <component length="40" name="1" rotChange="0,360,0," rotOffset="-20,0,0" startKey="1"/>
+   <part name="fire">
+    <component length="40" name="1" rotChange="0,360,0," rotOffset="-17,0,0" startKey="0"/>
    </part>
   </phase>
  </model>

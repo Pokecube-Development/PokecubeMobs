@@ -1,0 +1,10 @@
+{
+  "user": "pyroar",
+  "name": "pyroar-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:pyroarite"
+    }
+  }
+}

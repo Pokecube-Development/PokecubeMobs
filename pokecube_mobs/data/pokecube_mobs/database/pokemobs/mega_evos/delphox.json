@@ -1,0 +1,10 @@
+{
+  "user": "delphox",
+  "name": "delphox-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:delphoxite"
+    }
+  }
+}

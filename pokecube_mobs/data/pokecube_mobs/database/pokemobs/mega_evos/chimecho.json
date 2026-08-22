@@ -1,0 +1,10 @@
+{
+  "user": "chimecho",
+  "name": "chimecho-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:chimechite"
+    }
+  }
+}

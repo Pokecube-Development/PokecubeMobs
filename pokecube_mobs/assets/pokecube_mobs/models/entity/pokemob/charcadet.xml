@@ -2,7 +2,7 @@
 <ModelAnimator>
  <model>
   <phase name="global" scale="0.19"/>
-  <metadata head="head" headCap="-90,90" headCap1="-50,50"/>
+  <metadata head="head"  headCap="-90,90" headCap1="-50,50" />
   <phase duration="10" leftArm="" leftLeg="leg1:leg1_1" legAngle="16" name="biWalk" rightArm="" rightLeg="leg2:leg2_1"/>
   <customTex default="charcadet">
    <part name="Eye" tex="charcadet_eye"/>

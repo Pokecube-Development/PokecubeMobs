@@ -1,0 +1,10 @@
+{
+  "user": "staraptor",
+  "name": "staraptor-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:staraptorite"
+    }
+  }
+}

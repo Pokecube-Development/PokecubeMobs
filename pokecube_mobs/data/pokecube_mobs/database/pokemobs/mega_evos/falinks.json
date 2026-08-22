@@ -1,0 +1,10 @@
+{
+  "user": "falinks",
+  "name": "falinks-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:falinksite"
+    }
+  }
+}

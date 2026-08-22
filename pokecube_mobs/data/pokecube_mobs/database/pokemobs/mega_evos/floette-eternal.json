@@ -1,0 +1,10 @@
+{
+  "user": "floette-eternal",
+  "name": "floette-eternal-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:floettite"
+    }
+  }
+}

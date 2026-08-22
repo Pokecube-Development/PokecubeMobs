@@ -77,8 +77,8 @@
     <component length="10" name="2" rotChange="-6,0,0" startKey="10"/>
    </part>
    <part name="body">
-    <component length="10" name="1" rotChange="0.6,0,0" rotOffset="10,0,0" posOffset="0,-60,0" startKey="0"/>
-    <component length="10" name="2" rotChange="-0.6,0,0" startKey="10"/>
+    <component length="10" name="1" rotChange="2,0,0" rotOffset="10,0,0" posOffset="0,-60,0" startKey="0"/>
+    <component length="10" name="2" rotChange="-2,0,0" startKey="10"/>
    </part>
    <part name="body2">
     <component length="10" name="1" rotOffset="-60,0,0" posOffset="0,0,0" startKey="0"/>

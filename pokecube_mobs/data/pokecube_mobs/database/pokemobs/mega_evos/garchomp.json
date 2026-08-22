@@ -5,7 +5,7 @@
     "rule": {
       "key": "item",
       "item": {
-        "item": "pokecube:garchompmega"
+        "item": "pokecube:garchompite"
       }
     }
   },
@@ -15,7 +15,27 @@
     "rule": {
       "key": "item",
       "item": {
-        "item": "pokecube:garchompmega"
+        "item": "pokecube:garchompite"
+      }
+    }
+  },
+  {
+    "user": "garchomp_male",
+    "name": "garchomp-mega-z",
+    "rule": {
+      "key": "item",
+      "item": {
+        "item": "pokecube:garchomp_z_mega_stone"
+      }
+    }
+  },
+  {
+    "user": "garchomp_female",
+    "name": "garchomp-mega-z",
+    "rule": {
+      "key": "item",
+      "item": {
+        "item": "pokecube:garchomp_z_mega_stone"
       }
     }
   }

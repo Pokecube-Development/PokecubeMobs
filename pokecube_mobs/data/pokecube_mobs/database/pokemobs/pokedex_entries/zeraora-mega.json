@@ -1,0 +1,156 @@
+{
+  "name": "zeraora-mega",
+  "id": 807,
+  "stock": true,
+  "is_extra_form": true,
+  "base_experience": 270,
+  "size": {
+    "height": 1.5,
+    "width": 0.9
+  },
+  "mass": 44.5,
+  "is_default": false,
+  "capture_rate": 3,
+  "base_happiness": 0,
+  "growth_rate": "slow",
+  "gender_rate": 255,
+  "stats": {
+    "hp": 88,
+    "attack": 157,
+    "defense": 75,
+    "special_attack": 147,
+    "special_defense": 80,
+    "speed": 153
+  },
+  "evs": {
+    "speed": 3
+  },
+  "types": [
+    "electric"
+  ],
+  "abilities": {
+    "normal": [
+      "cacophony"
+    ]
+  },
+  "moves": {
+    "level_up": [
+      {
+        "L": 1,
+        "moves": [
+          "quick-attack",
+          "spark",
+          "fake-out"
+        ]
+      },
+      {
+        "L": 10,
+        "moves": [
+          "snarl"
+        ]
+      },
+      {
+        "L": 15,
+        "moves": [
+          "power-up-punch"
+        ]
+      },
+      {
+        "L": 18,
+        "moves": [
+          "brutal-swing"
+        ]
+      },
+      {
+        "L": 24,
+        "moves": [
+          "slash"
+        ]
+      },
+      {
+        "L": 32,
+        "moves": [
+          "volt-switch"
+        ]
+      },
+      {
+        "L": 40,
+        "moves": [
+          "charge"
+        ]
+      },
+      {
+        "L": 48,
+        "moves": [
+          "thunder-punch"
+        ]
+      },
+      {
+        "L": 56,
+        "moves": [
+          "dynamic-punch"
+        ]
+      },
+      {
+        "L": 64,
+        "moves": [
+          "discharge"
+        ]
+      },
+      {
+        "L": 72,
+        "moves": [
+          "wild-charge"
+        ]
+      },
+      {
+        "L": 80,
+        "moves": [
+          "agility"
+        ]
+      },
+      {
+        "L": 84,
+        "moves": [
+          "plasma-fists"
+        ]
+      },
+      {
+        "L": 96,
+        "moves": [
+          "close-combat"
+        ]
+      }
+    ],
+    "misc": [
+      "calm-mind",
+      "thunder-wave",
+      "brick-break",
+      "bulk-up",
+      "protect",
+      "power-up-punch",
+      "play-rough",
+      "aerial-ace",
+      "thunder-punch",
+      "swift",
+      "fire-punch",
+      "endure",
+      "discharge",
+      "hyper-beam",
+      "agility",
+      "giga-impact",
+      "volt-switch",
+      "thunderbolt",
+      "substitute",
+      "wild-charge",
+      "iron-tail",
+      "outrage",
+      "taunt",
+      "electroweb",
+      "focus-blast",
+      "work-up",
+      "thunder"
+    ]
+  },
+  "loot_table": "pokecube:entities/generic_legend"
+}

@@ -1,0 +1,10 @@
+{
+  "user": "darkrai",
+  "name": "darkrai-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:darkraite"
+    }
+  }
+}

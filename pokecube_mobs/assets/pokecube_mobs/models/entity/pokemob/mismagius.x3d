@@ -1436,7 +1436,7 @@
 							<Group DEF="group_ME_Cube_070">
 								<Shape>
 									<Appearance>
-										<Material USE="MA_Body" />
+										<Material USE="MA_Glow" />
 									</Appearance>
 									<IndexedTriangleSet solid="false"
 									                    normalPerVertex="true"
@@ -1598,7 +1598,7 @@
 							<Group DEF="group_ME_Cube_081">
 								<Shape>
 									<Appearance>
-										<Material USE="MA_Body" />
+										<Material USE="MA_Glow" />
 									</Appearance>
 									<IndexedTriangleSet solid="false"
 									                    normalPerVertex="true"

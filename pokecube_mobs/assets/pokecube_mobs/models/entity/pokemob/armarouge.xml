@@ -2,7 +2,7 @@
 <ModelAnimator version="0.1">
  <model name="">
   <phase name="global" scale="0.41"/>
-  <metadata head="neck:head" headCap="-20,20" headCap1="-20,20"/>
+  <metadata head="neck:head"  headCap="-20,20" headCap1="-20,20"  "/>
   <customTex default="armarouge">
    <part name="Eye" tex="armarouge_eye"/>
    <animation diffs="0,0.5" part="Eye" trigger="random:0.005:5"/>

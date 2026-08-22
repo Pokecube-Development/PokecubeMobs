@@ -1,8 +1,18 @@
-{
-  "user": "greninja",
-  "name": "greninja-battle-bond",
-  "rule": {
-    "key": "ability",
-    "ability": "battle-bond"
+[
+  {
+    "user": "greninja",
+    "name": "greninja-ash",
+    "rule": {
+      "key": "ability",
+      "ability": "battle-bond"
+    }
+  },
+  {
+    "user": "greninja",
+    "name": "greninja-mega",
+    "rule": {
+      "key": "item",
+      "item": {"item": "pokecube:greninjite"}
+    }
   }
-}
+]

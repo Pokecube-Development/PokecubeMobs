@@ -1,0 +1,10 @@
+{
+  "user": "golisopod",
+  "name": "golisopod-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:golisopodite"
+    }
+  }
+}

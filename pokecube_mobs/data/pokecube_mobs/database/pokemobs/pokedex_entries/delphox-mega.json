@@ -1,0 +1,216 @@
+{
+  "name": "delphox-mega",
+  "id": 655,
+  "stock": true,
+  "is_extra_form": true,
+  "base_experience": 240,
+  "size": {
+    "height": 1.5,
+    "width": 0.9
+  },
+  "mass": 39.0,
+  "is_default": false,
+  "capture_rate": 45,
+  "base_happiness": 70,
+  "growth_rate": "medium-slow",
+  "gender_rate": 30,
+  "stats": {
+    "hp": 75,
+    "attack": 69,
+    "defense": 72,
+    "special_attack": 159,
+    "special_defense": 125,
+    "speed": 134
+  },
+  "evs": {
+    "special_attack": 3
+  },
+  "types": [
+    "fire",
+    "psychic"
+  ],
+  "abilities": {
+    "normal": [
+      "cacophony"
+    ],
+    "hidden": []
+  },
+  "moves": {
+    "level_up": [
+      {
+        "L": 1,
+        "moves": [
+          "future-sight",
+          "role-play",
+          "switcheroo",
+          "shadow-ball",
+          "scratch",
+          "tail-whip",
+          "ember",
+          "howl"
+        ]
+      },
+      {
+        "L": 0,
+        "moves": [
+          "mystical-fire"
+        ]
+      },
+      {
+        "L": 14,
+        "moves": [
+          "flame-charge"
+        ]
+      },
+      {
+        "L": 18,
+        "moves": [
+          "psybeam"
+        ]
+      },
+      {
+        "L": 22,
+        "moves": [
+          "fire-spin"
+        ]
+      },
+      {
+        "L": 28,
+        "moves": [
+          "light-screen"
+        ]
+      },
+      {
+        "L": 38,
+        "moves": [
+          "psyshock"
+        ]
+      },
+      {
+        "L": 45,
+        "moves": [
+          "flamethrower"
+        ]
+      },
+      {
+        "L": 51,
+        "moves": [
+          "will-o-wisp"
+        ]
+      },
+      {
+        "L": 57,
+        "moves": [
+          "psychic"
+        ]
+      },
+      {
+        "L": 62,
+        "moves": [
+          "sunny-day"
+        ]
+      },
+      {
+        "L": 68,
+        "moves": [
+          "magic-room"
+        ]
+      },
+      {
+        "L": 74,
+        "moves": [
+          "fire-blast"
+        ]
+      }
+    ],
+    "misc": [
+      "take-down",
+      "charm",
+      "agility",
+      "mud-slap",
+      "protect",
+      "low-kick",
+      "psybeam",
+      "confuse-ray",
+      "thief",
+      "fire-spin",
+      "facade",
+      "hex",
+      "swift",
+      "mud-shot",
+      "flame-charge",
+      "stored-power",
+      "night-shade",
+      "endure",
+      "sunny-day",
+      "rain-dance",
+      "psyshock",
+      "zen-headbutt",
+      "foul-play",
+      "fire-punch",
+      "thunder-punch",
+      "sleep-talk",
+      "reflect",
+      "light-screen",
+      "dazzling-gleam",
+      "metronome",
+      "rest",
+      "taunt",
+      "imprison",
+      "skill-swap",
+      "substitute",
+      "trick",
+      "shadow-ball",
+      "psychic",
+      "calm-mind",
+      "flamethrower",
+      "helping-hand",
+      "fire-blast",
+      "will-o-wisp",
+      "giga-impact",
+      "focus-blast",
+      "hyper-beam",
+      "solar-beam",
+      "tera-blast",
+      "nasty-plot",
+      "magic-room",
+      "heat-wave",
+      "overheat",
+      "trick-room",
+      "grass-knot",
+      "encore",
+      "signal-beam",
+      "snatch",
+      "copycat"
+    ]
+  },
+  "interactions": [
+    {
+      "male": false,
+      "female": true,
+      "cooldown": 50,
+      "variance": 100,
+      "baseHunger": 100,
+      "isTag": false,
+      "key": {
+        "values": {
+          "id": "minecraft:bucket"
+        }
+      },
+      "action": {
+        "values": {
+          "type": "item"
+        },
+        "drops": [
+          {
+            "values": {
+              "id": "minecraft:milk_bucket",
+              "n": "1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "loot_table": "pokecube:entities/blaze_stick_rabbit_2"
+}

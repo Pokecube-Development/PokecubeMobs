@@ -1,0 +1,10 @@
+{
+  "user": "scovillain",
+  "name": "scovillain-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:scovillainite"
+    }
+  }
+}

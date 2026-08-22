@@ -1,0 +1,10 @@
+{
+  "user": "scolipede",
+  "name": "scolipede-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:scolipedeite"
+    }
+  }
+}

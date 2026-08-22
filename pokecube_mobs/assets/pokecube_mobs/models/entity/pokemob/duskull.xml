@@ -5,7 +5,7 @@
   <customTex default="duskull">
    <part name="Eye" tex="duskull_eye"/>
   </customTex>
-  <material name="Eye" light="1" transluscent="false"/>
+  <material name="Eye" light="1" transluscent="false" shader="eye_shader"/>
   <phase type="idle">
    <part name="eye">
     <component length="10" name="1" posChange="10,0,0" startKey="0"/>

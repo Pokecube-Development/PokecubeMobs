@@ -1,0 +1,10 @@
+{
+  "user": "meganium",
+  "name": "meganium-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:meganiumite"
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "name": "malamar-mega",
+  "id": 687,
+  "stock": true,
+  "is_extra_form": true,
+  "base_experience": 169,
+  "size": {
+    "height": 2.9,
+    "width": 1.0,
+    "length": 1.5
+  },
+  "mass": 69.8,
+  "is_default": false,
+  "capture_rate": 80,
+  "base_happiness": 70,
+  "growth_rate": "medium-fast",
+  "gender_rate": 127,
+  "stats": {
+    "hp": 86,
+    "attack": 102,
+    "defense": 88,
+    "special_attack": 98,
+    "special_defense": 120,
+    "speed": 88
+  },
+  "evs": {
+    "attack": 2
+  },
+  "types": [
+    "dark",
+    "psychic"
+  ],
+  "abilities": {
+    "normal": [
+      "cacophony"
+    ],
+    "hidden": []
+  },
+  "moves": {
+    "level_up": [
+      {
+        "L": 1,
+        "moves": [
+          "reversal",
+          "peck",
+          "tackle",
+          "hypnosis",
+          "wrap"
+        ]
+      },
+      {
+        "L": 9,
+        "moves": [
+          "payback"
+        ]
+      },
+      {
+        "L": 12,
+        "moves": [
+          "pluck"
+        ]
+      },
+      {
+        "L": 15,
+        "moves": [
+          "psybeam"
+        ]
+      },
+      {
+        "L": 18,
+        "moves": [
+          "swagger"
+        ]
+      },
+      {
+        "L": 21,
+        "moves": [
+          "slash"
+        ]
+      },
+      {
+        "L": 24,
+        "moves": [
+          "night-slash"
+        ]
+      },
+      {
+        "L": 27,
+        "moves": [
+          "psycho-cut"
+        ]
+      },
+      {
+        "L": 33,
+        "moves": [
+          "switcheroo"
+        ]
+      },
+      {
+        "L": 37,
+        "moves": [
+          "foul-play"
+        ]
+      },
+      {
+        "L": 42,
+        "moves": [
+          "topsy-turvy"
+        ]
+      },
+      {
+        "L": 47,
+        "moves": [
+          "superpower"
+        ]
+      }
+    ],
+    "misc": [
+      "fake-tears",
+      "scary-face",
+      "protect",
+      "psybeam",
+      "thief",
+      "trailblaze",
+      "facade",
+      "aerial-ace",
+      "swift",
+      "stored-power",
+      "fling",
+      "endure",
+      "sunny-day",
+      "rain-dance",
+      "psyshock",
+      "foul-play",
+      "sleep-talk",
+      "reflect",
+      "light-screen",
+      "rest",
+      "rock-slide",
+      "taunt",
+      "dark-pulse",
+      "skill-swap",
+      "substitute",
+      "trick",
+      "liquidation",
+      "psychic"
+    ]
+  },
+  "loot_table": "minecraft:entities/squid"
+}

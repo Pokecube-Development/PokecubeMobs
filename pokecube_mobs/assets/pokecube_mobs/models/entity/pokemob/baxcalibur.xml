@@ -3,7 +3,7 @@
  <model name="">
   <phase name="global" scale="0.45"/>
   <phase duration="6" leftArm="" leftLeg="leg1:leg1_1" legAngle="25" name="biWalk" rightArm="" rightLeg="leg2:leg2_1"/>
-  <metadata head="neck1:neck2:neck3:head" headCap="-7,7" headCap1="-7,7"/>
+  <metadata head="neck1:neck2:neck3:head"  headCap="-7,7" headCap1="-7,7" />
   <phase length="100" axis="0" name="snakeIdle" parts="tail1:tail2:tail3:tail4:tail5"/>
   <phase length="150" axis="1" name="snakeWalk" parts="tail1:tail2:tail3:tail4:tail5"/>
   <customTex default="baxcalibur">

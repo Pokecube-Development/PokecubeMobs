@@ -12,9 +12,10 @@
    <part name="body">
     <component length="5" name="1" rotChange="0,0,10" startKey="0"/>
     <component length="10" name="2" rotChange="10,0,0" startKey="5"/>
-    <component length="5" name="1" rotChange="0,0,-10" startKey="10"/>
-	<component length="10" name="2" rotChange="-10,0,0" startKey="15"/>
-	<component length="5" name="1" rotChange="0,0,-10" startKey="20"/>
+    <component length="5" name="3" rotChange="0,0,-10" startKey="10"/>
+	<component length="10" name="4" rotChange="-10,0,0" startKey="15"/>
+	<component length="5" name="5" rotChange="0,0,-10" startKey="20"/>
+	<component length="5" name="6" rotChange="0,0,10" startKey="25"/>
    </part>
    <part name="fire">
     <component length="50" name="2" rotChange="0,0,360" startKey="0"/>
@@ -22,9 +23,8 @@
   </phase>
   <phase type="idle">
    <part name="body">
-    <component length="10" name="1" posChange="0,15,0" startKey="0"/>
-    <component length="10" name="2" posChange="0,-30,0" startKey="5"/>
-    <component length="10" name="1" posChange="0,15,0" startKey="15"/>
+    <component length="10" name="1" posChange="0,-4,0" startKey="0"/>
+    <component length="10" name="2" posChange="0,4,0" startKey="10"/>
    </part>
    <part name="fire">
     <component length="50" name="2" rotChange="0,0,360" startKey="0"/>
@@ -42,9 +42,8 @@
   </phase>
   <phase type="walking">
    <part name="body">
-    <component length="10" name="1" rotOffset="20,0,0" posChange="0,15,0" startKey="0"/>
-    <component length="10" name="2" posChange="0,-30,0" startKey="5"/>
-    <component length="10" name="1" posChange="0,15,0" startKey="15"/>
+    <component length="10" name="1" rotOffset="20,0,0" posChange="0,-4,0" startKey="0"/>
+    <component length="10" name="1" posChange="0,4,0" startKey="10"/>
    </part>
    <part name="fire">
     <component length="50" name="2" rotChange="0,0,360" startKey="0"/>

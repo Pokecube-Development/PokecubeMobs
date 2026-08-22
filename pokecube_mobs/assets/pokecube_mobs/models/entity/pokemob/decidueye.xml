@@ -145,7 +145,9 @@
   </phase>
   <phase type="flying">
    <part name="body">
-    <component length="1" name="1" rotOffset="50,0,0," startKey="0"/>
+	<component length="10" name="1" rotOffset="50,0,0" posChange="0,-1,0" startKey="0"/>
+    <component length="10" name="2" posChange="0,2,0" startKey="5"/>
+	<component length="10" name="3" posChange="0,-1,0" startKey="10"/>
    </part>
    <part name="l1">
     <component length="30" name="1" hidden="true" startKey="0"/>
@@ -213,7 +215,9 @@
   </phase>
   <phase type="floating">
    <part name="body">
-    <component length="1" name="1" rotOffset="15,0,0," startKey="0"/>
+	<component length="8" name="1" rotOffset="15,0,0" posChange="0,-1,0" startKey="0"/>
+    <component length="8" name="2" posChange="0,2,0" startKey="5"/>
+	<component length="8" name="3" posChange="0,-1,0" startKey="10"/>
    </part>
    <part name="l1">
     <component length="30" name="1" hidden="true" startKey="0"/>
@@ -229,9 +233,6 @@
     <component length="1" name="1" hidden="true" startKey="0"/>
    </part>
    <part name="wing2_c">
-    <component length="1" name="1" hidden="true" startKey="0"/>
-   </part>
-   <part name="arrow">
     <component length="1" name="1" hidden="true" startKey="0"/>
    </part>
    <part name="wing1">

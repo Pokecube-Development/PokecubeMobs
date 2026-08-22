@@ -1,0 +1,10 @@
+{
+  "user": "dragalge",
+  "name": "dragalge-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:dragalgeite"
+    }
+  }
+}

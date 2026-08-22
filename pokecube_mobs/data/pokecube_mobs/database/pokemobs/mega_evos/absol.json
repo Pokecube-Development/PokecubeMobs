@@ -1,10 +1,22 @@
-{
-  "user": "absol",
-  "name": "absol-mega",
-  "rule": {
-    "key": "item",
-    "item": {
-      "item": "pokecube:absolmega"
+[
+  {
+    "user": "absol",
+    "name": "absol-mega",
+    "rule": {
+      "key": "item",
+      "item": {
+        "item": "pokecube:absolite"
+      }
+    }
+  },
+  {
+    "user": "absol",
+    "name": "absol-mega-z",
+    "rule": {
+      "key": "item",
+      "item": {
+        "item": "pokecube:absolite_z"
+      }
     }
   }
-}
+]

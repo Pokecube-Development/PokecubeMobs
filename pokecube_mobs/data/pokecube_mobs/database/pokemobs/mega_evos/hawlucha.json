@@ -1,0 +1,10 @@
+{
+  "user": "hawlucha",
+  "name": "hawlucha-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:hawluchite"
+    }
+  }
+}

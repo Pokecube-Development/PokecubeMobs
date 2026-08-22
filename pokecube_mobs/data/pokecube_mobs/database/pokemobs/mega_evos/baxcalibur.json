@@ -1,0 +1,10 @@
+{
+  "user": "baxcalibur",
+  "name": "baxcalibur-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:baxcaliburite"
+    }
+  }
+}

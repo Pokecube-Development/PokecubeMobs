@@ -7,8 +7,8 @@
   <phase axis="1" name="snakeWalk" parts="tail:tail1:tail2:tail3"/>
   <phase axis="0" name="snakeFly" parts="tail1:tail2:tail3:tail4"/>
   <customTex default="garchomp">
-   <part name="Head" tex="garchompeye"/>
-   <animation diffs="0,0.5" part="Head" trigger="random:0.005:6"/>
+   <part name="Eye" tex="garchomp_eye"/>
+   <animation diffs="0,0.5" part="Eye" trigger="random:0.005:6"/>
   </customTex>
   <phase type="sitting">
    <part name="body">

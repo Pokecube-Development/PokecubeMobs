@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModelAnimator version="0.1">
  <model name="">
-  <phase name="global" scale="0.25"/>
-  <metadata head="body3" headCap="-80,80" headCap1="-50,50"/>
-  <phase axis="2" name="snakeIdle" parts="body1:body2:body3"/>
+  <phase name="global" scale="0.18"/>
+  <metadata head="head" headCap="-20,20" headCap1="-50,50"/>
+  <phase axis="2" angle="15" name="snakeIdle" parts="body1:body2:head"/>
   <phase duration="10" leftArm="" leftLeg="leg1" legAngle="30" name="biWalk" rightArm="" rightLeg="leg2"/>
+  <phase female="f" male="m" name="textures"/>
   <customTex default="sudowoodo">
-   <part name="Head" tex="sudowoodohead"/>
-   <animation diffs="0.5,0" part="Head" trigger="random:0.005:10"/>
+   <part name="Face" tex="sudowoodo_face"/>
+   <animation diffs="0.5,0" part="Face" trigger="random:0.005:10"/>
   </customTex>
+  <phase type="sitting">
+   <part name="body1">
+    <component length="1" name="1" rotOffset="0,0,10" startKey="0"/>
+   </part>
+   <part name="body2">
+    <component length="1" name="1" rotOffset="0,0,-10" startKey="0"/>
+   </part>
+   <part name="arm1_1">
+    <component length="10" name="1" rotOffset="0,0,90" startKey="0"/>
+   </part>
+   <part name="hand1">
+    <component length="1" name="1" rotOffset="0,0,10" startKey="0"/>
+   </part>
+   <part name="arm2_1">
+    <component length="10" name="1" rotOffset="0,0,90" startKey="0"/>
+   </part>
+   <part name="hand2">
+    <component length="1" name="1" rotOffset="0,0,-20" startKey="0"/>
+   </part>
+   <part name="leg1">
+    <component length="1" name="1" rotOffset="0,20,0" startKey="0"/>
+   </part>
+   <part name="leg2">
+    <component length="1" name="1" rotOffset="0,-20,0" startKey="0"/>
+   </part>
+  </phase>
   <phase type="idle">
    <part name="arm1">
     <component length="10" name="1" rotChange="0,0,-4" rotOffset="0,0,-45" startKey="0"/>
@@ -23,6 +50,12 @@
    </part>
    <part name="arm2_1">
     <component length="1" name="1" rotOffset="0,0,-70" startKey="0"/>
+   </part>
+   <part name="leg1">
+    <component length="1" name="1" rotOffset="0,20,0" startKey="0"/>
+   </part>
+   <part name="leg2">
+    <component length="1" name="1" rotOffset="0,-20,0" startKey="0"/>
    </part>
   </phase>
   <phase type="walking">

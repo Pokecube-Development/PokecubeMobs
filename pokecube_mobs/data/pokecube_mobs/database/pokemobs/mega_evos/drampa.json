@@ -1,0 +1,10 @@
+{
+  "user": "drampa",
+  "name": "drampa-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:drampite"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "user": "magearna",
+  "name": "magearna-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:magearnite"
+    }
+  }
+}

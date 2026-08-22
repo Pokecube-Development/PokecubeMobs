@@ -3,29 +3,24 @@
     "user": "zygarde-10",
     "name": "zygarde-complete",
     "rule": [
-      {
-        "key": "ability",
-        "ability": "power-construct"
-      },
-      {
-        "key": "hp_threshold",
-        "threshold": 50
-      }
+      {"key": "ability", "ability": "power-construct"},
+      {"key": "hp_threshold", "threshold": 50}
     ]
-
   },
   {
     "user": "zygarde-50",
     "name": "zygarde-complete",
     "rule": [
-      {
-        "key": "ability",
-        "ability": "power-construct"
-      },
-      {
-        "key": "hp_threshold",
-        "threshold": 50
-      }
+      {"key": "ability", "ability": "power-construct"},
+      {"key": "hp_threshold", "threshold": 50}
     ]
+  },
+  {
+    "user": "zygarde-complete",
+    "name": "zygarde-complete-mega",
+    "rule": {
+      "key": "item",
+      "item": {"item": "pokecube:zygardite"}
+    }
   }
 ]

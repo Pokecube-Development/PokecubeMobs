@@ -348,13 +348,13 @@
           "key": "unown_qu",
           "tex": "unown_qu",
           "model": "unown_qu",
-          "anim": "unown"
+          "anim": "unown_qu"
         },
         {
           "key": "unown_ex",
           "tex": "unown_ex",
           "model": "unown_ex",
-          "anim": "unown"
+          "anim": "unown_ex"
         }
       ],
       "model": {

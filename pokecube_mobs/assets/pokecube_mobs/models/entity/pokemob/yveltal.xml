@@ -4,6 +4,8 @@
   <phase name="global" scale="0.7"/>
   <metadata head="neck:neck1:head" headAxis2="-1" headCap="-20,20" headCap1="-20,20"/>
   <phase duration="6" leftArm="" leftLeg="leg1:leg1_1" legAngle="15" name="biWalk" rightArm="" rightLeg="leg2:leg2_1"/>
+  <material name="Glow" light="1" transluscent="false" shader="eye_shader"/>
+  <material name="Eye" light="1" transluscent="false" shader="eye_shader"/>
   <customTex default="yveltal">
    <part name="Eye" tex="yveltal_eye"/>
    <animation diffs="0,0.5" part="Eye" trigger="random:0.005:5"/>

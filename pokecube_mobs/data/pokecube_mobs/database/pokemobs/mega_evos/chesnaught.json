@@ -1,0 +1,10 @@
+{
+  "user": "chesnaught",
+  "name": "chesnaught-mega",
+  "rule": {
+    "key": "item",
+    "item": {
+      "item": "pokecube:chesnaughtite"
+    }
+  }
+}
