@@ -23,18 +23,26 @@ def _process_full(entry, key, model):
     model['anim'] = key
     model['tex'] = key
 
-def _process_no_custom(entry, key, model):
-    model['key'] = key
-    model['model'] = entry.name
-    model['anim'] = entry.name
-    model['tex'] = entry.name
+def _process_furfrou(entry, key, model):
+    if key == "furfrou-natural":
+        model['key'] = key
+        model['model'] = entry.name
+        model['anim'] = entry.name
+        model['tex'] = entry.name
+    else:
+        _process_full(entry, key, model)
 
 def _process_flabebe_colours(entry, key, model):
     model['key'] = key
     model['model'] = entry.name
     model['anim'] = entry.name
     model['tex'] = entry.name
-    print(key)
+    colour = key.replace(entry.name+"-", "")
+    model['dye'] = {
+        "base": colour,
+        "shiny": colour,
+        "dyes": [colour]
+    }
 
 def _process_arceus_silvally(entry, key, model):
     model['model'] = entry.name
@@ -53,7 +61,7 @@ PROCESSORS = {
     'silvally': _process_arceus_silvally,
     # 'burmy': _process_tex_only,
     'genesect': _process_not_tex,
-    'furfrou': _process_no_custom,
+    'furfrou': _process_furfrou,
     'flabebe': _process_flabebe_colours,
     'floette': _process_flabebe_colours,
     'florges': _process_flabebe_colours,
