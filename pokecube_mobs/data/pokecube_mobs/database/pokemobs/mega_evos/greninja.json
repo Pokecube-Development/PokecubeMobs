@@ -12,7 +12,7 @@
     "name": "greninja-mega",
     "rule": {
       "key": "item",
-      "item": {"item": "pokecube:greninjite"}
+      "item": {"item": "pokecube:greninjamega"}
     }
   }
 ]

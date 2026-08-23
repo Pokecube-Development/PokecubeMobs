@@ -20,7 +20,7 @@
     "name": "zygarde-complete-mega",
     "rule": {
       "key": "item",
-      "item": {"item": "pokecube:zygardite"}
+      "item": {"item": "pokecube:zygardemega"}
     }
   }
 ]

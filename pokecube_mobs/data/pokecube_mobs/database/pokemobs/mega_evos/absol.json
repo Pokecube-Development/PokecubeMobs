@@ -5,7 +5,7 @@
     "rule": {
       "key": "item",
       "item": {
-        "item": "pokecube:absolite"
+        "item": "pokecube:absolmega"
       }
     }
   },
@@ -15,7 +15,7 @@
     "rule": {
       "key": "item",
       "item": {
-        "item": "pokecube:absolite_z"
+        "item": "pokecube:absolmega_z"
       }
     }
   }
