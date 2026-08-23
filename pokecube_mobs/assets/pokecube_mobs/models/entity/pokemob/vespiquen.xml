@@ -2,7 +2,7 @@
 <ModelAnimator version="0.1">
  <model name="">
   <phase name="global" scale="0.47"/>
-  <metadata head="head" headCap="-50,50" headCap1="-35,35"/>
+  <metadata head="head" headCap="-50,50" headCap1="-35,35" shear="cube_040:cube_041:cube_042:cube_043:cube_044:cube_045:cube_016:cube_018"/>
   <phase type="idle">
    <part name="m1">
     <component length="10" name="1" rotChange="0,0,1" startKey="0"/>

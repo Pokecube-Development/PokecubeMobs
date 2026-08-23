@@ -3,7 +3,7 @@
  <model name="">
   <phase name="global" scale="0.37"/>
   <phase angle="20" duration="10" leftFront="leg1:leg1_1" leftHind="leg2:leg2_1" name="quadWalk" rightFront="leg3:leg3_1" rightHind="leg4:leg4_1"/>
-  <metadata dye="WoolHead:WoolBody" head="Head" headCap="-20,20" headCap1="-20,20" shear="wool"/>
+  <metadata dye="wool_head:wool_body" head="Head" headCap="-20,20" headCap1="-20,20" shear="wool_body"/>
   <customTex default="dubwool">
   <part name="Head" tex="dubwooleye"/>
   <animation diffs="0,0.5" part="Head" trigger="random:0.005:10"/>
