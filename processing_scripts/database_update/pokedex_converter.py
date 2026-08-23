@@ -49,6 +49,20 @@ NO_SHINY = [
 base_exp_fixes = json.load(open('./data/pokemobs/fix_base_exp.json', 'r'))
 evo_moves = json.load(open('./data/pokemobs/evo_moves.json', 'r'))
 
+def dump_file(dict, file, encoding=None, newline='\n', ensure_ascii=True):
+    old_file = ""
+    try:
+        with open(file, 'r', encoding=encoding) as f:
+            old_file = f.read()
+            new_file = json.dumps(dict, indent=2)
+            if old_file==new_file:
+                return
+    except:
+        pass
+    file = open(file, 'w', encoding=encoding, newline=newline)
+    json.dump(dict, file, indent=2, ensure_ascii=ensure_ascii)
+    file.close()
+
 def no_shiny(name):
     for suf in NO_SHINY:
         if name == suf:
@@ -560,25 +574,19 @@ def convert_tags(entries):
         filename = file.replace('./old', TAG_DATA_DIR)
         if not os.path.exists(os.path.dirname(filename)):
             os.makedirs(os.path.dirname(filename))
-        file = open(filename, 'w')
-        json.dump(json_obj, file, indent=2)
-        file.close()
+        dump_file(json_obj, filename)
 
         if "entity_types" in filename:
             filename = filename.replace('entity_types', "entity_type")
             if not os.path.exists(os.path.dirname(filename)):
                 os.makedirs(os.path.dirname(filename))
-            file = open(filename, 'w')
-            json.dump(json_obj, file, indent=2)
-            file.close()
+            dump_file(json_obj, filename)
 
         if "creature_types" in filename:
             filename = filename.replace('creature_types', "creature_type")
             if not os.path.exists(os.path.dirname(filename)):
                 os.makedirs(os.path.dirname(filename))
-            file = open(filename, 'w')
-            json.dump(json_obj, file, indent=2)
-            file.close()
+            dump_file(json_obj, filename)
 
 def load_overrides(override_file, overrides):
     override = f'./data/pokemobs/{override_file}.json'
@@ -638,12 +646,10 @@ def convert_mega_rules(entry):
 
         rules.append(_rule)
         
-    file = f'{mega_rule_dir}{entry["name"]}.json'
-    file = open(file, 'w')
     if(len(rules) == 1):
         rules = rules[0]
-    json.dump(rules, file, indent=2)
-    file.close()
+    file = f'{mega_rule_dir}{entry["name"]}.json'
+    dump_file(rules, file)
     del entry["mega_rules"]
 
 def convert_evolution(entry):
@@ -756,11 +762,9 @@ def convert_evolution(entry):
         rules.append(_rule)
 
     file = f'{evos_rule_dir}{entry["name"]}.json'
-    file = open(file, 'w')
     if(len(rules) == 1):
         rules = rules[0]
-    json.dump(rules, file, indent=2)
-    file.close()
+    dump_file(rules, file)
     del entry["evolutions"]
 
 def convert_pokedex():
@@ -875,9 +879,7 @@ def convert_pokedex():
         if not os.path.exists(os.path.dirname(file)):
             os.makedirs(os.path.dirname(file))
         try:
-            file = open(file, 'w', encoding='utf-8')
-            json.dump(dict, file, indent=2, ensure_ascii=False)
-            file.close()
+            dump_file(dict, file, encoding="utf-8", ensure_ascii=False)
         except Exception as err:
             print(f'error saving for {key}')
             print(err)
@@ -914,9 +916,7 @@ def convert_pokedex():
         if not os.path.exists(os.path.dirname(file)):
             os.makedirs(os.path.dirname(file))
 
-        file = open(file, 'w', newline='\n')
-        json.dump(var, file, indent=2,)
-        file.close()
+        dump_file(var, file)
 
         # Now lets make a template file which will remove each entry.
         if UPDATE_EXAMPLE:
@@ -924,10 +924,7 @@ def convert_pokedex():
             var = {"remove": True,"priority":0}
             if not os.path.exists(os.path.dirname(file)):
                 os.makedirs(os.path.dirname(file))
-            file = open(file, 'w')
-            json.dump(var, file, indent=2)
-            file.close()
-
+            dump_file(var, file)
     for file in os.listdir('./data/pokemobs/materials'):
         original = f'./data/pokemobs/materials/{file}'
         newfile = f'{materials_generate_dir}{file}'
@@ -960,9 +957,7 @@ def make_ability_langs():
         if not os.path.exists(os.path.dirname(file)):
             os.makedirs(os.path.dirname(file))
         try:
-            file = open(file, 'w', encoding='utf-8')
-            json.dump(dict, file, indent=2, ensure_ascii=False)
-            file.close()
+            dump_file(dict, file, encoding="utf-8", ensure_ascii=False)
         except Exception as err:
             print(f'error saving for {key}')
             print(err)
@@ -970,5 +965,5 @@ def make_ability_langs():
 if __name__ == "__main__":
     entries = convert_pokedex()
     convert_tags(entries)
-    convert_assets()
+    # convert_assets() # no longer need to do this.
     make_ability_langs()
