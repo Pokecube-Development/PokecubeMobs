@@ -200,6 +200,13 @@
     "tex": "floette",
     "model": "floette",
     "anim": "floette",
+    "dye": {
+      "base": "red",
+      "shiny": "red",
+      "dyes": [
+        "red"
+      ]
+    },
     "types": "fairy"
   },
   "models": [
@@ -208,6 +215,13 @@
       "tex": "floette",
       "model": "floette",
       "anim": "floette",
+      "dye": {
+        "base": "yellow",
+        "shiny": "yellow",
+        "dyes": [
+          "yellow"
+        ]
+      },
       "types": "fairy"
     },
     {
@@ -215,6 +229,13 @@
       "tex": "floette",
       "model": "floette",
       "anim": "floette",
+      "dye": {
+        "base": "orange",
+        "shiny": "orange",
+        "dyes": [
+          "orange"
+        ]
+      },
       "types": "fairy"
     },
     {
@@ -222,6 +243,13 @@
       "tex": "floette",
       "model": "floette",
       "anim": "floette",
+      "dye": {
+        "base": "blue",
+        "shiny": "blue",
+        "dyes": [
+          "blue"
+        ]
+      },
       "types": "fairy"
     },
     {
@@ -229,6 +257,13 @@
       "tex": "floette",
       "model": "floette",
       "anim": "floette",
+      "dye": {
+        "base": "white",
+        "shiny": "white",
+        "dyes": [
+          "white"
+        ]
+      },
       "types": "fairy"
     }
   ],

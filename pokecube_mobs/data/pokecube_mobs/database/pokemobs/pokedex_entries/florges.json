@@ -147,6 +147,13 @@
     "tex": "florges",
     "model": "florges",
     "anim": "florges",
+    "dye": {
+      "base": "red",
+      "shiny": "red",
+      "dyes": [
+        "red"
+      ]
+    },
     "types": "fairy"
   },
   "models": [
@@ -155,6 +162,13 @@
       "tex": "florges",
       "model": "florges",
       "anim": "florges",
+      "dye": {
+        "base": "yellow",
+        "shiny": "yellow",
+        "dyes": [
+          "yellow"
+        ]
+      },
       "types": "fairy"
     },
     {
@@ -162,6 +176,13 @@
       "tex": "florges",
       "model": "florges",
       "anim": "florges",
+      "dye": {
+        "base": "orange",
+        "shiny": "orange",
+        "dyes": [
+          "orange"
+        ]
+      },
       "types": "fairy"
     },
     {
@@ -169,6 +190,13 @@
       "tex": "florges",
       "model": "florges",
       "anim": "florges",
+      "dye": {
+        "base": "blue",
+        "shiny": "blue",
+        "dyes": [
+          "blue"
+        ]
+      },
       "types": "fairy"
     },
     {
@@ -176,6 +204,13 @@
       "tex": "florges",
       "model": "florges",
       "anim": "florges",
+      "dye": {
+        "base": "white",
+        "shiny": "white",
+        "dyes": [
+          "white"
+        ]
+      },
       "types": "fairy"
     }
   ],
