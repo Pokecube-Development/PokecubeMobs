@@ -4,7 +4,7 @@
   <phase name="global" scale="0.9"/>
   <material name="Glow" light="1" smooth="true" transluscent="false" shader="rendertype_eyes"/>
   <material name="Body" light="1" smooth="true" transluscent="false" shader="rendertype_eyes"/>
-  <metadata head="neck1:neck2:neck3:neck4:head"  headCap="-20,20" headCap1="-20,20"  "/>
+  <metadata head="neck1:neck2:neck3:neck4:head"  headCap="-20,20" headCap1="-20,20"/>
   <customTex default="eternatus_eternamax">
    <part name="Mark" tex="eternatus_ex_mark"/>
   </customTex>

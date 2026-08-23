@@ -2,7 +2,7 @@
 <ModelAnimator version="0.1">
  <model name="">
   <phase name="global" scale="0.45"/>
-  <metadata head="neck:head"  headCap="-30,30" headCap1="-30,30"  "/>
+  <metadata head="neck:head"  headCap="-30,30" headCap1="-30,30"/>
   <phase duration="10" leftArm="" leftLeg="leg1:leg1_1" legAngle="16" name="biWalk" rightArm="" rightLeg="leg2:leg2_1"/>
   <customTex default="deoxys-attack">
    <part name="Head" tex="deoxys-attack_eye"/>

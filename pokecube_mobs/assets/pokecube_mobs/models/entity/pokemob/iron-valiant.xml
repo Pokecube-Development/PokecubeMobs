@@ -2,7 +2,7 @@
 <ModelAnimator version="0.1">
  <model name="">
   <phase name="global" scale="0.22"/>
-  <metadata head="head"  headCap="-80,80" headCap1="-50,50"  "/>
+  <metadata head="head"  headCap="-80,80" headCap1="-50,50"/>
   <phase duration="20" leftArm="" leftLeg="leg1" legAngle="10" name="biWalk" rightArm="" rightLeg="leg2"/>
   <customTex default="iron_valiant">
    <part name="Head" tex="iron_valiant_eye"/>

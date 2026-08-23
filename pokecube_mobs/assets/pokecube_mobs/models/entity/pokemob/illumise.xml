@@ -2,7 +2,7 @@
 <ModelAnimator version="0.1">
  <model name="">
   <phase name="global" scale="0.15"/>
-  <metadata head="head" headCap="-20,20" headCap1="-20,20"  "/>
+  <metadata head="head" headCap="-20,20" headCap1="-20,20"/>
   <phase duration="10" leftArm="" leftLeg="foot1" legAngle="15" name="biWalk" rightArm="" rightLeg="foot2"/>
   <customTex default="illumise">
    <part name="Face" tex="illumise_face"/>
