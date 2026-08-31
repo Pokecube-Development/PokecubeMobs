@@ -237,6 +237,17 @@
               "n": "1"
             }
           }
+        ],
+        "effect": [
+          {
+            "type": "damage",
+            "amount": 0.4,
+            "relative": true
+          },
+          {
+            "type": "happiness",
+            "amount": -20
+          }
         ]
       }
     }
