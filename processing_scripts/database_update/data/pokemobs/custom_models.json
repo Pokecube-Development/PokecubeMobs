@@ -38,6 +38,36 @@
     }
   },
   {
+    "name": "frillish",
+    "male_model": {
+      "key": "frillish_male",
+      "tex": "frillish_male",
+      "model": "frillish_male",
+      "anim": "frillish_male"
+    },
+    "female_model": {
+      "key": "frillish_female",
+      "tex": "frillish_female",
+      "model": "frillish_female",
+      "anim": "frillish_female"
+    }
+  },
+  {
+    "name": "jellicent",
+    "male_model": {
+      "key": "jellicent_male",
+      "tex": "jellicent_male",
+      "model": "jellicent_male",
+      "anim": "jellicent_male"
+    },
+    "female_model": {
+      "key": "jellicent_female",
+      "tex": "jellicent_female",
+      "model": "jellicent_female",
+      "anim": "jellicent_female"
+    }
+  },
+  {
     "name": "maushold",
     "model": {
       "key": "maushold",

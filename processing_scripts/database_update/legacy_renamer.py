@@ -10,10 +10,16 @@ RENAMES = {
     "minior-red-meteor": "minior-meteor",
     # basculin red and blue stripes are essentially cosmetic, so merged to basculin
     "basculin-red-striped": "basculin",
+    # These are also just cosmetic
+    "jellicent-female": "jellicent",
+    "frillish-female": "frillish",
+    "jellicent-male": "jellicent",
+    "frillish-male": "frillish",
+    "pyroar-male": "pyroar",
 }
 
 MEGA_BASE_MAP = {
-    "pyroar-mega" : "pyroar-male",
+    "pyroar-mega" : "pyroar",
     "meowstic-male-mega" : "meowstic-male",
     "meowstic-female-mega" : "meowstic-female",
     "zygarde-mega" : "zygarde-50",
