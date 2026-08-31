@@ -161,5 +161,6 @@
       "dual-wingbeat"
     ]
   },
-  "sound": "pidgeot-mega"
+  "sound": "pidgeot-mega",
+  "loot_table": "pokecube:entities/chicken_3"
 }

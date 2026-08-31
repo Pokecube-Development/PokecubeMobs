@@ -262,5 +262,6 @@
       "upper-hand"
     ]
   },
-  "sound": "gallade-mega"
+  "sound": "gallade-mega",
+  "loot_table": "pokecube:entities/enderpearls_3"
 }

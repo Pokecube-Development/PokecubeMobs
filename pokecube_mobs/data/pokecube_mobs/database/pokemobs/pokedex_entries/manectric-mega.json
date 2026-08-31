@@ -176,5 +176,6 @@
       "supercell-slam"
     ]
   },
-  "sound": "manectric-mega"
+  "sound": "manectric-mega",
+  "loot_table": "pokecube:entities/redstone_rabbit_2"
 }

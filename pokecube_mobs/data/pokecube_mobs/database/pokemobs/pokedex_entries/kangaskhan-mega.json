@@ -228,5 +228,6 @@
       "terrain-pulse"
     ]
   },
-  "sound": "kangaskhan-mega"
+  "sound": "kangaskhan-mega",
+  "loot_table": "pokecube:entities/coal_cow_2"
 }

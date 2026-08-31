@@ -245,5 +245,6 @@
       "meteor-beam"
     ]
   },
-  "sound": "aggron-mega"
+  "sound": "aggron-mega",
+  "loot_table": "pokecube:entities/iron_3"
 }

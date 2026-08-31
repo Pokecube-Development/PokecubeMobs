@@ -230,5 +230,6 @@
       "temper-flare"
     ]
   },
-  "sound": "gyarados-mega"
+  "sound": "gyarados-mega",
+  "loot_table": "pokecube:entities/fish_1"
 }

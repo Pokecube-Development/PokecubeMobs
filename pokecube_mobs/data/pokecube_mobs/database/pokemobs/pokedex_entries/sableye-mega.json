@@ -278,5 +278,6 @@
       "poltergeist"
     ]
   },
-  "sound": "sableye-mega"
+  "sound": "sableye-mega",
+  "loot_table": "pokecube:entities/sand_1"
 }

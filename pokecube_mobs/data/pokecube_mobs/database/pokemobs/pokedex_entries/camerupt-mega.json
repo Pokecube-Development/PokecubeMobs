@@ -201,5 +201,6 @@
       "temper-flare"
     ]
   },
-  "sound": "camerupt-mega"
+  "sound": "camerupt-mega",
+  "loot_table": "pokecube:entities/cow_2"
 }

@@ -187,5 +187,6 @@
       "hard-press"
     ]
   },
-  "sound": "abomasnow-mega"
+  "sound": "abomasnow-mega",
+  "loot_table": "pokecube:entities/snow_rabbit_2"
 }

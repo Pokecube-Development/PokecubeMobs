@@ -201,5 +201,6 @@
       "temper-flare"
     ]
   },
-  "sound": "houndoom-mega"
+  "sound": "houndoom-mega",
+  "loot_table": "pokecube:entities/blaze_rabbit_2"
 }

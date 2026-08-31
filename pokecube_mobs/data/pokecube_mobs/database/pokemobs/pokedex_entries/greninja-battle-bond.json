@@ -199,5 +199,6 @@
       "trailblaze",
       "chilling-water"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/fish_3"
 }

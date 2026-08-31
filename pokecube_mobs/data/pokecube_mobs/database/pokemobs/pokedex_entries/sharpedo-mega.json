@@ -199,5 +199,6 @@
       "chilling-water"
     ]
   },
-  "sound": "sharpedo-mega"
+  "sound": "sharpedo-mega",
+  "loot_table": "pokecube:entities/fish_1"
 }

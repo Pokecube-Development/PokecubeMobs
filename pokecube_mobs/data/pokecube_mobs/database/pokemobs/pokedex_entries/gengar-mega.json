@@ -250,5 +250,6 @@
       "psychic-noise"
     ]
   },
-  "sound": "gengar-mega"
+  "sound": "gengar-mega",
+  "loot_table": "pokecube:entities/enderpearls_3"
 }

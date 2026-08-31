@@ -231,5 +231,6 @@
       "chilling-water"
     ]
   },
-  "sound": "audino-mega"
+  "sound": "audino-mega",
+  "loot_table": "pokecube:entities/rabbit_1"
 }

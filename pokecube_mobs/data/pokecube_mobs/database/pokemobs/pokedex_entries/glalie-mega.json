@@ -180,5 +180,6 @@
       "chilling-water"
     ]
   },
-  "sound": "glalie-mega"
+  "sound": "glalie-mega",
+  "loot_table": "pokecube:entities/both_ice"
 }

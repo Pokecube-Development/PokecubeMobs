@@ -224,5 +224,6 @@
       "temper-flare"
     ]
   },
-  "sound": "charizard-mega-y"
+  "sound": "charizard-mega-y",
+  "loot_table": "pokecube:entities/coal_3"
 }

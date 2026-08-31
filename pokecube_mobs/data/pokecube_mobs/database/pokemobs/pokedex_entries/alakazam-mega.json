@@ -224,5 +224,6 @@
       "expanding-force"
     ]
   },
-  "sound": "alakazam-mega"
+  "sound": "alakazam-mega",
+  "loot_table": "pokecube:entities/enderpearls_3"
 }

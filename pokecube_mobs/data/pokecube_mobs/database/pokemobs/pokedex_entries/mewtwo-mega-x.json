@@ -262,5 +262,6 @@
       "brutal-swing"
     ]
   },
-  "sound": "mewtwo-mega-x"
+  "sound": "mewtwo-mega-x",
+  "loot_table": "pokecube:entities/rabbit_1"
 }

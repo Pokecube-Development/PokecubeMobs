@@ -206,5 +206,6 @@
       "hard-press"
     ]
   },
-  "sound": "swampert-mega"
+  "sound": "swampert-mega",
+  "loot_table": "pokecube:entities/fish_2"
 }

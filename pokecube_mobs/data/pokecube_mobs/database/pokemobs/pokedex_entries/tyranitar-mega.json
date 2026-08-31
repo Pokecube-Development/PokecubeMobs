@@ -233,5 +233,6 @@
       "hard-press"
     ]
   },
-  "sound": "tyranitar-mega"
+  "sound": "tyranitar-mega",
+  "loot_table": "pokecube:entities/stone_gold"
 }

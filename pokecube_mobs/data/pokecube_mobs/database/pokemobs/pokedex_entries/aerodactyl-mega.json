@@ -197,5 +197,6 @@
       "meteor-beam",
       "dual-wingbeat"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/fossil_mob"
 }

@@ -175,5 +175,6 @@
       "dragon-cheer"
     ]
   },
-  "sound": "garchomp-mega"
+  "sound": "garchomp-mega",
+  "loot_table": "pokecube:entities/iron_chicken_2"
 }

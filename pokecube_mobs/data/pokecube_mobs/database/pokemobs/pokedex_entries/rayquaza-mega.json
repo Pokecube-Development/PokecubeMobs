@@ -200,5 +200,6 @@
       "brutal-swing"
     ]
   },
-  "sound": "rayquaza-mega"
+  "sound": "rayquaza-mega",
+  "loot_table": "pokecube:entities/enderpearls_2"
 }

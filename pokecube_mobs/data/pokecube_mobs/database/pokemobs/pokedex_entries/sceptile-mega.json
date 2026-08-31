@@ -223,5 +223,6 @@
       "upper-hand"
     ]
   },
-  "sound": "sceptile-mega"
+  "sound": "sceptile-mega",
+  "loot_table": "pokecube:entities/wheat_seeds_3"
 }

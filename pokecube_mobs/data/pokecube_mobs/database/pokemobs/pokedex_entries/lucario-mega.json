@@ -245,5 +245,6 @@
       "upper-hand"
     ]
   },
-  "sound": "lucario-mega"
+  "sound": "lucario-mega",
+  "loot_table": "pokecube:entities/rabbit_2"
 }

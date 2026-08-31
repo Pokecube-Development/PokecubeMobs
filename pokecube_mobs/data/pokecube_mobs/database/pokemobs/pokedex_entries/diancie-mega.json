@@ -196,5 +196,6 @@
       "dazzling-gleam"
     ]
   },
-  "sound": "diancie-mega"
+  "sound": "diancie-mega",
+  "loot_table": "pokecube:entities/diamond_legend"
 }

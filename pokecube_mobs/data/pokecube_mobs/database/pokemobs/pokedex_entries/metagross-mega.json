@@ -206,5 +206,6 @@
       "psychic-noise"
     ]
   },
-  "sound": "metagross-mega"
+  "sound": "metagross-mega",
+  "loot_table": "pokecube:entities/iron_pearls_3"
 }

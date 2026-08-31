@@ -251,5 +251,6 @@
       "scorching-sands"
     ]
   },
-  "sound": "steelix-mega"
+  "sound": "steelix-mega",
+  "loot_table": "pokecube:entities/iron_2"
 }

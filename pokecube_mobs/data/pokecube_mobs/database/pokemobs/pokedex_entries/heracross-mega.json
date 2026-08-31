@@ -211,5 +211,6 @@
       "upper-hand"
     ]
   },
-  "sound": "heracross-mega"
+  "sound": "heracross-mega",
+  "loot_table": "pokecube:entities/bones"
 }

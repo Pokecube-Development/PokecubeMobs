@@ -203,5 +203,6 @@
       "pounce"
     ]
   },
-  "sound": "beedrill-mega"
+  "sound": "beedrill-mega",
+  "loot_table": "minecraft:entities/spider"
 }

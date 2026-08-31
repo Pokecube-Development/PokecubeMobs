@@ -213,5 +213,6 @@
       "chilling-water"
     ]
   },
-  "sound": "blastoise-mega"
+  "sound": "blastoise-mega",
+  "loot_table": "pokecube:entities/turtleshells_3"
 }

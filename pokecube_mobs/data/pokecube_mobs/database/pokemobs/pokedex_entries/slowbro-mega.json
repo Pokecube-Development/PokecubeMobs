@@ -240,5 +240,6 @@
       "psychic-noise"
     ]
   },
-  "sound": "slowbro-mega"
+  "sound": "slowbro-mega",
+  "loot_table": "pokecube:entities/pig_1"
 }

@@ -214,5 +214,6 @@
       "steel-beam"
     ]
   },
-  "sound": "mawile-mega"
+  "sound": "mawile-mega",
+  "loot_table": "pokecube:entities/iron_chicken_1"
 }

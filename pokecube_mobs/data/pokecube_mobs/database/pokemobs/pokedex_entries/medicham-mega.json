@@ -234,5 +234,6 @@
       "upper-hand"
     ]
   },
-  "sound": "medicham-mega"
+  "sound": "medicham-mega",
+  "loot_table": "pokecube:entities/enderpearls_2"
 }

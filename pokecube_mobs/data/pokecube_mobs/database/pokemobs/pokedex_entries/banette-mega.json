@@ -200,5 +200,6 @@
       "trailblaze"
     ]
   },
-  "sound": "banette-mega"
+  "sound": "banette-mega",
+  "loot_table": "pokecube:entities/enderpearls_2"
 }

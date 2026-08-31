@@ -228,5 +228,6 @@
       "trailblaze"
     ]
   },
-  "sound": "absol-mega"
+  "sound": "absol-mega",
+  "loot_table": "pokecube:entities/wool_1"
 }

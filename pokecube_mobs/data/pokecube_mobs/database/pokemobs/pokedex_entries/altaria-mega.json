@@ -226,5 +226,6 @@
       "alluring-voice"
     ]
   },
-  "sound": "altaria-mega"
+  "sound": "altaria-mega",
+  "loot_table": "pokecube:entities/wool_2"
 }

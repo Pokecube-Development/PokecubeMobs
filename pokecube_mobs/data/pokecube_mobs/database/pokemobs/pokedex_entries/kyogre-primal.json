@@ -177,5 +177,6 @@
       "liquidation"
     ]
   },
-  "sound": "kyogre-primal"
+  "sound": "kyogre-primal",
+  "loot_table": "pokecube:entities/fish_2"
 }

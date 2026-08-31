@@ -210,5 +210,6 @@
       "hard-press"
     ]
   },
-  "sound": "pinsir-mega"
+  "sound": "pinsir-mega",
+  "loot_table": "minecraft:entities/spider"
 }

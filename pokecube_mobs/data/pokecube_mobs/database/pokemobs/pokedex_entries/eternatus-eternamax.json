@@ -167,5 +167,6 @@
       ]
     }
   },
-  "sound": "eternatus-eternamax"
+  "sound": "eternatus-eternamax",
+  "loot_table": "pokecube:entities/generic_legend"
 }

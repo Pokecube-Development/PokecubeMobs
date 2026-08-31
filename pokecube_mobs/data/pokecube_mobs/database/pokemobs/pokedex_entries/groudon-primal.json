@@ -191,5 +191,6 @@
       "stomping-tantrum"
     ]
   },
-  "sound": "groudon-primal"
+  "sound": "groudon-primal",
+  "loot_table": "pokecube:entities/stone_gold"
 }

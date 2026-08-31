@@ -231,5 +231,6 @@
       "psychic-noise"
     ]
   },
-  "sound": "gardevoir-mega"
+  "sound": "gardevoir-mega",
+  "loot_table": "pokecube:entities/enderpearls_3"
 }
