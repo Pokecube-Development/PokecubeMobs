@@ -74,19 +74,5 @@
         }
       }
     ]
-  },
-  {
-    "name":"indeedee-male",
-    "gender_rate":0,
-    "interactions":[
-      
-    ]
-  },
-  {
-    "name":"indeedee-female",
-    "gender_rate":254,
-    "interactions":[
-      
-    ]
   }
 ]

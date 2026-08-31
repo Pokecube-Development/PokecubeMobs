@@ -81,12 +81,8 @@
   },
   "interactions": [
     {
-      "male": true,
-      "female": true,
       "cooldown": 1800,
-      "variance": 100,
       "baseHunger": 500,
-      "isTag": false,
       "key": {
         "values": {
           "id": "minecraft:glass_bottle"

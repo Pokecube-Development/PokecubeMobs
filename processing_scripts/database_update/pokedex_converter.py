@@ -766,6 +766,23 @@ def convert_evolution(entry):
     dump_file(rules, file)
     del entry["evolutions"]
 
+def clean_interactions(entry):
+    if not "interactions" in entry:
+        return
+    interact_defaults = {
+        "male": True,
+        "female": True,
+        "isTag": False,
+        "cooldown": 50,
+        "variance": 100,
+        "baseHunger": 100,
+    }
+    for interact in entry["interactions"]:
+        # Clear and delete defaults
+        for key, value in interact_defaults.items():
+            if key in interact and value == interact[key]:
+                del interact[key]
+
 def convert_pokedex():
     pokedex = {}
     for filename in os.listdir(entry_generate_dir):
@@ -885,6 +902,7 @@ def convert_pokedex():
         # Some extra pre-processing
         convert_mega_rules(var)
         convert_evolution(var)
+        clean_interactions(var)
         # Output each entry into the appropriate database location
         file = f'{entry_generate_dir}{var["name"]}.json'
         if not os.path.exists(os.path.dirname(file)):

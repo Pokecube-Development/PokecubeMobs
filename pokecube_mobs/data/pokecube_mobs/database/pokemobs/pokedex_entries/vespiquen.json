@@ -260,12 +260,8 @@
   },
   "interactions": [
     {
-      "male": true,
-      "female": true,
       "cooldown": 800,
-      "variance": 100,
       "baseHunger": 250,
-      "isTag": false,
       "key": {
         "values": {
           "id": "minecraft:shears"

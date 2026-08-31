@@ -583,5 +583,13 @@
   {
     "name": "mimikyu-disguised",
     "is_default": true
+  },
+  {
+    "name":"indeedee-male",
+    "gender_rate":0
+  },
+  {
+    "name":"indeedee-female",
+    "gender_rate":254
   }
 ]
