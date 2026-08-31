@@ -1,8 +1,15 @@
 {
   "replace": false,
   "values": [
-    "baneful-bunker,", "burning-bulwark", "detect", "kings-shield",
-    "mat-block", "max-guard", "obstruct", "protect", "silk-trap",
+    "baneful-bunker,",
+    "burning-bulwark",
+    "detect",
+    "kings-shield",
+    "mat-block",
+    "max-guard",
+    "obstruct",
+    "protect",
+    "silk-trap",
     "spiky-shield"
   ]
 }
