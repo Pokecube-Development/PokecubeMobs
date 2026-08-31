@@ -13,5 +13,6 @@
   "crit_rate": 1,
   "ailment": "none",
   "effect_text_extend": "The user ignores the effects of opposing Pokémon's moves and Abilities that draw in moves, allowing this move to hit the chosen target.",
-  "effect_text_simple": "The user ignores the effects of opposing Pokémon's moves and Abilities that draw in moves, allowing this move to hit the chosen target."
+  "effect_text_simple": "The user ignores the effects of opposing Pokémon's moves and Abilities that draw in moves, allowing this move to hit the chosen target.",
+  "effect_chance": 100
 }

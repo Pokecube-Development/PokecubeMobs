@@ -9,5 +9,8 @@
   "flavor_text": "The user scatters mysterious water around and restores the HP of itself and its ally Pokémon currently in the battle.",
   "move_category": "heal",
   "healing": 25,
-  "ailment": "none"
+  "ailment": "none",
+  "effect_text_extend": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up.",
+  "effect_text_simple": "Each Pokemon on the user's side restores 1/4 of its maximum HP, rounded half up.",
+  "effect_chance": 100
 }

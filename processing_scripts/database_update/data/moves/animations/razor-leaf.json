@@ -3,7 +3,7 @@
   "animations": [
     {
       "preset": "flow",
-      "duration": 5,
+      "duration": 10,
       "starttick": 0,
       "volume": 1.0,
       "pitch": 1.0,
@@ -11,15 +11,15 @@
       "soundSource": true,
       "soundTarget": false,
       "preset_values": {
-        "particle": "misc",
+        "particle": "leaf",
         "width": 0.5,
-        "density": 0.33
+        "density": 10.0
       }
     },
     {
       "preset": "cartFunc",
       "duration": 5,
-      "starttick": 4,
+      "starttick": 9,
       "volume": 1.0,
       "pitch": 1.0,
       "sound": "pokecube:moves.cut",

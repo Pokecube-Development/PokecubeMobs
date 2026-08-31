@@ -10,6 +10,7 @@
   "flavor_text": "This is a Water-type attack Dynamax Pokémon use. The user summons a heavy rain that falls for five turns.",
   "move_category": "damage",
   "ailment": "none",
-  "effect_text_extend": "Inflicts regular damage.",
-  "effect_text_simple": "Inflicts regular damage with no additional effect."
+  "effect_text_extend": "Changes the weather to rain for five turns, during which Water moves inflict 50% extra damage, and Fire moves inflict half damage.\n\nIf the user is holding Damp Rock, this effect lasts for eight turns.\n\nThunder has 100% accuracy.  If the target has used Detect or Protect, Thunder has a (100 - accuracy)% chance to break through the protection.\n\nSolar Beam has half power.\n\nMoonlight, Morning Sun, and Synthesis heal only 1/4 of the user’s max HP.\n\nPokémon with Swift Swim have doubled original Speed.\n\nPokémon with Forecast become Water.\n\nPokémon with Dry Skin heal 1/8 max HP, Pokémon with Hydration are cured of major status effects, and Pokémon with Rain Dish heal 1/16 max HP at the end of each turn.",
+  "effect_text_simple": "Changes the weather to rain for five turns.",
+  "effect_chance": 100
 }

@@ -9,5 +9,8 @@
   "damage_class": "status",
   "flavor_text": "This move enables the user to protect itself from all attacks. Its chance of failing rises if it is used in succession. Direct contact harshly lowers the attacker’s Defense stat.",
   "move_category": "unique",
-  "ailment": "none"
+  "ailment": "none",
+  "effect_text_extend": "Prevents any moves from hitting the user this turn. If this blocks a contact move, the user has their Defense lowered by 2 stages.",
+  "effect_text_simple": "Prevents any moves from hitting the user this turn. If this blocks a contact move, the user has their Defense lowered by 2 stages.",
+  "effect_chance": 100
 }

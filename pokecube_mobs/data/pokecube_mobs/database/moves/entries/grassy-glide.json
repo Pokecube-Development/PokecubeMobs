@@ -11,6 +11,7 @@
   "flavor_text": "Gliding on the ground, the user attacks the target. This move always goes first on Grassy Terrain.",
   "move_category": "damage",
   "ailment": "none",
-  "effect_text_extend": "Inflicts regular damage.",
-  "effect_text_simple": "Inflicts regular damage with no additional effect."
+  "effect_text_extend": "If Grassy Terrain is active and the user is grounded, this move has has its priority increased by 1.",
+  "effect_text_simple": "If Grassy Terrain is active and the user is grounded, this move has has its priority increased by 1.",
+  "effect_chance": 100
 }

@@ -9,6 +9,24 @@ DATA_DIR = '../../pokecube_mobs/data/pokecube_mobs'
 TAG_DATA_DIR = '../../pokecube_mobs/data/pokecube'
 ASSET_DIR = '../../pokecube_mobs/assets'
 
+ONLY_UPDATE = True
+def dump_file(dict, file, encoding=None, newline='\n', ensure_ascii=True):
+    if ONLY_UPDATE and not os.path.exists(file):
+        print(f"Not making a new file for {file}, set ONLY_UPDATE False to make it!")
+        return
+    old_file = ""
+    try:
+        with open(file, 'r', encoding=encoding) as f:
+            old_file = f.read()
+            new_file = json.dumps(dict, indent=2)
+            if old_file==new_file:
+                return
+    except:
+        pass
+    file = open(file, 'w', encoding=encoding, newline=newline)
+    json.dump(dict, file, indent=2, ensure_ascii=ensure_ascii)
+    file.close()
+
 def default_or_latest(group_details, valid):
     ret = None
     max_v = 0

@@ -9,5 +9,8 @@
   "damage_class": "status",
   "flavor_text": "The user locks the target in and prevents it from fleeing. This move also lowers the target’s Defense and Sp. Def every turn.",
   "move_category": "unique",
-  "ailment": "none"
+  "ailment": "none",
+  "effect_text_extend": "Prevents the target from switching out. At the end of each turn, the targets Defense and Special Defense are lowered by 1 stage. The target may switch out using a Shed shell, Baton Pass, Flip turn, Parting Shot, Teleport, U-Turn, or Volt Switch. This effect ends if either Pokemon leave the field.",
+  "effect_text_simple": "Prevents the target from switching out. At the end of each turn, the targets Defense and Special Defense are lowered by 1 stage.",
+  "effect_chance": 100
 }

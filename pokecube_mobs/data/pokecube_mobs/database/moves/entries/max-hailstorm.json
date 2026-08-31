@@ -10,6 +10,7 @@
   "flavor_text": "This is an Ice-type attack Dynamax Pokémon use. The user summons a hailstorm lasting five turns.",
   "move_category": "damage",
   "ailment": "none",
-  "effect_text_extend": "Inflicts regular damage.",
-  "effect_text_simple": "Inflicts regular damage with no additional effect."
+  "effect_text_extend": "Changes the weather to hail for five turns, during which non-Ice Pokémon are damaged for 1/16 their max HP at the end of every turn.\n\nIf the user is holding Icy Rock, this effect lasts for eight turns.\n\nBlizzard has 100% accuracy.  If the target has used Detect or Protect, Blizzard has a (100 - accuracy)% chance to break through the protection.\n\nMoonlight, Morning Sun, and Synthesis heal only 1/4 of the user’s max HP.\n\nPokémon with Snow Cloak are exempt from this effect’s damage.",
+  "effect_text_simple": "Changes the weather to a hailstorm for five turns.",
+  "effect_chance": 100
 }

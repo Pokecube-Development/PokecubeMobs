@@ -10,5 +10,8 @@
   "damage_class": "physical",
   "flavor_text": "The user rends the target with its hard gills. If the user attacks before the target, the power of this move is doubled.",
   "move_category": "damage",
-  "ailment": "none"
+  "ailment": "none",
+  "effect_text_extend": "Power doubles if the user moves before the target.",
+  "effect_text_simple": "Power doubles if the user moves before the target.",
+  "effect_chance": 100
 }

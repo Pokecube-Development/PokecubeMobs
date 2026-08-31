@@ -2,7 +2,7 @@ import json
 
 import utils
 import os
-from utils import get_moves_index, get_move, trim, default_or_latest, url_to_id, DATA_DIR, TAG_DATA_DIR, ASSET_DIR
+from utils import get_moves_index, get_move, trim, default_or_latest, url_to_id, dump_file, DATA_DIR, TAG_DATA_DIR, ASSET_DIR
 
 MANUAL_RENAMES = {
     "lastout": "lash-out",
@@ -384,9 +384,7 @@ def convert_moves():
         file = f'{DATA_DIR}/database/moves/entries/{name}.json'
         if not os.path.exists(os.path.dirname(file)):
             os.makedirs(os.path.dirname(file))
-        file = open(file, 'w', encoding='utf-8')
-        json.dump(values, file, indent=2, ensure_ascii=False)
-        file.close()
+        dump_file(values, file, encoding='utf-8', ensure_ascii=False)
 
     # Post process for the "special" z-moves
     for name, _ in index_map.items():
@@ -406,9 +404,7 @@ def convert_moves():
         if not os.path.exists(os.path.dirname(file)):
             os.makedirs(os.path.dirname(file))
         try:
-            file = open(file, 'w', encoding='utf-8')
-            json.dump(dict, file, indent=2, ensure_ascii=False)
-            file.close()
+            dump_file(dict, file, encoding='utf-8', ensure_ascii=False)
         except Exception as err:
             print(f'error saving for {key}')
             print(err)
@@ -426,9 +422,7 @@ def convert_moves():
             output["animations"] = anims
             if not os.path.exists(os.path.dirname(file)):
                 os.makedirs(os.path.dirname(file))
-            file = open(file, 'w', encoding='utf-8')
-            json.dump(output, file, indent=2, ensure_ascii=False)
-            file.close()
+            dump_file(output, file, encoding='utf-8', ensure_ascii=False)
         else:
             print(f'unknown animation: {name}')
 
@@ -437,35 +431,26 @@ def convert_moves():
     if not os.path.exists(os.path.dirname(file)):
         os.makedirs(os.path.dirname(file))
     tag = {"replace":False,"values":contact}
-    file = open(file, 'w', encoding='utf-8')
-    json.dump(tag, file, indent=2, ensure_ascii=False)
-    file.close()
+    dump_file(tag, file, encoding='utf-8', ensure_ascii=False)
     file = f'{TAG_DATA_DIR}/tags/pokemob_moves/ranged-moves.json'
     if not os.path.exists(os.path.dirname(file)):
         os.makedirs(os.path.dirname(file))
     tag = {"replace":False,"values":ranged}
-    file = open(file, 'w', encoding='utf-8')
-    json.dump(tag, file, indent=2, ensure_ascii=False)
-    file.close()
+    dump_file(tag, file, encoding='utf-8', ensure_ascii=False)
 
     # Dump Z moves
     file = f'{TAG_DATA_DIR}/tags/pokemob_moves/z-move.json'
     if not os.path.exists(os.path.dirname(file)):
         os.makedirs(os.path.dirname(file))
     tag = {"replace":False,"values":z_moves}
-    file = open(file, 'w', encoding='utf-8')
-    json.dump(tag, file, indent=2, ensure_ascii=False)
-    file.close()
+    dump_file(tag, file, encoding='utf-8', ensure_ascii=False)
 
     # Dump D moves
     file = f'{TAG_DATA_DIR}/tags/pokemob_moves/d-move.json'
     if not os.path.exists(os.path.dirname(file)):
         os.makedirs(os.path.dirname(file))
     tag = {"replace":False,"values":d_moves}
-    file = open(file, 'w', encoding='utf-8')
-    json.dump(tag, file, indent=2, ensure_ascii=False)
-    file.close()
-
+    dump_file(tag, file, encoding='utf-8', ensure_ascii=False)
 
     # Print any that errored
     for name, value in moves_dex.items():

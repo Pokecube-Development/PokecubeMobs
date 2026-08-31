@@ -9,5 +9,8 @@
   "damage_class": "status",
   "flavor_text": "With its mysterious power, the user swaps the effects on either side of the field.",
   "move_category": "unique",
-  "ailment": "none"
+  "ailment": "none",
+  "effect_text_extend": "Switches the Mist, Light Screen, Reflect, Spikes, Safeguard, Tailwind, Toxic Spikes, Stealth Rock, Water Pledge, Fire Pledge, Grass Pledge, Sticky Web, Aurora Veil, G-Max Steelsurge, G-Max Cannonade, G-Max Vine Lash, and G-Max Wildfire effects from the user's side to the opposing side and vice versa.",
+  "effect_text_simple": "Switches single sided field effects from the users side to the targets side and vice versa. ",
+  "effect_chance": 100
 }

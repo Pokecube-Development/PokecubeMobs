@@ -11,6 +11,7 @@
   "flavor_text": "The user attacks everything around it and faints upon using this move. This move's power is boosted on Misty Terrain.",
   "move_category": "damage",
   "ailment": "none",
-  "effect_text_extend": "Inflicts regular damage.",
-  "effect_text_simple": "Inflicts regular damage with no additional effect."
+  "effect_text_extend": "If Misty Terrain is active and the user is grounded, this move has its power increased by 50%. Fails if any active Pokemon has the ability Damp.",
+  "effect_text_simple": "If Misty Terrain is active and the user is grounded, this move has its power increased by 50%.",
+  "effect_chance": 100
 }

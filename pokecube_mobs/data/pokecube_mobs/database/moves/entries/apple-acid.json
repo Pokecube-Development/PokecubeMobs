@@ -12,5 +12,7 @@
   "move_category": "damage-lower",
   "stat_chance": 100,
   "ailment": "none",
+  "effect_text_extend": "Lower the targets Special Defense by 1 stage.",
+  "effect_text_simple": "Lower the targets Special Defense by 1 stage.",
   "effect_chance": 100
 }

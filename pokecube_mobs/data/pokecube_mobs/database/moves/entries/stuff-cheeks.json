@@ -10,7 +10,7 @@
   "move_category": "net-good-stats",
   "stat_chance": 100,
   "ailment": "none",
-  "effect_text_extend": "Inflicts regular damage, then (if successful) removes major status effects from every Pokémon in the user’s party.",
-  "effect_text_simple": "Cures the entire party of major status effects after inflicting damage.",
+  "effect_text_extend": "This move cannot be used unless the user is holding a berry. The user consumes a berry, activates its effects, and raises its defense by 2 stages. This effect works even if Embargo or Magic Room are in effect.",
+  "effect_text_simple": "User consumes berry and raises its defense by 2 stages.",
   "effect_chance": 100
 }

@@ -12,5 +12,7 @@
   "healing": -33,
   "stat_chance": 100,
   "ailment": "none",
+  "effect_text_extend": "User loses 33% of its Max HP. Raises all of the user’s stats by one stage. Fails if the user would faint, or if its Attack, Defense, Special Attack, Special Defense, or Speed stat cannot go any higher.",
+  "effect_text_simple": "User loses 33% of its Max HP. Raises all of the user’s stats by one stage.",
   "effect_chance": 100
 }

@@ -12,5 +12,7 @@
   "move_category": "damage-raise",
   "stat_chance": 100,
   "ailment": "none",
+  "effect_text_extend": "Raises the user's Speed by 1 stage. In Full Belly Mode, this move is Electric type. In Hangry Mode, this move is Dark type. Fails unless the user is Hangry Mode or Full Belly Mode Morpeko.",
+  "effect_text_simple": "Raises the user's Speed by 1 stage. In Full Belly Mode, this move is Electric type. In Hangry Mode, this move is Dark type.",
   "effect_chance": 100
 }

@@ -12,7 +12,7 @@
   "move_category": "damage-ailment",
   "ailment_chance": 20,
   "ailment": "poison",
-  "effect_text_extend": "Inflicts regular damage.",
-  "effect_text_simple": "Inflicts regular damage with no additional effect.",
+  "effect_text_extend": "Has a chance to poison the target. This switches categories between physical and special, depending on which would deal more damage to the target. If the damage is tied, it is randomly chosen. This calculation ignores any modifiers other than stat stages.",
+  "effect_text_simple": "Has a chance to poison the target. This switches categories between physical and special, depending on which would deal more damage to the target.",
   "effect_chance": 20
 }

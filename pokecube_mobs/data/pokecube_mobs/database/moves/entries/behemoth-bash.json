@@ -10,5 +10,8 @@
   "damage_class": "physical",
   "flavor_text": "The user becomes a gigantic shield and slams into the target. This move deals twice the damage if the target is Dynamaxed.",
   "move_category": "damage",
-  "ailment": "none"
+  "ailment": "none",
+  "effect_text_extend": "This move deals twice the damage if the target is Dynamaxed.",
+  "effect_text_simple": "Deals twice the damage if the target is Dynamaxed.",
+  "effect_chance": 100
 }

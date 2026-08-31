@@ -12,7 +12,7 @@
   "move_category": "damage",
   "ailment_chance": 100,
   "ailment": "none",
-  "effect_text_extend": "Inflicts regular damage.",
-  "effect_text_simple": "Inflicts regular damage with no additional effect.",
+  "effect_text_extend": "Requires a turn to charge before attacking. Raises the users Special Attack by 1 stage after the first turn.",
+  "effect_text_simple": "Requires a turn to charge before attacking. Raises the users Special Attack by 1 stage after the first turn.",
   "effect_chance": 100
 }

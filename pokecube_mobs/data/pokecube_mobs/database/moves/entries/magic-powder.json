@@ -9,5 +9,8 @@
   "damage_class": "status",
   "flavor_text": "The user scatters a cloud of magic powder that changes the target's type to Psychic.",
   "move_category": "unique",
-  "ailment": "none"
+  "ailment": "none",
+  "effect_text_extend": "Causes the target to become a Psychic type. Fails if the target is Arceus, Silvally, or is already only a Psychic type.",
+  "effect_text_simple": "Causes the target to become a Psychic type.",
+  "effect_chance": 100
 }

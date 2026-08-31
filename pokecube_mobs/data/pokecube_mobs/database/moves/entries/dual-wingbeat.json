@@ -13,6 +13,7 @@
   "ailment": "none",
   "max_hits": 2,
   "min_hits": 2,
-  "effect_text_extend": "Inflicts regular damage.",
-  "effect_text_simple": "Inflicts regular damage with no additional effect."
+  "effect_text_extend": "Inflicts regular damage.  Hits twice in one turn.",
+  "effect_text_simple": "Hits twice in one turn.",
+  "effect_chance": 100
 }

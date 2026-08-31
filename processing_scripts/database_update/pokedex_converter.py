@@ -3,7 +3,7 @@ from ignore_list import isIgnored
 from legacy_renamer import find_old_name, to_model_form, find_new_name, entry_name, banned_form,\
                   is_extra_form, TAG_IGNORE, MEGA_BASE_MAP
 import utils
-from utils import get_form, get_pokemon, get_species, default_or_latest, get_pokemon_index, url_to_id, DATA_DIR, TAG_DATA_DIR, ASSET_DIR
+from utils import get_form, get_pokemon, get_species, default_or_latest, get_pokemon_index, url_to_id, dump_file, DATA_DIR, TAG_DATA_DIR, ASSET_DIR
 from moves_converter import convert_old_move_name
 from model_processor import process_model
 import os
@@ -26,7 +26,6 @@ mob_lang_generate_dir = f'{ASSET_DIR}/pokecube_mobs/lang/'
 UPDATE_EXAMPLE = True
 WARN_NO_EXP = True
 WARN_NO_OLD_ENTRY = False
-ONLY_UPDATE = True
 
 MEGA_SUFFIX = [
     '-mega',
@@ -48,22 +47,6 @@ NO_SHINY = [
 
 base_exp_fixes = json.load(open('./data/pokemobs/fix_base_exp.json', 'r'))
 evo_moves = json.load(open('./data/pokemobs/evo_moves.json', 'r'))
-
-def dump_file(dict, file, encoding=None, newline='\n', ensure_ascii=True):
-    if ONLY_UPDATE and not os.path.exists(file):
-        return
-    old_file = ""
-    try:
-        with open(file, 'r', encoding=encoding) as f:
-            old_file = f.read()
-            new_file = json.dumps(dict, indent=2)
-            if old_file==new_file:
-                return
-    except:
-        pass
-    file = open(file, 'w', encoding=encoding, newline=newline)
-    json.dump(dict, file, indent=2, ensure_ascii=ensure_ascii)
-    file.close()
 
 def no_shiny(name):
     for suf in NO_SHINY:

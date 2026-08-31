@@ -10,7 +10,7 @@
   "move_category": "net-good-stats",
   "stat_chance": 100,
   "ailment": "none",
-  "effect_text_extend": "Inflicts regular damage.  Hits twice in one turn, with a chance to make the target flinch.",
-  "effect_text_simple": "Hits twice in one turn, with a chance to make the target flinch.",
+  "effect_text_extend": "Prevents user from switching out. Raises all of the user’s stats by one stage. The user or target may switch out using, Baton Pass, Flip turn, Parting Shot, Teleport, U-Turn, or Volt Switch. Fails if the user already has prevented itself from switching by this effect.",
+  "effect_text_simple": "Prevents user from switching out. Raises all of the user’s stats by one stage.",
   "effect_chance": 100
 }

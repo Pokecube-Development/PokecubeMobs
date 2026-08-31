@@ -10,5 +10,7 @@
   "damage_class": "physical",
   "flavor_text": "The user attacks by slamming its body into the target. The higher the user's Defense stat, the greater the damage this move deals.",
   "move_category": "damage",
-  "ailment": "none"
+  "ailment": "none",
+  "effect_text_extend": "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes. ",
+  "effect_text_simple": "Damage is calculated using the user's Defense stat as its Attack, including stat stage changes. "
 }

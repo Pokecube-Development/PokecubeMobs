@@ -10,5 +10,7 @@
   "move_category": "net-good-stats",
   "stat_chance": 100,
   "ailment": "none",
+  "effect_text_extend": "Raise the targets Attack and Special Attack by 2 stages.",
+  "effect_text_simple": "Raise the targets Attack and Special Attack by 2 stages.",
   "effect_chance": 100
 }
