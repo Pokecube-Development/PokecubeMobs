@@ -908,6 +908,10 @@ def convert_pokedex():
         if not os.path.exists(os.path.dirname(file)):
             os.makedirs(os.path.dirname(file))
 
+        # Print a warning if the mob has no drops
+        if not "loot_table" in var:
+            print(f"No drops for: {var['name']}!")
+
         dump_file(var, file)
 
         # Now lets make a template file which will remove each entry.
