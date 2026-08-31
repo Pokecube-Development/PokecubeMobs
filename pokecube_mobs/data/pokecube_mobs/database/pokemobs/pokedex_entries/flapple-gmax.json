@@ -74,5 +74,147 @@
       ]
     }
   },
-  "sound": "flapple-gmax"
+  "sound": "flapple-gmax",
+  "loot_table": "pokecube:entities/apple",
+  "moves": {
+    "level_up": [
+      {
+        "L": 0,
+        "moves": [
+          "wing-attack"
+        ]
+      },
+      {
+        "L": 40,
+        "moves": [
+          "fly"
+        ]
+      },
+      {
+        "L": 12,
+        "moves": [
+          "leech-seed"
+        ]
+      },
+      {
+        "L": 1,
+        "moves": [
+          "growth",
+          "withdraw",
+          "twister",
+          "recycle",
+          "astonish"
+        ]
+      },
+      {
+        "L": 16,
+        "moves": [
+          "protect"
+        ]
+      },
+      {
+        "L": 20,
+        "moves": [
+          "dragon-breath"
+        ]
+      },
+      {
+        "L": 36,
+        "moves": [
+          "iron-defense"
+        ]
+      },
+      {
+        "L": 24,
+        "moves": [
+          "dragon-dance"
+        ]
+      },
+      {
+        "L": 28,
+        "moves": [
+          "dragon-pulse"
+        ]
+      },
+      {
+        "L": 44,
+        "moves": [
+          "dragon-rush"
+        ]
+      },
+      {
+        "L": 4,
+        "moves": [
+          "acid-spray"
+        ]
+      },
+      {
+        "L": 8,
+        "moves": [
+          "acrobatics"
+        ]
+      },
+      {
+        "L": 32,
+        "moves": [
+          "grav-apple"
+        ]
+      }
+    ],
+    "misc": [
+      "wing-attack",
+      "fly",
+      "take-down",
+      "hyper-beam",
+      "leech-seed",
+      "growth",
+      "solar-beam",
+      "withdraw",
+      "focus-energy",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "outrage",
+      "giga-drain",
+      "endure",
+      "attract",
+      "sleep-talk",
+      "dragon-breath",
+      "twister",
+      "sunny-day",
+      "facade",
+      "recycle",
+      "endeavor",
+      "astonish",
+      "bullet-seed",
+      "aerial-ace",
+      "iron-defense",
+      "magical-leaf",
+      "dragon-dance",
+      "u-turn",
+      "sucker-punch",
+      "seed-bomb",
+      "air-slash",
+      "dragon-pulse",
+      "dragon-rush",
+      "energy-ball",
+      "giga-impact",
+      "draco-meteor",
+      "leaf-storm",
+      "grass-knot",
+      "heavy-slam",
+      "acid-spray",
+      "round",
+      "acrobatics",
+      "grassy-terrain",
+      "grav-apple",
+      "grassy-glide",
+      "dual-wingbeat",
+      "tera-blast",
+      "pounce",
+      "trailblaze"
+    ]
+  }
 }

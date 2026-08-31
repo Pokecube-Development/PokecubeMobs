@@ -28,12 +28,6 @@
     "dragon",
     "ice"
   ],
-  "abilities": {
-    "normal": [
-      "cacophony"
-    ],
-    "hidden": []
-  },
   "moves": {
     "level_up": [
       {
@@ -161,6 +155,5 @@
       "snowscape",
       "dragon-cheer"
     ]
-  },
-  "loot_table": "pokecube:entities/generic_legend"
+  }
 }

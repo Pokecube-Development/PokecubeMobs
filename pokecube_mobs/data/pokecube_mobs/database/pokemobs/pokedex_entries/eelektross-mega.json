@@ -3,10 +3,9 @@
   "id": 604,
   "stock": true,
   "is_extra_form": true,
-  "base_experience": 232,
+  "base_experience": 262,
   "size": {
-    "height": 3.0,
-    "length": 3.0
+    "height": 3.0
   },
   "mass": 180.0,
   "is_default": false,
@@ -30,7 +29,7 @@
   ],
   "abilities": {
     "normal": [
-      "levitate"
+      "eelevate"
     ]
   },
   "moves": {
@@ -78,6 +77,7 @@
       "double-team",
       "confuse-ray",
       "light-screen",
+      "waterfall",
       "swift",
       "flash",
       "rest",
@@ -109,9 +109,11 @@
       "brick-break",
       "knock-off",
       "secret-power",
+      "poison-fang",
       "crush-claw",
       "rock-tomb",
       "signal-beam",
+      "muddy-water",
       "dragon-claw",
       "bulk-up",
       "bounce",
@@ -150,9 +152,11 @@
       "power-up-punch",
       "throat-chop",
       "lunge",
+      "psychic-fangs",
       "stomping-tantrum",
       "liquidation",
       "body-press",
+      "rising-voltage",
       "tera-blast",
       "supercell-slam"
     ]

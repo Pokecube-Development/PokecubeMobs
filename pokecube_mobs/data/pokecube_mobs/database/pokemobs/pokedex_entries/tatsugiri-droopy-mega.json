@@ -5,9 +5,9 @@
   "is_extra_form": true,
   "base_experience": 166,
   "size": {
-    "height": 0.3
+    "height": 0.6
   },
-  "mass": 8.0,
+  "mass": 24.0,
   "is_default": false,
   "capture_rate": 100,
   "base_happiness": 50,
@@ -15,11 +15,11 @@
   "gender_rate": 127,
   "stats": {
     "hp": 68,
-    "attack": 50,
-    "defense": 60,
-    "special_attack": 120,
-    "special_defense": 95,
-    "speed": 82
+    "attack": 65,
+    "defense": 90,
+    "special_attack": 135,
+    "special_defense": 125,
+    "speed": 92
   },
   "evs": {
     "special_attack": 2
@@ -28,14 +28,7 @@
     "dragon",
     "water"
   ],
-  "abilities": {
-    "normal": [
-      "commander"
-    ],
-    "hidden": [
-      "storm-drain"
-    ]
-  },
+  "sound": "tatsugiri-droopy",
   "moves": {
     "level_up": [
       {
@@ -138,6 +131,5 @@
       "chilling-water",
       "dragon-cheer"
     ]
-  },
-  "sound": "tatsugiri-droopy"
+  }
 }

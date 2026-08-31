@@ -3,10 +3,9 @@
   "id": 160,
   "stock": true,
   "is_extra_form": true,
-  "base_experience": 239,
+  "base_experience": 269,
   "size": {
-    "height": 2.3,
-    "width": 1.7
+    "height": 2.3
   },
   "mass": 108.8,
   "is_default": false,
@@ -32,9 +31,8 @@
   ],
   "abilities": {
     "normal": [
-      "cacophony"
-    ],
-    "hidden": []
+      "dragonize"
+    ]
   },
   "moves": {
     "level_up": [
@@ -206,6 +204,7 @@
       "aerial-ace",
       "block",
       "dragon-claw",
+      "mud-shot",
       "dragon-dance",
       "water-pulse",
       "natural-gift",
@@ -231,6 +230,7 @@
       "snarl",
       "confide",
       "power-up-punch",
+      "brutal-swing",
       "psychic-fangs",
       "stomping-tantrum",
       "liquidation",

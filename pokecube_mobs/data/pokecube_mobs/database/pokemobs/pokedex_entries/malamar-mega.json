@@ -21,7 +21,9 @@
     "special_defense": 120,
     "speed": 88
   },
-  "evs": {},
+  "evs": {
+    "attack": 2
+  },
   "types": [
     "dark",
     "psychic"
@@ -32,19 +34,127 @@
     ]
   },
   "moves": {
+    "level_up": [
+      {
+        "L": 1,
+        "moves": [
+          "tackle",
+          "wrap",
+          "peck",
+          "reflect",
+          "constrict",
+          "reversal"
+        ]
+      },
+      {
+        "L": 21,
+        "moves": [
+          "psybeam"
+        ]
+      },
+      {
+        "L": 18,
+        "moves": [
+          "hypnosis"
+        ]
+      },
+      {
+        "L": 31,
+        "moves": [
+          "light-screen"
+        ]
+      },
+      {
+        "L": 13,
+        "moves": [
+          "psywave"
+        ]
+      },
+      {
+        "L": 43,
+        "moves": [
+          "slash"
+        ]
+      },
+      {
+        "L": 12,
+        "moves": [
+          "swagger"
+        ]
+      },
+      {
+        "L": 48,
+        "moves": [
+          "superpower"
+        ]
+      },
+      {
+        "L": 35,
+        "moves": [
+          "pluck"
+        ]
+      },
+      {
+        "L": 27,
+        "moves": [
+          "payback"
+        ]
+      },
+      {
+        "L": 46,
+        "moves": [
+          "night-slash"
+        ]
+      },
+      {
+        "L": 23,
+        "moves": [
+          "switcheroo"
+        ]
+      },
+      {
+        "L": 39,
+        "moves": [
+          "psycho-cut"
+        ]
+      },
+      {
+        "L": 8,
+        "moves": [
+          "foul-play"
+        ]
+      },
+      {
+        "L": 15,
+        "moves": [
+          "topsy-turvy"
+        ]
+      }
+    ],
     "misc": [
+      "cut",
+      "bind",
+      "tackle",
       "wrap",
       "disable",
       "flamethrower",
+      "psybeam",
       "hyper-beam",
+      "peck",
       "thunderbolt",
+      "toxic",
       "psychic",
       "hypnosis",
       "double-team",
       "light-screen",
       "reflect",
+      "swift",
+      "constrict",
+      "flash",
+      "psywave",
       "rest",
       "rock-slide",
+      "slash",
       "substitute",
       "thief",
       "snore",
@@ -55,8 +165,12 @@
       "destiny-bond",
       "endure",
       "swagger",
+      "attract",
       "sleep-talk",
+      "return",
+      "frustration",
       "baton-pass",
+      "hidden-power",
       "rain-dance",
       "sunny-day",
       "psych-up",
@@ -66,16 +180,22 @@
       "taunt",
       "helping-hand",
       "trick",
+      "role-play",
       "superpower",
       "knock-off",
       "skill-swap",
+      "snatch",
+      "secret-power",
       "fake-tears",
+      "signal-beam",
       "aerial-ace",
+      "block",
       "calm-mind",
       "gravity",
       "pluck",
       "acupressure",
       "payback",
+      "embargo",
       "fling",
       "guard-swap",
       "poison-jab",
@@ -89,18 +209,24 @@
       "trick-room",
       "double-hit",
       "psyshock",
+      "telekinesis",
       "foul-play",
       "round",
       "stored-power",
+      "ally-switch",
+      "retaliate",
       "topsy-turvy",
+      "confide",
       "throat-chop",
       "lunge",
       "brutal-swing",
       "liquidation",
       "expanding-force",
       "lash-out",
+      "tera-blast",
       "trailblaze",
       "psychic-noise"
     ]
-  }
+  },
+  "loot_table": "minecraft:entities/squid"
 }

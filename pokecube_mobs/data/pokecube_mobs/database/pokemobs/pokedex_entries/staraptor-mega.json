@@ -3,12 +3,11 @@
   "id": 398,
   "stock": true,
   "is_extra_form": true,
-  "base_experience": 218,
+  "base_experience": 248,
   "size": {
-    "height": 1.2,
-    "width": 1.0
+    "height": 1.9
   },
-  "mass": 24.9,
+  "mass": 50.0,
   "is_default": false,
   "capture_rate": 45,
   "base_happiness": 70,
@@ -16,25 +15,22 @@
   "gender_rate": 127,
   "stats": {
     "hp": 85,
-    "attack": 120,
-    "defense": 70,
-    "special_attack": 50,
-    "special_defense": 60,
-    "speed": 100
+    "attack": 140,
+    "defense": 100,
+    "special_attack": 60,
+    "special_defense": 90,
+    "speed": 110
   },
   "evs": {
     "attack": 3
   },
   "types": [
-    "normal",
+    "fighting",
     "flying"
   ],
   "abilities": {
     "normal": [
-      "intimidate"
-    ],
-    "hidden": [
-      "reckless"
+      "contrary"
     ]
   },
   "moves": {
@@ -164,11 +160,14 @@
       "heat-wave",
       "facade",
       "helping-hand",
+      "brick-break",
       "endeavor",
       "secret-power",
       "feather-dance",
+      "blaze-kick",
       "air-cutter",
       "aerial-ace",
+      "bulk-up",
       "roost",
       "natural-gift",
       "pluck",
@@ -176,6 +175,7 @@
       "u-turn",
       "close-combat",
       "air-slash",
+      "focus-blast",
       "brave-bird",
       "giga-impact",
       "defog",
@@ -194,36 +194,6 @@
       "dual-wingbeat",
       "tera-blast"
     ]
-  },
-  "pose_shapes": {
-    "idle": {
-      "parts": [
-        {
-          "name": "body",
-          "offset": "-0.5,0,-0.5",
-          "size": "1,1.5,1"
-        }
-      ]
-    },
-    "flying": {
-      "parts": [
-        {
-          "name": "body",
-          "offset": "-0.5,0,-0.5",
-          "size": "1,1.5,1"
-        },
-        {
-          "name": "wing1",
-          "offset": "-2,0.3,-0.4",
-          "size": "1.4,0.7,1.4"
-        },
-        {
-          "name": "wing2",
-          "offset": "0.5,0.3,-0.4",
-          "size": "1.4,0.7,1.4"
-        }
-      ]
-    }
   },
   "loot_table": "pokecube:entities/chicken_3"
 }

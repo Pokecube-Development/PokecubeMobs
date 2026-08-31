@@ -60,5 +60,144 @@
         }
       ]
     }
+  },
+  "loot_table": "pokecube:entities/iron_1",
+  "moves": {
+    "level_up": [
+      {
+        "L": 1,
+        "moves": [
+          "leer",
+          "metal-claw"
+        ]
+      },
+      {
+        "L": 66,
+        "moves": [
+          "hyper-beam"
+        ]
+      },
+      {
+        "L": 42,
+        "moves": [
+          "focus-energy",
+          "laser-focus"
+        ]
+      },
+      {
+        "L": 6,
+        "moves": [
+          "rock-smash"
+        ]
+      },
+      {
+        "L": 18,
+        "moves": [
+          "metal-sound"
+        ]
+      },
+      {
+        "L": 36,
+        "moves": [
+          "iron-defense"
+        ]
+      },
+      {
+        "L": 48,
+        "moves": [
+          "dragon-claw"
+        ]
+      },
+      {
+        "L": 60,
+        "moves": [
+          "metal-burst"
+        ]
+      },
+      {
+        "L": 54,
+        "moves": [
+          "flash-cannon"
+        ]
+      },
+      {
+        "L": 12,
+        "moves": [
+          "hone-claws"
+        ]
+      },
+      {
+        "L": 30,
+        "moves": [
+          "dragon-tail"
+        ]
+      },
+      {
+        "L": 24,
+        "moves": [
+          "breaking-swipe"
+        ]
+      }
+    ],
+    "misc": [
+      "swords-dance",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "roar",
+      "hyper-beam",
+      "solar-beam",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "screech",
+      "light-screen",
+      "reflect",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "outrage",
+      "endure",
+      "attract",
+      "sleep-talk",
+      "metal-claw",
+      "mirror-coat",
+      "rock-smash",
+      "facade",
+      "brick-break",
+      "rock-tomb",
+      "metal-sound",
+      "iron-defense",
+      "dragon-claw",
+      "gyro-ball",
+      "metal-burst",
+      "dark-pulse",
+      "night-slash",
+      "dragon-pulse",
+      "giga-impact",
+      "flash-cannon",
+      "draco-meteor",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "hone-claws",
+      "heavy-slam",
+      "foul-play",
+      "round",
+      "dragon-tail",
+      "snarl",
+      "stomping-tantrum",
+      "body-press",
+      "breaking-swipe",
+      "steel-beam",
+      "steel-roller",
+      "tera-blast",
+      "dragon-cheer"
+    ]
   }
 }

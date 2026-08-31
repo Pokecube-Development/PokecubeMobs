@@ -80,5 +80,228 @@
       ]
     }
   },
-  "sound": "lapras-gmax"
+  "sound": "lapras-gmax",
+  "loot_table": "pokecube:entities/fish_1",
+  "moves": {
+    "level_up": [
+      {
+        "L": 18,
+        "moves": [
+          "body-slam"
+        ]
+      },
+      {
+        "L": 1,
+        "moves": [
+          "growl",
+          "sing",
+          "water-gun"
+        ]
+      },
+      {
+        "L": 4,
+        "moves": [
+          "mist"
+        ]
+      },
+      {
+        "L": 47,
+        "moves": [
+          "hydro-pump"
+        ]
+      },
+      {
+        "L": 45,
+        "moves": [
+          "surf"
+        ]
+      },
+      {
+        "L": 32,
+        "moves": [
+          "ice-beam"
+        ]
+      },
+      {
+        "L": 58,
+        "moves": [
+          "blizzard"
+        ]
+      },
+      {
+        "L": 7,
+        "moves": [
+          "confuse-ray"
+        ]
+      },
+      {
+        "L": 27,
+        "moves": [
+          "perish-song"
+        ]
+      },
+      {
+        "L": 43,
+        "moves": [
+          "safeguard"
+        ]
+      },
+      {
+        "L": 22,
+        "moves": [
+          "rain-dance"
+        ]
+      },
+      {
+        "L": 50,
+        "moves": [
+          "sheer-cold"
+        ]
+      },
+      {
+        "L": 14,
+        "moves": [
+          "water-pulse"
+        ]
+      },
+      {
+        "L": 37,
+        "moves": [
+          "brine"
+        ]
+      },
+      {
+        "L": 52,
+        "moves": [
+          "dragon-pulse"
+        ]
+      },
+      {
+        "L": 10,
+        "moves": [
+          "ice-shard"
+        ]
+      },
+      {
+        "L": 15,
+        "moves": [
+          "life-dew"
+        ]
+      }
+    ],
+    "misc": [
+      "headbutt",
+      "horn-drill",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "growl",
+      "roar",
+      "sing",
+      "mist",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "aurora-beam",
+      "hyper-beam",
+      "strength",
+      "solar-beam",
+      "dragon-rage",
+      "thunderbolt",
+      "thunder",
+      "earthquake",
+      "fissure",
+      "toxic",
+      "psychic",
+      "rage",
+      "mimic",
+      "double-team",
+      "confuse-ray",
+      "haze",
+      "reflect",
+      "bide",
+      "waterfall",
+      "skull-bash",
+      "dream-eater",
+      "psywave",
+      "rest",
+      "substitute",
+      "nightmare",
+      "snore",
+      "curse",
+      "protect",
+      "zap-cannon",
+      "foresight",
+      "perish-song",
+      "icy-wind",
+      "outrage",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "safeguard",
+      "megahorn",
+      "dragon-breath",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "ancient-power",
+      "future-sight",
+      "rock-smash",
+      "whirlpool",
+      "hail",
+      "facade",
+      "helping-hand",
+      "refresh",
+      "secret-power",
+      "dive",
+      "hyper-voice",
+      "weather-ball",
+      "tickle",
+      "signal-beam",
+      "sheer-cold",
+      "muddy-water",
+      "icicle-spear",
+      "block",
+      "dragon-dance",
+      "shock-wave",
+      "water-pulse",
+      "brine",
+      "natural-gift",
+      "aqua-tail",
+      "dragon-pulse",
+      "giga-impact",
+      "avalanche",
+      "ice-shard",
+      "zen-headbutt",
+      "iron-head",
+      "captivate",
+      "round",
+      "echoed-voice",
+      "bulldoze",
+      "frost-breath",
+      "drill-run",
+      "freeze-dry",
+      "disarming-voice",
+      "confide",
+      "sparkling-aria",
+      "smart-strike",
+      "liquidation",
+      "body-press",
+      "life-dew",
+      "tera-blast",
+      "snowscape",
+      "chilling-water",
+      "dragon-cheer",
+      "alluring-voice",
+      "psychic-noise"
+    ]
+  }
 }

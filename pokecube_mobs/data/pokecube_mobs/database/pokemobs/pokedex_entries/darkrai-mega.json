@@ -3,10 +3,9 @@
   "id": 491,
   "stock": true,
   "is_extra_form": true,
-  "base_experience": 270,
+  "base_experience": 300,
   "size": {
-    "height": 3.0,
-    "width": 1.0
+    "height": 3.0
   },
   "mass": 240.0,
   "is_default": false,
@@ -29,24 +28,21 @@
   "types": [
     "dark"
   ],
-  "abilities": {
-    "normal": [
-      "cacophony"
-    ]
-  },
+  "loot_table": "pokecube:entities/generic_legend",
   "moves": {
     "level_up": [
       {
         "L": 1,
         "moves": [
           "disable",
+          "shadow-sneak",
           "ominous-wind"
         ]
       },
       {
-        "L": 11,
+        "L": 46,
         "moves": [
-          "quick-attack"
+          "psychic"
         ]
       },
       {
@@ -56,14 +52,15 @@
         ]
       },
       {
-        "L": 29,
+        "L": 11,
         "moves": [
-          "feint-attack"
+          "quick-attack"
         ]
       },
       {
         "L": 38,
         "moves": [
+          "night-shade",
           "nightmare"
         ]
       },
@@ -80,21 +77,30 @@
         ]
       },
       {
-        "L": 66,
+        "L": 84,
         "moves": [
-          "dark-void"
+          "dream-eater"
+        ]
+      },
+      {
+        "L": 29,
+        "moves": [
+          "feint-attack",
+          "pursuit",
+          "sucker-punch"
+        ]
+      },
+      {
+        "L": 36,
+        "moves": [
+          "shadow-ball"
         ]
       },
       {
         "L": 75,
         "moves": [
+          "embargo",
           "nasty-plot"
-        ]
-      },
-      {
-        "L": 84,
-        "moves": [
-          "dream-eater"
         ]
       },
       {
@@ -102,63 +108,113 @@
         "moves": [
           "dark-pulse"
         ]
+      },
+      {
+        "L": 66,
+        "moves": [
+          "dark-void"
+        ]
+      },
+      {
+        "L": 12,
+        "moves": [
+          "hex"
+        ]
       }
     ],
     "misc": [
-      "scary-face",
-      "protect",
-      "confuse-ray",
-      "thief",
-      "charge-beam",
-      "facade",
-      "hex",
-      "snarl",
-      "swift",
-      "icy-wind",
-      "rock-tomb",
-      "night-shade",
-      "fling",
-      "endure",
-      "sunny-day",
-      "rain-dance",
-      "psyshock",
-      "brick-break",
-      "shadow-claw",
-      "foul-play",
-      "sleep-talk",
-      "drain-punch",
+      "swords-dance",
+      "cut",
+      "headbutt",
+      "disable",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "strength",
+      "thunderbolt",
       "thunder-wave",
-      "poison-jab",
+      "thunder",
+      "toxic",
+      "psychic",
+      "hypnosis",
+      "quick-attack",
+      "night-shade",
+      "double-team",
+      "confuse-ray",
+      "haze",
+      "swift",
+      "dream-eater",
+      "flash",
       "rest",
       "rock-slide",
-      "taunt",
-      "swords-dance",
-      "dark-pulse",
       "substitute",
-      "x-scissor",
-      "will-o-wisp",
-      "trick",
-      "shadow-ball",
-      "psychic",
-      "calm-mind",
-      "ice-beam",
-      "nasty-plot",
-      "blizzard",
-      "giga-impact",
-      "focus-blast",
-      "hyper-beam",
-      "thunder",
-      "sludge-bomb",
-      "tera-blast",
-      "haze",
+      "thief",
+      "nightmare",
+      "snore",
+      "curse",
       "spite",
-      "knock-off",
-      "focus-punch",
-      "lash-out",
+      "protect",
+      "scary-face",
+      "feint-attack",
+      "sludge-bomb",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "swagger",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
       "psych-up",
+      "shadow-ball",
+      "rock-smash",
+      "torment",
+      "will-o-wisp",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "trick",
+      "brick-break",
+      "knock-off",
+      "snatch",
+      "secret-power",
+      "rock-tomb",
+      "aerial-ace",
+      "calm-mind",
+      "shock-wave",
+      "natural-gift",
+      "payback",
+      "embargo",
+      "fling",
+      "last-resort",
+      "sucker-punch",
+      "poison-jab",
+      "dark-pulse",
+      "x-scissor",
+      "drain-punch",
+      "focus-blast",
+      "giga-impact",
+      "nasty-plot",
+      "shadow-claw",
+      "rock-climb",
+      "charge-beam",
+      "dark-void",
+      "ominous-wind",
+      "wonder-room",
+      "psyshock",
+      "foul-play",
+      "round",
+      "hex",
+      "incinerate",
+      "retaliate",
+      "snarl",
+      "confide",
+      "power-up-punch",
       "throat-chop",
-      "curse"
+      "lash-out",
+      "tera-blast"
     ]
-  },
-  "loot_table": "pokecube:entities/generic_legend"
+  }
 }

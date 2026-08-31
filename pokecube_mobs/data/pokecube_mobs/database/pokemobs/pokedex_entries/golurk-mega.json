@@ -3,16 +3,15 @@
   "id": 623,
   "stock": true,
   "is_extra_form": true,
-  "base_experience": 169,
+  "base_experience": 199,
   "size": {
-    "height": 4.0,
-    "length": 2.0
+    "height": 4.0
   },
   "mass": 330.0,
   "is_default": false,
   "capture_rate": 90,
   "base_happiness": 70,
-  "growth_rate": "medium-fast",
+  "growth_rate": "medium",
   "gender_rate": 255,
   "stats": {
     "hp": 89,
@@ -31,9 +30,8 @@
   ],
   "abilities": {
     "normal": [
-      "cacophony"
-    ],
-    "hidden": []
+      "unseen-fist"
+    ]
   },
   "moves": {
     "level_up": [
@@ -220,6 +218,7 @@
       "giga-impact",
       "zen-headbutt",
       "flash-cannon",
+      "iron-head",
       "stone-edge",
       "stealth-rock",
       "grass-knot",
@@ -242,6 +241,7 @@
       "body-press",
       "poltergeist",
       "scorching-sands",
+      "headlong-rush",
       "tera-blast",
       "hard-press"
     ]

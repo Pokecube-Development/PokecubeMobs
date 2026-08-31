@@ -3,10 +3,9 @@
   "id": 500,
   "stock": true,
   "is_extra_form": true,
-  "base_experience": 238,
+  "base_experience": 268,
   "size": {
-    "height": 1.8,
-    "width": 1.4
+    "height": 1.8
   },
   "mass": 180.3,
   "is_default": false,
@@ -31,38 +30,44 @@
   ],
   "abilities": {
     "normal": [
-      "cacophony"
-    ],
-    "hidden": []
+      "mold-breaker"
+    ]
   },
   "moves": {
     "level_up": [
       {
         "L": 1,
         "moves": [
-          "arm-thrust",
           "tackle",
           "tail-whip",
-          "ember"
+          "ember",
+          "arm-thrust",
+          "odor-sleuth",
+          "hammer-arm"
         ]
       },
       {
-        "L": 0,
+        "L": 28,
         "moves": [
-          "endure",
-          "hammer-arm"
+          "take-down"
+        ]
+      },
+      {
+        "L": 55,
+        "moves": [
+          "roar"
+        ]
+      },
+      {
+        "L": 43,
+        "moves": [
+          "flamethrower"
         ]
       },
       {
         "L": 13,
         "moves": [
           "defense-curl"
-        ]
-      },
-      {
-        "L": 15,
-        "moves": [
-          "flame-charge"
         ]
       },
       {
@@ -78,27 +83,15 @@
         ]
       },
       {
-        "L": 28,
-        "moves": [
-          "take-down"
-        ]
-      },
-      {
-        "L": 31,
-        "moves": [
-          "heat-crash"
-        ]
-      },
-      {
         "L": 38,
         "moves": [
           "assurance"
         ]
       },
       {
-        "L": 43,
+        "L": 62,
         "moves": [
-          "flamethrower"
+          "flare-blitz"
         ]
       },
       {
@@ -108,15 +101,15 @@
         ]
       },
       {
-        "L": 55,
+        "L": 15,
         "moves": [
-          "roar"
+          "flame-charge"
         ]
       },
       {
-        "L": 62,
+        "L": 31,
         "moves": [
-          "flare-blitz"
+          "heat-crash"
         ]
       }
     ],
@@ -142,6 +135,7 @@
       "toxic",
       "double-team",
       "defense-curl",
+      "focus-energy",
       "smog",
       "fire-blast",
       "rest",
@@ -201,6 +195,7 @@
       "grass-knot",
       "head-smash",
       "smack-down",
+      "storm-throw",
       "heavy-slam",
       "flame-charge",
       "low-sweep",
@@ -216,9 +211,12 @@
       "confide",
       "power-up-punch",
       "high-horsepower",
+      "solar-blade",
+      "burn-up",
       "stomping-tantrum",
       "body-press",
       "coaching",
+      "scorching-sands",
       "tera-blast",
       "trailblaze",
       "hard-press",

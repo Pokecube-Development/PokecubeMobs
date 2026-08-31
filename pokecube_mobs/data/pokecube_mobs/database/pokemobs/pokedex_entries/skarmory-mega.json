@@ -3,12 +3,11 @@
   "id": 227,
   "stock": true,
   "is_extra_form": true,
-  "base_experience": 163,
+  "base_experience": 193,
   "size": {
-    "height": 1.7,
-    "width": 1.5
+    "height": 1.7
   },
-  "mass": 50.5,
+  "mass": 40.4,
   "is_default": false,
   "capture_rate": 25,
   "base_happiness": 70,
@@ -31,9 +30,8 @@
   ],
   "abilities": {
     "normal": [
-      "cacophony"
-    ],
-    "hidden": []
+      "stalwart"
+    ]
   },
   "moves": {
     "level_up": [

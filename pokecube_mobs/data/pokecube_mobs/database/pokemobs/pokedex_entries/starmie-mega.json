@@ -3,10 +3,9 @@
   "id": 121,
   "stock": true,
   "is_extra_form": true,
-  "base_experience": 182,
+  "base_experience": 212,
   "size": {
-    "height": 2.3,
-    "length": 1.0
+    "height": 2.3
   },
   "mass": 80.0,
   "is_default": false,
@@ -31,9 +30,8 @@
   ],
   "abilities": {
     "normal": [
-      "cacophony"
-    ],
-    "hidden": []
+      "huge-power"
+    ]
   },
   "moves": {
     "level_up": [
@@ -97,6 +95,7 @@
       "light-screen",
       "reflect",
       "bide",
+      "self-destruct",
       "waterfall",
       "swift",
       "skull-bash",
@@ -119,12 +118,14 @@
       "sleep-talk",
       "return",
       "frustration",
+      "safeguard",
       "pain-split",
       "rapid-spin",
       "hidden-power",
       "twister",
       "rain-dance",
       "psych-up",
+      "ancient-power",
       "whirlpool",
       "hail",
       "facade",
@@ -132,10 +133,12 @@
       "magic-coat",
       "recycle",
       "skill-swap",
+      "refresh",
       "secret-power",
       "dive",
       "cosmic-power",
       "signal-beam",
+      "bulk-up",
       "water-pulse",
       "gravity",
       "gyro-ball",
@@ -145,9 +148,12 @@
       "giga-impact",
       "avalanche",
       "psycho-cut",
+      "zen-headbutt",
       "flash-cannon",
       "trick-room",
       "grass-knot",
+      "charge-beam",
+      "aqua-jet",
       "wonder-room",
       "psyshock",
       "telekinesis",
@@ -157,9 +163,12 @@
       "confide",
       "dazzling-gleam",
       "spotlight",
+      "liquidation",
       "expanding-force",
       "meteor-beam",
-      "flip-turn"
+      "flip-turn",
+      "ice-spinner",
+      "chilling-water"
     ]
   },
   "loot_table": "pokecube:entities/fish_1"

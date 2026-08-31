@@ -55,5 +55,132 @@
       ]
     }
   },
-  "sound": "melmetal-gmax"
+  "sound": "melmetal-gmax",
+  "loot_table": "pokecube:entities/iron_1",
+  "moves": {
+    "level_up": [
+      {
+        "L": 48,
+        "moves": [
+          "mega-punch"
+        ]
+      },
+      {
+        "L": 0,
+        "moves": [
+          "thunder-punch"
+        ]
+      },
+      {
+        "L": 1,
+        "moves": [
+          "headbutt",
+          "tail-whip",
+          "thunder-shock",
+          "harden"
+        ]
+      },
+      {
+        "L": 96,
+        "moves": [
+          "hyper-beam"
+        ]
+      },
+      {
+        "L": 24,
+        "moves": [
+          "thunder-wave"
+        ]
+      },
+      {
+        "L": 32,
+        "moves": [
+          "acid-armor"
+        ]
+      },
+      {
+        "L": 56,
+        "moves": [
+          "protect"
+        ]
+      },
+      {
+        "L": 72,
+        "moves": [
+          "dynamic-punch"
+        ]
+      },
+      {
+        "L": 80,
+        "moves": [
+          "superpower"
+        ]
+      },
+      {
+        "L": 40,
+        "moves": [
+          "flash-cannon"
+        ]
+      },
+      {
+        "L": 64,
+        "moves": [
+          "discharge"
+        ]
+      },
+      {
+        "L": 88,
+        "moves": [
+          "double-iron-bash"
+        ]
+      }
+    ],
+    "misc": [
+      "mega-punch",
+      "ice-punch",
+      "thunder-punch",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "tail-whip",
+      "ice-beam",
+      "hyper-beam",
+      "solar-beam",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "earthquake",
+      "toxic",
+      "harden",
+      "self-destruct",
+      "acid-armor",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "protect",
+      "endure",
+      "sleep-talk",
+      "facade",
+      "superpower",
+      "brick-break",
+      "rock-tomb",
+      "iron-defense",
+      "gyro-ball",
+      "giga-impact",
+      "flash-cannon",
+      "iron-head",
+      "heavy-slam",
+      "round",
+      "electric-terrain",
+      "darkest-lariat",
+      "high-horsepower",
+      "brutal-swing",
+      "double-iron-bash",
+      "body-press",
+      "steel-beam",
+      "steel-roller"
+    ]
+  }
 }

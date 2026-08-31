@@ -3,10 +3,9 @@
   "id": 445,
   "stock": true,
   "is_extra_form": true,
-  "base_experience": 270,
+  "base_experience": 300,
   "size": {
-    "height": 1.9,
-    "width": 0.9
+    "height": 1.9
   },
   "mass": 99.0,
   "is_default": false,
@@ -28,33 +27,31 @@
   "types": [
     "dragon"
   ],
-  "abilities": {
-    "normal": [
-      "cacophony"
-    ],
-    "hidden": []
-  },
+  "loot_table": "pokecube:entities/iron_chicken_2",
   "moves": {
     "level_up": [
       {
-        "L": 0,
-        "moves": [
-          "crunch"
-        ]
-      },
-      {
         "L": 1,
         "moves": [
-          "sand-tomb",
-          "tackle",
           "sand-attack",
-          "dragon-breath"
+          "tackle",
+          "dragon-rage",
+          "sandstorm",
+          "dragon-breath",
+          "fire-fang",
+          "dual-chop"
         ]
       },
       {
-        "L": 18,
+        "L": 15,
         "moves": [
-          "bulldoze"
+          "take-down"
+        ]
+      },
+      {
+        "L": 37,
+        "moves": [
+          "double-edge"
         ]
       },
       {
@@ -64,92 +61,161 @@
         ]
       },
       {
-        "L": 34,
-        "moves": [
-          "slash"
-        ]
-      },
-      {
-        "L": 42,
-        "moves": [
-          "dragon-claw"
-        ]
-      },
-      {
-        "L": 52,
+        "L": 40,
         "moves": [
           "dig"
         ]
       },
       {
-        "L": 62,
+        "L": 28,
         "moves": [
-          "sandstorm"
+          "slash"
         ]
       },
       {
-        "L": 72,
+        "L": 47,
         "moves": [
-          "take-down"
+          "outrage"
         ]
       },
       {
-        "L": 82,
+        "L": 5,
+        "moves": [
+          "twister"
+        ]
+      },
+      {
+        "L": 0,
+        "moves": [
+          "crunch"
+        ]
+      },
+      {
+        "L": 19,
+        "moves": [
+          "sand-tomb"
+        ]
+      },
+      {
+        "L": 33,
+        "moves": [
+          "dragon-claw"
+        ]
+      },
+      {
+        "L": 55,
         "moves": [
           "dragon-rush"
+        ]
+      },
+      {
+        "L": 29,
+        "moves": [
+          "earth-power"
+        ]
+      },
+      {
+        "L": 18,
+        "moves": [
+          "bulldoze"
         ]
       }
     ],
     "misc": [
-      "take-down",
-      "scary-face",
-      "protect",
-      "fire-fang",
-      "thunder-fang",
-      "facade",
-      "aerial-ace",
-      "bulldoze",
-      "metal-claw",
-      "swift",
-      "mud-shot",
-      "rock-tomb",
-      "fling",
-      "dragon-tail",
-      "endure",
-      "sunny-day",
-      "rain-dance",
-      "sandstorm",
-      "dig",
-      "false-swipe",
-      "brick-break",
-      "shadow-claw",
+      "swords-dance",
+      "cut",
+      "sand-attack",
+      "headbutt",
+      "tackle",
       "body-slam",
-      "sleep-talk",
-      "dragon-claw",
-      "poison-jab",
-      "stomping-tantrum",
+      "take-down",
+      "thrash",
+      "double-edge",
+      "bite",
+      "roar",
+      "flamethrower",
+      "surf",
+      "hyper-beam",
+      "strength",
+      "dragon-rage",
+      "earthquake",
+      "dig",
+      "toxic",
+      "double-team",
+      "fire-blast",
+      "swift",
       "rest",
       "rock-slide",
-      "crunch",
-      "iron-head",
-      "stone-edge",
+      "slash",
       "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "spikes",
+      "outrage",
+      "sandstorm",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dragon-breath",
+      "iron-tail",
+      "metal-claw",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "rock-smash",
+      "whirlpool",
+      "facade",
+      "helping-hand",
+      "brick-break",
+      "secret-power",
+      "rock-tomb",
+      "sand-tomb",
+      "aerial-ace",
+      "dragon-claw",
+      "mud-shot",
+      "natural-gift",
+      "fling",
+      "poison-jab",
+      "aqua-tail",
       "dragon-pulse",
+      "dragon-rush",
+      "power-gem",
       "earth-power",
       "giga-impact",
-      "outrage",
-      "hyper-beam",
-      "earthquake",
-      "tera-blast",
-      "spite",
+      "shadow-claw",
+      "thunder-fang",
+      "fire-fang",
+      "rock-climb",
+      "draco-meteor",
+      "iron-head",
+      "stone-edge",
+      "captivate",
       "stealth-rock",
-      "lash-out",
-      "scale-shot",
+      "hone-claws",
+      "round",
+      "incinerate",
+      "bulldoze",
+      "dragon-tail",
+      "dual-chop",
+      "confide",
+      "laser-focus",
+      "brutal-swing",
+      "stomping-tantrum",
+      "liquidation",
       "breaking-swipe",
-      "swords-dance"
+      "scale-shot",
+      "scorching-sands",
+      "tera-blast",
+      "dragon-cheer"
     ]
-  },
-  "sound": "garchomp-mega",
-  "old_name": "garchomp_mega",
-  "loot_table": "pokecube:entities/generic_legend"
+  }
 }

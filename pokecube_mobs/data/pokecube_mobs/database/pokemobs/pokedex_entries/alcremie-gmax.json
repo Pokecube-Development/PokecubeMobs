@@ -58,5 +58,130 @@
       ]
     }
   },
-  "sound": "alcremie-gmax"
+  "sound": "alcremie-gmax",
+  "loot_table": "pokecube:entities/white_1",
+  "moves": {
+    "level_up": [
+      {
+        "L": 1,
+        "moves": [
+          "tackle",
+          "sweet-kiss",
+          "sweet-scent",
+          "aromatic-mist"
+        ]
+      },
+      {
+        "L": 40,
+        "moves": [
+          "recover"
+        ]
+      },
+      {
+        "L": 30,
+        "moves": [
+          "acid-armor"
+        ]
+      },
+      {
+        "L": 20,
+        "moves": [
+          "charm",
+          "aromatherapy"
+        ]
+      },
+      {
+        "L": 25,
+        "moves": [
+          "attract"
+        ]
+      },
+      {
+        "L": 50,
+        "moves": [
+          "entrainment"
+        ]
+      },
+      {
+        "L": 15,
+        "moves": [
+          "draining-kiss"
+        ]
+      },
+      {
+        "L": 45,
+        "moves": [
+          "misty-terrain"
+        ]
+      },
+      {
+        "L": 35,
+        "moves": [
+          "dazzling-gleam"
+        ]
+      },
+      {
+        "L": 0,
+        "moves": [
+          "decorate"
+        ]
+      }
+    ],
+    "misc": [
+      "tackle",
+      "hyper-beam",
+      "solar-beam",
+      "psychic",
+      "recover",
+      "light-screen",
+      "metronome",
+      "acid-armor",
+      "rest",
+      "tri-attack",
+      "substitute",
+      "snore",
+      "protect",
+      "sweet-kiss",
+      "giga-drain",
+      "endure",
+      "charm",
+      "attract",
+      "sleep-talk",
+      "safeguard",
+      "pain-split",
+      "encore",
+      "sweet-scent",
+      "psych-up",
+      "facade",
+      "helping-hand",
+      "endeavor",
+      "imprison",
+      "fake-tears",
+      "magical-leaf",
+      "calm-mind",
+      "fling",
+      "last-resort",
+      "drain-punch",
+      "energy-ball",
+      "giga-impact",
+      "wonder-room",
+      "psyshock",
+      "magic-room",
+      "entrainment",
+      "round",
+      "stored-power",
+      "disarming-voice",
+      "draining-kiss",
+      "misty-terrain",
+      "play-rough",
+      "mystical-fire",
+      "aromatic-mist",
+      "dazzling-gleam",
+      "baby-doll-eyes",
+      "decorate",
+      "misty-explosion",
+      "tera-blast",
+      "alluring-voice"
+    ]
+  }
 }

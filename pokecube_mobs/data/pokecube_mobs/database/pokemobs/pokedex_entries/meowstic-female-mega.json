@@ -3,23 +3,23 @@
   "id": 678,
   "stock": true,
   "is_extra_form": true,
-  "base_experience": 163,
+  "base_experience": 193,
   "size": {
-    "height": 0.6
+    "height": 0.8
   },
-  "mass": 8.5,
+  "mass": 10.1,
   "is_default": false,
   "capture_rate": 75,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium",
   "gender_rate": 254,
   "stats": {
     "hp": 74,
     "attack": 48,
     "defense": 76,
-    "special_attack": 83,
-    "special_defense": 81,
-    "speed": 104
+    "special_attack": 143,
+    "special_defense": 101,
+    "speed": 124
   },
   "evs": {
     "speed": 2
@@ -29,11 +29,7 @@
   ],
   "abilities": {
     "normal": [
-      "keen-eye",
-      "infiltrator"
-    ],
-    "hidden": [
-      "competitive"
+      "trace"
     ]
   },
   "moves": {

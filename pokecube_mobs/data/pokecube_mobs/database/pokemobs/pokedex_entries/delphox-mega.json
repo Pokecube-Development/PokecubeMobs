@@ -3,10 +3,9 @@
   "id": 655,
   "stock": true,
   "is_extra_form": true,
-  "base_experience": 240,
+  "base_experience": 270,
   "size": {
-    "height": 1.5,
-    "width": 0.9
+    "height": 1.5
   },
   "mass": 39.0,
   "is_default": false,
@@ -31,35 +30,28 @@
   ],
   "abilities": {
     "normal": [
-      "cacophony"
-    ],
-    "hidden": []
+      "levitate"
+    ]
   },
   "moves": {
     "level_up": [
       {
         "L": 1,
         "moves": [
-          "future-sight",
-          "role-play",
-          "switcheroo",
-          "shadow-ball",
           "scratch",
           "tail-whip",
           "ember",
-          "howl"
+          "shadow-ball",
+          "future-sight",
+          "role-play",
+          "howl",
+          "switcheroo"
         ]
       },
       {
-        "L": 0,
+        "L": 45,
         "moves": [
-          "mystical-fire"
-        ]
-      },
-      {
-        "L": 14,
-        "moves": [
-          "flame-charge"
+          "flamethrower"
         ]
       },
       {
@@ -75,33 +67,21 @@
         ]
       },
       {
-        "L": 28,
+        "L": 57,
+        "moves": [
+          "psychic"
+        ]
+      },
+      {
+        "L": 31,
         "moves": [
           "light-screen"
         ]
       },
       {
-        "L": 38,
+        "L": 74,
         "moves": [
-          "psyshock"
-        ]
-      },
-      {
-        "L": 45,
-        "moves": [
-          "flamethrower"
-        ]
-      },
-      {
-        "L": 51,
-        "moves": [
-          "will-o-wisp"
-        ]
-      },
-      {
-        "L": 57,
-        "moves": [
-          "psychic"
+          "fire-blast"
         ]
       },
       {
@@ -111,77 +91,149 @@
         ]
       },
       {
+        "L": 51,
+        "moves": [
+          "will-o-wisp"
+        ]
+      },
+      {
+        "L": 28,
+        "moves": [
+          "lucky-chant"
+        ]
+      },
+      {
+        "L": 38,
+        "moves": [
+          "psyshock"
+        ]
+      },
+      {
         "L": 68,
         "moves": [
           "magic-room"
         ]
       },
       {
-        "L": 74,
+        "L": 14,
         "moves": [
-          "fire-blast"
+          "flame-charge"
+        ]
+      },
+      {
+        "L": 0,
+        "moves": [
+          "mystical-fire"
         ]
       }
     ],
     "misc": [
-      "take-down",
-      "charm",
-      "agility",
-      "mud-slap",
-      "protect",
-      "low-kick",
-      "psybeam",
-      "confuse-ray",
-      "thief",
-      "fire-spin",
-      "facade",
-      "hex",
-      "swift",
-      "mud-shot",
-      "flame-charge",
-      "stored-power",
-      "night-shade",
-      "endure",
-      "sunny-day",
-      "rain-dance",
-      "psyshock",
-      "zen-headbutt",
-      "foul-play",
       "fire-punch",
       "thunder-punch",
-      "sleep-talk",
-      "reflect",
-      "light-screen",
-      "dazzling-gleam",
-      "metronome",
-      "rest",
-      "taunt",
-      "imprison",
-      "skill-swap",
-      "substitute",
-      "trick",
-      "shadow-ball",
-      "psychic",
-      "calm-mind",
+      "scratch",
+      "cut",
+      "take-down",
+      "tail-whip",
+      "ember",
       "flamethrower",
-      "helping-hand",
-      "fire-blast",
-      "will-o-wisp",
-      "giga-impact",
-      "focus-blast",
+      "psybeam",
       "hyper-beam",
+      "low-kick",
       "solar-beam",
-      "tera-blast",
-      "nasty-plot",
-      "magic-room",
+      "fire-spin",
+      "toxic",
+      "psychic",
+      "hypnosis",
+      "agility",
+      "night-shade",
+      "double-team",
+      "confuse-ray",
+      "light-screen",
+      "reflect",
+      "metronome",
+      "fire-blast",
+      "swift",
+      "dream-eater",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "protect",
+      "mud-slap",
+      "endure",
+      "charm",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "safeguard",
+      "encore",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
       "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "helping-hand",
+      "trick",
+      "role-play",
+      "wish",
+      "magic-coat",
+      "recycle",
+      "skill-swap",
+      "imprison",
+      "snatch",
+      "secret-power",
+      "hyper-voice",
+      "blast-burn",
       "overheat",
+      "signal-beam",
+      "howl",
+      "mud-shot",
+      "covet",
+      "calm-mind",
+      "shock-wave",
+      "embargo",
+      "lucky-chant",
+      "copycat",
+      "flare-blitz",
+      "focus-blast",
+      "switcheroo",
+      "giga-impact",
+      "nasty-plot",
+      "zen-headbutt",
       "trick-room",
       "grass-knot",
-      "encore",
-      "signal-beam",
-      "snatch",
-      "copycat"
+      "wonder-room",
+      "psyshock",
+      "telekinesis",
+      "magic-room",
+      "flame-charge",
+      "foul-play",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "ally-switch",
+      "hex",
+      "incinerate",
+      "fire-pledge",
+      "work-up",
+      "confide",
+      "mystical-fire",
+      "dazzling-gleam",
+      "power-up-punch",
+      "laser-focus",
+      "psychic-terrain",
+      "expanding-force",
+      "burning-jealousy",
+      "scorching-sands",
+      "tera-blast",
+      "psychic-noise"
     ]
   },
   "interactions": [

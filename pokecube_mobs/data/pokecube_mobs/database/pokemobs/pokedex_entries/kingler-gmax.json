@@ -60,5 +60,189 @@
       ]
     }
   },
-  "sound": "kingler-gmax"
+  "sound": "kingler-gmax",
+  "loot_table": "pokecube:entities/shear_fish",
+  "moves": {
+    "level_up": [
+      {
+        "L": 1,
+        "moves": [
+          "vice-grip",
+          "leer",
+          "water-gun",
+          "agility",
+          "amnesia",
+          "bubble",
+          "mud-sport",
+          "hammer-arm",
+          "wide-guard"
+        ]
+      },
+      {
+        "L": 37,
+        "moves": [
+          "guillotine"
+        ]
+      },
+      {
+        "L": 48,
+        "moves": [
+          "swords-dance"
+        ]
+      },
+      {
+        "L": 44,
+        "moves": [
+          "slam"
+        ]
+      },
+      {
+        "L": 25,
+        "moves": [
+          "stomp"
+        ]
+      },
+      {
+        "L": 15,
+        "moves": [
+          "bubble-beam"
+        ]
+      },
+      {
+        "L": 11,
+        "moves": [
+          "harden"
+        ]
+      },
+      {
+        "L": 56,
+        "moves": [
+          "crabhammer"
+        ]
+      },
+      {
+        "L": 63,
+        "moves": [
+          "flail"
+        ]
+      },
+      {
+        "L": 32,
+        "moves": [
+          "protect"
+        ]
+      },
+      {
+        "L": 21,
+        "moves": [
+          "metal-claw"
+        ]
+      },
+      {
+        "L": 19,
+        "moves": [
+          "mud-shot"
+        ]
+      },
+      {
+        "L": 51,
+        "moves": [
+          "brine"
+        ]
+      },
+      {
+        "L": 36,
+        "moves": [
+          "razor-shell"
+        ]
+      }
+    ],
+    "misc": [
+      "vice-grip",
+      "guillotine",
+      "swords-dance",
+      "cut",
+      "slam",
+      "stomp",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "hyper-beam",
+      "strength",
+      "dig",
+      "toxic",
+      "agility",
+      "rage",
+      "mimic",
+      "double-team",
+      "harden",
+      "bide",
+      "amnesia",
+      "bubble",
+      "crabhammer",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "flail",
+      "protect",
+      "mud-slap",
+      "icy-wind",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "metal-claw",
+      "hidden-power",
+      "rain-dance",
+      "ancient-power",
+      "rock-smash",
+      "whirlpool",
+      "hail",
+      "facade",
+      "superpower",
+      "brick-break",
+      "knock-off",
+      "secret-power",
+      "dive",
+      "mud-sport",
+      "rock-tomb",
+      "iron-defense",
+      "mud-shot",
+      "water-pulse",
+      "hammer-arm",
+      "brine",
+      "natural-gift",
+      "fling",
+      "x-scissor",
+      "giga-impact",
+      "captivate",
+      "hone-claws",
+      "wide-guard",
+      "round",
+      "ally-switch",
+      "scald",
+      "quash",
+      "razor-shell",
+      "confide",
+      "high-horsepower",
+      "brutal-swing",
+      "stomping-tantrum",
+      "liquidation"
+    ]
+  }
 }

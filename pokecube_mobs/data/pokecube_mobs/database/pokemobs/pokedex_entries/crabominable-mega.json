@@ -3,7 +3,7 @@
   "id": 740,
   "stock": true,
   "is_extra_form": true,
-  "base_experience": 167,
+  "base_experience": 197,
   "size": {
     "height": 2.6
   },
@@ -30,9 +30,8 @@
   ],
   "abilities": {
     "normal": [
-      "cacophony"
-    ],
-    "hidden": []
+      "iron-fist"
+    ]
   },
   "moves": {
     "level_up": [
@@ -127,6 +126,7 @@
       "amnesia",
       "bubble",
       "dizzy-punch",
+      "crabhammer",
       "rest",
       "rock-slide",
       "substitute",
@@ -134,6 +134,7 @@
       "snore",
       "reversal",
       "protect",
+      "mach-punch",
       "scary-face",
       "mud-slap",
       "icy-wind",
@@ -158,6 +159,7 @@
       "knock-off",
       "endeavor",
       "rock-tomb",
+      "icicle-spear",
       "iron-defense",
       "block",
       "bulk-up",
@@ -173,6 +175,7 @@
       "gunk-shot",
       "iron-head",
       "stone-edge",
+      "wide-guard",
       "round",
       "scald",
       "bulldoze",

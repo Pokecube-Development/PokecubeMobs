@@ -3,11 +3,9 @@
   "id": 545,
   "stock": true,
   "is_extra_form": true,
-  "base_experience": 243,
+  "base_experience": 248,
   "size": {
-    "height": 3.2,
-    "width": 1.0,
-    "length": 2.5
+    "height": 3.2
   },
   "mass": 230.5,
   "is_default": false,
@@ -32,9 +30,8 @@
   ],
   "abilities": {
     "normal": [
-      "cacophony"
-    ],
-    "hidden": []
+      "shell-armor"
+    ]
   },
   "moves": {
     "level_up": [
@@ -134,6 +131,7 @@
       "double-edge",
       "poison-sting",
       "pin-missile",
+      "bite",
       "hyper-beam",
       "strength",
       "solar-beam",
@@ -144,6 +142,7 @@
       "screech",
       "double-team",
       "defense-curl",
+      "leech-life",
       "rest",
       "rock-slide",
       "substitute",
@@ -184,8 +183,11 @@
       "giga-impact",
       "rock-climb",
       "cross-poison",
+      "gunk-shot",
       "bug-bite",
+      "double-hit",
       "venoshock",
+      "acid-spray",
       "round",
       "hex",
       "struggle-bug",
@@ -198,7 +200,9 @@
       "smart-strike",
       "stomping-tantrum",
       "steel-roller",
-      "skitter-smack"
+      "skitter-smack",
+      "pounce",
+      "trailblaze"
     ]
   },
   "loot_table": "minecraft:entities/spider"

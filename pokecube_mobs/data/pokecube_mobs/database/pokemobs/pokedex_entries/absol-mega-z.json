@@ -3,7 +3,7 @@
   "id": 359,
   "stock": true,
   "is_extra_form": true,
-  "base_experience": 198,
+  "base_experience": 193,
   "size": {
     "height": 1.2
   },
@@ -28,145 +28,217 @@
     "dark",
     "ghost"
   ],
-  "abilities": {
-    "normal": []
-  },
+  "loot_table": "pokecube:entities/wool_1",
   "moves": {
     "level_up": [
       {
         "L": 1,
         "moves": [
+          "scratch",
           "leer",
           "quick-attack",
-          "confuse-ray",
-          "shadow-sneak"
+          "perish-song",
+          "future-sight",
+          "feint"
         ]
       },
       {
-        "L": 10,
+        "L": 49,
         "moves": [
-          "knock-off"
+          "razor-wind"
         ]
       },
       {
-        "L": 15,
-        "moves": [
-          "detect"
-        ]
-      },
-      {
-        "L": 20,
+        "L": 25,
         "moves": [
           "swords-dance"
         ]
       },
       {
-        "L": 23,
+        "L": 16,
         "moves": [
-          "slash"
+          "bite"
         ]
       },
       {
-        "L": 27,
-        "moves": [
-          "night-slash"
-        ]
-      },
-      {
-        "L": 32,
+        "L": 19,
         "moves": [
           "double-team"
         ]
       },
       {
-        "L": 36,
-        "moves": [
-          "taunt"
-        ]
-      },
-      {
-        "L": 40,
-        "moves": [
-          "shadow-claw"
-        ]
-      },
-      {
-        "L": 43,
+        "L": 35,
         "moves": [
           "focus-energy"
         ]
       },
       {
-        "L": 46,
+        "L": 22,
         "moves": [
-          "air-slash"
+          "slash"
         ]
       },
       {
-        "L": 48,
+        "L": 33,
         "moves": [
-          "future-sight"
+          "detect"
         ]
       },
       {
-        "L": 54,
+        "L": 10,
         "moves": [
-          "perish-song"
+          "pursuit",
+          "knock-off"
+        ]
+      },
+      {
+        "L": 13,
+        "moves": [
+          "taunt"
+        ]
+      },
+      {
+        "L": 41,
+        "moves": [
+          "me-first"
+        ]
+      },
+      {
+        "L": 45,
+        "moves": [
+          "sucker-punch"
+        ]
+      },
+      {
+        "L": 29,
+        "moves": [
+          "night-slash"
+        ]
+      },
+      {
+        "L": 37,
+        "moves": [
+          "psycho-cut"
         ]
       }
     ],
     "misc": [
-      "leer",
-      "quick-attack",
-      "confuse-ray",
-      "shadow-sneak",
-      "knock-off",
-      "detect",
+      "scratch",
+      "razor-wind",
       "swords-dance",
-      "slash",
-      "night-slash",
+      "cut",
+      "headbutt",
+      "body-slam",
+      "double-edge",
+      "leer",
+      "bite",
+      "flamethrower",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "counter",
+      "strength",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "toxic",
+      "quick-attack",
+      "mimic",
       "double-team",
-      "taunt",
-      "shadow-claw",
+      "confuse-ray",
       "focus-energy",
-      "air-slash",
-      "future-sight",
+      "fire-blast",
+      "swift",
+      "dream-eater",
+      "flash",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "thief",
+      "nightmare",
+      "snore",
+      "curse",
+      "spite",
+      "protect",
+      "feint-attack",
+      "mud-slap",
       "perish-song",
+      "icy-wind",
+      "detect",
+      "sandstorm",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "mean-look",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "megahorn",
+      "baton-pass",
+      "pursuit",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "rock-smash",
+      "hail",
+      "torment",
+      "will-o-wisp",
+      "facade",
+      "taunt",
+      "role-play",
+      "superpower",
+      "magic-coat",
+      "knock-off",
+      "snatch",
+      "secret-power",
+      "rock-tomb",
+      "aerial-ace",
+      "bounce",
+      "calm-mind",
+      "shock-wave",
+      "water-pulse",
+      "natural-gift",
+      "feint",
+      "close-combat",
+      "payback",
+      "assurance",
+      "me-first",
+      "punishment",
+      "sucker-punch",
+      "dark-pulse",
+      "night-slash",
+      "air-slash",
+      "x-scissor",
+      "giga-impact",
+      "shadow-claw",
+      "shadow-sneak",
+      "psycho-cut",
+      "zen-headbutt",
+      "stone-edge",
+      "captivate",
+      "charge-beam",
+      "hone-claws",
+      "foul-play",
+      "round",
+      "echoed-voice",
+      "hex",
+      "incinerate",
+      "retaliate",
       "snarl",
       "phantom-force",
-      "calm-mind",
-      "thunder-wave",
-      "rock-slide",
-      "ice-beam",
-      "protect",
       "play-rough",
-      "aerial-ace",
-      "swift",
-      "body-slam",
-      "endure",
-      "rock-tomb",
-      "fire-blast",
-      "hyper-beam",
-      "giga-impact",
-      "double-edge",
-      "will-o-wisp",
-      "zen-headbutt",
-      "flamethrower",
-      "stone-edge",
-      "thunderbolt",
-      "shadow-ball",
-      "x-scissor",
-      "substitute",
-      "dark-pulse",
-      "blizzard",
-      "thunder",
-      "close-combat",
-      "facade",
-      "ominous-wind",
-      "false-swipe",
-      "razor-wind"
+      "confide",
+      "laser-focus",
+      "throat-chop",
+      "brutal-swing",
+      "trailblaze"
     ]
-  },
-  "sound": "absol-mega",
-  "old_name": "absol_mega"
+  }
 }

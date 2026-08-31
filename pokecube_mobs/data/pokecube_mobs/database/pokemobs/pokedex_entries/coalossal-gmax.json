@@ -60,5 +60,133 @@
       ]
     }
   },
-  "sound": "coalossal-gmax"
+  "sound": "coalossal-gmax",
+  "loot_table": "pokecube:entities/coal_1",
+  "moves": {
+    "level_up": [
+      {
+        "L": 1,
+        "moves": [
+          "tackle",
+          "smokescreen",
+          "rapid-spin",
+          "smack-down",
+          "flame-charge"
+        ]
+      },
+      {
+        "L": 20,
+        "moves": [
+          "ancient-power"
+        ]
+      },
+      {
+        "L": 54,
+        "moves": [
+          "rock-blast"
+        ]
+      },
+      {
+        "L": 15,
+        "moves": [
+          "rock-polish"
+        ]
+      },
+      {
+        "L": 63,
+        "moves": [
+          "stone-edge",
+          "burn-up"
+        ]
+      },
+      {
+        "L": 37,
+        "moves": [
+          "stealth-rock"
+        ]
+      },
+      {
+        "L": 27,
+        "moves": [
+          "incinerate"
+        ]
+      },
+      {
+        "L": 45,
+        "moves": [
+          "heat-crash"
+        ]
+      },
+      {
+        "L": 0,
+        "moves": [
+          "tar-shot"
+        ]
+      }
+    ],
+    "misc": [
+      "mega-punch",
+      "fire-punch",
+      "mega-kick",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "flamethrower",
+      "hyper-beam",
+      "solar-beam",
+      "fire-spin",
+      "earthquake",
+      "dig",
+      "smokescreen",
+      "reflect",
+      "self-destruct",
+      "fire-blast",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "spikes",
+      "sandstorm",
+      "endure",
+      "attract",
+      "sleep-talk",
+      "rapid-spin",
+      "sunny-day",
+      "ancient-power",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "overheat",
+      "rock-tomb",
+      "sand-tomb",
+      "iron-defense",
+      "rock-blast",
+      "gyro-ball",
+      "flare-blitz",
+      "rock-polish",
+      "power-gem",
+      "earth-power",
+      "giga-impact",
+      "iron-head",
+      "stone-edge",
+      "stealth-rock",
+      "smack-down",
+      "heavy-slam",
+      "flame-charge",
+      "round",
+      "scald",
+      "incinerate",
+      "bulldoze",
+      "heat-crash",
+      "high-horsepower",
+      "tar-shot",
+      "body-press",
+      "meteor-beam",
+      "scorching-sands",
+      "tera-blast",
+      "temper-flare"
+    ]
+  }
 }

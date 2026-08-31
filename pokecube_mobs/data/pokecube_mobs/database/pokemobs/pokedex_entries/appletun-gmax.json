@@ -74,5 +74,155 @@
       ]
     }
   },
-  "sound": "appletun-gmax"
+  "sound": "appletun-gmax",
+  "loot_table": "pokecube:entities/apple",
+  "moves": {
+    "level_up": [
+      {
+        "L": 8,
+        "moves": [
+          "stomp"
+        ]
+      },
+      {
+        "L": 0,
+        "moves": [
+          "headbutt"
+        ]
+      },
+      {
+        "L": 32,
+        "moves": [
+          "body-slam"
+        ]
+      },
+      {
+        "L": 12,
+        "moves": [
+          "leech-seed"
+        ]
+      },
+      {
+        "L": 1,
+        "moves": [
+          "growth",
+          "withdraw",
+          "sweet-scent",
+          "recycle",
+          "astonish"
+        ]
+      },
+      {
+        "L": 24,
+        "moves": [
+          "recover"
+        ]
+      },
+      {
+        "L": 4,
+        "moves": [
+          "curse"
+        ]
+      },
+      {
+        "L": 16,
+        "moves": [
+          "protect"
+        ]
+      },
+      {
+        "L": 20,
+        "moves": [
+          "bullet-seed"
+        ]
+      },
+      {
+        "L": 36,
+        "moves": [
+          "iron-defense"
+        ]
+      },
+      {
+        "L": 40,
+        "moves": [
+          "dragon-pulse"
+        ]
+      },
+      {
+        "L": 44,
+        "moves": [
+          "energy-ball"
+        ]
+      },
+      {
+        "L": 28,
+        "moves": [
+          "apple-acid"
+        ]
+      }
+    ],
+    "misc": [
+      "stomp",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "hyper-beam",
+      "leech-seed",
+      "growth",
+      "solar-beam",
+      "earthquake",
+      "recover",
+      "withdraw",
+      "light-screen",
+      "reflect",
+      "amnesia",
+      "rest",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "outrage",
+      "giga-drain",
+      "endure",
+      "attract",
+      "sleep-talk",
+      "safeguard",
+      "sweet-scent",
+      "rain-dance",
+      "sunny-day",
+      "facade",
+      "helping-hand",
+      "superpower",
+      "recycle",
+      "astonish",
+      "bullet-seed",
+      "iron-defense",
+      "magical-leaf",
+      "gyro-ball",
+      "payback",
+      "sucker-punch",
+      "seed-bomb",
+      "dragon-pulse",
+      "energy-ball",
+      "giga-impact",
+      "zen-headbutt",
+      "draco-meteor",
+      "leaf-storm",
+      "iron-head",
+      "grass-knot",
+      "heavy-slam",
+      "round",
+      "bulldoze",
+      "dragon-tail",
+      "grassy-terrain",
+      "high-horsepower",
+      "stomping-tantrum",
+      "body-press",
+      "apple-acid",
+      "grassy-glide",
+      "tera-blast",
+      "pounce",
+      "trailblaze"
+    ]
+  }
 }

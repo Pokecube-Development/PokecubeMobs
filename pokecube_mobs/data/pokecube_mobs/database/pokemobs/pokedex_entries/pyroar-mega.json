@@ -3,11 +3,9 @@
   "id": 668,
   "stock": true,
   "is_extra_form": true,
-  "base_experience": 177,
+  "base_experience": 207,
   "size": {
-    "height": 1.5,
-    "width": 1.0,
-    "length": 1.5
+    "height": 1.5
   },
   "mass": 93.3,
   "is_default": false,
@@ -33,8 +31,7 @@
   "abilities": {
     "normal": [
       "fire-mane"
-    ],
-    "hidden": []
+    ]
   },
   "moves": {
     "level_up": [
@@ -157,6 +154,7 @@
       "facade",
       "taunt",
       "helping-hand",
+      "yawn",
       "endeavor",
       "snatch",
       "secret-power",
@@ -170,6 +168,7 @@
       "thunder-fang",
       "fire-fang",
       "flame-charge",
+      "entrainment",
       "round",
       "echoed-voice",
       "incinerate",
@@ -183,6 +182,7 @@
       "confide",
       "psychic-fangs",
       "burning-jealousy",
+      "scorching-sands",
       "tera-blast",
       "trailblaze",
       "temper-flare"

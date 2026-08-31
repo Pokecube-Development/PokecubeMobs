@@ -3,14 +3,14 @@
   "id": 768,
   "stock": true,
   "is_extra_form": true,
-  "base_experience": 186,
+  "base_experience": 216,
   "size": {
     "height": 2.3
   },
   "mass": 148.0,
   "is_default": false,
   "capture_rate": 45,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium",
   "gender_rate": 127,
   "stats": {
@@ -28,11 +28,7 @@
     "bug",
     "steel"
   ],
-  "abilities": {
-    "normal": [
-      "cacophony"
-    ]
-  },
+  "loot_table": "pokecube:entities/fish_1",
   "moves": {
     "level_up": [
       {
@@ -194,6 +190,5 @@
       "liquidation",
       "skitter-smack"
     ]
-  },
-  "loot_table": "pokecube:entities/fish_1"
+  }
 }

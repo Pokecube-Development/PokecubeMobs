@@ -3,7 +3,7 @@
   "id": 485,
   "stock": true,
   "is_extra_form": true,
-  "base_experience": 270,
+  "base_experience": 300,
   "size": {
     "height": 2.8
   },
@@ -28,12 +28,35 @@
     "fire",
     "steel"
   ],
-  "abilities": {
-    "normal": [
-      "cacophony"
-    ],
-    "hidden": []
-  },
+  "interactions": [
+    {
+      "male": true,
+      "female": true,
+      "cooldown": 50,
+      "variance": 100,
+      "baseHunger": 100,
+      "isTag": false,
+      "key": {
+        "values": {
+          "id": "minecraft:bucket"
+        }
+      },
+      "action": {
+        "values": {
+          "type": "item"
+        },
+        "drops": [
+          {
+            "values": {
+              "id": "minecraft:lava_bucket",
+              "n": "1"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "loot_table": "pokecube:entities/blaze_rabbit_1",
   "moves": {
     "level_up": [
       {
@@ -185,34 +208,5 @@
       "pounce",
       "hard-press"
     ]
-  },
-  "interactions": [
-    {
-      "male": true,
-      "female": true,
-      "cooldown": 50,
-      "variance": 100,
-      "baseHunger": 100,
-      "isTag": false,
-      "key": {
-        "values": {
-          "id": "minecraft:bucket"
-        }
-      },
-      "action": {
-        "values": {
-          "type": "item"
-        },
-        "drops": [
-          {
-            "values": {
-              "id": "minecraft:lava_bucket",
-              "n": "1"
-            }
-          }
-        ]
-      }
-    }
-  ],
-  "loot_table": "pokecube:entities/blaze_rabbit_1"
+  }
 }

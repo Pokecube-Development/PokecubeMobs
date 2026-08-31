@@ -3,10 +3,9 @@
   "id": 154,
   "stock": true,
   "is_extra_form": true,
-  "base_experience": 236,
+  "base_experience": 266,
   "size": {
-    "height": 2.4,
-    "width": 1.4
+    "height": 2.4
   },
   "mass": 201.0,
   "is_default": false,
@@ -33,8 +32,7 @@
   "abilities": {
     "normal": [
       "mega-sol"
-    ],
-    "hidden": []
+    ]
   },
   "moves": {
     "level_up": [
@@ -131,6 +129,7 @@
       "hyper-beam",
       "counter",
       "strength",
+      "leech-seed",
       "razor-leaf",
       "solar-beam",
       "poison-powder",
@@ -183,10 +182,12 @@
       "bullet-seed",
       "frenzy-plant",
       "magical-leaf",
+      "leaf-blade",
       "natural-gift",
       "worry-seed",
       "seed-bomb",
       "energy-ball",
+      "earth-power",
       "giga-impact",
       "zen-headbutt",
       "rock-climb",
@@ -203,8 +204,10 @@
       "petal-blizzard",
       "grassy-terrain",
       "confide",
+      "dazzling-gleam",
       "solar-blade",
       "laser-focus",
+      "pollen-puff",
       "stomping-tantrum",
       "body-press",
       "grassy-glide",

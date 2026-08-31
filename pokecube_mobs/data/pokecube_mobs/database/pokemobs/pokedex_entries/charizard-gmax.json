@@ -158,5 +158,237 @@
         }
       ]
     }
+  },
+  "loot_table": "pokecube:entities/coal_3",
+  "moves": {
+    "level_up": [
+      {
+        "L": 1,
+        "moves": [
+          "scratch",
+          "leer",
+          "growl",
+          "ember",
+          "counter",
+          "metal-claw",
+          "crunch",
+          "heat-wave",
+          "dragon-claw",
+          "flare-blitz",
+          "air-slash",
+          "shadow-claw"
+        ]
+      },
+      {
+        "L": 0,
+        "moves": [
+          "wing-attack"
+        ]
+      },
+      {
+        "L": 47,
+        "moves": [
+          "flamethrower"
+        ]
+      },
+      {
+        "L": 17,
+        "moves": [
+          "dragon-rage"
+        ]
+      },
+      {
+        "L": 56,
+        "moves": [
+          "fire-spin"
+        ]
+      },
+      {
+        "L": 24,
+        "moves": [
+          "rage"
+        ]
+      },
+      {
+        "L": 10,
+        "moves": [
+          "smokescreen"
+        ]
+      },
+      {
+        "L": 20,
+        "moves": [
+          "fury-swipes"
+        ]
+      },
+      {
+        "L": 41,
+        "moves": [
+          "slash"
+        ]
+      },
+      {
+        "L": 21,
+        "moves": [
+          "scary-face"
+        ]
+      },
+      {
+        "L": 12,
+        "moves": [
+          "dragon-breath"
+        ]
+      },
+      {
+        "L": 28,
+        "moves": [
+          "fire-fang"
+        ]
+      },
+      {
+        "L": 32,
+        "moves": [
+          "flame-burst"
+        ]
+      },
+      {
+        "L": 62,
+        "moves": [
+          "inferno"
+        ]
+      }
+    ],
+    "misc": [
+      "mega-punch",
+      "fire-punch",
+      "thunder-punch",
+      "scratch",
+      "swords-dance",
+      "cut",
+      "wing-attack",
+      "fly",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "bite",
+      "growl",
+      "roar",
+      "ember",
+      "flamethrower",
+      "hyper-beam",
+      "submission",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "solar-beam",
+      "dragon-rage",
+      "fire-spin",
+      "earthquake",
+      "fissure",
+      "dig",
+      "toxic",
+      "rage",
+      "mimic",
+      "double-team",
+      "smokescreen",
+      "defense-curl",
+      "reflect",
+      "bide",
+      "fire-blast",
+      "swift",
+      "skull-bash",
+      "rest",
+      "rock-slide",
+      "slash",
+      "substitute",
+      "snore",
+      "curse",
+      "protect",
+      "scary-face",
+      "belly-drum",
+      "mud-slap",
+      "outrage",
+      "sandstorm",
+      "endure",
+      "false-swipe",
+      "swagger",
+      "fury-cutter",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "dragon-breath",
+      "iron-tail",
+      "metal-claw",
+      "hidden-power",
+      "twister",
+      "sunny-day",
+      "crunch",
+      "ancient-power",
+      "rock-smash",
+      "beat-up",
+      "heat-wave",
+      "will-o-wisp",
+      "facade",
+      "focus-punch",
+      "helping-hand",
+      "brick-break",
+      "secret-power",
+      "blaze-kick",
+      "blast-burn",
+      "weather-ball",
+      "air-cutter",
+      "overheat",
+      "rock-tomb",
+      "aerial-ace",
+      "dragon-claw",
+      "dragon-dance",
+      "roost",
+      "natural-gift",
+      "tailwind",
+      "fling",
+      "flare-blitz",
+      "air-slash",
+      "dragon-pulse",
+      "dragon-rush",
+      "focus-blast",
+      "giga-impact",
+      "shadow-claw",
+      "fire-fang",
+      "defog",
+      "captivate",
+      "ominous-wind",
+      "hone-claws",
+      "flame-burst",
+      "flame-charge",
+      "round",
+      "echoed-voice",
+      "sky-drop",
+      "incinerate",
+      "acrobatics",
+      "inferno",
+      "fire-pledge",
+      "bulldoze",
+      "dragon-tail",
+      "work-up",
+      "heat-crash",
+      "hurricane",
+      "confide",
+      "mystical-fire",
+      "power-up-punch",
+      "brutal-swing",
+      "breaking-swipe",
+      "scale-shot",
+      "dual-wingbeat",
+      "scorching-sands",
+      "tera-blast",
+      "dragon-cheer",
+      "temper-flare"
+    ]
   }
 }

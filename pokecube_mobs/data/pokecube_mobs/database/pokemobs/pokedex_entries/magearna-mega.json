@@ -3,10 +3,9 @@
   "id": 801,
   "stock": true,
   "is_extra_form": true,
-  "base_experience": 270,
+  "base_experience": 300,
   "size": {
-    "height": 1.3,
-    "width": 0.7
+    "height": 1.3
   },
   "mass": 248.1,
   "is_default": false,
@@ -29,12 +28,7 @@
     "steel",
     "fairy"
   ],
-  "abilities": {
-    "normal": [
-      "cacophony"
-    ],
-    "hidden": []
-  },
+  "loot_table": "pokecube:entities/generic_legend",
   "moves": {
     "level_up": [
       {
@@ -258,6 +252,5 @@
       "ice-spinner",
       "snowscape"
     ]
-  },
-  "loot_table": "pokecube:entities/generic_legend"
+  }
 }

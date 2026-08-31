@@ -67,5 +67,239 @@
       ]
     }
   },
-  "sound": "pikachu-gmax"
+  "sound": "pikachu-gmax",
+  "loot_table": "pokecube:entities/redstone_rabbit_1",
+  "moves": {
+    "level_up": [
+      {
+        "L": 37,
+        "moves": [
+          "slam"
+        ]
+      },
+      {
+        "L": 9,
+        "moves": [
+          "double-kick"
+        ]
+      },
+      {
+        "L": 1,
+        "moves": [
+          "tail-whip",
+          "thunder-shock",
+          "sweet-kiss",
+          "charm",
+          "nasty-plot"
+        ]
+      },
+      {
+        "L": 5,
+        "moves": [
+          "growl"
+        ]
+      },
+      {
+        "L": 42,
+        "moves": [
+          "thunderbolt"
+        ]
+      },
+      {
+        "L": 18,
+        "moves": [
+          "thunder-wave"
+        ]
+      },
+      {
+        "L": 58,
+        "moves": [
+          "thunder"
+        ]
+      },
+      {
+        "L": 45,
+        "moves": [
+          "agility"
+        ]
+      },
+      {
+        "L": 10,
+        "moves": [
+          "quick-attack"
+        ]
+      },
+      {
+        "L": 23,
+        "moves": [
+          "double-team"
+        ]
+      },
+      {
+        "L": 53,
+        "moves": [
+          "light-screen"
+        ]
+      },
+      {
+        "L": 26,
+        "moves": [
+          "swift",
+          "spark"
+        ]
+      },
+      {
+        "L": 28,
+        "moves": [
+          "iron-tail"
+        ]
+      },
+      {
+        "L": 21,
+        "moves": [
+          "feint"
+        ]
+      },
+      {
+        "L": 34,
+        "moves": [
+          "discharge"
+        ]
+      },
+      {
+        "L": 13,
+        "moves": [
+          "electro-ball"
+        ]
+      },
+      {
+        "L": 50,
+        "moves": [
+          "wild-charge"
+        ]
+      },
+      {
+        "L": 7,
+        "moves": [
+          "play-nice"
+        ]
+      },
+      {
+        "L": 29,
+        "moves": [
+          "nuzzle"
+        ]
+      }
+    ],
+    "misc": [
+      "mega-punch",
+      "pay-day",
+      "thunder-punch",
+      "slam",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "tail-whip",
+      "growl",
+      "surf",
+      "submission",
+      "counter",
+      "seismic-toss",
+      "strength",
+      "thunder-shock",
+      "thunderbolt",
+      "thunder-wave",
+      "thunder",
+      "dig",
+      "toxic",
+      "agility",
+      "quick-attack",
+      "rage",
+      "mimic",
+      "double-team",
+      "defense-curl",
+      "light-screen",
+      "reflect",
+      "bide",
+      "swift",
+      "skull-bash",
+      "flash",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "flail",
+      "reversal",
+      "protect",
+      "sweet-kiss",
+      "mud-slap",
+      "zap-cannon",
+      "detect",
+      "endure",
+      "charm",
+      "rollout",
+      "swagger",
+      "spark",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "dynamic-punch",
+      "encore",
+      "iron-tail",
+      "hidden-power",
+      "rain-dance",
+      "rock-smash",
+      "fake-out",
+      "uproar",
+      "facade",
+      "focus-punch",
+      "charge",
+      "helping-hand",
+      "wish",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "secret-power",
+      "fake-tears",
+      "tickle",
+      "signal-beam",
+      "covet",
+      "volt-tackle",
+      "calm-mind",
+      "shock-wave",
+      "natural-gift",
+      "feint",
+      "fling",
+      "magnet-rise",
+      "nasty-plot",
+      "discharge",
+      "captivate",
+      "grass-knot",
+      "charge-beam",
+      "electro-ball",
+      "round",
+      "echoed-voice",
+      "volt-switch",
+      "electroweb",
+      "wild-charge",
+      "disarming-voice",
+      "draining-kiss",
+      "play-rough",
+      "play-nice",
+      "confide",
+      "eerie-impulse",
+      "electric-terrain",
+      "nuzzle",
+      "laser-focus",
+      "rising-voltage",
+      "tera-blast",
+      "trailblaze",
+      "alluring-voice",
+      "upper-hand"
+    ]
+  }
 }

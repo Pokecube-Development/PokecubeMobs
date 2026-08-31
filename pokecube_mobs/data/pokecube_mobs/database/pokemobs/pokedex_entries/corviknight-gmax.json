@@ -61,5 +61,141 @@
       ]
     }
   },
-  "sound": "corviknight-gmax"
+  "sound": "corviknight-gmax",
+  "loot_table": "pokecube:entities/chicken_1",
+  "moves": {
+    "level_up": [
+      {
+        "L": 12,
+        "moves": [
+          "fury-attack"
+        ]
+      },
+      {
+        "L": 1,
+        "moves": [
+          "leer",
+          "peck",
+          "screech",
+          "metal-sound",
+          "iron-defense",
+          "hone-claws",
+          "power-trip"
+        ]
+      },
+      {
+        "L": 34,
+        "moves": [
+          "drill-peck"
+        ]
+      },
+      {
+        "L": 28,
+        "moves": [
+          "scary-face"
+        ]
+      },
+      {
+        "L": 42,
+        "moves": [
+          "swagger"
+        ]
+      },
+      {
+        "L": 0,
+        "moves": [
+          "steel-wing"
+        ]
+      },
+      {
+        "L": 22,
+        "moves": [
+          "taunt"
+        ]
+      },
+      {
+        "L": 16,
+        "moves": [
+          "pluck"
+        ]
+      },
+      {
+        "L": 50,
+        "moves": [
+          "brave-bird"
+        ]
+      }
+    ],
+    "misc": [
+      "fly",
+      "sand-attack",
+      "fury-attack",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "hyper-beam",
+      "peck",
+      "drill-peck",
+      "agility",
+      "screech",
+      "light-screen",
+      "reflect",
+      "focus-energy",
+      "swift",
+      "sky-attack",
+      "rest",
+      "substitute",
+      "thief",
+      "snore",
+      "curse",
+      "reversal",
+      "spite",
+      "protect",
+      "scary-face",
+      "endure",
+      "swagger",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "metal-claw",
+      "rain-dance",
+      "sunny-day",
+      "rock-smash",
+      "facade",
+      "taunt",
+      "revenge",
+      "feather-dance",
+      "fake-tears",
+      "air-cutter",
+      "metal-sound",
+      "aerial-ace",
+      "iron-defense",
+      "bulk-up",
+      "roost",
+      "pluck",
+      "tailwind",
+      "u-turn",
+      "payback",
+      "assurance",
+      "air-slash",
+      "brave-bird",
+      "giga-impact",
+      "nasty-plot",
+      "flash-cannon",
+      "defog",
+      "iron-head",
+      "hone-claws",
+      "heavy-slam",
+      "round",
+      "retaliate",
+      "work-up",
+      "hurricane",
+      "power-trip",
+      "body-press",
+      "steel-beam",
+      "dual-wingbeat",
+      "tera-blast"
+    ]
+  }
 }

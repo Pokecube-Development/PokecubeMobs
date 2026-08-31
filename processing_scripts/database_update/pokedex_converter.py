@@ -32,6 +32,7 @@ MEGA_SUFFIX = [
     '-mega',
     '-mega-x',
     '-mega-y',
+    '-mega-z',
     '-primal',
     '-battle-bond',
     '-ash',
@@ -86,6 +87,24 @@ index_map = get_pokemon_index()
 evo_chains = utils.load_evo_chains()
 
 _, all_moves_users = utils.load_all_moves()
+
+def findBaseName(entry, species, old_pokedex):
+        base_name = entry.name
+        found = False
+        for suff in MEGA_SUFFIX:
+            if base_name.endswith(suff):
+                base_name = base_name.removesuffix(suff)
+                found = True
+                break
+        if not found:
+            for suff in GMAX_SUFFIX:
+                if base_name.endswith(suff):
+                    base_name = base_name.removesuffix(suff)
+                    found = True
+                    break
+        base_name = find_old_name(base_name, species, old_pokedex)
+        found = found and base_name in old_pokedex
+        return found, base_name
 
 # This class is a mirror of the json data structure that pokecube uses for loading
 class PokedexEntry:
@@ -471,11 +490,27 @@ class PokemonSpecies:
                     elif var_val is not None:
                         entry.__dict__[var_key] = var_val
 
-            # Print an error if we think it should have had moves, but has none
-            if(not '-gmax' in entry.name and not '-mega' in entry.name and (not 'moves' in entry.__dict__ or not 'level_up' in entry.moves)):
-                print(f'No moves for {entry.name}??')
-                pass
+            found, base_name = findBaseName(entry, species, old_pokedex)
+            if found:
+                _entry = old_pokedex[base_name]
+                if len(entry.evs) == 0:
+                    entry.evs = _entry["evs"]
+                if "loot_table" in _entry and not hasattr(entry, "loot_table"):
+                    entry.loot_table = _entry["loot_table"]
+                if "sound" in _entry and not hasattr(entry, "sound"):
+                    entry.sound = _entry["sound"]
+            
 
+            # Print an error if we think it should have had moves, but has none
+            no_moves = (not 'moves' in entry.__dict__ or not 'level_up' in entry.moves)
+            if no_moves:
+                if found:
+                    _entry = old_pokedex[base_name]
+                    found = not (not 'moves' in _entry or not 'level_up' in _entry["moves"])
+                    if found:
+                        entry.moves = _entry["moves"]
+                if not found:
+                    print(f'No moves for {entry.name}, {base_name}??')
             # Now cleanup evolutions
             entry.post_process_evos(forme, species)
 

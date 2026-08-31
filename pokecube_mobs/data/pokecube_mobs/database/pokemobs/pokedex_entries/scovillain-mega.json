@@ -5,9 +5,9 @@
   "is_extra_form": true,
   "base_experience": 170,
   "size": {
-    "height": 0.9
+    "height": 1.2
   },
-  "mass": 15.0,
+  "mass": 22.0,
   "is_default": false,
   "capture_rate": 75,
   "base_happiness": 50,
@@ -15,10 +15,10 @@
   "gender_rate": 127,
   "stats": {
     "hp": 65,
-    "attack": 108,
-    "defense": 65,
-    "special_attack": 108,
-    "special_defense": 65,
+    "attack": 138,
+    "defense": 85,
+    "special_attack": 138,
+    "special_defense": 85,
     "speed": 75
   },
   "evs": {
@@ -30,11 +30,7 @@
   ],
   "abilities": {
     "normal": [
-      "chlorophyll",
-      "insomnia"
-    ],
-    "hidden": [
-      "moody"
+      "spicy-spray"
     ]
   },
   "moves": {
@@ -124,9 +120,13 @@
     ],
     "misc": [
       "take-down",
+      "bite",
       "flamethrower",
       "hyper-beam",
+      "leech-seed",
+      "growth",
       "solar-beam",
+      "fire-spin",
       "fire-blast",
       "rest",
       "super-fang",
@@ -137,29 +137,37 @@
       "sandstorm",
       "giga-drain",
       "endure",
+      "swagger",
       "sleep-talk",
       "sunny-day",
       "crunch",
       "will-o-wisp",
       "facade",
       "helping-hand",
+      "ingrain",
       "endeavor",
       "overheat",
       "bullet-seed",
       "magical-leaf",
+      "worry-seed",
+      "flare-blitz",
       "seed-bomb",
       "energy-ball",
       "giga-impact",
+      "thunder-fang",
       "fire-fang",
       "zen-headbutt",
       "leaf-storm",
       "grass-knot",
+      "double-hit",
+      "rage-powder",
       "grassy-terrain",
       "stomping-tantrum",
       "grassy-glide",
       "burning-jealousy",
       "lash-out",
       "tera-blast",
+      "spicy-extract",
       "trailblaze",
       "temper-flare"
     ]

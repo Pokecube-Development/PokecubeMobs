@@ -3,10 +3,9 @@
   "id": 652,
   "stock": true,
   "is_extra_form": true,
-  "base_experience": 239,
+  "base_experience": 269,
   "size": {
-    "height": 1.6,
-    "width": 1.0
+    "height": 1.6
   },
   "mass": 90.0,
   "is_default": false,
@@ -31,27 +30,40 @@
   ],
   "abilities": {
     "normal": [
-      "cacophony"
-    ],
-    "hidden": []
+      "bulletproof"
+    ]
   },
   "moves": {
     "level_up": [
       {
         "L": 1,
         "moves": [
-          "hammer-arm",
-          "feint",
+          "vine-whip",
           "tackle",
           "growl",
-          "vine-whip",
-          "rollout"
+          "belly-drum",
+          "rollout",
+          "needle-arm",
+          "hammer-arm",
+          "feint"
         ]
       },
       {
-        "L": 0,
+        "L": 54,
         "moves": [
-          "spiky-shield"
+          "body-slam"
+        ]
+      },
+      {
+        "L": 29,
+        "moves": [
+          "take-down"
+        ]
+      },
+      {
+        "L": 19,
+        "moves": [
+          "pin-missile"
         ]
       },
       {
@@ -67,27 +79,9 @@
         ]
       },
       {
-        "L": 19,
+        "L": 60,
         "moves": [
-          "pin-missile"
-        ]
-      },
-      {
-        "L": 29,
-        "moves": [
-          "take-down"
-        ]
-      },
-      {
-        "L": 35,
-        "moves": [
-          "seed-bomb"
-        ]
-      },
-      {
-        "L": 41,
-        "moves": [
-          "mud-shot"
+          "pain-split"
         ]
       },
       {
@@ -97,15 +91,21 @@
         ]
       },
       {
-        "L": 54,
+        "L": 41,
         "moves": [
-          "body-slam"
+          "mud-shot"
         ]
       },
       {
-        "L": 60,
+        "L": 35,
         "moves": [
-          "pain-split"
+          "seed-bomb"
+        ]
+      },
+      {
+        "L": 78,
+        "moves": [
+          "giga-impact"
         ]
       },
       {
@@ -115,72 +115,132 @@
         ]
       },
       {
-        "L": 78,
+        "L": 0,
         "moves": [
-          "giga-impact"
+          "spiky-shield"
         ]
       }
     ],
     "misc": [
-      "take-down",
-      "mud-slap",
-      "scary-face",
-      "protect",
-      "low-kick",
-      "trailblaze",
-      "facade",
-      "aerial-ace",
-      "bulldoze",
-      "metal-claw",
-      "swift",
-      "magical-leaf",
-      "mud-shot",
-      "rock-tomb",
-      "low-sweep",
-      "fling",
-      "endure",
-      "sunny-day",
-      "rain-dance",
-      "dig",
-      "bullet-seed",
-      "brick-break",
-      "zen-headbutt",
-      "shadow-claw",
-      "bulk-up",
-      "body-slam",
       "thunder-punch",
-      "sleep-talk",
-      "seed-bomb",
-      "drain-punch",
+      "swords-dance",
+      "cut",
+      "vine-whip",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "pin-missile",
+      "bite",
+      "growl",
+      "roar",
+      "hyper-beam",
+      "low-kick",
+      "strength",
+      "leech-seed",
+      "growth",
+      "solar-beam",
+      "earthquake",
+      "dig",
+      "toxic",
+      "double-team",
       "reflect",
-      "dragon-claw",
-      "grass-knot",
-      "poison-jab",
-      "stomping-tantrum",
+      "swift",
+      "flash",
       "rest",
       "rock-slide",
-      "taunt",
-      "swords-dance",
-      "body-press",
-      "spikes",
-      "iron-head",
+      "super-fang",
       "substitute",
-      "iron-defense",
-      "crunch",
-      "giga-drain",
-      "energy-ball",
-      "helping-hand",
+      "snore",
+      "curse",
       "reversal",
-      "grassy-terrain",
-      "grass-pledge",
-      "earthquake",
-      "stone-edge",
-      "giga-impact",
+      "protect",
+      "scary-face",
+      "belly-drum",
+      "sludge-bomb",
+      "mud-slap",
+      "spikes",
+      "giga-drain",
+      "endure",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "return",
+      "frustration",
+      "pain-split",
+      "iron-tail",
+      "metal-claw",
+      "synthesis",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "crunch",
+      "rock-smash",
+      "facade",
+      "focus-punch",
+      "nature-power",
+      "taunt",
+      "helping-hand",
+      "superpower",
+      "brick-break",
+      "knock-off",
+      "endeavor",
+      "secret-power",
+      "needle-arm",
+      "rock-tomb",
+      "bullet-seed",
+      "aerial-ace",
+      "iron-defense",
+      "block",
+      "dragon-claw",
       "frenzy-plant",
+      "bulk-up",
+      "mud-shot",
+      "magical-leaf",
+      "hammer-arm",
+      "gyro-ball",
+      "feint",
+      "close-combat",
+      "payback",
+      "fling",
+      "worry-seed",
+      "poison-jab",
+      "seed-bomb",
+      "drain-punch",
       "focus-blast",
+      "energy-ball",
+      "giga-impact",
+      "shadow-claw",
+      "zen-headbutt",
       "leaf-storm",
-      "hyper-beam",
-      "close-combat"
+      "iron-head",
+      "stone-edge",
+      "grass-knot",
+      "wood-hammer",
+      "hone-claws",
+      "wide-guard",
+      "smack-down",
+      "low-sweep",
+      "round",
+      "quick-guard",
+      "retaliate",
+      "grass-pledge",
+      "bulldoze",
+      "work-up",
+      "dual-chop",
+      "grassy-terrain",
+      "confide",
+      "spiky-shield",
+      "power-up-punch",
+      "high-horsepower",
+      "stomping-tantrum",
+      "body-press",
+      "steel-roller",
+      "grassy-glide",
+      "coaching",
+      "tera-blast",
+      "trailblaze"
     ]
   },
   "loot_table": "pokecube:entities/chestplate_seeds_2"

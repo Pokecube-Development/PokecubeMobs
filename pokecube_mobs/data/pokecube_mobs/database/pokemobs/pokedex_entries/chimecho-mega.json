@@ -3,10 +3,9 @@
   "id": 358,
   "stock": true,
   "is_extra_form": true,
-  "base_experience": 147,
+  "base_experience": 189,
   "size": {
-    "height": 1.2,
-    "width": 0.4
+    "height": 1.2
   },
   "mass": 8.0,
   "is_default": false,
@@ -32,7 +31,7 @@
   ],
   "abilities": {
     "normal": [
-      "cacophony"
+      "levitate"
     ]
   },
   "moves": {
@@ -40,121 +39,203 @@
       {
         "L": 1,
         "moves": [
-          "healing-wish",
+          "tackle",
           "wrap",
           "growl",
-          "astonish",
           "confusion",
+          "astonish",
+          "healing-wish",
           "last-resort",
+          "synchronoise",
           "entrainment"
         ]
       },
       {
-        "L": 4,
-        "moves": ["growl"]
-      },
-      {
-        "L": 7,
-        "moves": ["astonish"]
-      },
-      {
-        "L": 10,
-        "moves": ["confusion"]
-      },
-      {
-        "L": 13,
-        "moves": ["yawn"]
-      },
-      {
-        "L": 16,
-        "moves": ["light-screen"]
-      },
-      {
         "L": 19,
-        "moves": ["take-down"]
-      },
-      {
-        "L": 22,
-        "moves": ["extrasensory"]
-      },
-      {
-        "L": 27,
-        "moves": ["heal-bell"]
-      },
-      {
-        "L": 32,
-        "moves": ["uproar"]
-      },
-      {
-        "L": 37,
-        "moves": ["safeguard"]
+        "moves": [
+          "take-down"
+        ]
       },
       {
         "L": 42,
-        "moves": ["double-edge"]
-      },
-      {
-        "L": 47,
-        "moves": ["heal-pulse"]
+        "moves": [
+          "double-edge"
+        ]
       },
       {
         "L": 52,
-        "moves": ["psychic"]
+        "moves": [
+          "psychic"
+        ]
       },
       {
-        "L": 57,
-        "moves": ["healing-wish"]
+        "L": 18,
+        "moves": [
+          "hypnosis"
+        ]
+      },
+      {
+        "L": 34,
+        "moves": [
+          "recover"
+        ]
+      },
+      {
+        "L": 16,
+        "moves": [
+          "light-screen",
+          "psywave",
+          "stored-power"
+        ]
+      },
+      {
+        "L": 27,
+        "moves": [
+          "heal-bell"
+        ]
+      },
+      {
+        "L": 37,
+        "moves": [
+          "safeguard"
+        ]
+      },
+      {
+        "L": 32,
+        "moves": [
+          "uproar"
+        ]
+      },
+      {
+        "L": 13,
+        "moves": [
+          "yawn"
+        ]
+      },
+      {
+        "L": 22,
+        "moves": [
+          "extrasensory"
+        ]
+      },
+      {
+        "L": 11,
+        "moves": [
+          "ominous-wind"
+        ]
+      },
+      {
+        "L": 47,
+        "moves": [
+          "heal-pulse"
+        ]
       }
     ],
     "misc": [
+      "bind",
+      "wrap",
       "take-down",
-      "charm",
-      "fake-tears",
-      "protect",
-      "psybeam",
-      "disarming-voice",
-      "charge-beam",
-      "facade",
-      "snarl",
-      "swift",
-      "icy-wind",
-      "draining-kiss",
-      "stored-power",
-      "endure",
-      "sunny-day",
-      "rain-dance",
-      "psyshock",
-      "zen-headbutt",
-      "sleep-talk",
-      "reflect",
-      "light-screen",
-      "dazzling-gleam",
-      "grass-knot",
-      "thunder-wave",
-      "rest",
-      "taunt",
-      "imprison",
-      "skill-swap",
-      "substitute",
-      "trick",
-      "shadow-ball",
-      "hyper-voice",
-      "energy-ball",
-      "psychic",
-      "encore",
-      "calm-mind",
-      "helping-hand",
-      "baton-pass",
-      "trick-room",
-      "tera-blast",
-      "gravity",
-      "knock-off",
-      "uproar",
-      "psych-up",
       "double-edge",
-      "future-sight",
-      "expanding-force",
+      "growl",
+      "disable",
+      "psybeam",
+      "thunder-wave",
+      "toxic",
+      "confusion",
+      "psychic",
+      "hypnosis",
+      "mimic",
+      "screech",
+      "double-team",
+      "recover",
+      "defense-curl",
+      "light-screen",
+      "reflect",
+      "self-destruct",
+      "swift",
+      "dream-eater",
+      "flash",
+      "psywave",
+      "rest",
+      "substitute",
+      "nightmare",
+      "snore",
       "curse",
+      "protect",
+      "perish-song",
+      "icy-wind",
+      "endure",
+      "charm",
+      "rollout",
+      "swagger",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "safeguard",
+      "baton-pass",
+      "encore",
+      "hidden-power",
+      "rain-dance",
+      "sunny-day",
+      "psych-up",
+      "shadow-ball",
+      "future-sight",
+      "uproar",
+      "torment",
+      "facade",
+      "taunt",
+      "helping-hand",
+      "trick",
+      "wish",
+      "magic-coat",
+      "recycle",
+      "yawn",
+      "knock-off",
+      "skill-swap",
+      "imprison",
+      "snatch",
+      "secret-power",
+      "hyper-voice",
+      "astonish",
+      "fake-tears",
+      "metal-sound",
+      "cosmic-power",
+      "signal-beam",
+      "extrasensory",
+      "calm-mind",
+      "shock-wave",
+      "gravity",
+      "healing-wish",
+      "natural-gift",
+      "last-resort",
+      "energy-ball",
+      "zen-headbutt",
+      "flash-cannon",
+      "defog",
+      "trick-room",
+      "captivate",
+      "grass-knot",
+      "charge-beam",
+      "psyshock",
+      "telekinesis",
+      "synchronoise",
+      "round",
+      "echoed-voice",
+      "stored-power",
+      "ally-switch",
+      "heal-pulse",
+      "snarl",
+      "disarming-voice",
+      "draining-kiss",
+      "crafty-shield",
+      "boomburst",
+      "confide",
+      "dazzling-gleam",
+      "laser-focus",
+      "expanding-force",
+      "tera-blast",
       "psychic-noise"
     ]
   },

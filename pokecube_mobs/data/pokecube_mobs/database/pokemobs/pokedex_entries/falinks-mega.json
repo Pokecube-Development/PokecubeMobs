@@ -3,15 +3,15 @@
   "id": 870,
   "stock": true,
   "is_extra_form": true,
-  "base_experience": 165,
+  "base_experience": 195,
   "size": {
-    "height": 3.0
+    "height": 1.6
   },
   "mass": 99.0,
   "is_default": false,
   "capture_rate": 45,
   "base_happiness": 50,
-  "growth_rate": "medium-fast",
+  "growth_rate": "medium",
   "gender_rate": 255,
   "stats": {
     "hp": 65,
@@ -30,9 +30,8 @@
   ],
   "abilities": {
     "normal": [
-      "cacophony"
-    ],
-    "hidden": []
+      "defiant"
+    ]
   },
   "moves": {
     "level_up": [
@@ -157,10 +156,12 @@
       "payback",
       "assurance",
       "poison-jab",
+      "seed-bomb",
       "focus-blast",
       "giga-impact",
       "zen-headbutt",
       "iron-head",
+      "double-hit",
       "round",
       "retaliate",
       "first-impression",

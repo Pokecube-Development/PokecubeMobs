@@ -56,5 +56,166 @@
       ]
     }
   },
-  "sound": "urshifu-rapid-strike-gmax"
+  "sound": "urshifu-rapid-strike-gmax",
+  "loot_table": "pokecube:entities/generic_legend",
+  "moves": {
+    "level_up": [
+      {
+        "L": 20,
+        "moves": [
+          "headbutt"
+        ]
+      },
+      {
+        "L": 1,
+        "moves": [
+          "leer",
+          "focus-energy",
+          "endure",
+          "rock-smash",
+          "aqua-jet"
+        ]
+      },
+      {
+        "L": 44,
+        "moves": [
+          "counter"
+        ]
+      },
+      {
+        "L": 16,
+        "moves": [
+          "scary-face"
+        ]
+      },
+      {
+        "L": 28,
+        "moves": [
+          "detect"
+        ]
+      },
+      {
+        "L": 40,
+        "moves": [
+          "dynamic-punch"
+        ]
+      },
+      {
+        "L": 52,
+        "moves": [
+          "focus-punch"
+        ]
+      },
+      {
+        "L": 24,
+        "moves": [
+          "brick-break"
+        ]
+      },
+      {
+        "L": 12,
+        "moves": [
+          "aerial-ace"
+        ]
+      },
+      {
+        "L": 32,
+        "moves": [
+          "bulk-up"
+        ]
+      },
+      {
+        "L": 48,
+        "moves": [
+          "close-combat"
+        ]
+      },
+      {
+        "L": 36,
+        "moves": [
+          "iron-head"
+        ]
+      },
+      {
+        "L": 0,
+        "moves": [
+          "surging-strikes"
+        ]
+      }
+    ],
+    "misc": [
+      "mega-punch",
+      "fire-punch",
+      "ice-punch",
+      "thunder-punch",
+      "swords-dance",
+      "mega-kick",
+      "headbutt",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "leer",
+      "low-kick",
+      "counter",
+      "dig",
+      "focus-energy",
+      "waterfall",
+      "swift",
+      "rest",
+      "rock-slide",
+      "substitute",
+      "snore",
+      "reversal",
+      "protect",
+      "scary-face",
+      "detect",
+      "endure",
+      "false-swipe",
+      "attract",
+      "sleep-talk",
+      "dynamic-punch",
+      "rain-dance",
+      "rock-smash",
+      "whirlpool",
+      "facade",
+      "focus-punch",
+      "taunt",
+      "helping-hand",
+      "superpower",
+      "revenge",
+      "brick-break",
+      "dive",
+      "rock-tomb",
+      "aerial-ace",
+      "iron-defense",
+      "bulk-up",
+      "brine",
+      "u-turn",
+      "close-combat",
+      "fling",
+      "aura-sphere",
+      "poison-jab",
+      "drain-punch",
+      "focus-blast",
+      "giga-impact",
+      "zen-headbutt",
+      "iron-head",
+      "stone-edge",
+      "aqua-jet",
+      "low-sweep",
+      "round",
+      "scald",
+      "acrobatics",
+      "retaliate",
+      "work-up",
+      "liquidation",
+      "body-press",
+      "coaching",
+      "surging-strikes",
+      "tera-blast",
+      "ice-spinner",
+      "trailblaze",
+      "chilling-water"
+    ]
+  }
 }

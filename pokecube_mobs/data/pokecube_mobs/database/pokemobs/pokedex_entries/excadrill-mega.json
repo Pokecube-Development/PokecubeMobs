@@ -3,7 +3,7 @@
   "id": 530,
   "stock": true,
   "is_extra_form": true,
-  "base_experience": 178,
+  "base_experience": 208,
   "size": {
     "height": 0.9
   },
@@ -31,8 +31,7 @@
   "abilities": {
     "normal": [
       "piercing-drill"
-    ],
-    "hidden": []
+    ]
   },
   "moves": {
     "level_up": [
@@ -158,6 +157,7 @@
       "sleep-talk",
       "return",
       "frustration",
+      "megahorn",
       "rapid-spin",
       "metal-claw",
       "hidden-power",

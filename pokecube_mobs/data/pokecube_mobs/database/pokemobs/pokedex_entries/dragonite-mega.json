@@ -3,10 +3,9 @@
   "id": 149,
   "stock": true,
   "is_extra_form": true,
-  "base_experience": 270,
+  "base_experience": 300,
   "size": {
-    "height": 2.2,
-    "width": 1.5
+    "height": 2.2
   },
   "mass": 290.0,
   "is_default": false,
@@ -31,165 +30,233 @@
   ],
   "abilities": {
     "normal": [
-      "cacophony"
-    ],
-    "hidden": []
+      "multiscale"
+    ]
   },
   "moves": {
     "level_up": [
       {
         "L": 1,
         "moves": [
-          "wing-attack",
-          "extreme-speed",
-          "roost",
           "fire-punch",
           "thunder-punch",
           "wrap",
           "leer",
+          "mist",
+          "thunder-wave",
           "twister",
-          "thunder-wave"
+          "extreme-speed",
+          "roost",
+          "aqua-jet",
+          "hurricane"
         ]
       },
       {
         "L": 0,
         "moves": [
-          "hurricane"
+          "wing-attack"
         ]
       },
       {
-        "L": 15,
-        "moves": [
-          "dragon-tail"
-        ]
-      },
-      {
-        "L": 20,
-        "moves": [
-          "agility"
-        ]
-      },
-      {
-        "L": 25,
+        "L": 21,
         "moves": [
           "slam"
         ]
       },
       {
-        "L": 33,
+        "L": 75,
         "moves": [
-          "aqua-tail"
+          "hyper-beam"
         ]
       },
       {
-        "L": 39,
+        "L": 15,
         "moves": [
-          "dragon-rush"
+          "dragon-rage"
         ]
       },
       {
-        "L": 41,
+        "L": 25,
+        "moves": [
+          "agility"
+        ]
+      },
+      {
+        "L": 67,
         "moves": [
           "outrage"
         ]
       },
       {
-        "L": 46,
-        "moves": [
-          "safeguard"
-        ]
-      },
-      {
         "L": 53,
         "moves": [
+          "safeguard",
           "rain-dance"
         ]
       },
       {
-        "L": 62,
+        "L": 61,
         "moves": [
           "dragon-dance"
         ]
       },
       {
-        "L": 80,
+        "L": 39,
         "moves": [
-          "hyper-beam"
+          "aqua-tail"
+        ]
+      },
+      {
+        "L": 47,
+        "moves": [
+          "dragon-rush"
+        ]
+      },
+      {
+        "L": 33,
+        "moves": [
+          "dragon-tail"
         ]
       }
     ],
     "misc": [
-      "take-down",
-      "agility",
-      "scary-face",
-      "protect",
-      "water-pulse",
-      "low-kick",
-      "chilling-water",
-      "fire-spin",
-      "facade",
-      "aerial-ace",
-      "bulldoze",
-      "swift",
-      "icy-wind",
-      "rock-tomb",
-      "air-cutter",
-      "fling",
-      "dragon-tail",
-      "endure",
-      "sunny-day",
-      "rain-dance",
-      "sandstorm",
-      "snowscape",
-      "brick-break",
-      "air-slash",
-      "body-slam",
+      "mega-punch",
       "fire-punch",
-      "thunder-punch",
       "ice-punch",
-      "sleep-talk",
-      "light-screen",
-      "waterfall",
-      "dragon-claw",
-      "metronome",
+      "thunder-punch",
+      "razor-wind",
+      "cut",
+      "wing-attack",
+      "whirlwind",
+      "fly",
+      "bind",
+      "slam",
+      "mega-kick",
+      "headbutt",
+      "horn-drill",
+      "body-slam",
+      "wrap",
+      "take-down",
+      "double-edge",
+      "leer",
+      "roar",
+      "flamethrower",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "bubble-beam",
+      "hyper-beam",
+      "low-kick",
+      "strength",
+      "dragon-rage",
+      "fire-spin",
+      "thunderbolt",
       "thunder-wave",
-      "stomping-tantrum",
+      "thunder",
+      "earthquake",
+      "toxic",
+      "agility",
+      "rage",
+      "mimic",
+      "double-team",
+      "light-screen",
+      "haze",
+      "reflect",
+      "bide",
+      "metronome",
+      "fire-blast",
+      "waterfall",
+      "swift",
+      "skull-bash",
       "rest",
       "rock-slide",
-      "body-press",
-      "fly",
-      "iron-head",
-      "dragon-dance",
       "substitute",
-      "tailwind",
-      "dragon-pulse",
-      "heat-wave",
-      "encore",
-      "surf",
-      "ice-spinner",
-      "flamethrower",
-      "thunderbolt",
-      "helping-hand",
-      "ice-beam",
-      "fire-blast",
-      "hydro-pump",
-      "blizzard",
-      "earthquake",
-      "stone-edge",
-      "giga-impact",
+      "snore",
+      "curse",
+      "protect",
+      "scary-face",
+      "mud-slap",
+      "zap-cannon",
+      "icy-wind",
+      "detect",
       "outrage",
-      "focus-blast",
-      "hurricane",
-      "hyper-beam",
-      "thunder",
-      "draco-meteor",
-      "tera-blast",
-      "roar",
-      "haze",
+      "sandstorm",
+      "endure",
+      "swagger",
+      "fury-cutter",
+      "steel-wing",
+      "attract",
+      "sleep-talk",
+      "heal-bell",
+      "return",
+      "frustration",
+      "safeguard",
+      "dynamic-punch",
+      "dragon-breath",
+      "encore",
+      "iron-tail",
+      "hidden-power",
+      "twister",
+      "rain-dance",
+      "sunny-day",
+      "extreme-speed",
+      "rock-smash",
+      "whirlpool",
+      "heat-wave",
+      "hail",
+      "facade",
       "focus-punch",
+      "helping-hand",
+      "superpower",
+      "brick-break",
+      "secret-power",
+      "dive",
       "weather-ball",
-      "scale-shot",
+      "air-cutter",
+      "rock-tomb",
+      "aerial-ace",
+      "dragon-claw",
+      "dragon-dance",
+      "shock-wave",
+      "water-pulse",
+      "roost",
+      "natural-gift",
+      "tailwind",
+      "fling",
+      "aqua-tail",
+      "air-slash",
+      "dragon-pulse",
+      "dragon-rush",
+      "focus-blast",
+      "giga-impact",
+      "defog",
+      "draco-meteor",
+      "iron-head",
+      "stone-edge",
+      "captivate",
+      "aqua-jet",
+      "ominous-wind",
+      "hone-claws",
+      "round",
+      "sky-drop",
+      "incinerate",
+      "bulldoze",
+      "dragon-tail",
+      "hurricane",
+      "confide",
+      "power-up-punch",
+      "brutal-swing",
+      "stomping-tantrum",
+      "body-press",
       "breaking-swipe",
+      "scale-shot",
+      "dual-wingbeat",
+      "tera-blast",
+      "ice-spinner",
+      "snowscape",
+      "chilling-water",
       "dragon-cheer"
     ]
   },

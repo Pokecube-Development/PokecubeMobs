@@ -73,5 +73,150 @@
       ]
     }
   },
-  "sound": "inteleon-gmax"
+  "sound": "inteleon-gmax",
+  "loot_table": "pokecube:entities/fish_3",
+  "moves": {
+    "level_up": [
+      {
+        "L": 1,
+        "moves": [
+          "pound",
+          "bind",
+          "growl",
+          "water-gun",
+          "acrobatics"
+        ]
+      },
+      {
+        "L": 62,
+        "moves": [
+          "hydro-pump"
+        ]
+      },
+      {
+        "L": 54,
+        "moves": [
+          "rain-dance"
+        ]
+      },
+      {
+        "L": 12,
+        "moves": [
+          "water-pulse"
+        ]
+      },
+      {
+        "L": 30,
+        "moves": [
+          "u-turn"
+        ]
+      },
+      {
+        "L": 24,
+        "moves": [
+          "sucker-punch"
+        ]
+      },
+      {
+        "L": 46,
+        "moves": [
+          "soak"
+        ]
+      },
+      {
+        "L": 38,
+        "moves": [
+          "liquidation"
+        ]
+      },
+      {
+        "L": 19,
+        "moves": [
+          "tearful-look"
+        ]
+      },
+      {
+        "L": 0,
+        "moves": [
+          "snipe-shot"
+        ]
+      }
+    ],
+    "misc": [
+      "pound",
+      "swords-dance",
+      "bind",
+      "take-down",
+      "growl",
+      "mist",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "agility",
+      "double-team",
+      "light-screen",
+      "haze",
+      "reflect",
+      "focus-energy",
+      "metronome",
+      "waterfall",
+      "swift",
+      "rest",
+      "substitute",
+      "snore",
+      "protect",
+      "icy-wind",
+      "endure",
+      "attract",
+      "sleep-talk",
+      "safeguard",
+      "baton-pass",
+      "rain-dance",
+      "psych-up",
+      "shadow-ball",
+      "whirlpool",
+      "facade",
+      "taunt",
+      "dive",
+      "hydro-cannon",
+      "weather-ball",
+      "air-cutter",
+      "muddy-water",
+      "icicle-spear",
+      "bounce",
+      "mud-shot",
+      "water-pulse",
+      "u-turn",
+      "fling",
+      "sucker-punch",
+      "aqua-ring",
+      "dark-pulse",
+      "air-slash",
+      "vacuum-wave",
+      "giga-impact",
+      "ice-shard",
+      "aqua-jet",
+      "smack-down",
+      "soak",
+      "round",
+      "scald",
+      "acrobatics",
+      "water-pledge",
+      "work-up",
+      "fell-stinger",
+      "liquidation",
+      "tearful-look",
+      "snipe-shot",
+      "breaking-swipe",
+      "scale-shot",
+      "skitter-smack",
+      "flip-turn",
+      "tera-blast",
+      "snowscape",
+      "chilling-water"
+    ]
+  }
 }

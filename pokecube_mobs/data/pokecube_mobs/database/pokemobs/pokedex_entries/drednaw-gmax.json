@@ -61,5 +61,138 @@
       ]
     }
   },
-  "sound": "drednaw-gmax"
+  "sound": "drednaw-gmax",
+  "loot_table": "pokecube:entities/turtleshells_3",
+  "moves": {
+    "level_up": [
+      {
+        "L": 21,
+        "moves": [
+          "headbutt"
+        ]
+      },
+      {
+        "L": 1,
+        "moves": [
+          "tackle",
+          "bite",
+          "water-gun",
+          "protect",
+          "crunch",
+          "rock-polish",
+          "razor-shell"
+        ]
+      },
+      {
+        "L": 57,
+        "moves": [
+          "body-slam"
+        ]
+      },
+      {
+        "L": 30,
+        "moves": [
+          "counter"
+        ]
+      },
+      {
+        "L": 0,
+        "moves": [
+          "rock-tomb"
+        ]
+      },
+      {
+        "L": 66,
+        "moves": [
+          "head-smash"
+        ]
+      },
+      {
+        "L": 48,
+        "moves": [
+          "liquidation"
+        ]
+      },
+      {
+        "L": 39,
+        "moves": [
+          "jaw-lock"
+        ]
+      }
+    ],
+    "misc": [
+      "swords-dance",
+      "headbutt",
+      "tackle",
+      "body-slam",
+      "take-down",
+      "double-edge",
+      "bite",
+      "water-gun",
+      "hydro-pump",
+      "surf",
+      "ice-beam",
+      "blizzard",
+      "hyper-beam",
+      "counter",
+      "earthquake",
+      "dig",
+      "waterfall",
+      "rest",
+      "rock-slide",
+      "super-fang",
+      "substitute",
+      "snore",
+      "protect",
+      "scary-face",
+      "sandstorm",
+      "endure",
+      "false-swipe",
+      "attract",
+      "sleep-talk",
+      "megahorn",
+      "iron-tail",
+      "rain-dance",
+      "crunch",
+      "whirlpool",
+      "facade",
+      "superpower",
+      "revenge",
+      "dive",
+      "rock-tomb",
+      "sand-tomb",
+      "muddy-water",
+      "iron-defense",
+      "mud-shot",
+      "rock-blast",
+      "water-pulse",
+      "payback",
+      "assurance",
+      "rock-polish",
+      "poison-jab",
+      "earth-power",
+      "giga-impact",
+      "ice-fang",
+      "stone-edge",
+      "stealth-rock",
+      "head-smash",
+      "round",
+      "scald",
+      "bulldoze",
+      "razor-shell",
+      "high-horsepower",
+      "throat-chop",
+      "smart-strike",
+      "stomping-tantrum",
+      "liquidation",
+      "jaw-lock",
+      "body-press",
+      "scale-shot",
+      "meteor-beam",
+      "skitter-smack",
+      "tera-blast",
+      "ice-spinner",
+      "chilling-water"
+    ]
+  }
 }
