@@ -2,7 +2,7 @@
   "name": "venusaur",
   "id": 3,
   "stock": true,
-  "base_experience": 263,
+  "base_experience": 236,
   "size": {
     "height": 2.0,
     "width": 1.5
@@ -10,7 +10,7 @@
   "mass": 100.0,
   "is_default": true,
   "capture_rate": 45,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium-slow",
   "gender_rate": 30,
   "stats": {
@@ -207,6 +207,7 @@
       "captivate",
       "grass-knot",
       "venoshock",
+      "sludge-wave",
       "acid-spray",
       "round",
       "echoed-voice",

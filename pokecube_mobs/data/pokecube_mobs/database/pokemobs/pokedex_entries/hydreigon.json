@@ -2,7 +2,7 @@
   "name": "hydreigon",
   "id": 635,
   "stock": true,
-  "base_experience": 300,
+  "base_experience": 270,
   "size": {
     "height": 1.8
   },
@@ -212,6 +212,7 @@
       "stone-edge",
       "stealth-rock",
       "charge-beam",
+      "head-smash",
       "double-hit",
       "round",
       "echoed-voice",
@@ -221,6 +222,7 @@
       "dragon-tail",
       "work-up",
       "snarl",
+      "belch",
       "confide",
       "throat-chop",
       "brutal-swing",

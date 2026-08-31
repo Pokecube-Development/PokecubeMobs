@@ -2,7 +2,7 @@
   "name": "tapu-koko",
   "id": 785,
   "stock": true,
-  "base_experience": 285,
+  "base_experience": 257,
   "size": {
     "height": 1.8,
     "width": 1.3,
@@ -11,7 +11,7 @@
   "mass": 20.5,
   "is_default": true,
   "capture_rate": 3,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "slow",
   "gender_rate": 255,
   "stats": {

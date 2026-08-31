@@ -11,7 +11,7 @@
   "mass": 79.0,
   "is_default": false,
   "capture_rate": 45,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "slow",
   "gender_rate": 30,
   "stats": {
@@ -140,6 +140,7 @@
       "scary-face",
       "foresight",
       "sandstorm",
+      "endure",
       "swagger",
       "steel-wing",
       "attract",
@@ -163,6 +164,8 @@
       "rock-tomb",
       "aerial-ace",
       "dragon-claw",
+      "dragon-dance",
+      "rock-blast",
       "roost",
       "tailwind",
       "payback",
@@ -186,9 +189,13 @@
       "sky-drop",
       "incinerate",
       "bulldoze",
+      "hurricane",
       "confide",
       "laser-focus",
-      "brutal-swing"
+      "brutal-swing",
+      "psychic-fangs",
+      "meteor-beam",
+      "dual-wingbeat"
     ]
   },
   "old_name": "aerodactyl_mega"

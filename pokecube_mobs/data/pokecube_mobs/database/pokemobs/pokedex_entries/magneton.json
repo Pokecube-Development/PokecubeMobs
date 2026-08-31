@@ -9,7 +9,7 @@
   "mass": 60.0,
   "is_default": true,
   "capture_rate": 60,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium",
   "gender_rate": 255,
   "stats": {
@@ -81,7 +81,7 @@
         ]
       },
       {
-        "L": 35,
+        "L": 46,
         "moves": [
           "swift"
         ]
@@ -197,6 +197,7 @@
       "helping-hand",
       "magic-coat",
       "recycle",
+      "refresh",
       "secret-power",
       "metal-sound",
       "signal-beam",

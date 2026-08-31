@@ -126,7 +126,9 @@
     "misc": [
       "take-down",
       "double-edge",
+      "bite",
       "roar",
+      "disable",
       "hyper-beam",
       "dig",
       "night-shade",
@@ -137,9 +139,11 @@
       "protect",
       "scary-face",
       "mud-slap",
+      "destiny-bond",
       "sandstorm",
       "endure",
       "charm",
+      "swagger",
       "sleep-talk",
       "pain-split",
       "rain-dance",
@@ -148,15 +152,21 @@
       "shadow-ball",
       "uproar",
       "will-o-wisp",
+      "memento",
       "facade",
       "helping-hand",
       "trick",
+      "yawn",
       "endeavor",
+      "howl",
       "mud-shot",
       "giga-impact",
       "thunder-fang",
       "ice-fang",
       "fire-fang",
+      "shadow-sneak",
+      "zen-headbutt",
+      "ally-switch",
       "hex",
       "bulldoze",
       "snarl",
@@ -166,7 +176,8 @@
       "stomping-tantrum",
       "body-press",
       "poltergeist",
-      "tera-blast"
+      "tera-blast",
+      "last-respects"
     ]
   }
 }

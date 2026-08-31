@@ -127,6 +127,9 @@
       "confuse-ray",
       "light-screen",
       "reflect",
+      "self-destruct",
+      "acid-armor",
+      "explosion",
       "rest",
       "rock-slide",
       "substitute",
@@ -138,6 +141,8 @@
       "sleep-talk",
       "rain-dance",
       "sunny-day",
+      "ancient-power",
+      "memento",
       "facade",
       "rock-tomb",
       "sand-tomb",
@@ -145,6 +150,7 @@
       "mud-shot",
       "rock-blast",
       "toxic-spikes",
+      "rock-polish",
       "power-gem",
       "energy-ball",
       "earth-power",
@@ -157,9 +163,11 @@
       "smack-down",
       "sludge-wave",
       "acid-spray",
+      "spiky-shield",
       "dazzling-gleam",
       "meteor-beam",
-      "tera-blast"
+      "tera-blast",
+      "mortal-spin"
     ]
   }
 }

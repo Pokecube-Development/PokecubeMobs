@@ -11,7 +11,7 @@
   "mass": 155.0,
   "is_default": true,
   "capture_rate": 75,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "slow",
   "gender_rate": 62,
   "stats": {
@@ -80,6 +80,7 @@
       "headbutt",
       "body-slam",
       "take-down",
+      "thrash",
       "double-edge",
       "leer",
       "bite",
@@ -124,6 +125,7 @@
       "safeguard",
       "dragon-breath",
       "iron-tail",
+      "morning-sun",
       "hidden-power",
       "sunny-day",
       "crunch",
@@ -165,6 +167,7 @@
       "burn-up",
       "psychic-fangs",
       "scorching-sands",
+      "raging-fury",
       "tera-blast",
       "temper-flare"
     ]

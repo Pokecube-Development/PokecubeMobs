@@ -148,6 +148,7 @@
       "slam",
       "sand-attack",
       "tackle",
+      "double-edge",
       "leer",
       "bite",
       "flamethrower",
@@ -160,6 +161,7 @@
       "dig",
       "toxic",
       "hypnosis",
+      "screech",
       "double-team",
       "confuse-ray",
       "light-screen",
@@ -174,6 +176,7 @@
       "snore",
       "protect",
       "detect",
+      "endure",
       "swagger",
       "mean-look",
       "attract",
@@ -196,8 +199,11 @@
       "endeavor",
       "secret-power",
       "signal-beam",
+      "bullet-seed",
+      "mud-shot",
       "covet",
       "shock-wave",
+      "assurance",
       "fling",
       "last-resort",
       "aqua-tail",
@@ -216,7 +222,8 @@
       "confide",
       "power-up-punch",
       "laser-focus",
-      "stomping-tantrum"
+      "stomping-tantrum",
+      "trailblaze"
     ]
   },
   "interactions": [

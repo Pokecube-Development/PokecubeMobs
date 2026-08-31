@@ -2,7 +2,7 @@
   "name": "nidoking",
   "id": 34,
   "stock": true,
-  "base_experience": 253,
+  "base_experience": 227,
   "size": {
     "height": 1.4,
     "width": 1.0
@@ -10,7 +10,7 @@
   "mass": 62.0,
   "is_default": true,
   "capture_rate": 45,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium-slow",
   "gender_rate": 0,
   "stats": {

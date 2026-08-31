@@ -10,7 +10,7 @@
   "mass": 55.0,
   "is_default": true,
   "capture_rate": 45,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "slow",
   "gender_rate": 127,
   "stats": {
@@ -181,6 +181,7 @@
       "reversal",
       "protect",
       "feint-attack",
+      "detect",
       "outrage",
       "endure",
       "false-swipe",
@@ -204,6 +205,7 @@
       "knock-off",
       "secret-power",
       "rock-tomb",
+      "aerial-ace",
       "iron-defense",
       "bulk-up",
       "natural-gift",
@@ -223,12 +225,16 @@
       "smack-down",
       "storm-throw",
       "round",
+      "circle-throw",
       "struggle-bug",
       "bulldoze",
       "confide",
       "high-horsepower",
       "throat-chop",
-      "brutal-swing"
+      "lunge",
+      "brutal-swing",
+      "pounce",
+      "hard-press"
     ]
   },
   "loot_table": "minecraft:entities/spider"

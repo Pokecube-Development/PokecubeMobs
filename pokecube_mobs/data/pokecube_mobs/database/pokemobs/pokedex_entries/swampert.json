@@ -2,7 +2,7 @@
   "name": "swampert",
   "id": 260,
   "stock": true,
-  "base_experience": 268,
+  "base_experience": 241,
   "size": {
     "height": 1.5,
     "width": 1.0
@@ -10,7 +10,7 @@
   "mass": 81.9,
   "is_default": true,
   "capture_rate": 45,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium-slow",
   "gender_rate": 30,
   "stats": {
@@ -191,6 +191,7 @@
       "curse",
       "protect",
       "scary-face",
+      "sludge-bomb",
       "mud-slap",
       "foresight",
       "icy-wind",
@@ -234,6 +235,7 @@
       "hammer-arm",
       "natural-gift",
       "fling",
+      "aqua-ring",
       "poison-jab",
       "aqua-tail",
       "focus-blast",
@@ -262,6 +264,7 @@
       "liquidation",
       "body-press",
       "flip-turn",
+      "wave-crash",
       "tera-blast",
       "chilling-water",
       "hard-press"

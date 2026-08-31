@@ -2,7 +2,7 @@
   "name": "tapu-fini",
   "id": 788,
   "stock": true,
-  "base_experience": 285,
+  "base_experience": 257,
   "size": {
     "height": 1.3,
     "width": 0.9,
@@ -11,7 +11,7 @@
   "mass": 21.2,
   "is_default": true,
   "capture_rate": 3,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "slow",
   "gender_rate": 255,
   "stats": {

@@ -2,7 +2,7 @@
   "name": "lugia",
   "id": 249,
   "stock": true,
-  "base_experience": 340,
+  "base_experience": 306,
   "size": {
     "height": 4.0,
     "width": 5.2
@@ -210,6 +210,7 @@
       "imprison",
       "secret-power",
       "dive",
+      "feather-dance",
       "hyper-voice",
       "weather-ball",
       "air-cutter",
@@ -219,6 +220,7 @@
       "calm-mind",
       "shock-wave",
       "water-pulse",
+      "psycho-boost",
       "roost",
       "brine",
       "natural-gift",

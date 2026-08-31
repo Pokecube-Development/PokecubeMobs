@@ -9,7 +9,7 @@
   "mass": 15.5,
   "is_default": true,
   "capture_rate": 140,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium",
   "gender_rate": 127,
   "stats": {
@@ -133,11 +133,13 @@
       }
     ],
     "misc": [
+      "disable",
       "hyper-beam",
       "thunderbolt",
       "thunder",
       "toxic",
       "psychic",
+      "hypnosis",
       "double-team",
       "light-screen",
       "reflect",
@@ -167,6 +169,7 @@
       "torment",
       "facade",
       "helping-hand",
+      "wish",
       "magic-coat",
       "endeavor",
       "skill-swap",
@@ -199,7 +202,8 @@
       "confide",
       "aromatic-mist",
       "dazzling-gleam",
-      "misty-explosion"
+      "misty-explosion",
+      "alluring-voice"
     ]
   },
   "loot_table": "pokecube:entities/enderpearls_1"

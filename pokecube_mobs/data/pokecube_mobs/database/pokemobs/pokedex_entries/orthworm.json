@@ -113,6 +113,7 @@
     ],
     "misc": [
       "body-slam",
+      "wrap",
       "take-down",
       "double-edge",
       "hyper-beam",
@@ -128,6 +129,7 @@
       "sandstorm",
       "endure",
       "sleep-talk",
+      "iron-tail",
       "facade",
       "helping-hand",
       "rock-tomb",
@@ -150,7 +152,8 @@
       "stomping-tantrum",
       "body-press",
       "steel-beam",
-      "tera-blast"
+      "tera-blast",
+      "shed-tail"
     ]
   }
 }

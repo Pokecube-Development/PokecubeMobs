@@ -10,7 +10,7 @@
   "mass": 8.5,
   "is_default": true,
   "capture_rate": 45,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium-slow",
   "gender_rate": 30,
   "stats": {
@@ -75,10 +75,9 @@
         ]
       },
       {
-        "L": 19,
+        "L": 22,
         "moves": [
-          "rage",
-          "scary-face"
+          "rage"
         ]
       },
       {
@@ -97,6 +96,12 @@
         "L": 34,
         "moves": [
           "slash"
+        ]
+      },
+      {
+        "L": 19,
+        "moves": [
+          "scary-face"
         ]
       },
       {

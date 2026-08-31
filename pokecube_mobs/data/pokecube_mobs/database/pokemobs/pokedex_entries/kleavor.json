@@ -22,7 +22,7 @@
     "speed": 85
   },
   "evs": {
-    "attack": 2
+    "attack": 3
   },
   "types": [
     "bug",

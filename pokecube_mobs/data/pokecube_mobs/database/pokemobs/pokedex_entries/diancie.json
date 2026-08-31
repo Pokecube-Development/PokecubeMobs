@@ -2,14 +2,14 @@
   "name": "diancie",
   "id": 719,
   "stock": true,
-  "base_experience": 300,
+  "base_experience": 270,
   "size": {
     "height": 0.7
   },
   "mass": 8.8,
   "is_default": true,
   "capture_rate": 3,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "slow",
   "gender_rate": 255,
   "stats": {

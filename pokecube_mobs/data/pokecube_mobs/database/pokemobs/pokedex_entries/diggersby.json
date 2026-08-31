@@ -9,7 +9,7 @@
   "mass": 42.4,
   "is_default": true,
   "capture_rate": 127,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium",
   "gender_rate": 127,
   "stats": {
@@ -144,6 +144,7 @@
       "low-kick",
       "strength",
       "earthquake",
+      "fissure",
       "dig",
       "toxic",
       "agility",
@@ -212,7 +213,8 @@
       "high-horsepower",
       "brutal-swing",
       "stomping-tantrum",
-      "scorching-sands"
+      "scorching-sands",
+      "trailblaze"
     ]
   },
   "interactions": [

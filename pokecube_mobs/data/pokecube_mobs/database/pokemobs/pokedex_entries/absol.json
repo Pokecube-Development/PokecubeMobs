@@ -151,6 +151,7 @@
       "quick-attack",
       "mimic",
       "double-team",
+      "confuse-ray",
       "focus-energy",
       "fire-blast",
       "swift",
@@ -223,6 +224,7 @@
       "x-scissor",
       "giga-impact",
       "shadow-claw",
+      "shadow-sneak",
       "psycho-cut",
       "zen-headbutt",
       "stone-edge",
@@ -236,11 +238,13 @@
       "incinerate",
       "retaliate",
       "snarl",
+      "phantom-force",
       "play-rough",
       "confide",
       "laser-focus",
       "throat-chop",
-      "brutal-swing"
+      "brutal-swing",
+      "trailblaze"
     ]
   },
   "interactions": [

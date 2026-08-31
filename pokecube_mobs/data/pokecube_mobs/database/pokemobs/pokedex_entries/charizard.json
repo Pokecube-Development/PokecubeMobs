@@ -2,14 +2,14 @@
   "name": "charizard",
   "id": 6,
   "stock": true,
-  "base_experience": 267,
+  "base_experience": 240,
   "size": {
     "height": 1.7
   },
   "mass": 90.5,
   "is_default": true,
   "capture_rate": 45,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium-slow",
   "gender_rate": 30,
   "stats": {
@@ -79,16 +79,21 @@
         ]
       },
       {
-        "L": 20,
+        "L": 24,
         "moves": [
-          "rage",
-          "fury-swipes"
+          "rage"
         ]
       },
       {
         "L": 10,
         "moves": [
           "smokescreen"
+        ]
+      },
+      {
+        "L": 20,
+        "moves": [
+          "fury-swipes"
         ]
       },
       {

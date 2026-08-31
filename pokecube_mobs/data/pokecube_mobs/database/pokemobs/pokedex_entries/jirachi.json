@@ -2,7 +2,7 @@
   "name": "jirachi",
   "id": 385,
   "stock": true,
-  "base_experience": 300,
+  "base_experience": 270,
   "size": {
     "height": 0.3
   },

@@ -2,7 +2,7 @@
   "name": "rhyperior",
   "id": 464,
   "stock": true,
-  "base_experience": 268,
+  "base_experience": 241,
   "size": {
     "height": 2.4,
     "width": 1.0
@@ -10,7 +10,7 @@
   "mass": 282.8,
   "is_default": true,
   "capture_rate": 30,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "slow",
   "gender_rate": 127,
   "stats": {

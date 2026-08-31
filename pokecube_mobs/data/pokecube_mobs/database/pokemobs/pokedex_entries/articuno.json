@@ -2,7 +2,7 @@
   "name": "articuno",
   "id": 144,
   "stock": true,
-  "base_experience": 290,
+  "base_experience": 261,
   "size": {
     "height": 1.7,
     "width": 2.0
@@ -198,6 +198,7 @@
       "swagger",
       "steel-wing",
       "sleep-talk",
+      "heal-bell",
       "return",
       "frustration",
       "hidden-power",
@@ -214,6 +215,7 @@
       "weather-ball",
       "air-cutter",
       "signal-beam",
+      "extrasensory",
       "sheer-cold",
       "aerial-ace",
       "icicle-spear",

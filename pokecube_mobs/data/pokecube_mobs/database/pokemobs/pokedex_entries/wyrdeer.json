@@ -22,7 +22,8 @@
     "speed": 65
   },
   "evs": {
-    "attack": 1
+    "attack": 1,
+    "special_attack": 1
   },
   "types": [
     "normal",

@@ -2,7 +2,7 @@
   "name": "gengar",
   "id": 94,
   "stock": true,
-  "base_experience": 250,
+  "base_experience": 225,
   "size": {
     "height": 1.5,
     "width": 1.0
@@ -10,7 +10,7 @@
   "mass": 40.5,
   "is_default": true,
   "capture_rate": 45,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium-slow",
   "gender_rate": 127,
   "stats": {
@@ -162,6 +162,7 @@
       "body-slam",
       "take-down",
       "double-edge",
+      "disable",
       "hyper-beam",
       "submission",
       "counter",
@@ -260,6 +261,7 @@
       "acid-spray",
       "foul-play",
       "round",
+      "clear-smog",
       "ally-switch",
       "hex",
       "reflect-type",

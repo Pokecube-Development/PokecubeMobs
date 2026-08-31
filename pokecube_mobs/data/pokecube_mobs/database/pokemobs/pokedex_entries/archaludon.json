@@ -132,6 +132,7 @@
       "earthquake",
       "light-screen",
       "reflect",
+      "focus-energy",
       "rest",
       "rock-slide",
       "slash",
@@ -150,6 +151,7 @@
       "iron-defense",
       "dragon-claw",
       "gyro-ball",
+      "metal-burst",
       "aura-sphere",
       "dark-pulse",
       "night-slash",
@@ -170,6 +172,7 @@
       "steel-beam",
       "meteor-beam",
       "tera-blast",
+      "electro-shot",
       "hard-press",
       "dragon-cheer"
     ]

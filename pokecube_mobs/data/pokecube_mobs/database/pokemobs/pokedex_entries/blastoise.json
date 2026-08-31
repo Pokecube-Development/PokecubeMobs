@@ -2,7 +2,7 @@
   "name": "blastoise",
   "id": 9,
   "stock": true,
-  "base_experience": 265,
+  "base_experience": 239,
   "size": {
     "height": 1.6,
     "width": 1.5
@@ -10,7 +10,7 @@
   "mass": 85.5,
   "is_default": true,
   "capture_rate": 45,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium-slow",
   "gender_rate": 30,
   "stats": {
@@ -224,6 +224,7 @@
       "zen-headbutt",
       "flash-cannon",
       "rock-climb",
+      "iron-head",
       "captivate",
       "aqua-jet",
       "smack-down",
@@ -241,6 +242,7 @@
       "life-dew",
       "terrain-pulse",
       "flip-turn",
+      "wave-crash",
       "tera-blast",
       "ice-spinner",
       "chilling-water"

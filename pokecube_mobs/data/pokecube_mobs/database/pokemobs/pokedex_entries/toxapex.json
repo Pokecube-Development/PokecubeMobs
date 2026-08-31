@@ -9,7 +9,7 @@
   "mass": 14.5,
   "is_default": true,
   "capture_rate": 75,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium",
   "gender_rate": 127,
   "stats": {
@@ -149,6 +149,9 @@
       "pain-split",
       "hidden-power",
       "rain-dance",
+      "stockpile",
+      "spit-up",
+      "swallow",
       "hail",
       "facade",
       "magic-coat",

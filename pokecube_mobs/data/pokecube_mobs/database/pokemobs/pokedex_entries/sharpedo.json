@@ -136,6 +136,7 @@
     ],
     "misc": [
       "take-down",
+      "thrash",
       "double-edge",
       "leer",
       "bite",
@@ -167,6 +168,7 @@
       "protect",
       "scary-face",
       "mud-slap",
+      "destiny-bond",
       "icy-wind",
       "endure",
       "swagger",
@@ -216,7 +218,8 @@
       "psychic-fangs",
       "liquidation",
       "scale-shot",
-      "flip-turn"
+      "flip-turn",
+      "chilling-water"
     ]
   },
   "loot_table": "pokecube:entities/fish_1",

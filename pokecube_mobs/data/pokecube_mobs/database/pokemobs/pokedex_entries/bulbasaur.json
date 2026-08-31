@@ -11,7 +11,7 @@
   "mass": 6.9,
   "is_default": true,
   "capture_rate": 45,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium-slow",
   "gender_rate": 30,
   "stats": {
@@ -88,7 +88,7 @@
         ]
       },
       {
-        "L": 36,
+        "L": 48,
         "moves": [
           "solar-beam"
         ]

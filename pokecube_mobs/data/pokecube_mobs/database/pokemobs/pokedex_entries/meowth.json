@@ -10,7 +10,7 @@
   "mass": 4.2,
   "is_default": true,
   "capture_rate": 255,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium",
   "gender_rate": 127,
   "stats": {
@@ -147,6 +147,7 @@
       "tail-whip",
       "bite",
       "growl",
+      "sing",
       "water-gun",
       "bubble-beam",
       "thunderbolt",

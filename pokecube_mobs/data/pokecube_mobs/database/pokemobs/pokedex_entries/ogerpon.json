@@ -9,9 +9,9 @@
   "mass": 39.8,
   "is_default": true,
   "capture_rate": 5,
-  "base_happiness": 0,
+  "base_happiness": 50,
   "growth_rate": "slow",
-  "gender_rate": 255,
+  "gender_rate": 254,
   "stats": {
     "hp": 80,
     "attack": 120,

@@ -34,7 +34,7 @@ def trim(string):
 def get(folder, number):
     cache_file = f'{DATA_SOURCE}/{folder}/{number}/index.json'
     if os.path.exists(cache_file):
-        file = open(cache_file, 'r')
+        file = open(cache_file, 'r', encoding="utf-8")
         data = file.read()
         file.close()
         return json.loads(data, object_hook=lambda d: SimpleNamespace(**d))
@@ -44,7 +44,7 @@ def get_valid_numbers(folder):
     index_file = f'{DATA_SOURCE}/{folder}/index.json'
     index_map = {}
     if os.path.exists(index_file):
-        file = open(index_file, 'r')
+        file = open(index_file, 'r', encoding="utf-8")
         data = file.read()
         file.close()
         index = json.loads(data, object_hook=lambda d: SimpleNamespace(**d))

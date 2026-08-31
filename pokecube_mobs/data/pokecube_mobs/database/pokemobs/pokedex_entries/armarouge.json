@@ -128,8 +128,10 @@
     ],
     "misc": [
       "take-down",
+      "disable",
       "flamethrower",
       "psybeam",
+      "hyper-beam",
       "solar-beam",
       "fire-spin",
       "psychic",
@@ -142,6 +144,7 @@
       "substitute",
       "spite",
       "protect",
+      "destiny-bond",
       "endure",
       "sleep-talk",
       "sunny-day",
@@ -166,15 +169,22 @@
       "energy-ball",
       "flash-cannon",
       "trick-room",
+      "lava-plume",
+      "wide-guard",
       "psyshock",
       "flame-charge",
       "acid-spray",
+      "clear-smog",
       "stored-power",
+      "ally-switch",
+      "mystical-fire",
       "psychic-terrain",
+      "burn-up",
       "expanding-force",
       "meteor-beam",
       "scorching-sands",
-      "tera-blast"
+      "tera-blast",
+      "armor-cannon"
     ]
   }
 }

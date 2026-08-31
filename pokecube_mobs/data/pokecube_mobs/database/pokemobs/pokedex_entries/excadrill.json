@@ -9,7 +9,7 @@
   "mass": 40.4,
   "is_default": true,
   "capture_rate": 60,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium",
   "gender_rate": 127,
   "stats": {
@@ -160,6 +160,7 @@
       "sleep-talk",
       "return",
       "frustration",
+      "megahorn",
       "rapid-spin",
       "metal-claw",
       "hidden-power",

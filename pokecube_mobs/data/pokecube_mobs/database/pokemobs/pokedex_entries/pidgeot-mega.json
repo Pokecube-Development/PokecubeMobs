@@ -129,6 +129,7 @@
       "thief",
       "snore",
       "protect",
+      "endure",
       "swagger",
       "steel-wing",
       "attract",
@@ -149,13 +150,15 @@
       "tailwind",
       "u-turn",
       "air-slash",
+      "brave-bird",
       "giga-impact",
       "defog",
       "round",
       "work-up",
       "hurricane",
       "confide",
-      "laser-focus"
+      "laser-focus",
+      "dual-wingbeat"
     ]
   },
   "sound": "pidgeot-mega",

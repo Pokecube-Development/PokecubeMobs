@@ -2,7 +2,7 @@
   "name": "gothitelle",
   "id": 576,
   "stock": true,
-  "base_experience": 245,
+  "base_experience": 221,
   "size": {
     "height": 1.5,
     "width": 0.9
@@ -10,7 +10,7 @@
   "mass": 44.0,
   "is_default": true,
   "capture_rate": 50,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium-slow",
   "gender_rate": 191,
   "stats": {

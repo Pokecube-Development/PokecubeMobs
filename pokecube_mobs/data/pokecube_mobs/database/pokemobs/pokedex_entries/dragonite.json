@@ -2,7 +2,7 @@
   "name": "dragonite",
   "id": 149,
   "stock": true,
-  "base_experience": 300,
+  "base_experience": 270,
   "size": {
     "height": 2.2,
     "width": 1.5
@@ -130,6 +130,7 @@
       "razor-wind",
       "cut",
       "wing-attack",
+      "whirlwind",
       "fly",
       "bind",
       "slam",
@@ -191,6 +192,7 @@
       "steel-wing",
       "attract",
       "sleep-talk",
+      "heal-bell",
       "return",
       "frustration",
       "safeguard",
@@ -237,6 +239,7 @@
       "iron-head",
       "stone-edge",
       "captivate",
+      "aqua-jet",
       "ominous-wind",
       "hone-claws",
       "round",

@@ -2,7 +2,7 @@
   "name": "clefable",
   "id": 36,
   "stock": true,
-  "base_experience": 242,
+  "base_experience": 217,
   "size": {
     "height": 1.3,
     "width": 0.85
@@ -228,6 +228,7 @@
       "fling",
       "copycat",
       "last-resort",
+      "air-slash",
       "drain-punch",
       "focus-blast",
       "giga-impact",

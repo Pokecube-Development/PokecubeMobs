@@ -9,7 +9,7 @@
   "mass": 21.5,
   "is_default": true,
   "capture_rate": 100,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium",
   "gender_rate": 127,
   "stats": {
@@ -209,6 +209,7 @@
       "me-first",
       "last-resort",
       "poison-jab",
+      "air-slash",
       "x-scissor",
       "drain-punch",
       "focus-blast",

@@ -2,7 +2,7 @@
   "name": "roserade",
   "id": 407,
   "stock": true,
-  "base_experience": 258,
+  "base_experience": 232,
   "size": {
     "height": 0.9,
     "width": 0.6
@@ -10,7 +10,7 @@
   "mass": 14.5,
   "is_default": true,
   "capture_rate": 75,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium-slow",
   "gender_rate": 127,
   "stats": {
@@ -117,6 +117,7 @@
       "growth",
       "solar-beam",
       "stun-spore",
+      "sleep-powder",
       "petal-dance",
       "toxic",
       "double-team",
@@ -125,12 +126,14 @@
       "rest",
       "substitute",
       "snore",
+      "cotton-spore",
       "protect",
       "sludge-bomb",
       "mud-slap",
       "spikes",
       "giga-drain",
       "endure",
+      "charm",
       "swagger",
       "fury-cutter",
       "attract",
@@ -151,6 +154,7 @@
       "secret-power",
       "weather-ball",
       "aromatherapy",
+      "extrasensory",
       "bullet-seed",
       "covet",
       "magical-leaf",
@@ -173,7 +177,9 @@
       "venom-drench",
       "dazzling-gleam",
       "laser-focus",
-      "grassy-glide"
+      "life-dew",
+      "grassy-glide",
+      "trailblaze"
     ]
   },
   "loot_table": "pokecube:entities/chestplate_seeds_2"

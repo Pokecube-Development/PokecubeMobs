@@ -10,7 +10,7 @@
   "mass": 76.6,
   "is_default": true,
   "capture_rate": 75,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium",
   "gender_rate": 127,
   "stats": {
@@ -196,6 +196,7 @@
       "mud-slap",
       "icy-wind",
       "endure",
+      "charm",
       "swagger",
       "fury-cutter",
       "attract",

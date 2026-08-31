@@ -127,6 +127,7 @@
     "misc": [
       "swords-dance",
       "take-down",
+      "disable",
       "flamethrower",
       "fire-spin",
       "night-shade",
@@ -139,6 +140,7 @@
       "curse",
       "spite",
       "protect",
+      "destiny-bond",
       "endure",
       "false-swipe",
       "sleep-talk",
@@ -162,18 +164,25 @@
       "night-slash",
       "x-scissor",
       "vacuum-wave",
+      "giga-impact",
       "shadow-claw",
       "shadow-sneak",
+      "psycho-cut",
+      "lava-plume",
       "iron-head",
       "flame-charge",
+      "clear-smog",
       "stored-power",
       "quick-guard",
+      "ally-switch",
       "hex",
       "phantom-force",
       "solar-blade",
       "throat-chop",
+      "burn-up",
       "poltergeist",
-      "tera-blast"
+      "tera-blast",
+      "bitter-blade"
     ]
   }
 }

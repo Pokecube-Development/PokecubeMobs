@@ -79,10 +79,9 @@
         ]
       },
       {
-        "L": 12,
+        "L": 29,
         "moves": [
-          "harden",
-          "magnitude"
+          "harden"
         ]
       },
       {
@@ -113,6 +112,12 @@
         "L": 4,
         "moves": [
           "sandstorm"
+        ]
+      },
+      {
+        "L": 12,
+        "moves": [
+          "magnitude"
         ]
       },
       {

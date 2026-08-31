@@ -71,7 +71,7 @@
         ]
       },
       {
-        "L": 23,
+        "L": 20,
         "moves": [
           "leech-life"
         ]
@@ -193,6 +193,7 @@
       "nature-power",
       "brick-break",
       "knock-off",
+      "refresh",
       "secret-power",
       "aromatherapy",
       "bullet-seed",

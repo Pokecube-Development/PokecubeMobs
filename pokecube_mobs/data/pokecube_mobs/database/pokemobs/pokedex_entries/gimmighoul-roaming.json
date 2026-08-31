@@ -30,9 +30,6 @@
   "abilities": {
     "normal": [
       "run-away"
-    ],
-    "hidden": [
-      "run-away"
     ]
   },
   "moves": {

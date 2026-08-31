@@ -1,7 +1,7 @@
 import json
 from ignore_list import isIgnored
 from legacy_renamer import find_old_name, to_model_form, find_new_name, entry_name, banned_form,\
-                  is_extra_form, TAG_IGNORE, get_interacts
+                  is_extra_form, TAG_IGNORE, MEGA_BASE_MAP, get_interacts
 import utils
 from utils import get_form, get_pokemon, get_species, default_or_latest, get_pokemon_index, url_to_id, DATA_DIR, TAG_DATA_DIR, ASSET_DIR
 from moves_converter import convert_old_move_name
@@ -189,11 +189,19 @@ class PokedexEntry:
         if no_shiny(self.name):
             self.no_shiny = True
         self.base_experience = forme.base_experience
+        if self.base_experience is not None:
+            if not self.name in base_exp_fixes:
+                base_exp_fixes[self.name] = self.base_experience + 30
         if self.base_experience is None:
+            _basename = species.name
+            if self.name in MEGA_BASE_MAP:
+                _basename = MEGA_BASE_MAP[self.name]
             if self.name in base_exp_fixes:
                 self.base_experience = base_exp_fixes[self.name]
+            elif _basename in base_exp_fixes:
+                self.base_experience = base_exp_fixes[_basename]
             elif WARN_NO_EXP:
-                print("Error, no base exp for "+self.name)
+                print("Error, no base exp for "+self.name+f" {_basename}")
 
         # These values are reported as 10x the value in the games for some reason.
         self.size = {'height': forme.height/10.0}
@@ -448,7 +456,8 @@ class PokemonSpecies:
                     # Same for spawns, mega rules, interactions and evolutoons
                     if 'spawnRules' in stats:
                         # entry.spawn_rules = stats['spawnRules']
-                        print(f"Not adding spawn rules for {old_entry['name']}")
+                        # print(f"Not adding spawn rules for {old_entry['name']}")
+                        pass
                     if 'megaRules' in stats:
                         entry.mega_rules = stats['megaRules']
                     if 'interactions' in stats:
@@ -473,7 +482,7 @@ class PokemonSpecies:
                         entry.__dict__[var_key] = var_val
 
             # Print an error if we think it should have had moves, but has none
-            if(not '-gmax' in entry.name and (not 'moves' in entry.__dict__ or not 'level_up' in entry.moves)):
+            if(not '-gmax' in entry.name and not '-mega' in entry.name and (not 'moves' in entry.__dict__ or not 'level_up' in entry.moves)):
                 print(f'No moves for {entry.name}??')
                 pass
 

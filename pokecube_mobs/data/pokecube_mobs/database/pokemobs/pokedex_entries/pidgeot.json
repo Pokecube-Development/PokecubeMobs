@@ -168,6 +168,7 @@
       "tailwind",
       "u-turn",
       "air-slash",
+      "brave-bird",
       "giga-impact",
       "defog",
       "captivate",
@@ -176,7 +177,8 @@
       "work-up",
       "hurricane",
       "confide",
-      "laser-focus"
+      "laser-focus",
+      "dual-wingbeat"
     ]
   },
   "pose_shapes": {

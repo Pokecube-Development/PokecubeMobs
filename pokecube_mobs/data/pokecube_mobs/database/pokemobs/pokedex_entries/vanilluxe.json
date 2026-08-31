@@ -2,14 +2,14 @@
   "name": "vanilluxe",
   "id": 584,
   "stock": true,
-  "base_experience": 268,
+  "base_experience": 241,
   "size": {
     "height": 1.3
   },
   "mass": 57.5,
   "is_default": true,
   "capture_rate": 45,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "slow",
   "gender_rate": 127,
   "stats": {
@@ -156,13 +156,19 @@
       "magnet-rise",
       "giga-impact",
       "avalanche",
+      "ice-shard",
       "mirror-shot",
       "flash-cannon",
       "round",
       "ally-switch",
       "frost-breath",
+      "icicle-crash",
       "freeze-dry",
-      "confide"
+      "confide",
+      "aurora-veil",
+      "ice-spinner",
+      "snowscape",
+      "chilling-water"
     ]
   },
   "loot_table": "pokecube:entities/both_ice"

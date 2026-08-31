@@ -155,6 +155,7 @@
       "feint-attack",
       "sludge-bomb",
       "mud-slap",
+      "destiny-bond",
       "detect",
       "endure",
       "swagger",
@@ -188,6 +189,7 @@
       "howl",
       "mud-shot",
       "natural-gift",
+      "feint",
       "payback",
       "embargo",
       "sucker-punch",
@@ -211,8 +213,10 @@
       "psychic-fangs",
       "burning-jealousy",
       "lash-out",
+      "scorching-sands",
       "tera-blast",
       "trailblaze",
+      "comeuppance",
       "temper-flare"
     ]
   },

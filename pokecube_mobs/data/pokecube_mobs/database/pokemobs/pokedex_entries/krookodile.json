@@ -2,7 +2,7 @@
   "name": "krookodile",
   "id": 553,
   "stock": true,
-  "base_experience": 260,
+  "base_experience": 234,
   "size": {
     "height": 1.5,
     "width": 1.0
@@ -10,7 +10,7 @@
   "mass": 96.3,
   "is_default": true,
   "capture_rate": 45,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium-slow",
   "gender_rate": 127,
   "stats": {
@@ -149,8 +149,10 @@
       "roar",
       "hyper-beam",
       "low-kick",
+      "counter",
       "strength",
       "earthquake",
+      "fissure",
       "dig",
       "toxic",
       "rage",
@@ -215,6 +217,7 @@
       "thunder-fang",
       "fire-fang",
       "gunk-shot",
+      "iron-head",
       "stone-edge",
       "stealth-rock",
       "grass-knot",

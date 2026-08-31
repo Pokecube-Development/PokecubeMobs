@@ -126,8 +126,10 @@
       "double-edge",
       "hydro-pump",
       "hyper-beam",
+      "growth",
       "solar-beam",
       "earthquake",
+      "recover",
       "defense-curl",
       "reflect",
       "rest",
@@ -139,6 +141,7 @@
       "endure",
       "rollout",
       "sleep-talk",
+      "sweet-scent",
       "rain-dance",
       "sunny-day",
       "uproar",
@@ -157,6 +160,7 @@
       "nasty-plot",
       "draco-meteor",
       "leaf-storm",
+      "power-whip",
       "grass-knot",
       "bug-bite",
       "double-hit",
@@ -170,6 +174,8 @@
       "grassy-glide",
       "tera-blast",
       "pounce",
+      "syrup-bomb",
+      "fickle-beam",
       "dragon-cheer"
     ]
   }

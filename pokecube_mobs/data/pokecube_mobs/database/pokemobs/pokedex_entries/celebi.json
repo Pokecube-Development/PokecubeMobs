@@ -2,7 +2,7 @@
   "name": "celebi",
   "id": 251,
   "stock": true,
-  "base_experience": 300,
+  "base_experience": 270,
   "size": {
     "height": 0.6,
     "width": 0.5

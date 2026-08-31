@@ -75,10 +75,9 @@
         ]
       },
       {
-        "L": 12,
+        "L": 29,
         "moves": [
-          "harden",
-          "magnitude"
+          "harden"
         ]
       },
       {
@@ -115,6 +114,12 @@
         "L": 10,
         "moves": [
           "rollout"
+        ]
+      },
+      {
+        "L": 12,
+        "moves": [
+          "magnitude"
         ]
       },
       {

@@ -56,6 +56,7 @@
         "L": 40,
         "moves": [
           "jump-kick",
+          "tri-attack",
           "lunge"
         ]
       },
@@ -101,12 +102,6 @@
         "L": 5,
         "moves": [
           "quick-attack"
-        ]
-      },
-      {
-        "L": 21,
-        "moves": [
-          "tri-attack"
         ]
       },
       {

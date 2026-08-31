@@ -122,6 +122,7 @@
       }
     ],
     "misc": [
+      "guillotine",
       "swords-dance",
       "take-down",
       "hyper-beam",
@@ -138,9 +139,11 @@
       "sandstorm",
       "endure",
       "false-swipe",
+      "mean-look",
       "sleep-talk",
       "metal-claw",
       "rain-dance",
+      "torment",
       "facade",
       "taunt",
       "brick-break",
@@ -148,9 +151,13 @@
       "metal-sound",
       "aerial-ace",
       "iron-defense",
+      "metal-burst",
+      "assurance",
       "fling",
+      "sucker-punch",
       "poison-jab",
       "dark-pulse",
+      "night-slash",
       "air-slash",
       "x-scissor",
       "focus-blast",
@@ -164,11 +171,13 @@
       "grass-knot",
       "low-sweep",
       "foul-play",
+      "quick-guard",
       "snarl",
       "throat-chop",
       "steel-beam",
       "lash-out",
-      "tera-blast"
+      "tera-blast",
+      "kowtow-cleave"
     ]
   }
 }

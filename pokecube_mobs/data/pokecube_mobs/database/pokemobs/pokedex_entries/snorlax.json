@@ -9,7 +9,7 @@
   "mass": 460.0,
   "is_default": true,
   "capture_rate": 25,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "slow",
   "gender_rate": 30,
   "stats": {
@@ -38,14 +38,9 @@
   "moves": {
     "level_up": [
       {
-        "L": 26,
-        "moves": [
-          "headbutt"
-        ]
-      },
-      {
         "L": 1,
         "moves": [
+          "headbutt",
           "tackle",
           "screech",
           "metronome",
@@ -65,7 +60,7 @@
         ]
       },
       {
-        "L": 46,
+        "L": 48,
         "moves": [
           "double-edge"
         ]
@@ -77,7 +72,7 @@
         ]
       },
       {
-        "L": 51,
+        "L": 56,
         "moves": [
           "hyper-beam"
         ]
@@ -285,6 +280,7 @@
       "recycle",
       "brick-break",
       "yawn",
+      "refresh",
       "snatch",
       "secret-power",
       "hyper-voice",

@@ -11,7 +11,7 @@
   "mass": 40.2,
   "is_default": true,
   "capture_rate": 45,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "slow",
   "gender_rate": 127,
   "stats": {
@@ -138,6 +138,7 @@
       "substitute",
       "thief",
       "snore",
+      "curse",
       "protect",
       "scary-face",
       "mud-slap",
@@ -155,6 +156,7 @@
       "uproar",
       "facade",
       "charge",
+      "refresh",
       "secret-power",
       "hyper-voice",
       "overheat",
@@ -164,6 +166,7 @@
       "shock-wave",
       "natural-gift",
       "magnet-rise",
+      "switcheroo",
       "giga-impact",
       "thunder-fang",
       "ice-fang",
@@ -181,7 +184,10 @@
       "electric-terrain",
       "laser-focus",
       "psychic-fangs",
-      "rising-voltage"
+      "rising-voltage",
+      "pounce",
+      "trailblaze",
+      "supercell-slam"
     ]
   },
   "loot_table": "pokecube:entities/redstone_rabbit_2"

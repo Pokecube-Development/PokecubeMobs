@@ -114,6 +114,7 @@
       "headbutt",
       "tackle",
       "take-down",
+      "double-edge",
       "tail-whip",
       "bite",
       "growl",
@@ -129,6 +130,7 @@
       "substitute",
       "snore",
       "protect",
+      "endure",
       "charm",
       "swagger",
       "attract",
@@ -139,6 +141,7 @@
       "hidden-power",
       "rain-dance",
       "sunny-day",
+      "crunch",
       "rock-smash",
       "uproar",
       "facade",
@@ -154,6 +157,9 @@
       "sucker-punch",
       "dark-pulse",
       "giga-impact",
+      "thunder-fang",
+      "ice-fang",
+      "fire-fang",
       "zen-headbutt",
       "captivate",
       "grass-knot",
@@ -166,7 +172,9 @@
       "cotton-guard",
       "snarl",
       "confide",
-      "baby-doll-eyes"
+      "baby-doll-eyes",
+      "psychic-fangs",
+      "trailblaze"
     ]
   },
   "model": {

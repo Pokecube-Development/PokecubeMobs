@@ -10,7 +10,7 @@
   "mass": 26.6,
   "is_default": true,
   "capture_rate": 75,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium",
   "gender_rate": 254,
   "stats": {
@@ -147,6 +147,7 @@
       "take-down",
       "leer",
       "bite",
+      "disable",
       "ice-beam",
       "blizzard",
       "hyper-beam",
@@ -214,7 +215,9 @@
       "embargo",
       "fling",
       "sucker-punch",
+      "switcheroo",
       "giga-impact",
+      "nasty-plot",
       "avalanche",
       "ice-shard",
       "ice-fang",
@@ -225,6 +228,8 @@
       "ally-switch",
       "hex",
       "frost-breath",
+      "icicle-crash",
+      "phantom-force",
       "draining-kiss",
       "confide",
       "laser-focus",
@@ -234,6 +239,7 @@
       "tera-blast",
       "ice-spinner",
       "snowscape",
+      "trailblaze",
       "chilling-water"
     ]
   },

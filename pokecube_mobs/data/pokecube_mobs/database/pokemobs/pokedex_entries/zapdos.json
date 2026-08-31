@@ -2,7 +2,7 @@
   "name": "zapdos",
   "id": 145,
   "stock": true,
-  "base_experience": 290,
+  "base_experience": 261,
   "size": {
     "height": 1.6,
     "width": 2.0
@@ -206,6 +206,7 @@
       "air-cutter",
       "metal-sound",
       "signal-beam",
+      "extrasensory",
       "aerial-ace",
       "shock-wave",
       "roost",

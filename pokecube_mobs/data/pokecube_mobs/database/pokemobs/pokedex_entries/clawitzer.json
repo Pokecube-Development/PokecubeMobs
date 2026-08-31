@@ -9,7 +9,7 @@
   "mass": 35.3,
   "is_default": true,
   "capture_rate": 55,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "slow",
   "gender_rate": 127,
   "stats": {
@@ -171,6 +171,7 @@
       "venoshock",
       "smack-down",
       "sludge-wave",
+      "entrainment",
       "round",
       "scald",
       "heal-pulse",

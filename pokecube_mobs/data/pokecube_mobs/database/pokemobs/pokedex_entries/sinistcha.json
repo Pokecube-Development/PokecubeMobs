@@ -9,7 +9,7 @@
   "mass": 2.2,
   "is_default": true,
   "capture_rate": 60,
-  "base_happiness": 0,
+  "base_happiness": 50,
   "growth_rate": "slow",
   "gender_rate": 255,
   "stats": {
@@ -115,6 +115,7 @@
     "misc": [
       "hyper-beam",
       "solar-beam",
+      "stun-spore",
       "night-shade",
       "reflect",
       "rest",
@@ -129,6 +130,7 @@
       "psych-up",
       "shadow-ball",
       "uproar",
+      "memento",
       "imprison",
       "iron-defense",
       "magical-leaf",
@@ -137,13 +139,17 @@
       "nasty-plot",
       "trick-room",
       "leaf-storm",
+      "rage-powder",
       "foul-play",
       "scald",
       "hex",
       "phantom-force",
       "grassy-terrain",
+      "strength-sap",
+      "life-dew",
       "poltergeist",
-      "tera-blast"
+      "tera-blast",
+      "matcha-gotcha"
     ]
   }
 }

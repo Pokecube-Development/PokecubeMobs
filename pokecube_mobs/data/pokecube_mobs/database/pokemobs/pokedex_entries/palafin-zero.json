@@ -29,9 +29,6 @@
   "abilities": {
     "normal": [
       "zero-to-hero"
-    ],
-    "hidden": [
-      "zero-to-hero"
     ]
   },
   "moves": {
@@ -138,8 +135,10 @@
       "ice-beam",
       "blizzard",
       "hyper-beam",
+      "counter",
       "agility",
       "haze",
+      "focus-energy",
       "waterfall",
       "swift",
       "rest",
@@ -160,25 +159,34 @@
       "taunt",
       "helping-hand",
       "endeavor",
+      "dive",
       "hyper-voice",
+      "tickle",
       "bulk-up",
+      "bounce",
       "water-pulse",
       "close-combat",
       "fling",
       "aura-sphere",
+      "aqua-tail",
       "drain-punch",
       "focus-blast",
       "giga-impact",
       "zen-headbutt",
       "iron-head",
       "grass-knot",
+      "aqua-jet",
+      "double-hit",
       "acrobatics",
       "disarming-voice",
       "draining-kiss",
+      "boomburst",
       "throat-chop",
       "liquidation",
       "flip-turn",
+      "wave-crash",
       "tera-blast",
+      "jet-punch",
       "chilling-water",
       "hard-press"
     ]

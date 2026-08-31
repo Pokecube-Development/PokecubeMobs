@@ -2,14 +2,14 @@
   "name": "butterfree",
   "id": 12,
   "stock": true,
-  "base_experience": 198,
+  "base_experience": 178,
   "size": {
     "height": 1.1
   },
   "mass": 32.0,
   "is_default": true,
   "capture_rate": 45,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium",
   "gender_rate": 127,
   "stats": {
@@ -177,6 +177,7 @@
       "safeguard",
       "baton-pass",
       "sweet-scent",
+      "morning-sun",
       "hidden-power",
       "twister",
       "rain-dance",

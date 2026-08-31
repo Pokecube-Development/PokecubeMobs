@@ -2,14 +2,14 @@
   "name": "tsareena",
   "id": 763,
   "stock": true,
-  "base_experience": 255,
+  "base_experience": 230,
   "size": {
     "height": 1.2
   },
   "mass": 21.4,
   "is_default": true,
   "capture_rate": 45,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium-slow",
   "gender_rate": 254,
   "stats": {
@@ -164,6 +164,7 @@
       "bounce",
       "covet",
       "magical-leaf",
+      "acupressure",
       "u-turn",
       "payback",
       "fling",

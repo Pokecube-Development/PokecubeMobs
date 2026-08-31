@@ -11,7 +11,7 @@
   "mass": 225.0,
   "is_default": true,
   "capture_rate": 45,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium",
   "gender_rate": 30,
   "stats": {
@@ -158,6 +158,7 @@
       "psychic",
       "double-team",
       "light-screen",
+      "haze",
       "reflect",
       "dream-eater",
       "flash",
@@ -181,6 +182,7 @@
       "iron-tail",
       "hidden-power",
       "rain-dance",
+      "mirror-coat",
       "psych-up",
       "ancient-power",
       "rock-smash",
@@ -206,6 +208,7 @@
       "avalanche",
       "zen-headbutt",
       "flash-cannon",
+      "discharge",
       "iron-head",
       "stone-edge",
       "stealth-rock",
@@ -217,7 +220,11 @@
       "dragon-tail",
       "freeze-dry",
       "confide",
-      "meteor-beam"
+      "aurora-veil",
+      "meteor-beam",
+      "ice-spinner",
+      "snowscape",
+      "chilling-water"
     ]
   },
   "loot_table": "pokecube:entities/fossil_mob"

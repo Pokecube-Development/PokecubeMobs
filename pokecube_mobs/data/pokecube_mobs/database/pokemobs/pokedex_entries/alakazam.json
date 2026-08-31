@@ -2,14 +2,14 @@
   "name": "alakazam",
   "id": 65,
   "stock": true,
-  "base_experience": 250,
+  "base_experience": 225,
   "size": {
     "height": 1.5
   },
   "mass": 48.0,
   "is_default": true,
   "capture_rate": 50,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium-slow",
   "gender_rate": 62,
   "stats": {
@@ -252,6 +252,7 @@
       "captivate",
       "grass-knot",
       "charge-beam",
+      "guard-split",
       "wonder-room",
       "psyshock",
       "telekinesis",

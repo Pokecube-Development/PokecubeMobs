@@ -10,7 +10,7 @@
   "mass": 136.0,
   "is_default": true,
   "capture_rate": 65,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium",
   "gender_rate": 127,
   "stats": {
@@ -136,6 +136,7 @@
       "surf",
       "hyper-beam",
       "low-kick",
+      "seismic-toss",
       "strength",
       "earthquake",
       "dig",
@@ -153,6 +154,7 @@
       "protect",
       "scary-face",
       "sludge-bomb",
+      "detect",
       "outrage",
       "endure",
       "false-swipe",
@@ -210,11 +212,13 @@
       "stone-edge",
       "grass-knot",
       "hone-claws",
+      "storm-throw",
       "low-sweep",
       "foul-play",
       "entrainment",
       "round",
       "echoed-voice",
+      "quick-guard",
       "circle-throw",
       "quash",
       "retaliate",
@@ -229,9 +233,13 @@
       "darkest-lariat",
       "laser-focus",
       "throat-chop",
+      "power-trip",
+      "brutal-swing",
       "stomping-tantrum",
       "lash-out",
-      "coaching"
+      "coaching",
+      "headlong-rush",
+      "comeuppance"
     ]
   },
   "interactions": [

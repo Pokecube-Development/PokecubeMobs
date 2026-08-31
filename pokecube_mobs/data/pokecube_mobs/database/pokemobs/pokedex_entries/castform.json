@@ -152,7 +152,9 @@
       "retaliate",
       "work-up",
       "hurricane",
-      "confide"
+      "confide",
+      "snowscape",
+      "chilling-water"
     ]
   },
   "loot_table": "pokecube:entities/snowball"

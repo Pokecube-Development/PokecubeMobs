@@ -12,6 +12,13 @@ RENAMES = {
     "basculin-red-striped": "basculin",
 }
 
+MEGA_BASE_MAP = {
+    "pyroar-mega" : "pyroar-male",
+    "meowstic-male-mega" : "meowstic-male",
+    "meowstic-female-mega" : "meowstic-female",
+    "zygarde-mega" : "zygarde-50",
+}
+
 LEGACY_REV_MAP = {
     "missingno": "missingno",
     "Sirfetch'd" : "sirfetchd",

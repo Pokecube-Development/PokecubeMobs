@@ -2,7 +2,7 @@
   "name": "sceptile",
   "id": 254,
   "stock": true,
-  "base_experience": 265,
+  "base_experience": 239,
   "size": {
     "height": 1.7,
     "width": 1.0
@@ -10,7 +10,7 @@
   "mass": 52.2,
   "is_default": true,
   "capture_rate": 45,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium-slow",
   "gender_rate": 30,
   "stats": {
@@ -228,10 +228,12 @@
       "seed-bomb",
       "x-scissor",
       "dragon-pulse",
+      "dragon-rush",
       "drain-punch",
       "vacuum-wave",
       "focus-blast",
       "energy-ball",
+      "earth-power",
       "giga-impact",
       "rock-climb",
       "leaf-storm",

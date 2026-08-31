@@ -2,7 +2,7 @@
   "name": "flygon",
   "id": 330,
   "stock": true,
-  "base_experience": 260,
+  "base_experience": 234,
   "size": {
     "height": 2.0,
     "width": 1.7
@@ -10,7 +10,7 @@
   "mass": 82.0,
   "is_default": true,
   "capture_rate": 45,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium-slow",
   "gender_rate": 127,
   "stats": {

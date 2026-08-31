@@ -3,7 +3,7 @@
   "id": 26,
   "stock": true,
   "is_extra_form": true,
-  "base_experience": 218,
+  "base_experience": 248,
   "size": {
     "height": 1.0
   },
@@ -11,7 +11,7 @@
   "is_default": false,
   "capture_rate": 75,
   "base_happiness": 70,
-  "growth_rate": "medium-fast",
+  "growth_rate": "medium",
   "gender_rate": 127,
   "stats": {
     "hp": 60,
@@ -21,199 +21,83 @@
     "special_defense": 80,
     "speed": 130
   },
-  "evs": {
-    "speed": 3
-  },
+  "evs": {},
   "types": [
     "electric"
   ],
   "abilities": {
     "normal": [
       "no-guard"
-    ],
-    "hidden": []
+    ]
   },
   "moves": {
-    "level_up": [
-      {
-        "L": 0,
-        "moves": [
-          "thunder-punch"
-        ]
-      },
-      {
-        "L": 1,
-        "moves": [
-          "slam",
-          "tail-whip",
-          "growl",
-          "thunder-shock",
-          "thunderbolt",
-          "thunder-wave",
-          "thunder",
-          "agility",
-          "quick-attack",
-          "double-team",
-          "light-screen",
-          "sweet-kiss",
-          "charm",
-          "spark",
-          "encore",
-          "iron-tail",
-          "fake-out",
-          "feint",
-          "nasty-plot",
-          "discharge",
-          "electro-ball",
-          "play-nice",
-          "nuzzle"
-        ]
-      },
-      {
-        "L": 15,
-        "moves": [
-          "swift"
-        ]
-      }
-    ],
     "misc": [
-      "mega-punch",
-      "pay-day",
       "thunder-punch",
-      "slam",
       "mega-kick",
-      "headbutt",
       "body-slam",
-      "take-down",
-      "double-edge",
-      "tail-whip",
-      "growl",
       "surf",
       "hyper-beam",
-      "submission",
-      "counter",
-      "seismic-toss",
-      "strength",
-      "thunder-shock",
       "thunderbolt",
       "thunder-wave",
       "thunder",
       "dig",
-      "toxic",
       "agility",
       "quick-attack",
-      "rage",
-      "mimic",
       "double-team",
-      "defense-curl",
       "light-screen",
       "reflect",
-      "bide",
-      "swift",
-      "skull-bash",
-      "flash",
       "rest",
       "substitute",
       "thief",
       "snore",
-      "curse",
+      "flail",
       "reversal",
       "protect",
       "sweet-kiss",
-      "mud-slap",
       "zap-cannon",
-      "detect",
       "endure",
       "charm",
-      "rollout",
-      "swagger",
-      "spark",
-      "attract",
       "sleep-talk",
-      "return",
-      "frustration",
-      "safeguard",
-      "dynamic-punch",
       "encore",
       "iron-tail",
-      "hidden-power",
       "rain-dance",
-      "rock-smash",
-      "uproar",
+      "fake-out",
       "facade",
       "focus-punch",
       "charge",
       "helping-hand",
+      "wish",
       "brick-break",
       "knock-off",
       "endeavor",
-      "secret-power",
-      "signal-beam",
-      "covet",
-      "calm-mind",
-      "shock-wave",
-      "natural-gift",
+      "fake-tears",
+      "tickle",
+      "volt-tackle",
       "feint",
       "fling",
-      "magnet-rise",
+      "drain-punch",
       "focus-blast",
       "giga-impact",
       "nasty-plot",
       "discharge",
-      "captivate",
       "grass-knot",
       "charge-beam",
       "electro-ball",
       "round",
-      "echoed-voice",
       "volt-switch",
       "electroweb",
       "wild-charge",
-      "disarming-voice",
       "draining-kiss",
       "play-rough",
-      "play-nice",
-      "confide",
       "eerie-impulse",
       "electric-terrain",
+      "dazzling-gleam",
       "nuzzle",
-      "laser-focus",
-      "speed-swap",
       "brutal-swing",
       "rising-voltage",
-      "tera-blast",
       "trailblaze",
       "alluring-voice",
       "upper-hand"
     ]
-  },
-  "interactions": [
-    {
-      "male": false,
-      "female": true,
-      "cooldown": 50,
-      "variance": 100,
-      "baseHunger": 100,
-      "isTag": false,
-      "key": {
-        "values": {
-          "id": "minecraft:bucket"
-        }
-      },
-      "action": {
-        "values": {
-          "type": "item"
-        },
-        "drops": [
-          {
-            "values": {
-              "id": "minecraft:milk_bucket",
-              "n": "1"
-            }
-          }
-        ]
-      }
-    }
-  ],
-  "loot_table": "pokecube:entities/redstone_rabbit_2"
+  }
 }

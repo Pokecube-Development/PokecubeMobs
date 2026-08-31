@@ -105,6 +105,7 @@
     "misc": [
       "thunder-punch",
       "take-down",
+      "surf",
       "hyper-beam",
       "low-kick",
       "thunderbolt",
@@ -112,6 +113,7 @@
       "thunder",
       "psychic",
       "night-shade",
+      "recover",
       "confuse-ray",
       "light-screen",
       "reflect",
@@ -123,9 +125,11 @@
       "endure",
       "sleep-talk",
       "shadow-ball",
+      "memento",
       "focus-punch",
       "trick",
       "metal-sound",
+      "shadow-punch",
       "fling",
       "power-gem",
       "focus-blast",
@@ -142,7 +146,8 @@
       "dazzling-gleam",
       "steel-beam",
       "poltergeist",
-      "tera-blast"
+      "tera-blast",
+      "make-it-rain"
     ]
   }
 }

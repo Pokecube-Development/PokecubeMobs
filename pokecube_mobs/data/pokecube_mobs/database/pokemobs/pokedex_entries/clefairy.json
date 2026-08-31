@@ -95,10 +95,9 @@
         ]
       },
       {
-        "L": 46,
+        "L": 48,
         "moves": [
-          "light-screen",
-          "moonblast"
+          "light-screen"
         ]
       },
       {
@@ -191,6 +190,12 @@
         "L": 5,
         "moves": [
           "fairy-wind"
+        ]
+      },
+      {
+        "L": 46,
+        "moves": [
+          "moonblast"
         ]
       },
       {

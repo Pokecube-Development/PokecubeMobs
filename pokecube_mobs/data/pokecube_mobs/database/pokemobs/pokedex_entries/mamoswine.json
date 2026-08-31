@@ -2,14 +2,14 @@
   "name": "mamoswine",
   "id": 473,
   "stock": true,
-  "base_experience": 265,
+  "base_experience": 239,
   "size": {
     "height": 2.5
   },
   "mass": 291.0,
   "is_default": true,
   "capture_rate": 50,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "slow",
   "gender_rate": 127,
   "stats": {

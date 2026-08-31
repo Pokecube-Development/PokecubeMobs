@@ -10,7 +10,7 @@
   "mass": 55.0,
   "is_default": true,
   "capture_rate": 60,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "slow",
   "gender_rate": 127,
   "stats": {
@@ -51,12 +51,18 @@
           "poison-sting",
           "supersonic",
           "acid",
-          "water-gun",
           "haze",
           "constrict",
           "mirror-coat",
           "wring-out",
           "reflect-type"
+        ]
+      },
+      {
+        "L": 22,
+        "moves": [
+          "water-gun",
+          "acid-spray"
         ]
       },
       {
@@ -129,12 +135,6 @@
         "L": 48,
         "moves": [
           "sludge-wave"
-        ]
-      },
-      {
-        "L": 22,
-        "moves": [
-          "acid-spray"
         ]
       },
       {

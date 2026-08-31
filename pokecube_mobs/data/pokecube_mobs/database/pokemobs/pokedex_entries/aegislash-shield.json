@@ -2,7 +2,7 @@
   "name": "aegislash-shield",
   "id": 681,
   "stock": true,
-  "base_experience": 250,
+  "base_experience": 234,
   "size": {
     "height": 1.7,
     "width": 1.4
@@ -10,7 +10,7 @@
   "mass": 53.0,
   "is_default": true,
   "capture_rate": 45,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium",
   "gender_rate": 127,
   "stats": {
@@ -75,6 +75,7 @@
       "reversal",
       "spite",
       "protect",
+      "destiny-bond",
       "endure",
       "false-swipe",
       "swagger",
@@ -92,6 +93,7 @@
       "facade",
       "brick-break",
       "secret-power",
+      "metal-sound",
       "aerial-ace",
       "iron-defense",
       "block",
@@ -106,9 +108,12 @@
       "shadow-claw",
       "shadow-sneak",
       "psycho-cut",
+      "zen-headbutt",
       "flash-cannon",
       "iron-head",
       "head-smash",
+      "double-hit",
+      "wide-guard",
       "autotomize",
       "after-you",
       "round",
@@ -119,7 +124,8 @@
       "solar-blade",
       "laser-focus",
       "brutal-swing",
-      "steel-beam"
+      "steel-beam",
+      "poltergeist"
     ]
   },
   "sound": "aegislash-shield",

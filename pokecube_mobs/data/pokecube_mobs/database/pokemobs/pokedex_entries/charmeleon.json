@@ -10,7 +10,7 @@
   "mass": 19.0,
   "is_default": true,
   "capture_rate": 45,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium-slow",
   "gender_rate": 30,
   "stats": {
@@ -71,16 +71,21 @@
         ]
       },
       {
-        "L": 20,
+        "L": 24,
         "moves": [
-          "rage",
-          "fury-swipes"
+          "rage"
         ]
       },
       {
         "L": 10,
         "moves": [
           "smokescreen"
+        ]
+      },
+      {
+        "L": 20,
+        "moves": [
+          "fury-swipes"
         ]
       },
       {

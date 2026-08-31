@@ -49,6 +49,7 @@
           "stun-spore",
           "sleep-powder",
           "screech",
+          "leech-life",
           "cross-poison"
         ]
       },
@@ -56,12 +57,6 @@
         "L": 37,
         "moves": [
           "growth"
-        ]
-      },
-      {
-        "L": 23,
-        "moves": [
-          "leech-life"
         ]
       },
       {

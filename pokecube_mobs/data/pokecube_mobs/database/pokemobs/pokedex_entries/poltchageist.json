@@ -9,7 +9,7 @@
   "mass": 1.1,
   "is_default": true,
   "capture_rate": 120,
-  "base_happiness": 0,
+  "base_happiness": 50,
   "growth_rate": "slow",
   "gender_rate": 255,
   "stats": {

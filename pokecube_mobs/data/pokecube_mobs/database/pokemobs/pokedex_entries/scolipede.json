@@ -2,7 +2,7 @@
   "name": "scolipede",
   "id": 545,
   "stock": true,
-  "base_experience": 243,
+  "base_experience": 218,
   "size": {
     "height": 2.5,
     "width": 1.0,
@@ -11,7 +11,7 @@
   "mass": 200.5,
   "is_default": true,
   "capture_rate": 45,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium-slow",
   "gender_rate": 127,
   "stats": {
@@ -136,6 +136,7 @@
       "double-edge",
       "poison-sting",
       "pin-missile",
+      "bite",
       "hyper-beam",
       "strength",
       "solar-beam",
@@ -146,6 +147,7 @@
       "screech",
       "double-team",
       "defense-curl",
+      "leech-life",
       "rest",
       "rock-slide",
       "substitute",
@@ -186,8 +188,11 @@
       "giga-impact",
       "rock-climb",
       "cross-poison",
+      "gunk-shot",
       "bug-bite",
+      "double-hit",
       "venoshock",
+      "acid-spray",
       "round",
       "hex",
       "struggle-bug",
@@ -200,7 +205,9 @@
       "smart-strike",
       "stomping-tantrum",
       "steel-roller",
-      "skitter-smack"
+      "skitter-smack",
+      "pounce",
+      "trailblaze"
     ]
   },
   "loot_table": "minecraft:entities/spider"

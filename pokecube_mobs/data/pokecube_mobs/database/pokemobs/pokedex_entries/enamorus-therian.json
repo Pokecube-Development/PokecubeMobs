@@ -23,7 +23,7 @@
     "speed": 46
   },
   "evs": {
-    "attack": 3
+    "special_attack": 3
   },
   "types": [
     "fairy",

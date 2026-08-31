@@ -2,14 +2,14 @@
   "name": "reuniclus",
   "id": 579,
   "stock": true,
-  "base_experience": 245,
+  "base_experience": 221,
   "size": {
     "height": 1.0
   },
   "mass": 20.1,
   "is_default": true,
   "capture_rate": 50,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium-slow",
   "gender_rate": 127,
   "stats": {

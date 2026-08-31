@@ -101,7 +101,8 @@
         "L": 40,
         "moves": [
           "aromatherapy",
-          "grassy-terrain"
+          "grassy-terrain",
+          "psychic-terrain"
         ]
       },
       {
@@ -185,7 +186,6 @@
       "superpower",
       "skill-swap",
       "imprison",
-      "aromatherapy",
       "bullet-seed",
       "icicle-spear",
       "iron-defense",

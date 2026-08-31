@@ -10,7 +10,7 @@
   "mass": 25.0,
   "is_default": true,
   "capture_rate": 45,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium",
   "gender_rate": 30,
   "stats": {
@@ -67,7 +67,7 @@
         ]
       },
       {
-        "L": 47,
+        "L": 42,
         "moves": [
           "leer"
         ]
@@ -85,9 +85,14 @@
         ]
       },
       {
+        "L": 54,
+        "moves": [
+          "flamethrower"
+        ]
+      },
+      {
         "L": 25,
         "moves": [
-          "flamethrower",
           "fire-spin",
           "mimic"
         ]
@@ -195,6 +200,7 @@
       "substitute",
       "snore",
       "curse",
+      "flail",
       "protect",
       "scary-face",
       "mud-slap",
@@ -219,13 +225,16 @@
       "will-o-wisp",
       "facade",
       "helping-hand",
+      "wish",
       "superpower",
+      "yawn",
       "endeavor",
       "secret-power",
       "hyper-voice",
       "weather-ball",
       "fake-tears",
       "overheat",
+      "tickle",
       "covet",
       "calm-mind",
       "natural-gift",

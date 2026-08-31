@@ -10,7 +10,7 @@
   "mass": 96.0,
   "is_default": true,
   "capture_rate": 45,
-  "base_happiness": 50,
+  "base_happiness": 70,
   "growth_rate": "medium",
   "gender_rate": 127,
   "stats": {
@@ -141,6 +141,7 @@
       "screech",
       "double-team",
       "withdraw",
+      "waterfall",
       "clamp",
       "skull-bash",
       "fury-swipes",
@@ -191,6 +192,7 @@
       "mud-shot",
       "rock-blast",
       "water-pulse",
+      "close-combat",
       "payback",
       "assurance",
       "embargo",
@@ -201,11 +203,13 @@
       "x-scissor",
       "focus-blast",
       "earth-power",
+      "switcheroo",
       "giga-impact",
       "shadow-claw",
       "stone-edge",
       "stealth-rock",
       "grass-knot",
+      "double-hit",
       "hone-claws",
       "smack-down",
       "sludge-wave",
@@ -221,7 +225,9 @@
       "laser-focus",
       "brutal-swing",
       "liquidation",
-      "meteor-beam"
+      "meteor-beam",
+      "chilling-water",
+      "aqua-cutter"
     ]
   },
   "loot_table": "pokecube:entities/fish_1"

@@ -2,7 +2,7 @@
   "name": "moltres",
   "id": 146,
   "stock": true,
-  "base_experience": 290,
+  "base_experience": 261,
   "size": {
     "height": 2.0
   },
@@ -42,9 +42,14 @@
         "moves": [
           "gust",
           "wing-attack",
-          "leer",
           "ember",
           "peck"
+        ]
+      },
+      {
+        "L": 51,
+        "moves": [
+          "leer"
         ]
       },
       {
@@ -186,6 +191,7 @@
       "return",
       "frustration",
       "safeguard",
+      "morning-sun",
       "hidden-power",
       "twister",
       "rain-dance",
@@ -200,6 +206,7 @@
       "weather-ball",
       "air-cutter",
       "overheat",
+      "extrasensory",
       "aerial-ace",
       "roost",
       "natural-gift",

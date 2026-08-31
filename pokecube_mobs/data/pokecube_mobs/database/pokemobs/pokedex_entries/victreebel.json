@@ -43,11 +43,9 @@
           "swords-dance",
           "slam",
           "vine-whip",
-          "wrap",
           "acid",
           "growth",
           "razor-leaf",
-          "poison-powder",
           "stun-spore",
           "sleep-powder",
           "leech-life",
@@ -61,6 +59,18 @@
           "poison-jab",
           "power-whip",
           "clear-smog"
+        ]
+      },
+      {
+        "L": 13,
+        "moves": [
+          "wrap"
+        ]
+      },
+      {
+        "L": 15,
+        "moves": [
+          "poison-powder"
         ]
       },
       {
@@ -147,6 +157,7 @@
       "gastro-acid",
       "worry-seed",
       "sucker-punch",
+      "toxic-spikes",
       "poison-jab",
       "seed-bomb",
       "energy-ball",
