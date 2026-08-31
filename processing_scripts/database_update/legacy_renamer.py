@@ -53,6 +53,7 @@ LEGACY_REV_MAP = {
     "genesectsdrive": "genesect",
     "googra_hisui": "goodra-hisui",
     "cherrim_sunny": "cherrim",
+    "Pyroar": "pyroar",
     "basculegion": "basculegion-make",
     "Solgaleo Dusk": "necrozma-dusk",
     "Lunala Dawn": "necrozma-dawn",

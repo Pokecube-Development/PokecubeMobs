@@ -305,5 +305,9 @@
   "ability.tera-shift.name": "Téramorphose",
   "ability.tera-shell.name": "Téra-Carapace",
   "ability.teraform-zero.name": "Téraformation 0",
-  "ability.poison-puppeteer.name": "Emprise Toxique"
+  "ability.poison-puppeteer.name": "Emprise Toxique",
+  "ability.piercing-drill.name": "Transperceuse",
+  "ability.dragonize.name": "Peau Draconique",
+  "ability.mega-sol.name": "Méga-Soleil",
+  "ability.spicy-spray.name": "Habanéruption"
 }

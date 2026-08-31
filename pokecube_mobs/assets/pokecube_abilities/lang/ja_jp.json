@@ -305,5 +305,9 @@
   "ability.tera-shift.name": "テラスチェンジ",
   "ability.tera-shell.name": "テラスシェル",
   "ability.teraform-zero.name": "ゼロフォーミング",
-  "ability.poison-puppeteer.name": "どくくぐつ"
+  "ability.poison-puppeteer.name": "どくくぐつ",
+  "ability.piercing-drill.name": "かんつうドリル",
+  "ability.dragonize.name": "ドラゴンスキン",
+  "ability.mega-sol.name": "メガソーラー",
+  "ability.spicy-spray.name": "とびだすハバネロ"
 }

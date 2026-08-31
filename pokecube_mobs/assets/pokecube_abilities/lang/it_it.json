@@ -297,7 +297,7 @@
   "ability.armor-tail.name": "Codarmatura",
   "ability.earth-eater.name": "Mangiaterra",
   "ability.mycelium-might.name": "Micoforza",
-  "ability.minds-eye.name": "Occhio Interiore ",
+  "ability.minds-eye.name": "Occhio Interiore",
   "ability.supersweet-syrup.name": "Sciroppo Sublime",
   "ability.hospitality.name": "Ospitalità",
   "ability.toxic-chain.name": "Catena Tossica",
@@ -305,5 +305,9 @@
   "ability.tera-shift.name": "Teramorfosi",
   "ability.tera-shell.name": "Teraguscio",
   "ability.teraform-zero.name": "Zeroformazione",
-  "ability.poison-puppeteer.name": "Malia Tossica"
+  "ability.poison-puppeteer.name": "Malia Tossica",
+  "ability.piercing-drill.name": "Punta Perforante",
+  "ability.dragonize.name": "Pelledrago",
+  "ability.mega-sol.name": "Megasolar",
+  "ability.spicy-spray.name": "Spargipiccante"
 }

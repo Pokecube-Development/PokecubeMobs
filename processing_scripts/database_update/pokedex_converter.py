@@ -796,6 +796,7 @@ def convert_pokedex():
     load_overrides('custom_dyeable', overrides)
     load_overrides('custom_models', overrides)
     load_overrides('custom_evolutions', overrides)
+    load_overrides('custom_interactions', overrides)
 
     tables = './data/pokemobs/loot_tables.json'
     file = open(tables, 'r')

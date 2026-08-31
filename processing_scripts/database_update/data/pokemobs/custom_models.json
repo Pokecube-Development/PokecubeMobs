@@ -38,6 +38,19 @@
     }
   },
   {
+    "name": "pyroar",
+    "male_model": {
+      "key": "pyroar_m",
+      "model": "pyroar_m",
+      "anim": "pyroar_m"
+    },
+    "female_model": {
+      "key": "pyroar_f",
+      "model": "pyroar_f",
+      "anim": "pyroar_f"
+    }
+  },
+  {
     "name": "frillish",
     "male_model": {
       "key": "frillish_male",
