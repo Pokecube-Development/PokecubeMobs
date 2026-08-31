@@ -802,6 +802,8 @@ def convert_pokedex():
         for var in entry.entries:
             named_entries[var.name] = var
             tag_name = f'pokecube:{var.name}'
+            if var.is_default and hasattr(var, "is_extra_form"):
+                del var.is_extra_form
             if not tag_name in pokemob_tag_names and not hasattr(var, "is_extra_form"):
                 pokemob_tag_names.append(tag_name)
 

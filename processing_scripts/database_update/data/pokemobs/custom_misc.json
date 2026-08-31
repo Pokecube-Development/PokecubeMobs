@@ -571,5 +571,17 @@
         "level":25
       }
     ]
+  },
+  {
+    "name": "meowstic-female-mega",
+    "gender_rate": 254
+  },
+  {
+    "name": "meowstic-male-mega",
+    "gender_rate": 0
+  },
+  {
+    "name": "mimikyu-disguised",
+    "is_default": true
   }
 ]

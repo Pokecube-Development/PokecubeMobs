@@ -115,6 +115,7 @@
       "scratch",
       "swords-dance",
       "take-down",
+      "surf",
       "hyper-beam",
       "thunderbolt",
       "thunder-wave",
@@ -202,6 +203,5 @@
       "trailblaze"
     ]
   },
-  "old_name": "mimikyu",
   "loot_table": "pokecube:entities/enderpearls_1"
 }
