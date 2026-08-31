@@ -1,7 +1,7 @@
 import json
 from ignore_list import isIgnored
 from legacy_renamer import find_old_name, to_model_form, find_new_name, entry_name, banned_form,\
-                  is_extra_form, TAG_IGNORE, MEGA_BASE_MAP, get_interacts
+                  is_extra_form, TAG_IGNORE, MEGA_BASE_MAP
 import utils
 from utils import get_form, get_pokemon, get_species, default_or_latest, get_pokemon_index, url_to_id, DATA_DIR, TAG_DATA_DIR, ASSET_DIR
 from moves_converter import convert_old_move_name
@@ -22,12 +22,11 @@ evos_rule_dir = f'{DATA_DIR}/database/pokemobs/evolutions/'
 materials_generate_dir = f'{DATA_DIR}/database/pokemobs/materials/'
 ability_lang_generate_dir = f'{ASSET_DIR}/pokecube_abilities/lang/'
 mob_lang_generate_dir = f'{ASSET_DIR}/pokecube_mobs/lang/'
-# tag_generate_dir = '../../pokecube_mobs/data/pokecube/tags/entity_types/'
-# advancements_dir = '../../pokecube_mobs/data/pokecube_mobs/advancements/'
 
 UPDATE_EXAMPLE = True
 WARN_NO_EXP = True
 WARN_NO_OLD_ENTRY = False
+ONLY_UPDATE = True
 
 MEGA_SUFFIX = [
     '-mega',
@@ -50,6 +49,8 @@ base_exp_fixes = json.load(open('./data/pokemobs/fix_base_exp.json', 'r'))
 evo_moves = json.load(open('./data/pokemobs/evo_moves.json', 'r'))
 
 def dump_file(dict, file, encoding=None, newline='\n', ensure_ascii=True):
+    if ONLY_UPDATE and not os.path.exists(file):
+        return
     old_file = ""
     try:
         with open(file, 'r', encoding=encoding) as f:
@@ -83,7 +84,6 @@ def is_gmax(name):
 
 index_map = get_pokemon_index()
 evo_chains = utils.load_evo_chains()
-old_interacts = get_interacts(index_map)
 
 _, all_moves_users = utils.load_all_moves()
 
@@ -173,7 +173,8 @@ class PokedexEntry:
                     if valid:
                         self.evolutions.append(new_evo)
                     else:
-                        print(f"Unable to auto-generate evolution to {evo_to} for {self.name}")
+                        pass
+                        # print(f"Unable to auto-generate evolution to {evo_to} for {self.name}")
             if len(self.evolutions) == 0:
                 del self.evolutions
                     
@@ -390,7 +391,9 @@ class PokemonSpecies:
 
                 # Some things get merged, like the meteor miniors, so skip duplicates
                 if(old_name in added):
-                    print(f'Skipping duplicate {old_name} -> {entry.name}')
+                    # Only log new cases of this
+                    if not "minior-meteor" in old_name:
+                        print(f'Skipping duplicate {old_name} -> {entry.name}')
                     continue
 
                 old_entry = old_pokedex[old_name]
@@ -409,6 +412,10 @@ class PokemonSpecies:
                     model = old_entry['female_model']
                     key = model['key']
                     entry.female_model = process_model(entry, key, model)
+                if 'interactions' in old_entry:
+                    entry.interactions = old_entry['interactions']
+                if 'prey' in old_entry:
+                    entry.prey = old_entry['prey']
                 if 'models' in old_entry:
                     models = [m for m in old_entry['models']]
                     for model in models:
@@ -449,23 +456,6 @@ class PokemonSpecies:
                             models.append(model)
                     if len(models) > 0:
                         entry.add_models(models)
-
-                # Copy old custom values from inside stats over
-                if 'stats' in old_entry:
-                    stats = old_entry['stats']
-                    # Same for spawns, mega rules, interactions and evolutoons
-                    if 'spawnRules' in stats:
-                        # entry.spawn_rules = stats['spawnRules']
-                        # print(f"Not adding spawn rules for {old_entry['name']}")
-                        pass
-                    if 'megaRules' in stats:
-                        entry.mega_rules = stats['megaRules']
-                    if 'interactions' in stats:
-                        entry.interactions = stats['interactions']
-                    if 'evolutions' in stats:
-                        entry.evolutions = stats['evolutions']
-                else:
-                    print(f'no stats for {entry.name}??')
             elif WARN_NO_OLD_ENTRY:
                 print(f'"{entry.name}" : "",')
 
@@ -491,37 +481,8 @@ class PokemonSpecies:
 
             entry.id = default
 
-            # Mark the old name for legacy supprt reasons
-            if old_name in old_pokedex and old_name!=forme.name:
-                entry.old_name = old_name
-
             self.entries.append(entry)
             self.names.append(entry.name)
-
-def convert_assets():
-    other = [y for x in os.walk("./old/assets") for y in glob(os.path.join(x[0], '*'))]
-
-    for file in other:
-
-        if(os.path.isdir(file)):
-            continue
-
-        head = os.path.split(file)[0]
-        name = os.path.split(file)[1]
-        s = '_s.' if '_s.' in name else '.'
-        
-        ind = name.index(s)
-        end = name[ind:]
-        start = name[0:ind]
-
-        new_name = find_new_name(start, index_map.keys())
-        if new_name is not None and new_name!=start:
-            start = new_name
-
-        name = os.path.join(head.replace('old', 'new'), start+end)
-        if not os.path.exists(os.path.dirname(name)):
-            os.makedirs(os.path.dirname(name))
-        shutil.copy(file, name)
 
 def convert_tags(entries):
 
@@ -617,6 +578,11 @@ def convert_mega_rules(entry):
         return
     if not os.path.exists(mega_rule_dir):
         os.makedirs(mega_rule_dir)
+    file = f'{mega_rule_dir}{entry["name"]}.json'
+    if os.path.exists(file):
+        # Let's not auto-replace these either.
+        del entry["mega_rules"]
+        return
     rules = []
     for rule in entry["mega_rules"]:
         _rule = {}
@@ -657,7 +623,6 @@ def convert_mega_rules(entry):
         
     if(len(rules) == 1):
         rules = rules[0]
-    file = f'{mega_rule_dir}{entry["name"]}.json'
     dump_file(rules, file)
     del entry["mega_rules"]
 
@@ -666,7 +631,15 @@ def convert_evolution(entry):
         return
     if not os.path.exists(evos_rule_dir):
         os.makedirs(evos_rule_dir)
+
     rules = []
+
+    file = f'{evos_rule_dir}{entry["name"]}.json'
+    if os.path.exists(file):
+        # Let's not override these, let them be manually defined if needed
+        del entry["evolutions"]
+        return
+
     for rule in entry["evolutions"]:
         _rule = {}
 
@@ -770,23 +743,17 @@ def convert_evolution(entry):
 
         rules.append(_rule)
 
-    file = f'{evos_rule_dir}{entry["name"]}.json'
     if(len(rules) == 1):
         rules = rules[0]
     dump_file(rules, file)
     del entry["evolutions"]
 
 def convert_pokedex():
-
-    old_pokedex = './old/pokemobs/pokemobs.json'
-    file = open(old_pokedex, 'r')
-    data = file.read()
-    file.close()
-    old_pokedex = json.loads(data)
     pokedex = {}
-    for var in old_pokedex["pokemon"]:
-        pokedex[var["name"]] = var
-
+    for filename in os.listdir(entry_generate_dir):
+        with open(f"{entry_generate_dir}/{filename}", 'r') as file:
+            entry = json.load(file)
+            pokedex[entry['name']] = entry
     overrides = {}
 
     load_overrides('custom_movesets', overrides)
@@ -898,29 +865,6 @@ def convert_pokedex():
         # Some extra pre-processing
         convert_mega_rules(var)
         convert_evolution(var)
-        if var['name'] in old_interacts:
-            stats = old_interacts[var['name']]
-            if 'prey' in stats:
-                replacements = {
-                    "bird": "small_bird",
-                    "insecta": "small_bug",
-                    "rodent": "small_rodent",
-                    "plant": "small_plant",
-                    "fish": "small_fish",
-                }
-                prey = stats['prey'].lower().split(' ')
-                _prey = ""
-                for i in range(len(prey)):
-                    if prey[i] in replacements:
-                        _new = replacements[prey[i]]
-                        if len(prey) == 0:
-                            prey = _new
-                        else:
-                            _prey += f" {_new}"
-                if 'prey' in var:
-                    _prey += f" {var['prey']}"
-                var['prey'] = _prey
-
         # Output each entry into the appropriate database location
         file = f'{entry_generate_dir}{var["name"]}.json'
         if not os.path.exists(os.path.dirname(file)):
@@ -975,5 +919,4 @@ def make_ability_langs():
 if __name__ == "__main__":
     entries = convert_pokedex()
     convert_tags(entries)
-    # convert_assets() # no longer need to do this.
     make_ability_langs()

@@ -205,6 +205,5 @@
       "infestation"
     ]
   },
-  "old_name": "wormadam",
   "loot_table": "pokecube:entities/wheat_seeds_2"
 }

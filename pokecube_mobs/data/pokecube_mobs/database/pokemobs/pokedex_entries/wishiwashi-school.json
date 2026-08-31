@@ -183,6 +183,5 @@
     ]
   },
   "sound": "wishiwashi-school",
-  "old_name": "wishiwashi_school",
   "loot_table": "pokecube:entities/fish_2"
 }

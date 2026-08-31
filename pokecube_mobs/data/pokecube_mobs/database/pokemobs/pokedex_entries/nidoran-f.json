@@ -211,7 +211,6 @@
       "venom-drench"
     ]
   },
-  "old_name": "nidoranf",
   "held_table": "pokecube:entities/moonstone",
   "loot_table": "pokecube:entities/rabbit_1"
 }

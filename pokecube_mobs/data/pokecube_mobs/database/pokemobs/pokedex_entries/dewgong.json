@@ -247,6 +247,6 @@
       "alluring-voice"
     ]
   },
-  "loot_table": "pokecube:entities/fish_1",
-  "prey": " small_fish"
+  "prey": " small_fish",
+  "loot_table": "pokecube:entities/fish_1"
 }

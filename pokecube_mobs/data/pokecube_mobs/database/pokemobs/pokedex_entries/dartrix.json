@@ -229,6 +229,6 @@
       "trailblaze"
     ]
   },
-  "loot_table": "pokecube:entities/chicken_2",
-  "prey": " small_bug"
+  "prey": " small_bug",
+  "loot_table": "pokecube:entities/chicken_2"
 }

@@ -207,7 +207,6 @@
       "smart-strike"
     ]
   },
-  "old_name": "nidoranm",
   "held_table": "pokecube:entities/moonstone",
   "loot_table": "pokecube:entities/rabbit_1"
 }

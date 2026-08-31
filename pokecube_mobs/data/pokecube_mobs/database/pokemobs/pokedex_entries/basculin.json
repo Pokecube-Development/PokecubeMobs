@@ -238,6 +238,5 @@
       "anim": "basculin_blue"
     }
   ],
-  "old_name": "basculin",
   "loot_table": "pokecube:entities/fish_1"
 }

@@ -264,8 +264,7 @@
       }
     }
   ],
-  "old_name": "persian_alola",
+  "prey": " small_bird small_rodent",
   "held_table": "pokecube:entities/emerald_3_33",
-  "loot_table": "pokecube:entities/money_cat_big",
-  "prey": " small_bird small_rodent"
+  "loot_table": "pokecube:entities/money_cat_big"
 }

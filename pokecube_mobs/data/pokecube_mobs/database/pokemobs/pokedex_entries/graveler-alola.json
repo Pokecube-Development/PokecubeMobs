@@ -222,6 +222,5 @@
       "supercell-slam"
     ]
   },
-  "old_name": "graveler_alola",
   "loot_table": "pokecube:entities/stone_gold"
 }

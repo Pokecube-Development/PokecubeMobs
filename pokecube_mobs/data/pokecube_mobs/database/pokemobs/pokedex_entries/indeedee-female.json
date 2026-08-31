@@ -169,6 +169,5 @@
     ]
   },
   "sound": "indeedee-female",
-  "old_name": "indeedee_female",
   "loot_table": "pokecube:entities/enderpearls_2"
 }

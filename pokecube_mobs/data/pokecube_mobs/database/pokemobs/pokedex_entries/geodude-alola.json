@@ -229,6 +229,5 @@
       "supercell-slam"
     ]
   },
-  "old_name": "geodude_alola",
   "loot_table": "pokecube:entities/redstone_1"
 }

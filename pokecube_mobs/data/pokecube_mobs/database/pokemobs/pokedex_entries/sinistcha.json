@@ -151,5 +151,21 @@
       "tera-blast",
       "matcha-gotcha"
     ]
-  }
+  },
+  "model": {
+    "key": "sinistcha-unremarkable",
+    "tex": "sinistcha-unremarkable",
+    "model": "sinistcha-unremarkable",
+    "anim": "sinistcha-unremarkable",
+    "types": "grass,ghost"
+  },
+  "models": [
+    {
+      "key": "sinistcha-masterpiece",
+      "tex": "sinistcha-masterpiece",
+      "model": "sinistcha-masterpiece",
+      "anim": "sinistcha-masterpiece",
+      "types": "grass,ghost"
+    }
+  ]
 }

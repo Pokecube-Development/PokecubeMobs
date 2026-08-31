@@ -225,6 +225,5 @@
     ]
   },
   "sound": "toxtricity-amped",
-  "old_name": "toxtricity_amped",
   "loot_table": "pokecube:entities/redstone_rabbit_2"
 }

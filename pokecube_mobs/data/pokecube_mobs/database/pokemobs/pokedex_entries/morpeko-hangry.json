@@ -193,6 +193,5 @@
     ]
   },
   "sound": "morpeko-hangry",
-  "old_name": "morpeko_hangry",
   "loot_table": "pokecube:entities/rotten_rabbit_1"
 }

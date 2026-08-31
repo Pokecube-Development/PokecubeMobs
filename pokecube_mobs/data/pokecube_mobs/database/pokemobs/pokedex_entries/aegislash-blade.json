@@ -130,6 +130,5 @@
     ]
   },
   "sound": "aegislash-blade",
-  "old_name": "aegislash_blade",
   "loot_table": "pokecube:entities/iron_3"
 }

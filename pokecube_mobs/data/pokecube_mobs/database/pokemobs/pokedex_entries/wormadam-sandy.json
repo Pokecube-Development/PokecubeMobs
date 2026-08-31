@@ -207,6 +207,5 @@
       "infestation"
     ]
   },
-  "old_name": "wormadam_sandy",
   "loot_table": "pokecube:entities/sand_2"
 }

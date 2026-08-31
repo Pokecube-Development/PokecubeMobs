@@ -16,6 +16,8 @@ RENAMES = {
     "jellicent-male": "jellicent",
     "frillish-male": "frillish",
     "pyroar-male": "pyroar",
+    "greninja-ash": "greninja-battle-bond",
+    "mimikyu-busted" : "mimikyu-disguised",
 }
 
 MEGA_BASE_MAP = {
@@ -40,13 +42,13 @@ LEGACY_REV_MAP = {
     "Lycanroc" : "lycanroc-midday",
     "Urshifu Single" : "urshifu-single-strike",
     "Urshifu Rapid" : "urshifu-rapid-strike",
-    "orange_core_minior" : "minior",
-    "blue_core_minior" : "minior",
-    "green_core_minior" : "minior",
-    "indigo_core_minior" : "minior",
-    "red_core_minior" : "minior",
-    "violet_core_minior" : "minior",
-    "yellow_core_minior" : "minior",
+    "orange_core_minior" : "minior-meteor",
+    "blue_core_minior" : "minior-meteor",
+    "green_core_minior" : "minior-meteor",
+    "indigo_core_minior" : "minior-meteor",
+    "red_core_minior" : "minior-meteor",
+    "violet_core_minior" : "minior-meteor",
+    "yellow_core_minior" : "minior-meteor",
     "genesectbdrive": "genesect",
     "genesectcdrive": "genesect",
     "genesectddrive": "genesect",
@@ -87,13 +89,13 @@ LEGACY_MAP = {
     "oricorio-pom-pom" : "oricorio_pom-pom",
     "lycanroc-midday" : "lycanroc",
     "wishiwashi-solo" : "wishiwashi",
-    "minior-red-meteor" : "minior",
-    "minior-orange-meteor" : "minior",
-    "minior-yellow-meteor" : "minior",
-    "minior-green-meteor" : "minior",
-    "minior-blue-meteor" : "minior",
-    "minior-indigo-meteor" : "minior",
-    "minior-violet-meteor" : "minior",
+    "minior-red-meteor" : "minior-meteor",
+    "minior-orange-meteor" : "minior-meteor",
+    "minior-yellow-meteor" : "minior-meteor",
+    "minior-green-meteor" : "minior-meteor",
+    "minior-blue-meteor" : "minior-meteor",
+    "minior-indigo-meteor" : "minior-meteor",
+    "minior-violet-meteor" : "minior-meteor",
     "minior-red" : "red_core_minior",
     "minior-orange" : "orange_core_minior",
     "minior-yellow" : "yellow_core_minior",
@@ -118,6 +120,7 @@ LEGACY_MAP = {
     "urshifu-rapid-strike-gmax" : "urshifu_rapid_gigantamax",
     "calyrex-ice" : "calyrex_ice_rider",
     "calyrex-shadow" : "calyrex_shadow_rider",
+    "greninja-battle-bond": "greninja-ash",
 }
 
 IGNORED_FORMS = [
@@ -267,16 +270,3 @@ def find_old_name(new_name, species, dex):
     if old_name in dex:
         return old_name
     return None
-
-def get_interacts(index_map):
-    res = {}
-    old_file = "./old/pokemobs/pokemobs_interacts.json"
-    json_in = open(old_file, 'r', encoding='utf-8')
-    json_str = json_in.read()
-    json_in.close()
-    json_obj = json.loads(json_str)
-    for entry in json_obj["pokemon"]:
-        if 'stats' in entry:
-            name = find_new_name(entry['name'], index_map.keys())
-            res[name] = entry['stats']
-    return res

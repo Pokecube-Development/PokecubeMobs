@@ -227,6 +227,5 @@
     ]
   },
   "sound": "toxtricity-low-key",
-  "old_name": "toxtricity_lowkey",
   "loot_table": "pokecube:entities/redstone_rabbit_2"
 }

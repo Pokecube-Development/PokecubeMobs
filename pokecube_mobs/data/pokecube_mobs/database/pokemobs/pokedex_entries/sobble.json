@@ -148,6 +148,6 @@
       "chilling-water"
     ]
   },
-  "loot_table": "pokecube:entities/fish_1",
-  "prey": " small_bug"
+  "prey": " small_bug",
+  "loot_table": "pokecube:entities/fish_1"
 }

@@ -3,7 +3,7 @@
   "id": 658,
   "stock": true,
   "is_extra_form": true,
-  "base_experience": 239,
+  "base_experience": 288,
   "size": {
     "height": 1.5
   },
@@ -15,11 +15,11 @@
   "gender_rate": 30,
   "stats": {
     "hp": 72,
-    "attack": 95,
+    "attack": 145,
     "defense": 67,
-    "special_attack": 103,
+    "special_attack": 153,
     "special_defense": 71,
-    "speed": 122
+    "speed": 132
   },
   "evs": {
     "speed": 3
@@ -40,6 +40,7 @@
         "moves": [
           "pound",
           "growl",
+          "water-gun",
           "quick-attack",
           "haze",
           "bubble",
@@ -81,7 +82,8 @@
       {
         "L": 33,
         "moves": [
-          "feint-attack"
+          "feint-attack",
+          "aerial-ace"
         ]
       },
       {
@@ -118,6 +120,8 @@
     "misc": [
       "pound",
       "ice-punch",
+      "swords-dance",
+      "take-down",
       "growl",
       "hydro-pump",
       "surf",
@@ -125,6 +129,7 @@
       "blizzard",
       "hyper-beam",
       "low-kick",
+      "dig",
       "toxic",
       "quick-attack",
       "double-team",
@@ -132,6 +137,7 @@
       "haze",
       "lick",
       "waterfall",
+      "swift",
       "bubble",
       "rest",
       "rock-slide",
@@ -141,8 +147,11 @@
       "spite",
       "protect",
       "feint-attack",
+      "mud-slap",
       "spikes",
       "icy-wind",
+      "endure",
+      "false-swipe",
       "swagger",
       "attract",
       "sleep-talk",
@@ -152,16 +161,20 @@
       "rain-dance",
       "facade",
       "taunt",
+      "helping-hand",
       "role-play",
+      "brick-break",
       "snatch",
       "hydro-cannon",
       "rock-tomb",
       "extrasensory",
       "aerial-ace",
       "bounce",
+      "mud-shot",
       "water-pulse",
       "u-turn",
       "fling",
+      "toxic-spikes",
       "dark-pulse",
       "night-slash",
       "giga-impact",
@@ -169,6 +182,7 @@
       "gunk-shot",
       "grass-knot",
       "smack-down",
+      "low-sweep",
       "round",
       "echoed-voice",
       "scald",
@@ -178,8 +192,12 @@
       "mat-block",
       "confide",
       "water-shuriken",
-      "brutal-swing"
+      "brutal-swing",
+      "liquidation",
+      "tera-blast",
+      "snowscape",
+      "trailblaze",
+      "chilling-water"
     ]
-  },
-  "old_name": "greninja_ash"
+  }
 }

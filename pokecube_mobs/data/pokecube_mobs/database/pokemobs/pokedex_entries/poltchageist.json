@@ -138,5 +138,21 @@
       "poltergeist",
       "tera-blast"
     ]
-  }
+  },
+  "model": {
+    "key": "poltchageist-counterfeit",
+    "tex": "poltchageist-counterfeit",
+    "model": "poltchageist-counterfeit",
+    "anim": "poltchageist-counterfeit",
+    "types": "grass,ghost"
+  },
+  "models": [
+    {
+      "key": "poltchageist-artisan",
+      "tex": "poltchageist-artisan",
+      "model": "poltchageist-artisan",
+      "anim": "poltchageist-artisan",
+      "types": "grass,ghost"
+    }
+  ]
 }

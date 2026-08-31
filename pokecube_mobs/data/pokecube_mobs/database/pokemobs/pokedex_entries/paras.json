@@ -254,6 +254,6 @@
       }
     }
   ],
-  "loot_table": "pokecube:entities/both_shrooms_1",
-  "prey": " small_plant"
+  "prey": " small_plant",
+  "loot_table": "pokecube:entities/both_shrooms_1"
 }

@@ -270,6 +270,6 @@
       "psychic-noise"
     ]
   },
-  "loot_table": "pokecube:entities/chicken_1",
-  "prey": " small_fish"
+  "prey": " small_fish",
+  "loot_table": "pokecube:entities/chicken_1"
 }

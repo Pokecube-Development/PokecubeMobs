@@ -191,8 +191,7 @@
       "trailblaze"
     ]
   },
-  "old_name": "meowth_galar",
+  "prey": " small_bird small_rodent",
   "held_table": "pokecube:entities/emerald_1_33",
-  "loot_table": "pokecube:entities/money_cat_small",
-  "prey": " small_bird small_rodent"
+  "loot_table": "pokecube:entities/money_cat_small"
 }
