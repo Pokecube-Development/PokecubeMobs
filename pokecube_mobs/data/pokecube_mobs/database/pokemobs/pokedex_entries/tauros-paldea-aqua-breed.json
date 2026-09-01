@@ -175,5 +175,6 @@
       "trailblaze",
       "chilling-water"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/cow_1"
 }

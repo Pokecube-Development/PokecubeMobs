@@ -110,5 +110,6 @@
       "hyper-beam",
       "flamethrower"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/blaze_rabbit_2"
 }

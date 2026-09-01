@@ -94,6 +94,9 @@
   ],
   "pokecube:entities/cow_1": [
     "tauros",
+    "tauros-paldea-combat-breed",
+    "tauros-paldea-blaze-breed",
+    "tauros-paldea-aqua-breed",
     "stantler",
     "tyrogue",
     "hitmontop",
@@ -249,6 +252,7 @@
   ],
   "pokecube:entities/pufferfish": [
     "qwilfish",
+    "qwilfish-hisui",
     "overqwil"
   ],
   "pokecube:entities/redstone_fish_1": [
@@ -378,6 +382,7 @@
     "swoobat",
     "swanna",
     "braviary",
+    "braviary-hisui",
     "mandibuzz",
     "fletchinder",
     "noivern",
@@ -507,6 +512,7 @@
   "pokecube:entities/blaze_rabbit_1": [
     "vulpix",
     "growlithe",
+    "growlithe-hisui",
     "houndour",
     "heatran",
     "darumaka",
@@ -520,6 +526,7 @@
   "pokecube:entities/blaze_rabbit_2": [
     "ninetales",
     "arcanine",
+    "arcanine-hisui",
     "magmar",
     "houndoom",
     "darmanitan-standard",
@@ -553,6 +560,7 @@
     "umbreon",
     "snubbull",
     "sneasel",
+    "sneasel-hisui",
     "teddiursa",
     "smeargle",
     "smoochum",
@@ -908,6 +916,8 @@
     "gallade",
     "dialga",
     "palkia",
+    "dialga-origin",
+    "palkia-origin",
     "giratina-altered",
     "giratina-origin",
     "gothitelle",
@@ -1025,7 +1035,12 @@
   ],
   "pokecube:entities/redstone_creeper_1": [
     "voltorb",
-    "rotom"
+    "rotom",
+    "rotom-heat",
+    "rotom-wash",
+    "rotom-frost",
+    "rotom-fan",
+    "rotom-mow"
   ],
   "pokecube:entities/redstone_creeper_2": [
     "electrode",
@@ -1084,6 +1099,9 @@
     "suicune",
     "jirachi",
     "deoxys-normal",
+    "deoxys-attack",
+    "deoxys-defense",
+    "deoxys-speed",
     "cresselia",
     "manaphy",
     "darkrai",
@@ -1227,6 +1245,9 @@
   ],
   "pokecube:entities/snowball": [
     "castform",
+    "castform-sunny",
+    "castform-snowy",
+    "castform-rainy",
     "regice",
     "snom",
     "frosmoth"

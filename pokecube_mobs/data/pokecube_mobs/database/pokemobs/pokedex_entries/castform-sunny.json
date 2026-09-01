@@ -157,5 +157,6 @@
       "snowscape",
       "chilling-water"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/snowball"
 }

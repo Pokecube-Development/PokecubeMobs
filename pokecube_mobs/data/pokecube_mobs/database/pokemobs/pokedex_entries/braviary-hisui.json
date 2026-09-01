@@ -112,5 +112,6 @@
       "hyper-beam",
       "psychic"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/chicken_2"
 }

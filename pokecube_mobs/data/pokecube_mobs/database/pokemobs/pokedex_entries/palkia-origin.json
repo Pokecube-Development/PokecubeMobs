@@ -185,5 +185,6 @@
       "hyper-voice",
       "confide"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/enderpearls_3"
 }

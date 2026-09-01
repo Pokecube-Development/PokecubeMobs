@@ -160,5 +160,6 @@
       "poltergeist",
       "tera-blast"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/redstone_creeper_1"
 }

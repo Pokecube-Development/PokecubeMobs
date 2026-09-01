@@ -256,5 +256,6 @@
         }
       }
     }
-  ]
+  ],
+  "loot_table": "pokecube:entities/generic_legend"
 }

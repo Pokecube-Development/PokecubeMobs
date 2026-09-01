@@ -99,5 +99,6 @@
       "shadow-ball",
       "snarl"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/rabbit_1"
 }
