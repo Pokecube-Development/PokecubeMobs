@@ -174,5 +174,6 @@
       "trailblaze",
       "temper-flare"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/wheat_seeds_2"
 }

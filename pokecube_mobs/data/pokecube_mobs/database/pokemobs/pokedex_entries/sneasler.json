@@ -102,5 +102,6 @@
       "giga-impact",
       "hyper-beam"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/rabbit_3"
 }

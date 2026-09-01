@@ -188,5 +188,6 @@
       "gigaton-hammer",
       "hard-press"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/iron_3"
 }

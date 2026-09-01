@@ -213,5 +213,6 @@
       "coaching",
       "rage-fist"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/pig_3"
 }

@@ -174,5 +174,6 @@
       "tera-blast",
       "trailblaze"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/both_shrooms_2"
 }

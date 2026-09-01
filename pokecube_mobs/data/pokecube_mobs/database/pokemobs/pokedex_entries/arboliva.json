@@ -164,5 +164,6 @@
       "trailblaze",
       "alluring-voice"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/wheat_seeds_3"
 }

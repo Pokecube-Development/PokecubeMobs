@@ -169,5 +169,6 @@
       "chilling-water",
       "upper-hand"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/chicken_1"
 }

@@ -162,5 +162,6 @@
       "magic-room",
       "confide"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/cow_2"
 }

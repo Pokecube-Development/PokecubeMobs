@@ -178,5 +178,6 @@
       "trailblaze",
       "hard-press"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/rabbit_3"
 }

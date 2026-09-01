@@ -168,5 +168,6 @@
       "tera-blast",
       "pounce"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/iron_1"
 }

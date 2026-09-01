@@ -134,5 +134,6 @@
       "tera-blast",
       "chilling-water"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/fish_1"
 }

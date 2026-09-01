@@ -20,7 +20,9 @@
     "bounsweet",
     "grookey",
     "gossifleur",
-    "eldegoss"
+    "eldegoss",
+    "smoliv",
+    "capsakid"
   ],
   "pokecube:entities/wheat_seeds_2": [
     "ivysaur",
@@ -39,7 +41,9 @@
     "servine",
     "swadloon",
     "lurantis",
-    "thwackey"
+    "thwackey",
+    "scovillain",
+    "dolliv"
   ],
   "pokecube:entities/wheat_seeds_3": [
     "venusaur",
@@ -48,7 +52,8 @@
     "sceptile",
     "serperior",
     "leavanny",
-    "rillaboom"
+    "rillaboom",
+    "arboliva"
   ],
   "pokecube:entities/coal_1": [
     "charmander",
@@ -102,6 +107,7 @@
   "pokecube:entities/cow_2": [
     "camerupt",
     "sawsbuck",
+    "wyrdeer",
     "druddigon",
     "bouffalant",
     "mudsdale"
@@ -212,7 +218,8 @@
     "basculegion-female",
     "tatsugiri-curly",
     "tatsugiri-droopy",
-    "tatsugiri-stretchy"
+    "tatsugiri-stretchy",
+    "wiglett"
   ],
   "pokecube:entities/fish_2": [
     "corsola",
@@ -229,7 +236,8 @@
     "samurott",
     "greninja",
     "inteleon",
-    "dondozo"
+    "dondozo",
+    "wugtrio"
   ],
   "pokecube:entities/shear_fish": [
     "krabby",
@@ -240,7 +248,8 @@
     "clawitzer"
   ],
   "pokecube:entities/pufferfish": [
-    "qwilfish"
+    "qwilfish",
+    "overqwil"
   ],
   "pokecube:entities/redstone_fish_1": [
     "tynamo"
@@ -300,7 +309,8 @@
     "orbeetle",
     "spidops",
     "nymble",
-    "lokix"
+    "lokix",
+    "tarountula"
   ],
   "pokecube:entities/chicken_1": [
     "pidgey",
@@ -344,7 +354,8 @@
     "squawkabilly-green-plumage",
     "squawkabilly-blue-plumage",
     "squawkabilly-yellow-plumage",
-    "squawkabilly-white-plumage"
+    "squawkabilly-white-plumage",
+    "flamigo"
   ],
   "pokecube:entities/chicken_2": [
     "pidgeotto",
@@ -651,6 +662,8 @@
     "nidoqueen",
     "nidoking",
     "ursaring",
+    "ursaluna",
+    "ursaluna-bloodmoon",
     "slaking",
     "exploud",
     "lickilicky",
@@ -660,7 +673,8 @@
     "lycanroc-midnight",
     "lycanroc-dusk",
     "maushold-family-of-four",
-    "maushold-family-of-three"
+    "maushold-family-of-three",
+    "sneasler"
   ],
   "pokecube:entities/money_cat_small": [
     "meowth",
@@ -692,7 +706,6 @@
   ],
   "pokecube:entities/pig_1": [
     "mankey",
-    "primeape",
     "machop",
     "machoke",
     "machamp",
@@ -709,6 +722,7 @@
     "lechonk"
   ],
   "pokecube:entities/pig_2": [
+    "primeape",
     "zweilous",
     "hakamo-o",
     "oinkologne-male",
@@ -722,13 +736,15 @@
     "mamoswine",
     "hydreigon",
     "kommo-o",
+    "annihilape",
     "buzzwole"
   ],
   "pokecube:entities/sheep_1": [
     "skiddo"
   ],
   "pokecube:entities/sheep_2": [
-    "gogoat"
+    "gogoat",
+    "mabosstiff"
   ],
   "minecraft:entities/sheep/yellow": [
     "mareep"
@@ -776,13 +792,15 @@
     "paras",
     "shroomish",
     "foongus",
-    "morelull"
+    "morelull",
+    "toedscool"
   ],
   "pokecube:entities/both_shrooms_2": [
     "parasect",
     "breloom",
     "amoonguss",
-    "shiinotic"
+    "shiinotic",
+    "toedscruel"
   ],
   "pokecube:entities/dirt_1": [
     "diglett",
@@ -1172,7 +1190,8 @@
     "meltan",
     "melmetal",
     "falinks",
-    "duraludon"
+    "duraludon",
+    "tinkatink"
   ],
   "pokecube:entities/iron_2": [
     "steelix",
@@ -1182,14 +1201,16 @@
     "klang",
     "doublade",
     "zacian",
-    "zamazenta"
+    "zamazenta",
+    "tinkatuff"
   ],
   "pokecube:entities/iron_3": [
     "aggron",
     "klinklang",
     "aegislash-shield",
     "aegislash-blade",
-    "celesteela"
+    "celesteela",
+    "tinkaton"
   ],
   "pokecube:entities/wool_1": [
     "swablu",
@@ -1284,7 +1305,9 @@
     "drifblim"
   ],
   "pokecube:entities/quartz_diamond": [
-    "carbink"
+    "carbink",
+    "glimmet",
+    "glimmora"
   ],
   "pokecube:entities/diamond_legend": [
     "diancie"

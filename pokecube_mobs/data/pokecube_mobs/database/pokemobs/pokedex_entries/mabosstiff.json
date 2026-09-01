@@ -172,5 +172,6 @@
       "tera-blast",
       "trailblaze"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/sheep_2"
 }

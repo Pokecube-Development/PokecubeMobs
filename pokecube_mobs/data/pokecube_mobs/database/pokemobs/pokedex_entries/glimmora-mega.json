@@ -167,5 +167,6 @@
       "tera-blast",
       "mortal-spin"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/quartz_diamond"
 }

@@ -113,5 +113,6 @@
       "ice-beam",
       "dark-pulse"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/pufferfish"
 }
