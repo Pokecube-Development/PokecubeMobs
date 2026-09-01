@@ -146,5 +146,6 @@
       "dual-wingbeat",
       "tera-blast"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/chicken_1"
 }

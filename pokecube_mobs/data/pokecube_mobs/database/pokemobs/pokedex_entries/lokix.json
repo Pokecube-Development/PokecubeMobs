@@ -177,5 +177,6 @@
       "pounce",
       "trailblaze"
     ]
-  }
+  },
+  "loot_table": "minecraft:entities/spider"
 }

@@ -164,5 +164,6 @@
       "trailblaze",
       "chilling-water"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/pig_2"
 }

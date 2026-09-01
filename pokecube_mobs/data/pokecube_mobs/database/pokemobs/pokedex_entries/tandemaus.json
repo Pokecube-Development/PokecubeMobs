@@ -161,5 +161,6 @@
       "play-rough",
       "tera-blast"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/rabbit_2"
 }

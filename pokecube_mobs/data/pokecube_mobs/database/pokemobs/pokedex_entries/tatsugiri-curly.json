@@ -137,5 +137,6 @@
       "chilling-water",
       "dragon-cheer"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/fish_1"
 }

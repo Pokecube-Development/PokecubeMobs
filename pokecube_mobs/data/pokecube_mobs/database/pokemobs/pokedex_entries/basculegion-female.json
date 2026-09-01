@@ -101,5 +101,6 @@
       "ice-beam",
       "psychic"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/fish_1"
 }

@@ -138,5 +138,6 @@
       "dual-wingbeat"
     ]
   },
-  "sound": "cramorant-gulping"
+  "sound": "cramorant-gulping",
+  "loot_table": "pokecube:entities/chicken_2"
 }

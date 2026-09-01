@@ -176,5 +176,6 @@
       "hard-press",
       "temper-flare"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/iron_redstone_2"
 }

@@ -166,5 +166,6 @@
       "chilling-water"
     ]
   },
-  "sound": "oinkologne-female"
+  "sound": "oinkologne-female",
+  "loot_table": "pokecube:entities/pig_2"
 }

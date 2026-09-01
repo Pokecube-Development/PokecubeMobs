@@ -203,5 +203,6 @@
       "supercell-slam",
       "upper-hand"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/redstone_rabbit_3"
 }

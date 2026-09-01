@@ -132,5 +132,6 @@
       "tera-blast",
       "snowscape"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/snow_rabbit_2"
 }

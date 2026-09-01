@@ -166,5 +166,6 @@
       "tera-blast",
       "pounce"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/chicken_1"
 }

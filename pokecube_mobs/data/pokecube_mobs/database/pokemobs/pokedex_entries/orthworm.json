@@ -155,5 +155,6 @@
       "tera-blast",
       "shed-tail"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/stone_gold"
 }

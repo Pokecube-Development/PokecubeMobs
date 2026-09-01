@@ -152,5 +152,6 @@
       "meteor-beam",
       "tera-blast"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/stone_2"
 }

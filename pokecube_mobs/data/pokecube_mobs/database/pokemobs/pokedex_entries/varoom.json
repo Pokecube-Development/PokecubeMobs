@@ -162,5 +162,6 @@
       "steel-beam",
       "tera-blast"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/iron_redstone_1"
 }

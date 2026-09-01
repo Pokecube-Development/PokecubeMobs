@@ -28,6 +28,7 @@
     "dragon",
     "water"
   ],
+  "loot_table": "pokecube:entities/fish_1",
   "moves": {
     "level_up": [
       {

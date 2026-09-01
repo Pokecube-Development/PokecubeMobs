@@ -155,5 +155,6 @@
       "chilling-water",
       "supercell-slam"
     ]
-  }
+  },
+  "loot_table": "pokecube:entities/slimeballs_2"
 }

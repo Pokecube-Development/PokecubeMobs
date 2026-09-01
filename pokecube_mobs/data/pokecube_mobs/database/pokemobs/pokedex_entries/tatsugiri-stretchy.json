@@ -139,5 +139,6 @@
       "dragon-cheer"
     ]
   },
-  "sound": "tatsugiri-stretchy"
+  "sound": "tatsugiri-stretchy",
+  "loot_table": "pokecube:entities/fish_1"
 }
