@@ -898,6 +898,8 @@ def convert_pokedex():
             print(f'error saving for {key}')
             print(err)
 
+    no_drops = []
+
     for var in dex:
         # Some extra pre-processing
         convert_mega_rules(var)
@@ -910,7 +912,7 @@ def convert_pokedex():
 
         # Print a warning if the mob has no drops
         if not "loot_table" in var:
-            print(f"No drops for: {var['name']}!")
+            no_drops.append(var['name'])
 
         dump_file(var, file)
 
@@ -928,6 +930,7 @@ def convert_pokedex():
             os.makedirs(os.path.dirname(newfile))
         shutil.copy(original, newfile)
 
+    print(f"No drops for: {no_drops}!")
     return named_entries
 
 def make_ability_langs():

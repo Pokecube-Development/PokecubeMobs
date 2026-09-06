@@ -12,7 +12,7 @@ ASSET_DIR = '../../pokecube_mobs/assets'
 ONLY_UPDATE = True
 def dump_file(dict, file, encoding=None, newline='\n', ensure_ascii=True):
     if ONLY_UPDATE and not os.path.exists(file):
-        print(f"Not making a new file for {file}, set ONLY_UPDATE False to make it!")
+        # print(f"Not making a new file for {file}, set ONLY_UPDATE False to make it!")
         return
     old_file = ""
     try:
