@@ -13,7 +13,7 @@
       "preset_values": {
         "particle": "leaf",
         "width": 0.5,
-        "density": 10.0
+        "density": 0.33
       }
     },
     {
