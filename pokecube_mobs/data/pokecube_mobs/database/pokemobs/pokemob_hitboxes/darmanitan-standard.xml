@@ -1,0 +1,12 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.45" />
+  <customTex default="darmanitan-standard">
+	<part name="Head" tex="darmanitan-standard_eye" />
+	<animation diffs="0,0.5" part="Head" trigger="random:0.005:10" />
+	<part name="Mouth" tex="darmanitan-standard_mouth" />
+	<animation diffs="0,0.5" part="Mouth" trigger="random:0.005:10" />
+  </customTex>
+  <material name="Fire" light="1" transluscent="false" shader="alpha_shader" />
+  </model>
+</ModelAnimator>

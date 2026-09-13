@@ -1,0 +1,9 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.24" />
+  <customTex default="crawdaunt">
+   <part name="Head" tex="crawdaunteye" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:4" />
+  </customTex>
+  </model>
+</ModelAnimator>

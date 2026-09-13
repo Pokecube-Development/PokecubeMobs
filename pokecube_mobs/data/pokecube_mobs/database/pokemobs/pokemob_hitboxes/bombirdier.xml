@@ -1,0 +1,10 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.21" />
+  <metadata head="neck1:neck2:neck3:head" headCap="-15,15" headCap1="-15,15" />
+  <customTex default="bombirdier">
+   <part name="Eye" tex="bombirdier_eye" />
+   <animation diffs="0,0.5" part="Eye" trigger="random:0.005:5" />
+  </customTex>
+  </model>
+</ModelAnimator>

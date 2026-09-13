@@ -1,0 +1,11 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.35" />
+  <customTex default="wigglytuff">
+   <part name="Head" tex="wigglytuffeye" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:1" />
+   <part name="Mouth" tex="wigglytuffmouth" />
+   <animation diffs="0,0.5" part="Mouth" trigger="random:0.005:1" />
+  </customTex>
+  </model>
+</ModelAnimator>

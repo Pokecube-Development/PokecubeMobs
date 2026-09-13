@@ -1,0 +1,12 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase headCap="-10,10" name="global" scale="0.9" />
+  <metadata head="head" />
+  <worn angles="-90,0,0" id="__HAT__" offset="0,0.45,0" parent="head" scale="1.8" />
+  <worn angles="-90,0,0" id="__EYE__" offset="0,0.1,0.58" parent="head" scale="1.5,1.5,1.5" />
+  <customTex default="venusaur-gmax">
+   <part name="Head" tex="venusaurgeye" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:3" />
+  </customTex>
+  </model>=
+</ModelAnimator>

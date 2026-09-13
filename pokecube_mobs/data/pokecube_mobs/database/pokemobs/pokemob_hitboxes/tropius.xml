@@ -1,0 +1,10 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.3" />
+  <metadata head="neck:neck1:neck2:neck3:head" headCap="-10,10" headCap1="-10,10" shear="b1:b1_001:b1_002" />
+  <customTex default="tropius">
+   <part name="Head" tex="tropiuseye" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:5" />
+  </customTex>
+  </model>
+</ModelAnimator>

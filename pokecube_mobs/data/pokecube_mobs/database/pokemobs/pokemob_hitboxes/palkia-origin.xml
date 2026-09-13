@@ -1,0 +1,13 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.58" />
+  <metadata head="body2:neck" headCap="-10,10" headCap1="-10,10" />
+  <customTex default="palkia-origin">
+   <part name="Head" tex="palkiaorigineye" />
+   <part name="Mark" tex="palkiaorigineye" />
+   <part name="Glow" tex="palkia-origin" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:1" />
+  </customTex>
+  <material name="Glow" light="1" transluscent="false" shader="alpha_shader" />
+  </model>
+</ModelAnimator>

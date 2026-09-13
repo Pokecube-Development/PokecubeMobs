@@ -1,0 +1,10 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.5" />
+  <metadata head="neck1:head" headCap="-20,20" headCap1="-20,20" />
+  <customTex default="walrein">
+   <part name="Eye" tex="walrein_eye" />
+   <animation diffs="0,0.5" part="Eye" trigger="random:0.005:3" />
+  </customTex>
+  </model>
+</ModelAnimator>

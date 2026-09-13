@@ -1,0 +1,12 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.6" />
+  <metadata head="head" headCap="-10,10" headCap1="-10,10" />
+  <customTex default="iron_moth">
+   <part name="Eye" tex="iron_moth_eye" />
+   <part name="Wing" tex="iron_moth_wing" />
+  </customTex>
+  <material name="Wing" light="1" transluscent="false" shader="alpha_shader" />
+  <material name="Glow" light="1" transluscent="false" shader="alpha_shader" />
+  </model>
+</ModelAnimator>

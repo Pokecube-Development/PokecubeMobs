@@ -1,0 +1,10 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.27" />
+  <metadata head="neck:head" headCap="-15,15" headCap1="-15,15" />
+  <customTex default="gabite">
+   <part name="Head" tex="gabiteeye" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:6" />
+  </customTex>
+  </model>
+</ModelAnimator>

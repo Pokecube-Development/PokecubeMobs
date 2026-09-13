@@ -1,0 +1,15 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.4" />
+  <metadata head="head1:head2:head3" headCap1="-10,10" headCap="-40,40" />
+  <customTex default="exeggutor">
+  <part name="Head" tex="exeggutoreye1" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:5" />
+   <part name="Head1" tex="exeggutoreye2" />
+   <animation diffs="0,0.5" part="Head1" trigger="random:0.005:5" />
+   <part name="Head2" tex="exeggutoreye3" />
+   <animation diffs="0,0.5" part="Head2" trigger="random:0.005:5" />
+   <part name="Mouth" tex="exeggutormouth" />
+  </customTex>
+  </model>
+</ModelAnimator>

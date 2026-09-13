@@ -1,0 +1,21 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.32" />
+  <metadata head="head" headCap="-10,10" headCap1="0,0" />
+  <customTex default="regirock">
+   <part name="Led1" tex="regirock_led" />
+   <animation diffs="0,0.5" part="Led1" trigger="random:0.005:10" />
+   <part name="Led2" tex="regirock_led" />
+   <animation diffs="0,0.5" part="Led2" trigger="random:0.005:8" />
+   <part name="Led3" tex="regirock_led" />
+   <animation diffs="0,0.5" part="Led3" trigger="random:0.005:3" />
+   <part name="Led4" tex="regirock_led" />
+   <animation diffs="0,0.5" part="Led4" trigger="random:0.005:6" />
+   <part name="Eye" tex="regirock_led" />
+  </customTex>
+  <material name="Led1" light="1" transluscent="false" shader="swirl_shader" />
+  <material name="Led2" light="1" transluscent="false" shader="swirl_shader" />
+  <material name="Led3" light="1" transluscent="false" shader="swirl_shader" />
+  <material name="Led4" light="1" transluscent="false" shader="swirl_shader" />
+  </model>
+</ModelAnimator>

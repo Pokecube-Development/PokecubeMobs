@@ -1,0 +1,9 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.3" />
+  <customTex default="snubbull">
+   <part name="Head" tex="snubbulleye" />
+   <animation diffs="0,0.4" part="Head" trigger="random:0.005:5" />
+  </customTex>
+  </model>
+</ModelAnimator>

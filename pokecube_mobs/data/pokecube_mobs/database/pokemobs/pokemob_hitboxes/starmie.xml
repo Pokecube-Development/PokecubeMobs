@@ -1,0 +1,6 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.23" />
+  <material name="Glow" light="1" transluscent="false" shader="alpha_shader" />
+  </model>
+</ModelAnimator>

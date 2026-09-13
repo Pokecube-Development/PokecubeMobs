@@ -1,0 +1,13 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.30" />
+  <metadata head="neck:neck1:head" headCap="-20,20" headCap1="-10,10" />
+  <customTex default="silvally">
+   <part name="Head" tex="silvallyeye_bug" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:3" />
+   <part name="Glow" tex="silvallylight_bug" />
+  </customTex>
+  <material name="Glow" light="1" transluscent="false" shader="swirl_shader" />
+  <material name="Light" light="1" transluscent="false" shader="swirl_shader" />
+  </model>
+</ModelAnimator>

@@ -1,0 +1,10 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.8" />
+  <metadata head="head" headCap="-30,30" headCap1="-30,30" />
+  <customTex default="venomoth">
+   <part name="Eye" tex="venomoth_eye" />
+  </customTex>
+   <material name="Mask" light="1" alpha="0.3" smooth="true" transluscent="true" />
+  </model>
+</ModelAnimator>

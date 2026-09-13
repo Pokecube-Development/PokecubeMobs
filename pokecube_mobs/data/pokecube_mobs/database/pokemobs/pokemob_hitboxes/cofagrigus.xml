@@ -1,0 +1,13 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.3" />
+  <customTex default="cofagrigus">
+   <part name="Face" tex="cofagrigus_face" />
+   <animation diffs="0.5,0" part="Face" trigger="random:0.005:1" />
+   <part name="Face_Eye" tex="cofagrigus_face" />
+   <animation diffs="0.5,0" part="Face_Eye" trigger="random:0.005:1" />
+   <part name="Shadow" tex="cofagrigus" />
+  </customTex>
+  <material name="Face_Eye" light="1" transluscent="false" shader="alpha_shader" />
+  </model>
+</ModelAnimator>

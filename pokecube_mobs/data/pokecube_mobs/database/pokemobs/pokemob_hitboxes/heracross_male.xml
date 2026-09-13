@@ -1,0 +1,9 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.45" />
+  <customTex default="heracross_male">
+   <part name="Face" tex="heracross_male_face" />
+   <animation diffs="0,0.5" part="Face" trigger="random:0.005:3" />
+  </customTex>
+  </model>
+</ModelAnimator>

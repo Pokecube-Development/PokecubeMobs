@@ -1,0 +1,10 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.12" />
+  <metadata head="head" headCap="-60,60" />
+  <customTex default="scraggy">
+   <part name="Face" tex="scraggy_face" />
+   <animation diffs="0.5,0" part="Face" trigger="random:0.005:3" />
+  </customTex>
+  </model>
+</ModelAnimator>

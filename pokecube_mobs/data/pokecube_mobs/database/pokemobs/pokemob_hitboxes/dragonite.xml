@@ -1,0 +1,11 @@
+<ModelAnimator>
+    <model>
+        <phase name="global" scale="0.35" />
+  <metadata head="Head" headCap="-80,80" headCap1="-50,50" />
+  <customTex default="dragonite">
+   <part name="Head" tex="dragonitehead" />
+   <animation diffs="0,0.36" part="Head" trigger="random:0.001:20" />
+   <animation diffs="0,0.69" part="Head" trigger="random:0.005:20" />
+  </customTex>
+        </model>
+</ModelAnimator>

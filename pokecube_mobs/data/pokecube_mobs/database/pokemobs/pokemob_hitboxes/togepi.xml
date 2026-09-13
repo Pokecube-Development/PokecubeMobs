@@ -1,0 +1,10 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.20" />
+  <metadata head="Head" headCap="-60,60" />
+  <customTex default="togepi">
+   <part name="Head" tex="togepihead" />
+   <animation diffs="0,0.53" part="Head" trigger="random:0.005:20" />
+  </customTex>
+  </model>
+</ModelAnimator>

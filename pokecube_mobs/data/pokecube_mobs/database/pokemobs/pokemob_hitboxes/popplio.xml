@@ -1,0 +1,16 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.15" />
+  <metadata head="head" headCap="-70,70" headCap1="-50,50" />
+  <worn angles="-90,0,0" id="__HAT__" offset="0,1.03,0" parent="head" scale="1.5" />
+  <worn angles="-90,0,0" id="__EYE__" offset="0,0.7,0.08" parent="head" scale="2.1,2,2" />
+  <worn angles="0,0,0" id="__EAR_left__" offset="0.2,0.4,-0.4" parent="orl1" scale="2" />
+  <worn angles="0,0,0" id="__EAR_right__" offset="-0.2,0.4,-0.4" parent="orl2" scale="2" />
+  <customTex default="popplio">
+   <part name="Head" tex="popplioeye" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:3" />
+   <part name="Mouth" tex="poppliomouth" />
+   <animation diffs="0,0.5" part="Mouth" trigger="random:0.005:3" />
+  </customTex>
+  </model>
+</ModelAnimator>

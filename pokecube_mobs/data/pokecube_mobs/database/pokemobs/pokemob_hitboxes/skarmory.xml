@@ -1,0 +1,10 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" offset="0,0,0" rotation="1,0,0,0" scale="0.32" />
+  <metadata head="head" headCap="-30,30" headCap1="-30,30" />
+  <customTex default="skarmory">
+   <part name="head" tex="skarmoryeye" />
+   <animation diffs="0,0.5" part="head" trigger="random:0.005:25" />
+  </customTex>
+  </model>
+</ModelAnimator>

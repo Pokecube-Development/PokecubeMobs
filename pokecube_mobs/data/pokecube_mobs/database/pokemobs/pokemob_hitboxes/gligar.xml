@@ -1,0 +1,10 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.37" />
+  <metadata head="head" headCap="-30,30" headCap1="-50,50" />
+  <customTex default="gligar">
+   <part name="Eye" tex="gligar_eye" />
+   <animation diffs="0,0.5" part="Eye" trigger="random:0.005:1" />
+  </customTex>
+  </model>
+</ModelAnimator>

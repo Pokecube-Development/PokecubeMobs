@@ -1,0 +1,11 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.2" />
+  <metadata head="body1" headAxis2="-1" headCap="-5,5" headCap1="-5,5" />
+  <customTex default="magikarp">
+   <part name="Head" tex="magikarpeye" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:5" />
+   <part name="Mark" tex="magikarpmark" />
+  </customTex>
+  </model>
+</ModelAnimator>

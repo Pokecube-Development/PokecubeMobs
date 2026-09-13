@@ -1,0 +1,13 @@
+<ModelAnimator version="0.1">
+ <model>
+  <phase name="global" scale="1.2" />
+  <metadata head="head" headCap="-20,20" headCap1="-20,20" />
+  <customTex default="garbodor-gmax">
+   <part name="Head" tex="garbodorgeye" />
+   <animation diffs="0.4,0" part="Head" trigger="random:0.005:5" />
+   <part name="Mouth" tex="garbodorgmouth" />
+   <part name="Toys" tex="garbodorgtoys" />
+   <part name="ball" tex="garbodorgtoys1" />
+  </customTex>
+  </model>
+</ModelAnimator>

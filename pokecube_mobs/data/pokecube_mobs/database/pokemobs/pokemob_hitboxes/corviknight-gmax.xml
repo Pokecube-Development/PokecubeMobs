@@ -1,0 +1,11 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="3.5" />
+  <metadata head="head" headCap="-30,30" headCap1="-30,30" />
+  <customTex default="corviknight-gmax">
+   <part name="Eye" tex="corviknightmaxhead" />
+   <animation diffs="0,0.5" part="Eye" trigger="random:0.005:11" />
+  </customTex>
+  <material name="Glow" light="1" transluscent="false" shader="swirl_shader" />
+  </model>
+</ModelAnimator>

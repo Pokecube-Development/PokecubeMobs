@@ -1,0 +1,14 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.4" />
+  <metadata head="head" headCap="-80,80" headCap1="-50,50" />
+  <customTex default="primarina">
+   <part name="Head" tex="primarinaeye" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:6" />
+   <part name="Mouth" tex="primarinamouth" />
+   <animation diffs="0,0.5" part="Mouth" trigger="random:0.005:6" />
+   <part name="B" tex="bubble" />
+  </customTex>
+  <material name="B" light="1" transluscent="true" />
+  </model>
+</ModelAnimator>

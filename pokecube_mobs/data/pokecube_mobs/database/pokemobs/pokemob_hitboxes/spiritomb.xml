@@ -1,0 +1,16 @@
+<ModelAnimator version="0.1">
+ <model>
+  <phase name="global" scale="0.26" />
+  <metadata head="head" headCap="-80,80" headCap1="-50,50" />
+  <customTex default="spiritomb">
+   <part name="Eye" tex="spiritomb_eye" />
+   <part name="Mouth" tex="spiritomb_mouth" />
+  </customTex>
+  <material name="Mouth" light="1" transluscent="false" shader="swirl_shader" />
+  <material name="Eye" light="1" transluscent="false" shader="swirl_shader" />
+  <material name="Glow" light="1" transluscent="false" shader="alpha_shader" />
+  <material name="Mask" light="1" alpha="1" smooth="true" transluscent="false" shader="swirl_shader" />
+  <subanim name="sitting-1" base="sitting" />
+  <subanim name="sitting-2" base="sitting" />
+ </model>
+</ModelAnimator>

@@ -1,0 +1,14 @@
+<ModelAnimator version="0.1">
+ <model name="Goodra">
+  <phase name="global" scale="0.29" />
+  <metadata head="neck:head" headCap="-20,20" headCap1="-20,20" />
+  <customTex default="goodra-hisui">
+   <part name="Head" tex="goodrahisuieye" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:4" />
+   <part name="Mouth" tex="goodrahisuimouth" />
+   <animation diffs="0,0.5" part="Mouth" trigger="random:0.005:4" />
+  </customTex>
+  <subanim name="sitting-1" base="sitting" />
+  <subanim name="sitting-2" base="sitting" />
+ </model>
+</ModelAnimator>

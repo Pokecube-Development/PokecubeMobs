@@ -1,0 +1,9 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="3" />
+  <customTex default="gengar-gmax">
+   <part name="Head" tex="gengargeye" />
+   <part name="Mark" tex="gengarmark" />
+  </customTex>
+  </model>
+</ModelAnimator>

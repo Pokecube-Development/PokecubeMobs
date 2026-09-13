@@ -1,0 +1,10 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.1" />
+  <metadata head="neck" headCap="-70,70" headCap1="-25,25" />
+  <customTex default="trumbeak">
+   <part name="Head" tex="trumbeakhead" />
+   <animation diffs="0.5,0" part="Head" trigger="random:0.005:3" />
+  </customTex>
+  </model>
+</ModelAnimator>

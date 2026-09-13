@@ -1,0 +1,14 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.2" />
+  <metadata head="body" headCap="-20,20" headCap1="-20,20" />
+  <customTex default="koffing">
+   <part name="Eye" tex="koffing_eye" />
+   <animation diffs="0,0.5" part="Eye" trigger="random:0.005:1" />
+   <part name="Mouth" tex="koffing_mouth" />
+   <animation diffs="0,0.5" part="Mouth" trigger="random:0.005:1" />
+   <part name="Smoke" tex="koffing_smoke" />
+   <animation diffs="0,0, 0,0, 0,0.5, 0,0.5, 0,0.125, 0,0.125, 0,0.25, 0,0.25" part="Smoke" trigger="sequence" />
+  </customTex>
+  </model>
+</ModelAnimator>

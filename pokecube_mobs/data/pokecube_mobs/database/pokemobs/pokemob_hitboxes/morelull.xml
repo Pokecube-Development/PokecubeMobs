@@ -1,0 +1,11 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.025" />
+  <metadata head="head" headCap="-80,80" headCap1="-50,50" />
+  <customTex default="morelull">
+   <part name="Head" tex="morelullhead" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:1" />
+  </customTex>
+  <material name="Night" light="1" transluscent="false" shader="swirl_shader" />
+  </model>
+</ModelAnimator>

@@ -1,0 +1,10 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.33" />
+  <metadata head="neck" headCap="-90,90" headCap1="-50,50" />
+  <customTex default="scizor-mega">
+   <part name="Head" tex="scizormegaeye" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:1" />
+  </customTex>
+  </model>
+</ModelAnimator>

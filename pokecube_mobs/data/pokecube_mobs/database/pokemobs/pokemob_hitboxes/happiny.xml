@@ -1,0 +1,11 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.3" />
+  <customTex default="happiny">
+   <part name="Head" tex="happinyeye" />
+   <animation diffs="0.5,0" part="Head" trigger="random:0.005:4" />
+   <part name="Mouth" tex="happinymouth" />
+   <animation diffs="0,0.5" part="Mouth" trigger="random:0.005:4" />
+  </customTex>
+  </model>
+</ModelAnimator>

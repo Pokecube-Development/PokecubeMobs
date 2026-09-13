@@ -1,0 +1,17 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.14" />
+  <metadata head="neck:head" headCap1="-30,30" headCap="-30,30" />
+  <customTex default="ponyta_galar">
+   <part name="Eye" tex="ponyta_galar_eye" />
+   <animation diffs="0,0.5" part="Eye" trigger="random:0.005:3" />
+   <part name="GlowH1" tex="ponyta_galar" />
+   <animation diffs="0.5,0" part="GlowH1" trigger="random:0.005:25" />
+   <part name="GlowH2" tex="ponyta_galar" />
+   <animation diffs="0.5,0" part="GlowH2" trigger="random:0.0015:25" />
+  </customTex>
+  <material name="Glow" light="1" transluscent="false" shader="eye_shader" />
+  <material name="GlowH1" light="1" transluscent="false" shader="eye_shader" />
+  <material name="GlowH2" light="1" transluscent="false" shader="eye_shader" />
+  </model>
+</ModelAnimator>

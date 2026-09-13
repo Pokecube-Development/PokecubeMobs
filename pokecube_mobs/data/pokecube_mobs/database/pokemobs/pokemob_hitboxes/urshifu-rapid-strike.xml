@@ -1,0 +1,12 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.2" />
+  <metadata head="head" headCap="-10,10" headCap1="-10,10" />
+  <customTex default="urshifu-rapid-strike">
+   <part name="Eye" tex="urshifu-rapid-strike_eye" />
+   <animation diffs="0,0.5" part="Eye" trigger="random:0.005:5" />
+  </customTex>
+  <subanim name="idle-1" base="idle" />
+  <subanim name="idle-2" base="idle" />
+ </model>
+</ModelAnimator>

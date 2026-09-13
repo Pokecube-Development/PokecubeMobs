@@ -1,0 +1,10 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase scale="0.125" name="global" />
+  <metadata head="head" headCap="-80,80" headCap1="-50,50" />
+  <customTex default="gothorita">
+   <part name="gothorita_eye" tex="gothorita_eye" />
+   <animation diffs="0,0.5" part="gothorita_eye" trigger="random:0.005:3" />
+  </customTex>
+  </model>
+</ModelAnimator>

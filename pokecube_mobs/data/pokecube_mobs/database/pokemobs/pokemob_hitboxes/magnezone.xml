@@ -1,0 +1,9 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" offset="0,0,0" scale="0.3" />
+   <customTex default="magnezone">
+   <part name="Head" tex="magnezoneeye" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:3" />
+   </customTex>
+  </model>
+</ModelAnimator>

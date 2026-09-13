@@ -1,0 +1,11 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.37" />
+  <metadata head="head" headCap="-10,10" headCap1="-10,10" />
+  <customTex default="volcarona">
+   <part name="w1" tex="volcaronawing1" />
+   <part name="w2" tex="volcaronawing2" />
+   <part name="w3" tex="volcaronawing3" />
+  </customTex>
+  </model>
+</ModelAnimator>

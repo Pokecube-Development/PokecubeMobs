@@ -1,0 +1,11 @@
+<ModelAnimator version="0.1">
+ <model>
+  <phase name="global" scale="0.7" />
+  <metadata head="neck1" headCap="-30,30" headCap1="-20,20" />
+  <customTex default="rayquaza-mega">
+   <part name="Eye" tex="rayquazamegahead" />
+   <animation diffs="0,0.5" part="Eye" trigger="random:0.005:25" />
+   <part name="Part" tex="mark" />
+  </customTex>
+ </model>
+</ModelAnimator>

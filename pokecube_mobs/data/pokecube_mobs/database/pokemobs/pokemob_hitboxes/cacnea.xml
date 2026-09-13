@@ -1,0 +1,10 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.15" />
+  <metadata head="body" headCap="-16,16" headCap1="-16,16" />
+  <customTex default="cacnea">
+   <part name="Head" tex="cacnea_eye" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:4" />
+  </customTex>
+  </model>
+</ModelAnimator>

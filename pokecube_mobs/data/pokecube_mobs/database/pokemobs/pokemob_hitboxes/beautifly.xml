@@ -1,0 +1,12 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.22" />
+  <metadata head="head" headCap="-30,30" headCap1="-30,30" />
+  <customTex default="beautifly">
+	<part name="Eye" tex="beautifly" />
+	<animation diffs="0,0.5" part="Eye" trigger="random:0.005:5" />
+	<part name="winga" tex="beautifly-wing_a" />
+	<part name="wingb" tex="beautifly-wing_b" />
+  </customTex>
+  </model>
+</ModelAnimator>

@@ -1,0 +1,9 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.35" />
+  <customTex default="whirlipede">
+   <part name="Eyes" tex="whirlipede_eye" />
+   <animation diffs="0,0.5" part="Eyes" trigger="random:0.005:10" />
+  </customTex>
+  </model>
+</ModelAnimator>

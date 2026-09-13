@@ -1,0 +1,14 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.38" />
+  <metadata head="neck1:neck2:head" headCap="-20,20" headCap1="-20,20" />.0"/&gt;
+  <customTex default="iron-jugulis">
+   <part name="Eye2" tex="iron-jugulis_eye_one" />
+   <animation diffs="0,0.5" part="Eye2" trigger="random:0.005:5" />
+   <part name="Eye1" tex="iron-jugulis_eye_two" />
+  </customTex>
+  <material name="Glow" light="1" transluscent="false" shader="alpha_shader" />
+  <material name="Eye1" light="1" transluscent="false" shader="alpha_shader" />
+  <material name="Eye2" light="1" transluscent="false" shader="alpha_shader" />
+  </model>
+</ModelAnimator>

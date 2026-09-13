@@ -1,0 +1,12 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.25" />
+  <metadata head="eye1:eye2" headCap="-80,80" headCap1="-50,50" />
+  <customTex default="klawf">
+   <part name="Eye" tex="klawf_eye" />
+   <animation diffs="0,0.5" part="Eye" trigger="random:0.005:5" />
+   <part name="Mouth" tex="klawf_mouth" />
+   <animation diffs="0,0.5" part="Mouth" trigger="random:0.005:5" />
+  </customTex>
+  </model>
+</ModelAnimator>

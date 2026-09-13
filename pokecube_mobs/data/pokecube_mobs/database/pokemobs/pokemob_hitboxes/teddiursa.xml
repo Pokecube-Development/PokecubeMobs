@@ -1,0 +1,11 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.17" />
+  <metadata head="head" headCap="-60,60" />
+  <customTex default="teddiursa">
+   <part name="Face" tex="teddiursa_face" />
+   <animation diffs="0.5,0" part="Face" trigger="random:0.005:12" />
+   <part name="Mark" tex="teddiursa_mark" />
+  </customTex>
+  </model>
+</ModelAnimator>

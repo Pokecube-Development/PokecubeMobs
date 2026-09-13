@@ -1,0 +1,10 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.95" />
+  <metadata head="body1:head" headAxis2="-1" headCap="-5,5" headCap1="-5,5" />
+  <customTex default="basculegion-female">
+   <part name="Head" tex="basculegionfemaleeye" />
+   <animation diffs="0.5,0" part="Head" trigger="random:0.005:3" />
+  </customTex>
+  </model>
+</ModelAnimator>

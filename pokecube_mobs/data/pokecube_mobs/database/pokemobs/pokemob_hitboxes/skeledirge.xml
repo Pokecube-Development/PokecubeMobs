@@ -1,0 +1,12 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.22" />
+  <metadata head="head" headCap="-50,50" headCap1="-30,30" />
+  <customTex default="skeledirge">
+   <part name="Eye" tex="skeledirge_eye" />
+   <animation diffs="0,0.5" part="Eye" trigger="random:0.005:1" />
+   <part name="Glow" tex="skeledirge" />
+  </customTex>
+  <material name="Glow" light="1" transluscent="false" shader="alpha_shader" />
+  </model>
+</ModelAnimator>

@@ -1,0 +1,16 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="1.7" />
+  <metadata head="neck" headCap="-60,60" headCap1="-60,60" />
+  <customTex default="coalossal-gmax">
+  <part name="Coal" tex="coalossal-gmax" />
+  <part name="Head" tex="coalossalghead" />
+  </customTex>
+  <material name="glow" light="1" transluscent="false" shader="alpha_shader" />
+  </model>
+ <details>
+  <RIDDENOFFSET>
+   1.1
+  </RIDDENOFFSET>
+ </details>
+</ModelAnimator>

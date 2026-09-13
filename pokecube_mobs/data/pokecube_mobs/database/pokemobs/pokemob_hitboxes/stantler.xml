@@ -1,0 +1,15 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.35" />
+  <metadata head="head" headCap="-20,20" />
+  <customTex default="stantler">
+   <part name="Head" tex="stantlerhead" />
+   <animation diffs="0.55,0" part="Head" trigger="random:0.005:5" />
+  </customTex>
+  </model>
+ <details>
+  <RIDDENOFFSET>
+   0.8
+  </RIDDENOFFSET>
+ </details>
+</ModelAnimator>

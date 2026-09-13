@@ -1,0 +1,10 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" offset="0,0,0" rotation="1,0,0,0" scale="1.0" />
+  <metadata head="head" headCap="-20,20" headCap1="-20,20" />.0"/&gt;
+  <customTex default="haunter">
+   <part name="Head" tex="hauntereye" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:10" />
+  </customTex>
+  </model>
+</ModelAnimator>

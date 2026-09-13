@@ -1,0 +1,9 @@
+<ModelAnimator version="0.1">
+ <model>
+  <phase name="global" scale="0.39" />
+  <customTex default="trubbish">
+   <part name="Face" tex="trubbish_face" />
+   <animation diffs="0.5,0" part="Face" trigger="random:0.005:5" />
+  </customTex>
+  </model>
+</ModelAnimator>

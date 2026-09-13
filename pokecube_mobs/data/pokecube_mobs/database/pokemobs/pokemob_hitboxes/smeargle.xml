@@ -1,0 +1,10 @@
+<ModelAnimator>
+    <model>
+  <phase name="global" scale="0.35" />
+  <metadata head="Head" headCap="-80,80" headCap1="-50,50" />
+  <customTex default="smeargle">
+   <part name="Head" tex="smearglehead" />
+   <animation diffs="0,0.56" part="Head" trigger="random:0.001:20" />
+  </customTex>
+  </model>
+</ModelAnimator>

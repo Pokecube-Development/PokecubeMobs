@@ -1,0 +1,11 @@
+<ModelAnimator>
+ <model>
+	<phase name="global" scale="0.33" />
+	<customTex default="cetoddle">
+     <part name="Eye" tex="cetoddle_eye" />
+     <animation diffs="0.5,0" part="Eye" trigger="random:0.005:2" />
+	 <part name="Mouth" tex="cetoddle_mouth" />
+     <animation diffs="0.5,0" part="Mouth" trigger="random:0.005:2" />
+    </customTex>
+	</model>
+</ModelAnimator>

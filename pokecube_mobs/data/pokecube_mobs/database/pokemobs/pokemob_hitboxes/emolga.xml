@@ -1,0 +1,10 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.08" />
+  <metadata head="head" headCap="-30,30" headCap1="-20,20" />
+  <customTex default="emolga">
+   <part name="Head" tex="emolga_face" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:3" />
+  </customTex>
+  </model>
+</ModelAnimator>

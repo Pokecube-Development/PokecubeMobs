@@ -1,0 +1,10 @@
+<ModelAnimator version="0.1">
+ <model>
+  <phase name="global" scale="0.25" />
+  <metadata head="head" headCap="-5,5" headCap1="-35,35" />
+  <customTex default="helioptile">
+   <part name="Head" tex="helioptile_face" />
+   <animation diffs="0.5,0" part="Head" trigger="random:0.005:4" />
+  </customTex>
+  </model>
+</ModelAnimator>

@@ -1,0 +1,10 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.6" />
+  <metadata head="head" headCap="-10,10" headCap1="-10,10" />
+  <customTex default="bewear">
+   <part name="Head" tex="bewearhead" />
+   <animation diffs="0.5,0" part="Head" trigger="random:0.005:3" />
+  </customTex>
+  </model>
+</ModelAnimator>

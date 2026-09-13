@@ -1,0 +1,11 @@
+<ModelAnimator>
+ <model>
+	<phase name="global" scale="0.22" />
+    <customTex default="palafin">
+     <part name="Eye" tex="palafin_eye" />
+     <animation diffs="0.5,0" part="Eye" trigger="random:0.005:2" />
+	 <part name="Mask" tex="palafin_mark" />
+	 <part name="Mark_1" tex="palafin_zero" />
+    </customTex>
+	</model>
+</ModelAnimator>

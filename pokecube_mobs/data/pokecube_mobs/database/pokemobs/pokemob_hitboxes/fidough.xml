@@ -1,0 +1,12 @@
+<ModelAnimator version="0.1">
+ <model name="Fennekin">
+  <phase name="global" scale="0.08" />
+  <metadata head="head" headCap="-35,35" headCap1="-35,35" />
+  <customTex default="fidough">
+	<part name="Eye" tex="fidough_eye" />
+	<animation diffs="0,0.5" part="Eye" trigger="random:0.005:5" />
+	<part name="Mouth" tex="fidough_mouth" />
+	<animation diffs="0,0.5" part="Mouth" trigger="random:0.005:5" />
+	</customTex>
+  </model>
+</ModelAnimator>

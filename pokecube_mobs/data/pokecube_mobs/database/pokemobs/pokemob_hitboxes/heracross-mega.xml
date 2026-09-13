@@ -1,0 +1,10 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.4" />
+  <metadata head="head" headCap="-30,30" headCap1="-30,30" />
+  <customTex default="heracross-mega">
+   <part name="heracrosseye" tex="heracrosseye_mega" />
+   <animation diffs="0,0.5" part="heracrosseye" trigger="random:0.005:2" />
+  </customTex>
+  </model>
+</ModelAnimator>

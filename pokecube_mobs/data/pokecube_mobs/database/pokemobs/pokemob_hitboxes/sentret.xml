@@ -1,0 +1,11 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase headAxis="1" headCap="-50,50" name="global" scale=".75" />
+  <metadata head="head" />
+  <customTex default="sentret">
+   <part name="head" tex="sentrethead" />
+   <animation diffs="0,0.34" part="head" trigger="random:0.005:20" />
+   <animation diffs="0.0,0.70" part="head" trigger="sleeping" />
+  </customTex>
+  </model>
+</ModelAnimator>

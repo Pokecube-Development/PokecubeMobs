@@ -1,0 +1,10 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.2" />
+  <metadata head="neck:head" headCap="-8,8" headCap1="-15,15" />
+  <customTex default="calyrex">
+   <part name="Face" tex="calyrex_face" />
+   <animation diffs="0,0.5" part="Face" trigger="random:0.005:4" />
+  </customTex>
+  </model>
+</ModelAnimator>

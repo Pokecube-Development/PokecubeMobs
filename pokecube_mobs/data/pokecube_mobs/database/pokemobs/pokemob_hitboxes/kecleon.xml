@@ -1,0 +1,10 @@
+<ModelAnimator version="0.1">
+ <model>
+  <phase name="global" scale="0.34" />
+  <metadata head="head" headCap="-45,45" headCap1="-35,35" />
+  <customTex default="kecleon">
+   <part name="Eye" tex="kecleon_eye" />
+   <animation diffs="0,0.5" part="Eye" trigger="random:0.005:4" />
+  </customTex>
+  </model>
+</ModelAnimator>

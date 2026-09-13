@@ -1,0 +1,13 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.4" />
+  <metadata head="head" headCap="-20,20" headCap1="-20,20" />
+  <customTex default="snom">
+   <part name="Eye" tex="snomhead" />
+   <animation diffs="0,0.5" part="Eye" trigger="random:0.005:5" />
+  </customTex>
+  <material name="B" meshs="a1" transluscent="true" />
+  <material name="B" meshs="a2" transluscent="true" />
+  <material name="B" meshs="a3" transluscent="true" />
+  </model>
+</ModelAnimator>

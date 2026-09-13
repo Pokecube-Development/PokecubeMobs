@@ -1,0 +1,11 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="3" />
+  <metadata head="head" headCap="-30,30" headCap1="-10,10" />
+  <customTex default="drednaw-gmax">
+   <part name="Mark" tex="drednawghead" />
+   <part name="Head" tex="drednawghead" />
+   <animation diffs="0.5,0" part="Head" trigger="random:0.005:5" />
+  </customTex>
+  </model>
+</ModelAnimator>

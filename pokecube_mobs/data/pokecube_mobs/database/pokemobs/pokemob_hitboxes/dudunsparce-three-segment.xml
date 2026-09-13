@@ -1,0 +1,10 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.6" />
+  <metadata head="head" headCap="-30,30" headCap1="-30,30" />
+  <customTex default="dudunsparce">
+   <part name="Eye" tex="dudunsparce_eye" />
+   <animation diffs="0,0.5" part="Eye" trigger="random:0.005:3" />
+  </customTex>
+  </model>
+</ModelAnimator>

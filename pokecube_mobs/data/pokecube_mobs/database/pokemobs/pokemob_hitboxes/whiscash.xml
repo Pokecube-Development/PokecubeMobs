@@ -1,0 +1,9 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.15" />
+  <customTex default="whiscash">
+   <part name="Eye" tex="whiscash_eye" />
+   <animation diffs="0,0.5" part="Eye" trigger="random:0.005:3" />
+  </customTex>
+  </model>
+</ModelAnimator>

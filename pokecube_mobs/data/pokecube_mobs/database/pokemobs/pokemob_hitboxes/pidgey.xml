@@ -1,0 +1,14 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.16" />
+  <metadata head="head" headCap="-30,30" headCap1="-30,30" />
+  <customTex default="pidgey">
+   <part name="Head" tex="pidgey_eye" />
+   <animation diffs="0.5,0" part="Head" trigger="random:0.005:1" />
+   <part name="Wing_T" tex="pidgey_wing_top" />
+   <part name="Wing_C" tex="pidgey_wing_close" />
+   <part name="Wing_B" tex="pidgey_wing_botton" />
+   <part name="Wing_B_1" tex="pidgey_wing_botton_a" />
+  </customTex>
+  </model>
+</ModelAnimator>

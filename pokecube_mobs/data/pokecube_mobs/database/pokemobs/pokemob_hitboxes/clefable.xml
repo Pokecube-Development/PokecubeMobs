@@ -1,0 +1,9 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.4" />
+  <customTex default="clefable">
+   <part name="Head" tex="clefableeye" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:10" />
+  </customTex>
+  </model>
+</ModelAnimator>

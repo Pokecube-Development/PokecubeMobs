@@ -1,0 +1,10 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.23" />
+  <metadata head="head" headCap="-30,30" headCap1="-30,30" />
+  <customTex default="masquerain">
+   <part name="Face" tex="masquerain_eye" />
+   <animation diffs="0,0.5" part="Face" trigger="random:0.005:4" />
+  </customTex>
+  </model>
+</ModelAnimator>

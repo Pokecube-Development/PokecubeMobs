@@ -1,0 +1,11 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.28" />
+  <metadata head="head" headCap="-60,60" headCap1="-50,50" />
+  <material name="Glow" light="1" transluscent="false" shader="alpha_shader" />
+  <customTex default="espeon">
+   <part name="Head" tex="espeoneye" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:1" />
+  </customTex>
+  </model>
+</ModelAnimator>

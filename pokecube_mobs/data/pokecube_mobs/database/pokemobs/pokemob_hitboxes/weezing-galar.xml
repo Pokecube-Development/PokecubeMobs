@@ -1,0 +1,18 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.35" />
+  <metadata head="body" headCap="-20,20" headCap1="-20,20" />
+  <customTex default="weezing_galar">
+   <part name="EyeE" tex="weezing_galar_extra_eye" />
+   <animation diffs="0,0.5" part="EyeE" trigger="random:0.005:3" />
+   <part name="Mouth" tex="weezing_galar_mouth" />
+   <animation diffs="0.5,0" part="Mouth" trigger="random:0.005:3" />
+   <part name="EyeC" tex="weezing_galar_eye" />
+   <animation diffs="0,0.5" part="EyeC" trigger="random:0.005:3" />
+   <part name="Smoke" tex="weezing_galar_smoke" />
+   <animation diffs="0,0, 0,0, 0,0.5, 0,0.5, 0,0.125, 0,0.125, 0,0.25, 0,0.25" part="Smoke" trigger="sequence" />
+   <part name="Smoke_White" tex="weezing_galar_smoke_white" />
+   <animation diffs="0,0, 0,0, 0,0.5, 0,0.5, 0,0.125, 0,0.125, 0,0.25, 0,0.25" part="Smoke_White" trigger="sequence" />
+  </customTex>
+  </model>
+</ModelAnimator>

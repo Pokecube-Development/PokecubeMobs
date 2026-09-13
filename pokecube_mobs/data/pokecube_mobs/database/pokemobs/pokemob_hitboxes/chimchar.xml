@@ -1,0 +1,14 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.75" />
+  <metadata head="head" headCap="-60,60" headCap1="-60,60" />
+  <customTex default="chimchar">
+   <part name="head" tex="chimcharhead" />
+   <animation diffs="0,0.31" part="head" trigger="random:0.005:20" />
+   <animation diffs="0.0,0.65" part="head" trigger="sleeping" />
+   <part name="Flame" tex="chimchar2" />
+   <animation diffs="0,0, 0,0, 0.125,0, 0.125,0, 0.25,0, 0.25,0, 0.375,0, 0.375,0" part="Flame" trigger="sequence" />
+  </customTex>
+  <material name="Flame" light="1" transluscent="false" shader="swirl_shader" />
+  </model>
+</ModelAnimator>

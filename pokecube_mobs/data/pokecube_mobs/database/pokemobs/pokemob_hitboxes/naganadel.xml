@@ -1,0 +1,11 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" offset="0,0,-1" scale="0.4" />
+  <metadata head="head" headCap="-80,80" headCap1="-50,50" />
+  <customTex default="naganadel">
+   <part name="Eye" tex="naganadel_eye" />
+   <animation diffs="0,0.5" part="Eye" trigger="random:0.005:10" />
+   <part name="Wing" tex="naganadel_wing" />
+  </customTex>
+  </model>
+</ModelAnimator>

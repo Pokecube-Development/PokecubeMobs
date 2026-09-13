@@ -1,0 +1,6 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.32" />
+  <metadata head="head1:head2" headCap="-20,20" headCap1="-20,20" />
+  </model>
+</ModelAnimator>

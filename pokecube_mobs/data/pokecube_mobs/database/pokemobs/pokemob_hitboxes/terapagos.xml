@@ -1,0 +1,13 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.06" />
+  <metadata head="neck:head" headCap="-45,45" headCap1="-35,35" />
+  <customTex default="terapagos">
+   <part name="Eye" tex="terapagos_eye" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:3" />
+  </customTex>
+  <worn id="__HAT__" parent="head" offset="0,-0.8,0.5" angles="-90,0,0" scale="2" />
+  <worn id="__EAR_right__" parent="head" offset="-1.46,-0.6,1.17" angles="200,0,-90" scale="2" />
+  <worn id="__EAR_left__" parent="head" offset="1.46,-0.6,1.17" angles="200,0,90" scale="2" />
+  </model>
+</ModelAnimator>

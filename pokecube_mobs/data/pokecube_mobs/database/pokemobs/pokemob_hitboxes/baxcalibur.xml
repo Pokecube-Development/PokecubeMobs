@@ -1,0 +1,10 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.45" />
+  <metadata head="neck1:neck2:neck3:head" headCap="-7,7" headCap1="-7,7" />
+  <customTex default="baxcalibur">
+   <part name="Eye" tex="baxcalibur_eye" />
+   <animation diffs="0,0.5" part="Eye" trigger="random:0.005:4" />
+  </customTex>
+  </model>
+</ModelAnimator>

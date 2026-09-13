@@ -1,0 +1,10 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.19" />
+  <metadata head="neck:neck1:head" headCap="-8,8" headCap1="-8,8" />
+  <customTex default="braviary">
+   <part name="Head" tex="braviaryhead" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:11" />
+  </customTex>
+  </model>
+</ModelAnimator>

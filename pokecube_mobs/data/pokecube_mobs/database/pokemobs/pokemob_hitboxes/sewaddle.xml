@@ -1,0 +1,10 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.15" />
+  <metadata head="head" headCap="-80,80" headCap1="-50,50" />
+  <customTex default="sewaddle">
+   <part name="Head" tex="sewaddlehead" />
+   <animation diffs="0.31,0" part="Head" trigger="random:0.005:1" />
+  </customTex>
+  </model>
+</ModelAnimator>

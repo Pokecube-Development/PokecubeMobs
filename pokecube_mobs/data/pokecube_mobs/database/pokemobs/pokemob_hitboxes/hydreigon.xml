@@ -1,0 +1,10 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.38" />
+  <metadata head="neck1:neck2:head" headCap="-20,20" headCap1="-20,20" />.0"/&gt;
+  <customTex default="hydreigon">
+   <part name="Head" tex="hydreigoneye" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:5" />
+  </customTex>
+  </model>
+</ModelAnimator>

@@ -1,0 +1,10 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.50" />
+  <metadata head="Head" headCap="-50,50" headCap1="-50,50" />
+  <customTex default="psyduck">
+   <part name="Head" tex="psyduckhead" />
+   <animation diffs="0,0.48" part="Head" trigger="random:0.001:20" />
+  </customTex>
+  </model>
+</ModelAnimator>

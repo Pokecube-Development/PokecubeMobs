@@ -1,0 +1,13 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.25" />
+  <metadata head="Head" headCap="-30,30" headCap1="-30,30" />
+  <customTex default="magmortar">
+   <part name="Head" tex="magmortarhead" />
+   <animation diffs="0,0.32" part="Head" trigger="random:0.005:20" />
+   <animation diffs="0.0,0.70" part="Head" trigger="sleeping" />
+   <part name="Flame" tex="magmortar2" />
+   <animation diffs="0,0, 0,0, 0.125,0, 0.125,0, 0.25,0, 0.25,0, 0.375,0, 0.375,0" part="Flame" trigger="sequence" />
+  </customTex>
+  </model>
+</ModelAnimator>

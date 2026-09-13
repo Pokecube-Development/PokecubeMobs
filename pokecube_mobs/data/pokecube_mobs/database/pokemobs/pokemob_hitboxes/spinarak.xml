@@ -1,0 +1,12 @@
+<ModelAnimator>
+  <model>
+  <phase name="global" scale="0.45" />
+  <metadata head="head" headCap1="-20,20" headCap="-20,20" />
+  <customTex default="spinarak">
+	<part name="Eye" tex="spinarak" />
+	<animation diffs="0.5,0" part="Eye" trigger="random:0.005:2" />
+	<part name="Face" tex="spinarak_face" />
+	<animation diffs="0.5,0" part="Face" trigger="random:0.005:6" />
+  </customTex>
+  </model>
+</ModelAnimator>

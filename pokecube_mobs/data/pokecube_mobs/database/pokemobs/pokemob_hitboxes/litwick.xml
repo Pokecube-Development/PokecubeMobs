@@ -1,0 +1,15 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.12" />
+  <customTex default="litwick">
+   <part name="Mouth" tex="litwick_face" />
+   <animation diffs="0,0.5" part="Mouth" trigger="random:0.005:5" />
+   <part name="Eye" tex="litwick_face" />
+   <animation diffs="0,0.5" part="Eye" trigger="random:0.005:5" />
+   <part name="Fire" tex="litwick_flame" />
+   <animation diffs="0,0, 0,0, 0,0.5, 0,0.5, 0,0.125, 0,0.125, 0,0.25, 0,0.25" part="Fire" trigger="sequence" />
+  </customTex>
+  <material name="Fire" light="1" transluscent="false" shader="alpha_shader" />
+  <material name="Eye" light="1" transluscent="false" shader="alpha_shader" />
+  </model>
+</ModelAnimator>

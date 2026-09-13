@@ -1,0 +1,11 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.217" />
+  <metadata head="neck:head:c_head" headCap="-20,20" headCap1="-20,20" />
+  <customTex default="ice-rider-glastrier">
+   <part name="C_Body" tex="ice-rider-calyrex" />
+   <part name="C_Face" tex="ice-rider-calyrex_face" />
+   <animation diffs="0,0.5" part="C_Face" trigger="random:0.005:4" />
+  </customTex>
+  </model>
+</ModelAnimator>

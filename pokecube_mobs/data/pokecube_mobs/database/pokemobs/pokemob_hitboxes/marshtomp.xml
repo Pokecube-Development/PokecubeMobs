@@ -1,0 +1,10 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.12" />
+  <metadata head="head" headCap="-60,60" headCap1="-50,50" />
+  <customTex default="marshtomp">
+   <part name="Head" tex="marshtompeye" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:4" />
+  </customTex>
+  </model>
+</ModelAnimator>

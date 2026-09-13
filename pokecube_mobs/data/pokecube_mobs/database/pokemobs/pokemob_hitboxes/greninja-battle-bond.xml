@@ -1,0 +1,15 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.23" />
+  <metadata head="head" headCap="-30,30" headCap1="-30,30" />
+  <customTex default="greninja-ash">
+   <part name="Head" tex="greninjaasheye" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:6" />
+   <part name="Water" tex="greninjawater" />
+   <animation diffs="0,0.5" part="Water" trigger="random:0.005:6" />
+  </customTex>
+  <material name="Water" light="1" transluscent="true" shader="swirl_shader" />
+  <subanim name="idle-1" base="idle" />
+  <subanim name="idle-2" base="idle" />
+ </model>
+</ModelAnimator>

@@ -1,0 +1,11 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.95" />
+  <metadata head="head" headCap="-10,10" headCap1="-10,10" />
+  <customTex default="urshifurgigantamax">
+   <part name="Head" tex="urshifureye" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:5" />
+  </customTex>
+  <material name="Glow" light="1" translucent="false" shader="swirl_shader" />
+  </model>
+</ModelAnimator>

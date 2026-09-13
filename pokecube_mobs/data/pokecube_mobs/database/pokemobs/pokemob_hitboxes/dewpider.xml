@@ -1,0 +1,7 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.15" />
+  <metadata head="head" headCap="-20,20" />
+  <material name="water" meshs="water" transluscent="true" />
+ </model>
+</ModelAnimator>

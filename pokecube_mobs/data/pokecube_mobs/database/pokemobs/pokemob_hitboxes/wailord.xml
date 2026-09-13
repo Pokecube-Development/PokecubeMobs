@@ -1,0 +1,9 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="1.5" />
+  <customTex default="wailord">
+   <part name="Eye" tex="wailord_eye" />
+   <animation diffs="0.5,0" part="Eye" trigger="random:0.005:4" />
+  </customTex>
+  </model>
+</ModelAnimator>

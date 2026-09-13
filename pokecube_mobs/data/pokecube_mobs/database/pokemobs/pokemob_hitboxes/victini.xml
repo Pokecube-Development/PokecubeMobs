@@ -1,0 +1,12 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.08" />
+  <metadata head="head" headCap="-40,40" headCap1="-40,40" />
+  <customTex default="victini">
+   <part name="Eye" tex="victini_eye" />
+   <animation diffs="0,0.5" part="Eye" trigger="random:0.005:5" />
+   <part name="Mouth" tex="victini_mouth" />
+   <animation diffs="0,0.5" part="Mouth" trigger="random:0.005:5" />
+  </customTex>
+  </model>
+</ModelAnimator>

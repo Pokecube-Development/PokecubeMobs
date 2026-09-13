@@ -1,0 +1,9 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.6" />
+  <metadata head="neck:neck1:neck2:neck3:head" headCap="-10,10" headCap1="-10,10" />
+  <customTex default="giratina-altered">
+	<part name="Head" tex="giratinaeye" />
+  </customTex>
+  </model>
+</ModelAnimator>

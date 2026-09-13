@@ -1,0 +1,13 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.37" />
+  <metadata head="head" headCap="-30,30" headCap1="-30,30" />
+  <customTex default="dragonair">
+   <part name="Eye" tex="dragonair_eye" />
+   <animation diffs="0,0.5" part="Eye" trigger="random:0.005:2" />
+   <part name="Mouth" tex="dragonair_mouth" />
+   <animation diffs="0,0.5" part="Mouth" trigger="random:0.005:5" />
+  </customTex>
+  <material name="Glow" light="1" transluscent="false" shader="swirl_shader" />
+  </model>
+</ModelAnimator>

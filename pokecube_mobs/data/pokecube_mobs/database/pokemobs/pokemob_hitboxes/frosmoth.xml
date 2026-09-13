@@ -1,0 +1,12 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.57" />
+  <metadata head="head" headCap="-10,10" headCap1="-10,10" />
+  <customTex default="frosmoth">
+   <part name="Eye" tex="frosmotheye" />
+   <part name="Ant" tex="frosmothant" />
+   <part name="Wing" tex="frosmothwing" />
+   <animation diffs="0.5,0" part="Eye" trigger="random:0.005:3" />
+  </customTex>
+  </model>
+</ModelAnimator>

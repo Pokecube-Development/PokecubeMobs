@@ -1,0 +1,12 @@
+<ModelAnimator>
+ <model>
+	<phase name="global" scale="0.57" />
+	<metadata head="head" headCap="-10,10" headCap1="-10,10" />
+	<customTex default="makuhita">
+     <part name="Eye" tex="makuhita_eye" />
+     <animation diffs="0.5,0" part="Eye" trigger="random:0.005:2" />
+	 <part name="Mouth" tex="makuhita_mouth" />
+	 <animation diffs="0.5,0" part="Mouth" trigger="random:0.005:2" />
+    </customTex>
+	</model>
+</ModelAnimator>

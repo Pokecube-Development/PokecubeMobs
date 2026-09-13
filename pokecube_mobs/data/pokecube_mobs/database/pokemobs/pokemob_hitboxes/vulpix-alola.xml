@@ -1,0 +1,7 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.2" />
+  <metadata head="Head" headCap="-90,90" />
+  <merges merge="idle-&gt;walking" />
+  </model>
+</ModelAnimator>

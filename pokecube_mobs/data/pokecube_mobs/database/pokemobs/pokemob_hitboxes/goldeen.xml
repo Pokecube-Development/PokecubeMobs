@@ -1,0 +1,5 @@
+<ModelAnimator version="0.1">
+ <model>
+  <phase name="global" offset="0,0,0" rotation="0,0,0" scale="0.3" />
+  </model>
+</ModelAnimator>

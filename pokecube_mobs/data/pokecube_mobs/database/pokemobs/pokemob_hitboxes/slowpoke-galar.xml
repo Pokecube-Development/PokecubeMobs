@@ -1,0 +1,13 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.5" />
+  <metadata head="head" headCap="-35,35" headCap1="-35,35" shear="tail" />
+  <customTex default="slowpoke_galar">
+   <part name="Head" tex="slowpoke_galar_eye" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:25" />
+   <part name="Mark" tex="slowpoke_galar_mark" />
+  </customTex>
+  <subanim name="sitting-1" base="sitting" />
+  <subanim name="sitting-2" base="sitting" />
+ </model>
+</ModelAnimator>

@@ -1,0 +1,10 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.4" />
+  <metadata head="body" headAxis2="-1" headCap="-15,15" headCap1="-15,15" />
+  <customTex default="veluza">
+   <part name="Eye" tex="veluza_eye" />
+   <animation diffs="0.5,0" part="Eye" trigger="random:0.005:3" />
+  </customTex>
+  </model>
+</ModelAnimator>

@@ -1,0 +1,11 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.26" />
+  <metadata head="body" headCap="-60,60" headCap1="-60,60" />
+  <customTex default="lunatone">
+   <part name="Head" tex="lunatone_eye" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:5" />
+  </customTex>
+  <material name="Head" light="1" transluscent="false" shader="alpha_shader" />
+  </model>
+</ModelAnimator>

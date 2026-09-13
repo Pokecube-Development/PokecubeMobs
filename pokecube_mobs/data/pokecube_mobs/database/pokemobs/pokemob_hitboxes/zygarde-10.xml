@@ -1,0 +1,11 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.28" />
+  <metadata head="neck:head" headCap="-15,15" headCap1="-15,15" />
+  <material name="Glow" light="1" transluscent="false" shader="alpha_shader" />
+  <customTex default="zygarde-10">
+   <part name="Eye" tex="zygarde-10_eye" />
+   <animation diffs="0.5,0" part="Eye" trigger="random:0.005:4" />
+  </customTex>
+  </model>
+</ModelAnimator>

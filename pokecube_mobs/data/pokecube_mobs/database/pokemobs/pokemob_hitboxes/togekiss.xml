@@ -1,0 +1,10 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.47" />
+  <metadata head="Head" headCap="-10,10" headCap1="-10,10" />
+  <customTex default="togekiss">
+   <part name="Face" tex="togekiss_face" />
+   <animation diffs="0,0.5" part="Face" trigger="random:0.005:4" />
+  </customTex>
+  </model>
+</ModelAnimator>

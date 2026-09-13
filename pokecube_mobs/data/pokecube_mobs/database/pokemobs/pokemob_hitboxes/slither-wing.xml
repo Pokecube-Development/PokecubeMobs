@@ -1,0 +1,12 @@
+<ModelAnimator>
+ <model>
+	<phase name="global" scale="0.6" />
+	<metadata head="head" headCap="-10,10" headCap1="-10,10" />
+	<customTex default="slither-wing">
+     <part name="Eye" tex="slither-wing_eye" />
+     <part name="W1" tex="slither-wing_top" />
+	 <part name="W2" tex="slither-wing_mid" />
+	 <part name="W3" tex="slither-wing_down" />
+    </customTex>
+	</model>
+</ModelAnimator>

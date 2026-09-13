@@ -1,0 +1,14 @@
+<ModelAnimator>
+ <model name="">
+  <phase name="global" scale="0.35" />
+  <metadata head="head" headCap="-80,80" headCap1="-20,20" />
+  <customTex default="roaring_moon">
+   <part name="Head" tex="roaring_moon_eye" />
+   <animation diffs="0.5,0" part="Head" trigger="random:0.005:5" />
+   <part name="Wing_Top" tex="roaring_moon_wing_top" />
+   <part name="Wing_Down" tex="roaring_moon_wing_down" />
+   <part name="Wing_botton" tex="roaring_moon_wing_back" />
+   <part name="Wing_botton_top" tex="roaring_moon_wing_back_top" />
+  </customTex>
+  </model>
+</ModelAnimator>

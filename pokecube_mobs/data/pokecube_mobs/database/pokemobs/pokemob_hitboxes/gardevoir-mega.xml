@@ -1,0 +1,12 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.24" />
+  <metadata head="head" headCap="-80,80" headCap1="-50,50" />
+  <customTex default="gardevoir-mega">
+   <part name="Head" tex="gardevoirmegaeye" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:3" />
+   <part name="Mouth" tex="gardevoirmegamouth" />
+   <animation diffs="0,0.5" part="Mouth" trigger="random:0.005:4" />
+  </customTex>
+  </model>
+</ModelAnimator>

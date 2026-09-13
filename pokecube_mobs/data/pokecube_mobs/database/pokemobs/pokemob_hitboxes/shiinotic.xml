@@ -1,0 +1,10 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.12" />
+  <metadata head="head" headCap="-90,90" headCap1="-50,50" />
+  <customTex default="shiinotic">
+   <part name="Head" tex="shiinotichead" />
+   <animation diffs="0.28,0" part="Head" trigger="random:0.005:1" />
+  </customTex>
+  </model>
+</ModelAnimator>

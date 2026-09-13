@@ -1,0 +1,10 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.47" />
+  <metadata head="head" headCap="-5,5" headCap1="-5,5" />
+  <customTex default="donphan">
+   <part name="Head" tex="donphan_eye" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:4" />
+  </customTex>
+  </model>
+</ModelAnimator>

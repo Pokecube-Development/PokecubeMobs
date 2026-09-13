@@ -1,0 +1,14 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="1.25" />
+  <metadata head="head" headCap="-50,50" headCap1="-50,50" />
+  <customTex default="charizard-gmax">
+   <part name="Head" tex="charizardgmaxeye" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:5" />
+   <part name="Fire" tex="charizardgfire" />
+   <animation diffs="0,0, 0,0, 0,0, 0,0, 0,0, 0,0, 0,0, 0,0.3, 0,0.3, 0,0.3, 0,0.3, 0,0.3, 0,0.3, 0,0.3, 0,0.65, 0,0.65, 0,0.65, 0,0.65, 0,0.65, 0,0.65, 0,0.65" part="Fire" trigger="sequence" />
+  </customTex>
+  <material name="Fire" light="1" transluscent="false" shader="swirl_shader" />
+  <material name="Glow" light="0.8" transluscent="false" shader="alpha_shader" />
+  </model>
+</ModelAnimator>

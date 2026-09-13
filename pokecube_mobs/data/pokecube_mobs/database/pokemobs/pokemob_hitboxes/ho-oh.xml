@@ -1,0 +1,12 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="1.9" />
+  <metadata head="neck:head" headCap="-80,80" headCap1="-50,50" />
+  <customTex default="ho-oh">
+   <part name="Head" tex="hoohhead" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:3" />
+  </customTex>
+  <particle name="electric_spark" parts="tail" offset="0,0,1" />
+  <material name="Glow" light="1" transluscent="false" shader="eye_shader" />
+  </model>
+</ModelAnimator>

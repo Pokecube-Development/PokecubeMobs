@@ -1,0 +1,8 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.26" />
+  <metadata head="head" headCap="-80,80" headCap1="-50,50" />
+  <subanim name="walking-1" base="walking" />
+  <subanim name="walking-2" base="walking" />
+ </model>
+</ModelAnimator>

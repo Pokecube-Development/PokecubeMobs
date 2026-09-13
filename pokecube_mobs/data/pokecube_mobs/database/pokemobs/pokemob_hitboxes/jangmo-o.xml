@@ -1,0 +1,10 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.12" />
+  <metadata head="head" headCap="-50,50" headCap1="-50,50" />
+  <customTex default="jangmo-o">
+   <part name="Eye" tex="jangmo-o_eye" />
+   <animation diffs="0,0.5" part="Eye" trigger="random:0.005:4" />
+  </customTex>
+  </model>
+</ModelAnimator>

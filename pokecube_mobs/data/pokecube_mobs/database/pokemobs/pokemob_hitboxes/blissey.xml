@@ -1,0 +1,10 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.9" />
+  <metadata head="head" headCap="-60,60" headCap1="-5,5" />
+  <customTex default="blissey">
+   <part name="Head" tex="blissey_face" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:10" />
+  </customTex>
+  </model>
+</ModelAnimator>

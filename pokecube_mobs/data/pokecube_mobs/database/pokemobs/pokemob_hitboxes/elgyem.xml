@@ -1,0 +1,12 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.16" />
+  <metadata head="head" headCap="-40,40" headCap1="-40,40" />
+  <customTex default="elgyem">
+   <part name="Eye" tex="elgyem_eye" />
+   <animation diffs="0,0.35" part="Eye" trigger="random:0.005:1" />
+  </customTex>
+  <material name="Eye" light="1" transluscent="false" shader="alpha_shader" />
+  <material name="Light" light="1" transluscent="false" shader="alpha_shader" />
+  </model>
+</ModelAnimator>

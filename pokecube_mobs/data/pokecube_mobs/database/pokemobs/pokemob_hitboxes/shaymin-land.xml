@@ -1,0 +1,10 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.15" />
+  <metadata head="head" headCap="-20,20" headCap1="-20,20" />
+  <customTex default="shaymin_land">
+   <part name="Head" tex="shaymin_land_face" />
+   <animation diffs="0.5,0" part="Head" trigger="random:0.005:5" />
+  </customTex>
+  </model>
+</ModelAnimator>

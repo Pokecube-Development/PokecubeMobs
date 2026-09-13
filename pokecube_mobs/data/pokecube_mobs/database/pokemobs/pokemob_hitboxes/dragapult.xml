@@ -1,0 +1,13 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.65" />
+  <metadata head="head:head_1:head_2" headCap="-50,50" headCap1="-50,50" />
+  <customTex default="dragapult">
+   <part name="Eye" tex="dragapult_eye" />
+   <animation diffs="0,0.5" part="Eye" trigger="random:0.005:15" />
+   <part name="Body_1" tex="dragapult_dreepy" />
+   <part name="Eye_1" tex="dragapult_dreepy_eye" />
+   <animation diffs="0.5,0" part="Eye_1" trigger="random:0.005:15" />
+  </customTex>
+  </model>
+</ModelAnimator>

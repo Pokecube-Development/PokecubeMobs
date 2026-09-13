@@ -1,0 +1,12 @@
+<ModelAnimator version="0.1">
+	<model name="">
+        <phase name="global" scale="0.09" />
+		<metadata head="head" headCap="-70,70" headCap1="-60,60" />
+		<customTex default="grookey">
+		<part name="Head" tex="grookeyeye" />
+		<part name="M" tex="grookeymouth" />
+		<animation diffs="0.5,0" part="Head" trigger="random:0.005:5" />
+		<animation diffs="0,0.5" part="M" trigger="random:0.005:5" />
+		</customTex>
+		</model>
+</ModelAnimator>

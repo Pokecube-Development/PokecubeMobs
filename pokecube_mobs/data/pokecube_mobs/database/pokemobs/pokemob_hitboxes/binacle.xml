@@ -1,0 +1,10 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.175" />
+  <metadata head="head2:head" headCap="-60,60" />
+  <customTex default="binacle">
+   <part name="Head" tex="binaclehead" />
+   <animation diffs="0.45,0" part="Head" trigger="random:0.005:5" />
+  </customTex>
+  </model>
+</ModelAnimator>

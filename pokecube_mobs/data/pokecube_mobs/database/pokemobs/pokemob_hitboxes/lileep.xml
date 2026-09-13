@@ -1,0 +1,9 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.33" />
+  <customTex default="lileep">
+   <part name="Head" tex="lileep_eye" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:3" />
+  </customTex>
+  </model>
+</ModelAnimator>

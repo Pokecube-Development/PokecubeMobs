@@ -1,0 +1,11 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.17" />
+  <customTex default="oddish">
+   <part name="Eye" tex="oddish_face" />
+   <animation diffs="0.5,0" part="Eye" trigger="random:0.005:2" />
+   <part name="Head" tex="oddish_face" />
+   <animation diffs="0.5,0" part="Head" trigger="random:0.005:2" />
+  </customTex>
+  </model>
+</ModelAnimator>

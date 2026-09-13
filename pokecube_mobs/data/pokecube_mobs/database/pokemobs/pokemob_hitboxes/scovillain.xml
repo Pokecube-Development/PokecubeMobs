@@ -1,0 +1,12 @@
+<ModelAnimator>
+ <model>
+	<phase name="global" scale="0.28" />
+	  <metadata head="neck1:head1:neck2:head2" headCap="-30,30" headCap1="-30,30" />
+	<customTex default="scovillain">
+     <part name="Eye2" tex="scovillain_eye_red" />
+     <animation diffs="0.5,0" part="Eye2" trigger="random:0.005:2" />
+	 <part name="Eye1" tex="scovillain_eye_green" />
+     <animation diffs="0.5,0" part="Eye1" trigger="random:0.005:2" />
+    </customTex>
+	</model>
+</ModelAnimator>

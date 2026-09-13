@@ -1,0 +1,14 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="1" />
+  <customTex default="minior-meteor">
+   <forme name="minior-blue" tex="minior-blue" />
+   <forme name="minior-green" tex="minior-green" />
+   <forme name="minior-indigo" tex="minior-indigo" />
+   <forme name="minior-orange" tex="minior-orange" />
+   <forme name="minior-red" tex="minior-red" />
+   <forme name="minior-violet" tex="minior-violet" />
+   <forme name="minior-yellow" tex="minior-yellow" />
+  </customTex>
+ </model>
+</ModelAnimator>

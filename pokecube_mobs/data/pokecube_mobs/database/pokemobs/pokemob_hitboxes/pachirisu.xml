@@ -1,0 +1,11 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.50" />
+  <metadata head="Head" headCap="-60,60" />
+  <customTex default="pachirisu">
+   <part name="Head" tex="pachirisuhead" />
+   <animation diffs="0,0.33" part="Head" trigger="random:0.005:20" />
+   <animation diffs="0.0,0.67" part="Head" trigger="random:0.005:20" />
+  </customTex>
+  </model>
+</ModelAnimator>

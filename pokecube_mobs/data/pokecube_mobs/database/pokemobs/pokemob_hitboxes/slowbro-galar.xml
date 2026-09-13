@@ -1,0 +1,11 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.45" />
+  <metadata head="head" headCap="-20,20" />
+  <customTex default="slowbro-galar">
+   <part name="Head" tex="slowbrogalarhead" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:3" />
+   <part name="Shell" tex="slowbrogalarshell" />
+  </customTex>
+  </model>
+</ModelAnimator>

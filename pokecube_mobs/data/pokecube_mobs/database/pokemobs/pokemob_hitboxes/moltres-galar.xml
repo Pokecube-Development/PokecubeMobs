@@ -1,0 +1,19 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.28" />
+  <metadata head="head" headCap="-80,80" headCap1="-50,50" />
+  <customTex default="moltres-galar">
+   <part name="Head" tex="moltresgalareye" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:4" />
+   <part name="Glow1" tex="flame_moltres_a" />
+   <animation diffs="0,0, 0,0, 0,0.5, 0,0.5, 0,0.125, 0,0.125, 0,0.25, 0,0.25" part="Glow1" trigger="sequence" />
+   <part name="Glow2" tex="flame_moltres_c" />
+   <animation diffs="0,0, 0,0, 0,0.5, 0,0.5, 0,0.125, 0,0.125, 0,0.25, 0,0.25" part="Glow2" trigger="sequence" />
+   <part name="Glow3" tex="flame_moltres_b" />
+   <animation diffs="0,0, 0,0, 0,0.5, 0,0.5, 0,0.125, 0,0.125, 0,0.25, 0,0.25" part="Glow3" trigger="sequence" />
+  </customTex>
+  <material name="Glow1" light="1" transluscent="false" shader="alpha_shader" />
+  <material name="Glow2" light="1" transluscent="false" shader="alpha_shader" />
+  <material name="Glow3" light="1" transluscent="false" shader="alpha_shader" />
+  </model>
+</ModelAnimator>

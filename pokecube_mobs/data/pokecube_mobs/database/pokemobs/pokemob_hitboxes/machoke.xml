@@ -1,0 +1,12 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.35" />
+  <metadata head="neck" headCap="-40,40" headCap1="-40,40" />
+  <customTex default="machoke">
+   <part name="Eye" tex="machoke_eye" />
+   <animation diffs="0,0.5" part="Eye" trigger="random:0.005:1" />
+  </customTex>
+  <subanim name="idle-1" base="idle" />
+  <subanim name="idle-2" base="idle" />
+ </model>
+</ModelAnimator>

@@ -1,0 +1,15 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="1.6" />
+  <customTex default="duraludon-gmax">
+  <part name="Head" tex="duraludonghead" />
+  <animation diffs="0,0.45" part="Head" trigger="random:0.005:10" />
+  </customTex>
+  <material name="Glow" light="1" transluscent="false" shader="swirl_shader" />
+  </model>
+ <details>
+  <RIDDENOFFSET>
+   1.9
+  </RIDDENOFFSET>
+ </details>
+</ModelAnimator>

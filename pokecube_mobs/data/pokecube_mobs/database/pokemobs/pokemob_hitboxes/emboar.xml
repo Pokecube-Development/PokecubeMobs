@@ -1,0 +1,13 @@
+<ModelAnimator>
+    <model>
+  <phase name="global" scale="0.20" />
+  <metadata head="Head" headCap="-80,80" headCap1="-50,50" />
+  <customTex default="emboar">
+   <part name="Head" tex="emboarhead" />
+   <animation diffs="0,0.53" part="Head" trigger="random:0.001:20" />
+   <part name="Flame" tex="emboar2" />
+   <animation diffs="0,0, 0,0, 0.125,0, 0.125,0, 0.25,0, 0.25,0, 0.375,0, 0.375,0" part="Flame" trigger="sequence" />
+   <part name="tie" tex="emboar2" />
+  </customTex>
+  </model>
+</ModelAnimator>

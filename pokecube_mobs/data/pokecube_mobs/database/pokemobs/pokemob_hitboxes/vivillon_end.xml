@@ -1,0 +1,15 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.2" />
+  <metadata head="head" headCap="-40,40" headCap1="-40,40" />
+  <customTex default="vivillon_end">
+   <part name="Eye" tex="vivillon_eye" />
+   <animation diffs="0.5,0" part="Eye" trigger="random:0.005:4" />
+   <part name="Mouth" tex="vivillon_mouth" />
+   <animation diffs="0.5,0" part="Mouth" trigger="random:0.005:4" />
+   <part name="Space" tex="vivillon_end_effect" />
+   <animation diffs="0,0, 0,0, 0.125,0, 0.125,0, 0.25,0, 0.25,0, 0.375,0, 0.375,0" part="Space" trigger="sequence" />
+  </customTex>
+  <material name="Space" light="1" transluscent="false" shader="eye_shader" />
+  </model>
+</ModelAnimator>

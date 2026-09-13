@@ -1,0 +1,12 @@
+<ModelAnimator version="0.1">
+ <model>
+  <phase name="global" scale="0.5" />
+  <metadata head="body" headCap="-20,20" headCap1="-20,20" />
+  <customTex default="gastly">
+   <part name="Eye" tex="gastly_eye" />
+   <animation diffs="0,0.5" part="Eye" trigger="random:0.005:5" />
+  </customTex>
+  <material name="Smoke" light="1" alpha="0.1" smooth="true" transluscent="true" />
+  <material name="Eye" light="1" transluscent="false" shader="eye_shader" />/&gt;
+  </model>
+</ModelAnimator>

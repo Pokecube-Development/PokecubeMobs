@@ -1,0 +1,9 @@
+<ModelAnimator>
+ <model>
+	<phase name="global" scale="0.20" />
+	<metadata head="head" headCap="-40,40" headCap1="-40,40" />
+	<customTex default="grafaiai">
+     <part name="Eye" tex="grafaiaieye" />
+    </customTex>
+	</model>
+</ModelAnimator>

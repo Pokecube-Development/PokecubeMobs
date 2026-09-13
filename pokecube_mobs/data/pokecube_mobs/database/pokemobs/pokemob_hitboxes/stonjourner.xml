@@ -1,0 +1,10 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.55" />
+  <metadata head="head" headCap="-30,30" headCap1="-30,30" />
+  <customTex default="stonjourner">
+   <part name="Head" tex="stonjournereye" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:1" />
+  </customTex>
+  </model>
+</ModelAnimator>

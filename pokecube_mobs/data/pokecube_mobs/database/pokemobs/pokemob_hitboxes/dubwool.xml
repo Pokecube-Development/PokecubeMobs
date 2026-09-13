@@ -1,0 +1,12 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.37" />
+  <metadata dye="wool_head:wool_body" head="Head" headCap="-20,20" headCap1="-20,20" shear="wool_body" />
+  <customTex default="dubwool">
+  <part name="Head" tex="dubwooleye" />
+  <animation diffs="0,0.5" part="Head" trigger="random:0.005:10" />
+  <part name="H" tex="dubwoolm" />
+  <animation diffs="0,0.5" part="H" trigger="random:0.005:10" />
+  </customTex>
+  </model>
+</ModelAnimator>

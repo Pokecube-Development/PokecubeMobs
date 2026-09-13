@@ -1,0 +1,9 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.16" />
+  <customTex default="goomy">
+   <part name="Head" tex="goomyface" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:6" />
+  </customTex>
+  </model>
+</ModelAnimator>

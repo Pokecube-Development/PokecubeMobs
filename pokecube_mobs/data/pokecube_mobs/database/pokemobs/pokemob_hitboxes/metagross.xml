@@ -1,0 +1,9 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.35" />
+  <customTex default="metagross">
+   <part name="Head" tex="metagrosseye" />
+   <animation diffs="0,0.495" part="Head" trigger="random:0.005:1" />
+  </customTex>
+  </model>
+</ModelAnimator>

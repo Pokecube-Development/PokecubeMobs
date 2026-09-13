@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelAnimator version="0.1">
+ <model>
+  <phase name="global" scale="0.8"/>
+  <metadata head="head" headCap="-30,30" headCap1="-20,20"/>
+  <phase axis="1" length="200" name="snakeWalk" parts="neck2:neck1:neck:tail:tail1:tail2:tail3:tail4:tail5:tail6:tail7:tail8:tail9:tail10:tail11"/>
+  <phase axis="0" length="250" name="snakeFly" parts="tail:tail1:tail2:tail3:tail4:tail5:tail6:tail7:tail8:tail9:tail10:tail11:neck2:neck1:neck"/>
+  <customTex default="rayquaza">
+   <part name="Eye" tex="rayquaza_eye"/>
+   <animation diffs="0,0.51" part="Eye" trigger="random:0.005:25"/>
+  </customTex>
+ </model>
+</ModelAnimator>

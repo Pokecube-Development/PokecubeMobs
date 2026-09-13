@@ -1,0 +1,12 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.3" />
+  <metadata head="head" headCap="-20,20" headCap2="-30,30" />
+  <customTex default="espathra">
+   <part name="Eye" tex="espathra_eye" />
+   <animation diffs="0,0.5" part="Eye" trigger="random:0.005:5" />
+  </customTex>
+  <subanim name="sitting-1" base="sitting" />
+  <subanim name="sitting-2" base="sitting" />
+ </model>
+</ModelAnimator>

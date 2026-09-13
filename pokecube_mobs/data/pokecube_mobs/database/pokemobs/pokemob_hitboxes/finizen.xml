@@ -1,0 +1,10 @@
+<ModelAnimator>
+ <model>
+	<phase name="global" scale="0.22" />
+    <customTex default="finizen">
+     <part name="Eye" tex="finizen_eye" />
+     <animation diffs="0.5,0" part="Eye" trigger="random:0.005:2" />
+	 <part name="Mask" tex="finizen_mark" />
+    </customTex>
+	</model>
+</ModelAnimator>

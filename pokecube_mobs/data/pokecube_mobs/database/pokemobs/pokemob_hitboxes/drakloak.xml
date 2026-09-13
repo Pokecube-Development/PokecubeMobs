@@ -1,0 +1,13 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.3" />
+  <metadata head="head:head_" headCap="-20,20" headCap1="-20,20" />
+  <customTex default="drakloak">
+   <part name="Head" tex="drakloak_eye" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:15" />
+   <part name="Body_" tex="drakloak_dreepy" />
+   <part name="Eye_" tex="drakloak_dreepy_eye" />
+   <animation diffs="0.5,0" part="Eye_" trigger="random:0.005:15" />
+  </customTex>
+  </model>
+</ModelAnimator>

@@ -1,0 +1,9 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" rotation="0,1,0,0" scale="0.7" />
+  <customTex default="pinsir-mega">
+   <part name="Head" tex="pinsirmegahead" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:5" />
+  </customTex>
+  </model>
+</ModelAnimator>

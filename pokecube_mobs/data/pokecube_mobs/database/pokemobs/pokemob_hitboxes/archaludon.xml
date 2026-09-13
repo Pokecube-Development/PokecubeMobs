@@ -1,0 +1,10 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.6" />
+  <customTex default="archaludon">
+	<part name="Eye" tex="archaludon_eye" />
+	<animation diffs="0,0.5" part="Eye" trigger="random:0.005:25" />
+	<part name="Mark" tex="archaludon_mark" />
+  </customTex>
+  </model>
+</ModelAnimator>

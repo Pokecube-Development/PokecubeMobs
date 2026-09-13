@@ -1,0 +1,13 @@
+<ModelAnimator>
+ <model>
+	<phase name="global" scale="0.8" />
+	<metadata head="neck:head" headCap="-10,10" headCap1="-10,10" />
+	<material name="Glow" light="1" transluscent="false" shader="alpha_shader" />
+	<material name="Eye" light="1" transluscent="false" shader="alpha_shader" />
+	<customTex default="walking-wake">
+     <part name="Eye" tex="walking-wake_eye" />
+     <animation diffs="0,0.5" part="Eye" trigger="random:0.005:2" />
+	 <part name="Glow" tex="walking-wake" />
+    </customTex>
+	</model>
+</ModelAnimator>

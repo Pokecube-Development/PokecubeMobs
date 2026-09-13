@@ -1,0 +1,10 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.15" />
+  <metadata head="head" headCap="-90,90" headCap1="-35,35" />
+  <customTex default="oricorio-pau">
+   <part name="Head" tex="oricorio_pau_head" />
+   <animation diffs="0.3,0" part="Head" trigger="random:0.005:1" />
+  </customTex>
+  </model>
+</ModelAnimator>

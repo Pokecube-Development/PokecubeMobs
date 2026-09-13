@@ -1,0 +1,13 @@
+<ModelAnimator>
+ <model>
+  <phase name="global" scale="0.61" />
+  <metadata head="neck:head" headCap="-20,20" headCap1="-20,20" />
+  <customTex default="rapidash">
+   <part name="Head" tex="rapidash_eye" />
+   <animation diffs="0,0.5" part="Head" trigger="random:0.005:1" />
+   <part name="Fire" tex="rapidash_flame" />
+   <animation diffs="0,0, 0,0, 0,0.5, 0,0.5, 0,0.125, 0,0.125, 0,0.25, 0,0.25" part="Fire" trigger="sequence" />
+  </customTex>
+  <material name="Fire" light="1" transluscent="false" shader="swirl_shader" />
+  </model>
+</ModelAnimator>

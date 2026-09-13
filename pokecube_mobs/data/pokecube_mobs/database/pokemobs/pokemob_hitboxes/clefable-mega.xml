@@ -1,0 +1,11 @@
+<ModelAnimator version="0.1">
+ <model name="">
+  <phase name="global" scale="0.5" />
+  <customTex default="clefable-mega">
+   <part name="Face" tex="clefable-mega_face" />
+   <animation diffs="0,0.5" part="Face" trigger="random:0.005:10" />
+   <part name="Wing" tex="clefable-mega_wing" />
+  </customTex>
+  <material name="Wing" light="1" transluscent="false" shader="swirl_shader" />
+  </model>
+</ModelAnimator>
