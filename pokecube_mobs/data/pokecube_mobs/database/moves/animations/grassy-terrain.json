@@ -7,23 +7,6 @@
       "duration": 50,
       "starttick": 0,
       "preset_values": {
-        "particle": "explosion_emitter",
-        "rgba_string": "green",
-        "density": 1.0,
-        "horizontal": true,
-        "absolute": true,
-        "reference": "chunk_centre",
-        "lifetime": 50,
-        "f_x": "(0.5-rand())*(16)",
-        "f_y": "(0.5-rand())*(16)",
-        "f_z": "(0.5-rand())*(16)"
-      }
-    },
-    {
-      "preset": "cartFunc",
-      "duration": 50,
-      "starttick": 0,
-      "preset_values": {
         "particle": "misc",
         "rgba_string": "green",
         "density": 0.1,
