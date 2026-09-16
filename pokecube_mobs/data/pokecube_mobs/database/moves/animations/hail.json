@@ -1,28 +1,10 @@
 {
   "name": "hail",
+  "onMoveUse": false,
   "animations": [
     {
       "preset": "cartFunc",
-      "duration": 5,
-      "starttick": 0,
-      "volume": 1.0,
-      "pitch": 1.0,
-      "sound": "pokecube:moves.fly",
-      "soundSource": true,
-      "soundTarget": false,
-      "preset_values": {
-        "particle": "crit",
-        "density": 0.7,
-        "width": 1.0,
-        "lifetime": 4,
-        "f_x": "(0.5-rand())*(1)",
-        "f_y": "(0.5-rand())*(1)",
-        "f_z": "(0.5-rand())*(1)"
-      }
-    },
-    {
-      "preset": "cartFunc",
-      "duration": 5,
+      "duration": 10,
       "starttick": 0,
       "volume": 1.0,
       "pitch": 1.5,
@@ -31,12 +13,18 @@
       "soundTarget": false,
       "preset_values": {
         "particle": "misc",
-        "density": 0.5,
-        "width": 1.5,
-        "lifetime": 4,
-        "f_x": "(0.5-rand())*(1)",
-        "f_y": "(0.5-rand())*(1)",
-        "f_z": "(0.5-rand())*(1)"
+        "duration": 200,
+        "density": 0.15,
+        "lifetime": 10,
+        "horizontal": true,
+        "absolute": true,
+        "reference": "chunk_centre",
+        "f_x": "(0.5-rand())*16",
+        "f_y": "8",
+        "f_z": "(0.5-rand())*16",
+        "v_x": "(0.5-rand())*0.05",
+        "v_y": "-1.5",
+        "v_z": "(0.5-rand())*0.05"
       }
     }
   ]

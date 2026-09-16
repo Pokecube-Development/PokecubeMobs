@@ -1,26 +1,22 @@
 {
   "name": "sticky-web",
+  "onMoveUse": false,
   "animations": [
     {
-      "preset": "flow",
-      "duration": 5,
+      "preset": "cartFunc",
+      "duration": 50,
       "starttick": 0,
       "preset_values": {
-        "particle": "misc",
-        "rgba_string": "white",
-        "density": 4.0,
-        "lifetime": 3
-      }
-    },
-    {
-      "preset": "pont",
-      "duration": 5,
-      "starttick": 0,
-      "preset_values": {
-        "particle": "misc",
-        "rgba_string": "white",
-        "density": 1.0,
-        "lifetime": 4
+        "particle": "effect",
+        "density": 0.5,
+        "width": 1.0,
+        "lifetime": 50,
+        "horizontal": true,
+        "absolute": true,
+        "reference": "chunk_centre",
+        "f_x": "(0.5-rand())*(16)",
+        "f_y": "(0.5-rand())*(16)",
+        "f_z": "(0.5-rand())*(16)"
       }
     }
   ]

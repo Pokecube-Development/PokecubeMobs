@@ -1,0 +1,25 @@
+{
+  "name": "rain-dance",
+  "onMoveUse": false,
+  "animations": [
+    {
+      "preset": "cartFunc",
+      "starttick": 0,
+      "preset_values": {
+        "particle": "falling_water",
+        "duration": 200,
+        "density": 0.15,
+        "lifetime": 50,
+        "horizontal": true,
+        "absolute": true,
+        "reference": "chunk_centre",
+        "f_x": "(0.5-rand())*16",
+        "f_y": "8",
+        "f_z": "(0.5-rand())*16",
+        "v_x": "(0.5-rand())*0.05",
+        "v_y": "-0.3334",
+        "v_z": "(0.5-rand())*0.05"
+      }
+    }
+  ]
+}
